@@ -1,0 +1,517 @@
+{
+  "catalogue_rows": 65546,
+  "dataframe_columns": [
+    "product_index",
+    "product_id",
+    "title",
+    "brand",
+    "categories",
+    "features",
+    "description",
+    "details",
+    "price",
+    "average_rating",
+    "rating_number",
+    "image_url",
+    "amazon_url",
+    "source_dataset",
+    "training_interactions",
+    "positive_interactions",
+    "popularity_rank",
+    "request_search_text"
+  ],
+  "raw_columns": {
+    "categories": {
+      "source_field": "categories",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "[\"Clothing, Shoes & Jewelry\", \"Girls\", \"Clothing\"]",
+        "[\"Clothing, Shoes & Jewelry\", \"Novelty & More\", \"Clothing\"]",
+        "[\"Clothing, Shoes & Jewelry\", \"Girls\", \"Clothing\", \"Clothing Sets\", \"Skirt Sets\"]",
+        "[\"Clothing, Shoes & Jewelry\", \"Luggage & Travel Gear\", \"Travel Accessories\", \"Travel Wallets\"]",
+        "[\"Clothing, Shoes & Jewelry\", \"Men\", \"Watches\", \"Wrist Watches\"]"
+      ]
+    },
+    "brand": {
+      "source_field": "brand",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "Fran Manushkin (Author),  Valeria Petrone (Illustrator)",
+        "David R. Gillham (Author)",
+        "The Elf on the Shelf",
+        "Lewis N. Clark",
+        "Casio"
+      ]
+    },
+    "price": {
+      "source_field": "price",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "7.54",
+        "14.84",
+        "14.95",
+        "13.99",
+        "18.55"
+      ]
+    },
+    "average_rating": {
+      "source_field": "average_rating",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "4.8",
+        "4.2",
+        "4.6",
+        "4.4",
+        "4.6"
+      ]
+    },
+    "rating_number": {
+      "source_field": "rating_number",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "5161",
+        "2596",
+        "1101",
+        "709",
+        "5708"
+      ]
+    },
+    "title": {
+      "source_field": "title",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "Big Girl Panties",
+        "City of Women",
+        "The Elf on the Shelf Party Skirt Set - 2 Holiday Skirt Combo - Dress Up Your Girl Elf for Holiday Parties Green",
+        "Lewis N. Clark RFID Wallet, Black, One Size",
+        "CASIO F91W-1 Casual Sport Watch"
+      ]
+    },
+    "description": {
+      "source_field": "description",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "[\"From School Library Journal\", \"PreS-A diaper being thrown into the trash kicks off this upbeat celebration of panties. A pigtailed protagonist skips across the pages. She proclaims the myriad choices that come with being a big girl, from the pictured days of the week set to a pair of frilly pink \\",
+        "[\"Amazon.com\", \"Amazon Best Books of the Month, August 2012\", \": While the world hardly lacks for novels about WWII, David R. Gillham’s\", \"City of Women\", \"is extraordinary for what it does\", \"not\", \"do. It does not detail the events or imagined conversations of Hitler’s Reich, and it has not a sing",
+        "[\"This Elf on the Shelf Skirt set is the perfect Christmas accessory for your Girl elf! Elf on the Shelf is a Christmas tradition the family is certain to love. It is A timeless Christmas classic the whole family fan enjoy. The pair of skirts will fit any Elf on the Shelf Scout Elf figure! For ages ",
+        "[\"Product Description\", \"As part of Lewis N. Clark RFID-Blocking collection, This money belt takes keeping your information private to a new level. Special lining blocks unauthorized RFID scans, and the ultra-lightweight rip-stop nylon exterior makes for a strong yet low-profile security wallet, ens",
+        "[\"A reliable digital watch for the casual sportster\", \"Casio\", \"With the launch of its first watch in November 1974, Casio entered the wristwatch market at a time when the watch industry had just discovered digital technology. As a company with cutting-edge electronic technology developed for pocket"
+      ]
+    },
+    "features": {
+      "source_field": "features",
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "examples": [
+        "[\"Big Girl Panties!\", \"features a light, positive approach to motivate toddlers to become toilet trained. What could be more rewarding for a little girl than wearing big girl panties, just like mommy? Adult caregivers and toddlers alike will love the snappy, rhyming text and colorful, hip illustrati",
+        "[\"Whom do you trust, whom do you love, and who can be saved?\", \"It is 1943—the height of the Second World War—and Berlin has essentially become a city of women. Sigrid Schröder is, for all intents and purposes, the model German soldier’s wife: She goes to work every day, does as much with her ration",
+        "[\"A festive and fun tradition! This Elf on the Shelf Party Skirt set is the perfect party accessory for your Girl elf!\"]",
+        "[\"Security against modern THREATS - a modern hidden money belt, The Lewis N. Clark anti-theft waist stash is constructed with RFID-blocking technology, shielding you from electronic pickpocketing and identity theft\", \"Built to last - with durable rip-stop nylon and self-repairing zippers, it makes f",
+        "[\"Micro Light, Hourly Time Signal, Auto Calendar\", \"12/24 Hour Formats\", \"Dial Code: Digital\", \"Water Resistant\", \"Daily Alarm\"]"
+      ]
+    }
+  },
+  "raw_detail_sources": {
+    "colour": [
+      {
+        "source_field": "details.Color",
+        "non_null": 4987,
+        "coverage_percentage": 7.61,
+        "examples": [
+          "Black",
+          "Orange",
+          "Multicolor",
+          "Chestnut",
+          "Black"
+        ]
+      },
+      {
+        "source_field": "details.Colour",
+        "non_null": 0,
+        "coverage_percentage": 0.0,
+        "examples": []
+      },
+      {
+        "source_field": "details.Color Name",
+        "non_null": 1,
+        "coverage_percentage": 0.0,
+        "examples": [
+          "White"
+        ]
+      },
+      {
+        "source_field": "details.Band Color",
+        "non_null": 39,
+        "coverage_percentage": 0.06,
+        "examples": [
+          "BLACK",
+          "Black",
+          "White",
+          "Black",
+          "Sand Pink"
+        ]
+      },
+      {
+        "source_field": "details.Stone Color",
+        "non_null": 4,
+        "coverage_percentage": 0.01,
+        "examples": [
+          "White",
+          "White, Blue, Green",
+          "multi",
+          "Green"
+        ]
+      },
+      {
+        "source_field": "details.Lens Color",
+        "non_null": 3,
+        "coverage_percentage": 0.0,
+        "examples": [
+          "Blue/Green/Silver Mirror",
+          "Yellow",
+          "Red mirror, Yellow, Black smoke, Clear"
+        ]
+      }
+    ],
+    "audience": [
+      {
+        "source_field": "details.Department",
+        "non_null": 60907,
+        "coverage_percentage": 92.92,
+        "examples": [
+          "girls",
+          "Unisex-adult",
+          "mens",
+          "Womens",
+          "Mens"
+        ]
+      },
+      {
+        "source_field": "details.Suggested Users",
+        "non_null": 743,
+        "coverage_percentage": 1.13,
+        "examples": [
+          "womens",
+          "Mens",
+          "unisex-adult",
+          "Mens",
+          "unisex-adult, womens, mens"
+        ]
+      },
+      {
+        "source_field": "details.Target Audience",
+        "non_null": 482,
+        "coverage_percentage": 0.74,
+        "examples": [
+          "Adult",
+          "Adult",
+          "adults",
+          "adults",
+          "Boys, Girls"
+        ]
+      },
+      {
+        "source_field": "details.Target gender",
+        "non_null": 29,
+        "coverage_percentage": 0.04,
+        "examples": [
+          "Female",
+          "Unisex",
+          "Male",
+          "Unisex",
+          "Unisex"
+        ]
+      }
+    ],
+    "age_group": [
+      {
+        "source_field": "details.Age Range (Description)",
+        "non_null": 1871,
+        "coverage_percentage": 2.85,
+        "examples": [
+          "Adult",
+          "Adult",
+          "Kid",
+          "Adult",
+          "Adult"
+        ]
+      },
+      {
+        "source_field": "details.Age Range",
+        "non_null": 0,
+        "coverage_percentage": 0.0,
+        "examples": []
+      },
+      {
+        "source_field": "details.Department",
+        "non_null": 60907,
+        "coverage_percentage": 92.92,
+        "examples": [
+          "girls",
+          "Unisex-adult",
+          "mens",
+          "Womens",
+          "Mens"
+        ]
+      },
+      {
+        "source_field": "details.Suggested Users",
+        "non_null": 743,
+        "coverage_percentage": 1.13,
+        "examples": [
+          "womens",
+          "Mens",
+          "unisex-adult",
+          "Mens",
+          "unisex-adult, womens, mens"
+        ]
+      }
+    ],
+    "material": [
+      {
+        "source_field": "details.Material",
+        "non_null": 4521,
+        "coverage_percentage": 6.9,
+        "examples": [
+          "Nylon",
+          "rubber",
+          "Rubber",
+          "Satin",
+          "Foam"
+        ]
+      },
+      {
+        "source_field": "details.Fabric Type",
+        "non_null": 208,
+        "coverage_percentage": 0.32,
+        "examples": [
+          "Satin",
+          "Canvas",
+          "25% Cotton, 75% Latex",
+          "Mesh,Polyester",
+          "100% Polyester"
+        ]
+      },
+      {
+        "source_field": "details.Inner Material",
+        "non_null": 393,
+        "coverage_percentage": 0.6,
+        "examples": [
+          "Leather",
+          "Leather",
+          "Cotton",
+          "Leather",
+          "Suede"
+        ]
+      },
+      {
+        "source_field": "details.Outer Material",
+        "non_null": 249,
+        "coverage_percentage": 0.38,
+        "examples": [
+          "Polyurethane (PU)",
+          "Polyester, Leather",
+          "compression spandex",
+          "Leather",
+          "Cotton"
+        ]
+      },
+      {
+        "source_field": "details.Material Type",
+        "non_null": 154,
+        "coverage_percentage": 0.23,
+        "examples": [
+          "Plastic",
+          "Rubber",
+          "Elastic",
+          "100% Cotton",
+          "Plastic"
+        ]
+      },
+      {
+        "source_field": "details.material_composition",
+        "non_null": 12,
+        "coverage_percentage": 0.02,
+        "examples": [
+          "Cotton",
+          "Cotton",
+          "Polyester",
+          "Look for A-More US store to buy, other stores are imitations, we haven't authorizationother sellers to sell this products. Avoid causing losses and bad shopping experiences for you.Thank you.",
+          "90% Cotton / 10% Spandex"
+        ]
+      },
+      {
+        "source_field": "details.Material Composition",
+        "non_null": 1,
+        "coverage_percentage": 0.0,
+        "examples": [
+          "90% Cotton, 10% Polyester"
+        ]
+      }
+    ],
+    "size": [
+      {
+        "source_field": "details.Size",
+        "non_null": 1846,
+        "coverage_percentage": 2.82,
+        "examples": [
+          "7 inch (Pack of 1)",
+          "10 Wide",
+          "7",
+          "One Size",
+          "LARGE 0X US"
+        ]
+      }
+    ],
+    "style_activity": [
+      {
+        "source_field": "details.Style",
+        "non_null": 3479,
+        "coverage_percentage": 5.31,
+        "examples": [
+          "Rfid Wallet",
+          "Modern",
+          "Beads,Personalized,Religious",
+          "Dusty",
+          "Black - Soft Toe"
+        ]
+      },
+      {
+        "source_field": "details.Sport Type",
+        "non_null": 429,
+        "coverage_percentage": 0.65,
+        "examples": [
+          "Walking",
+          "Cycling",
+          "Snow Skiing; Snowboarding",
+          "Track",
+          "Hunting"
+        ]
+      },
+      {
+        "source_field": "details.Sport",
+        "non_null": 283,
+        "coverage_percentage": 0.43,
+        "examples": [
+          "Cycling",
+          "Skiing",
+          "Skiing",
+          "Gymnastics",
+          "Outdoor Lifestyle"
+        ]
+      },
+      {
+        "source_field": "details.Occasion",
+        "non_null": 418,
+        "coverage_percentage": 0.64,
+        "examples": [
+          "Engagement, Mother's Day, Wedding, Birthday",
+          "Engagement, Mother's Day, Wedding, Birthday",
+          "Engagement, Mother's Day, Wedding, Birthday",
+          "Engagement, Mother's Day, Wedding, Birthday",
+          "Engagement, Mother's Day, Wedding, Birthday"
+        ]
+      },
+      {
+        "source_field": "details.Recommended Uses For Product",
+        "non_null": 386,
+        "coverage_percentage": 0.59,
+        "examples": [
+          "Rainy",
+          "Professional",
+          "Rain",
+          "Focus",
+          "Uv"
+        ]
+      }
+    ],
+    "historical_availability": [
+      {
+        "source_field": "details.Is Discontinued By Manufacturer",
+        "non_null": 14603,
+        "coverage_percentage": 22.28,
+        "examples": [
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ]
+      },
+      {
+        "source_field": "details.Date First Available",
+        "non_null": 62763,
+        "coverage_percentage": 95.75,
+        "examples": [
+          "October 2, 2001",
+          "May 2, 2004",
+          "January 13, 2008",
+          "November 2, 2003",
+          "March 13, 2009"
+        ]
+      }
+    ]
+  },
+  "diagnostic_products": [
+    {
+      "needle": "WHITE MOUNTAIN Women's Carly Footbed Sandal",
+      "product_id": "B007IFWHRY",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Carly Footbed Sandal",
+      "categories_raw": "[\"Clothing, Shoes & Jewelry\", \"Women\", \"Shoes\", \"Sandals\", \"Flip-Flops\"]",
+      "details": {
+        "Product Dimensions": "13.9 x 7.9 x 4.8 inches; 6.9 Ounces",
+        "Item model number": "Carly",
+        "Department": "womens",
+        "Date First Available": "October 4, 2005",
+        "Manufacturer": "6pm White Mountain Footwear RP"
+      }
+    },
+    {
+      "needle": "WHITE MOUNTAIN Women's Helga Footbed Sandal",
+      "product_id": "B01DQCBHT6",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Helga Footbed Sandal",
+      "categories_raw": "[\"Clothing, Shoes & Jewelry\", \"Women\", \"Shoes\", \"Sandals\", \"Slides\"]",
+      "details": {
+        "Product Dimensions": "13.9 x 7.9 x 4.8 inches; 7.2 Ounces",
+        "Item model number": "4897",
+        "Department": "womens",
+        "Date First Available": "March 12, 2015",
+        "Manufacturer": "White Mountain"
+      }
+    },
+    {
+      "needle": "WHITE MOUNTAIN Women's Hayleigh Footbed Sandal",
+      "product_id": "B08R7FKZ5Q",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Hayleigh Footbed Sandal",
+      "categories_raw": "[\"Clothing, Shoes & Jewelry\", \"Women\", \"Shoes\", \"Sandals\", \"Flats\"]",
+      "details": {
+        "Item model number": "W26784",
+        "Department": "womens",
+        "Date First Available": "February 12, 2018",
+        "Manufacturer": "White Mountain"
+      }
+    },
+    {
+      "needle": "Timberland Men's White Ledge Mid Waterproof Hiking Boot",
+      "product_id": "B0C62MD9JY",
+      "brand": "Timberland",
+      "title": "Timberland Men's White Ledge Mid Waterproof Hiking Boot",
+      "categories_raw": "[\"Clothing, Shoes & Jewelry\", \"Men\", \"Shoes\", \"Outdoor\", \"Hiking & Trekking\", \"Hiking Boots\"]",
+      "details": {
+        "Department": "mens",
+        "Date First Available": "May 23, 2023",
+        "Manufacturer": "Timberland"
+      }
+    }
+  ]
+}

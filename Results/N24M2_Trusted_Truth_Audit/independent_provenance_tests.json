@@ -1,0 +1,2516 @@
+{
+  "suite": "N24M2 independent raw-source provenance oracle",
+  "total": 310,
+  "passed": 310,
+  "failed": 0,
+  "assertion_groups": {
+    "raw_category_exact": 40,
+    "raw_brand_exact": 40,
+    "raw_variant_colour_exact": 60,
+    "raw_audience_exact": 25,
+    "raw_age_compatible": 25,
+    "raw_numeric_price_exact": 20,
+    "raw_numeric_rating_exact": 20,
+    "raw_negative_brand": 10,
+    "raw_negative_colour": 10,
+    "raw_negative_category": 10,
+    "raw_multi_constraint_intersection": 20,
+    "title_model_colour_not_exact": 30
+  },
+  "seconds": 20.102,
+  "independent_from_production_index": true,
+  "llm_calls": 0,
+  "assertions": [
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "0307931528",
+      "detail": "Clothing"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "039915776X",
+      "detail": "Clothing"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": "Skirt Sets"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "Travel Wallets"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": "Shoe Brushes"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": "Garment Bags"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "Repair Tools & Kits"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": "Drop & Dangle"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": "Tights"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "Charm"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": "Active Sweatshirts"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": "Toe Rings"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": "Clothing"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002TR7QY",
+      "detail": "No Show & Liner Socks"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002TRJMQ",
+      "detail": "Calf Socks"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002TV0M6",
+      "detail": "Calf Socks"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002TV2RE",
+      "detail": "Calf Socks"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002V310I",
+      "detail": "No Show & Liner Socks"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0002V32NE",
+      "detail": "Tights"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": "Suspenders"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0003DKW5C",
+      "detail": "Suspenders"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0003DKW84",
+      "detail": "Suspenders"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00062NHIO",
+      "detail": "Clearance"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00062WT2E",
+      "detail": "Undershirts"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B000632SS8",
+      "detail": "Sun Hats"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0006DQ2IK",
+      "detail": "Skullies & Beanies"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B00074KYC8",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007GHCT4",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007L44EA",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007MCUTK",
+      "detail": "Chukka"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007NMJ3G",
+      "detail": "Drop & Dangle"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007OW81S",
+      "detail": "Active Shorts"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007USNRA",
+      "detail": "Everyday Bras"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0007V8AGI",
+      "detail": "Hats & Caps"
+    },
+    {
+      "name": "raw_category_exact",
+      "passed": true,
+      "product_id": "B0008161HC",
+      "detail": "Track Pants"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": "The Elf on the Shelf"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "Lewis N. Clark"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": "Casio"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": "Timex"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": "Scrusher"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": "Casio"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0000ZLF18",
+      "detail": "Auric Blends"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": "Amerileather"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "SE"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": "Casio"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00023J4AW",
+      "detail": "Soft 'N Style"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": "Silver Insanity"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": "Mondor"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "Child to Cherish"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": "Gildan"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": "Silver Insanity"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": "Timex"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": "Hanes"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002TR7QY",
+      "detail": "Gold Toe"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002TRJMQ",
+      "detail": "Gold Toe"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002TV0M6",
+      "detail": "Gold Toe"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002TV2RE",
+      "detail": "Gold Toe"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002V310I",
+      "detail": "HUE"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0002V32NE",
+      "detail": "HUE"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": "Perry Ellis"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0003DKW5C",
+      "detail": "Perry Ellis"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0003DKW84",
+      "detail": "Perry Suspenders"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00062NHIO",
+      "detail": "Calvin Klein"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00062WT2E",
+      "detail": "Calvin Klein"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B000632SS8",
+      "detail": "MG"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0006DQ2IK",
+      "detail": "Rasta/NYE"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B00074KYC8",
+      "detail": "Citizen"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007GHCT4",
+      "detail": "Timex"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007L44EA",
+      "detail": "SEIKO"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007MCUTK",
+      "detail": "Clarks"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007NMJ3G",
+      "detail": "Gem Avenue"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007OW81S",
+      "detail": "Russell Athletic"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007USNRA",
+      "detail": "Lilyette"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0007V8AGI",
+      "detail": "MG"
+    },
+    {
+      "name": "raw_brand_exact",
+      "passed": true,
+      "product_id": "B0008161HC",
+      "detail": "adidas"
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": {
+        "requested": [
+          "orange"
+        ],
+        "source": "details.Color",
+        "raw": "Orange"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": {
+        "requested": [
+          "multicolour"
+        ],
+        "source": "details.Color",
+        "raw": "Multicolor"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000FPCHGU",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000GAWS7W",
+      "detail": {
+        "requested": [
+          "grey"
+        ],
+        "source": "details.Color",
+        "raw": "Grey"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000GBMYC0",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000GRNYB4",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000HMBKT6",
+      "detail": {
+        "requested": [
+          "red",
+          "grey"
+        ],
+        "source": "details.Color",
+        "raw": "Red / Gray"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000ICXIKY",
+      "detail": {
+        "requested": [
+          "pink"
+        ],
+        "source": "details.Color",
+        "raw": "Pink"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000LO9SRQ",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000NGC27A",
+      "detail": {
+        "requested": [
+          "blue"
+        ],
+        "source": "details.Color",
+        "raw": "Blue"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000NOVSAE",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000NZWU00",
+      "detail": {
+        "requested": [
+          "silver"
+        ],
+        "source": "details.Color",
+        "raw": "Silver"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000RB1JWK",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000RB5PNE",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000SKX8VK",
+      "detail": {
+        "requested": [
+          "pink"
+        ],
+        "source": "details.Color",
+        "raw": "Pink"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000TOZD2W",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000U0DH8C",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000VLQBTM",
+      "detail": {
+        "requested": [
+          "brown"
+        ],
+        "source": "details.Color",
+        "raw": "Brown"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B000YQNJEE",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0011GJZXU",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00123VTAY",
+      "detail": {
+        "requested": [
+          "silver"
+        ],
+        "source": "details.Color",
+        "raw": "Silver"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0012N37UE",
+      "detail": {
+        "requested": [
+          "blue"
+        ],
+        "source": "details.Color",
+        "raw": "Carribean Blue"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0012O3HSA",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0012TDR9E",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0013648H6",
+      "detail": {
+        "requested": [
+          "blue"
+        ],
+        "source": "details.Color",
+        "raw": "Navy"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0017WQHIY",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00180R7RA",
+      "detail": {
+        "requested": [
+          "red"
+        ],
+        "source": "details.Color",
+        "raw": "Red"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00188UDKU",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0018BGE7S",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0018BL0I6",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00199NUJY",
+      "detail": {
+        "requested": [
+          "tan"
+        ],
+        "source": "details.Color",
+        "raw": "Desert Tan"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0019VFO96",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001BPY9QE",
+      "detail": {
+        "requested": [
+          "multicolour"
+        ],
+        "source": "details.Color",
+        "raw": "Multi"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001COY7FM",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001CZEYGI",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001D1DQ06",
+      "detail": {
+        "requested": [
+          "grey"
+        ],
+        "source": "details.Color",
+        "raw": "Grey"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001DL5WN0",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001HXZT14",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001I9XWNE",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001JJ4FWK",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001KWKN2C",
+      "detail": {
+        "requested": [
+          "pink"
+        ],
+        "source": "details.Color",
+        "raw": "hot pink"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001MUE1PC",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001O3ATVC",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "Off-white"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001TU7ASK",
+      "detail": {
+        "requested": [
+          "blue"
+        ],
+        "source": "details.Color",
+        "raw": "Navy"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001TUZS3E",
+      "detail": {
+        "requested": [
+          "pink"
+        ],
+        "source": "details.Color",
+        "raw": "Pink"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001UAWRQ4",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B001Z5PDEC",
+      "detail": {
+        "requested": [
+          "white"
+        ],
+        "source": "details.Color",
+        "raw": "White"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00200K8MS",
+      "detail": {
+        "requested": [
+          "silver"
+        ],
+        "source": "details.Color",
+        "raw": "Silver"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B0027OUUFW",
+      "detail": {
+        "requested": [
+          "blue"
+        ],
+        "source": "details.Color",
+        "raw": "Navy"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00284B07I",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B00284W03Q",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002BL4YG2",
+      "detail": {
+        "requested": [
+          "grey"
+        ],
+        "source": "details.Color",
+        "raw": "Gray"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002CXVG10",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002DR2M6S",
+      "detail": {
+        "requested": [
+          "red"
+        ],
+        "source": "details.Color",
+        "raw": "Red"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002EQ9O8C",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002EVPSZA",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002GIFV6M",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002HB9WY0",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "BLACK"
+      }
+    },
+    {
+      "name": "raw_variant_colour_exact",
+      "passed": true,
+      "product_id": "B002HIBRZ0",
+      "detail": {
+        "requested": [
+          "black"
+        ],
+        "source": "details.Color",
+        "raw": "Black"
+      }
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": "CHILD"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00023J4AW",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00023J4AW",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "details.Target gender"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002TR7QY",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002TR7QY",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002TRJMQ",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002TRJMQ",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002TV0M6",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002TV0M6",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002TV2RE",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002TV2RE",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002V310I",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002V310I",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0002V32NE",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0002V32NE",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_audience_exact",
+      "passed": true,
+      "product_id": "B0003DKW5C",
+      "detail": "details.Department"
+    },
+    {
+      "name": "raw_age_compatible",
+      "passed": true,
+      "product_id": "B0003DKW5C",
+      "detail": "ADULT"
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "0307931528",
+      "detail": 7.54
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "0307931528",
+      "detail": 4.8
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "039915776X",
+      "detail": 14.84
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "039915776X",
+      "detail": 4.2
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": 14.95
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": 4.6
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": 13.99
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": 4.4
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": 18.55
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00006I551",
+      "detail": 4.6
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": 40.48
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00008IM8Q",
+      "detail": 4.5
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": 42.0
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0000AX6DE",
+      "detail": 4.4
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": 22.99
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0000WKYUE",
+      "detail": 4.3
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0000ZLF18",
+      "detail": 9.81
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0000ZLF18",
+      "detail": 4.3
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": 169.99
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": 4.5
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": 6.99
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": 4.2
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": 16.07
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0001XVUFA",
+      "detail": 4.4
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00023J4AW",
+      "detail": 4.8
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00023J4AW",
+      "detail": 4.5
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": 30.0
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": 3.1
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": 17.6
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B00025X30C",
+      "detail": 4.4
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": 28.99
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": 4.8
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": 21.9
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0002FHJ66",
+      "detail": 4.6
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": 12.0
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": 4.1
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": 33.6
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": 4.3
+    },
+    {
+      "name": "raw_numeric_price_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": 16.58
+    },
+    {
+      "name": "raw_numeric_rating_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": 4.4
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "Lewis N. Clark"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "black"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": "Travel Wallets"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "SE"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "orange"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": "Repair Tools & Kits"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "Child to Cherish"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "multicolour"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": "Charm"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000FPCHGU",
+      "detail": "SERVUS"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000FPCHGU",
+      "detail": "black"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000FPCHGU",
+      "detail": "Boots"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000GAWS7W",
+      "detail": "Casio"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000GAWS7W",
+      "detail": "grey"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000GAWS7W",
+      "detail": "Wrist Watches"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000GRNYB4",
+      "detail": "iGirlDress"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000GRNYB4",
+      "detail": "white"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000GRNYB4",
+      "detail": "Special Occasion Gloves"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000HMBKT6",
+      "detail": "KIWI"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000HMBKT6",
+      "detail": "red"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000HMBKT6",
+      "detail": "Shoe Polishes"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000ICXIKY",
+      "detail": "Schylling"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000ICXIKY",
+      "detail": "pink"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000ICXIKY",
+      "detail": "Jewelry Boxes"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000LO9SRQ",
+      "detail": "Rothco"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000LO9SRQ",
+      "detail": "black"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000LO9SRQ",
+      "detail": "Oxfords"
+    },
+    {
+      "name": "raw_negative_brand",
+      "passed": true,
+      "product_id": "B000NGC27A",
+      "detail": "Galleria Enterprises"
+    },
+    {
+      "name": "raw_negative_colour",
+      "passed": true,
+      "product_id": "B000NGC27A",
+      "detail": "blue"
+    },
+    {
+      "name": "raw_negative_category",
+      "passed": true,
+      "product_id": "B000NGC27A",
+      "detail": "Umbrellas"
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B00004SR8Z",
+      "detail": {
+        "category": "Travel Wallets",
+        "brand": "Lewis N. Clark",
+        "colours": [
+          "black"
+        ],
+        "audience": "UNISEX_ADULT",
+        "price": 13.99,
+        "rating": 4.4
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0001CULSS",
+      "detail": {
+        "category": "Repair Tools & Kits",
+        "brand": "SE",
+        "colours": [
+          "orange"
+        ],
+        "audience": "WOMEN",
+        "price": 6.99,
+        "rating": 4.2
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0002AZ080",
+      "detail": {
+        "category": "Charm",
+        "brand": "Child to Cherish",
+        "colours": [
+          "multicolour"
+        ],
+        "audience": "WOMEN",
+        "price": 28.99,
+        "rating": 4.8
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000FPCHGU",
+      "detail": {
+        "category": "Boots",
+        "brand": "SERVUS",
+        "colours": [
+          "black"
+        ],
+        "audience": "WOMEN",
+        "price": 29.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000GAWS7W",
+      "detail": {
+        "category": "Wrist Watches",
+        "brand": "Casio",
+        "colours": [
+          "grey"
+        ],
+        "audience": "MEN",
+        "price": 25.98,
+        "rating": 4.5
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000GRNYB4",
+      "detail": {
+        "category": "Special Occasion Gloves",
+        "brand": "iGirlDress",
+        "colours": [
+          "white"
+        ],
+        "audience": "GIRLS",
+        "price": 12.99,
+        "rating": 3.9
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000LO9SRQ",
+      "detail": {
+        "category": "Oxfords",
+        "brand": "Rothco",
+        "colours": [
+          "black"
+        ],
+        "audience": "MEN",
+        "price": 51.99,
+        "rating": 4.4
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000NGC27A",
+      "detail": {
+        "category": "Umbrellas",
+        "brand": "Galleria Enterprises",
+        "colours": [
+          "blue"
+        ],
+        "audience": "UNISEX_ADULT",
+        "price": 32.99,
+        "rating": 4.6
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000NOVSAE",
+      "detail": {
+        "category": "Belly Bands",
+        "brand": "It's You Babe",
+        "colours": [
+          "white"
+        ],
+        "audience": "WOMEN",
+        "price": 34.0,
+        "rating": 4.0
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000NZWU00",
+      "detail": {
+        "category": "Charm Bracelets",
+        "brand": "DM Merchandising",
+        "colours": [
+          "silver"
+        ],
+        "audience": "WOMEN",
+        "price": 15.37,
+        "rating": 4.2
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000SKX8VK",
+      "detail": {
+        "category": "Luggage Locks",
+        "brand": "Lewis N. Clark",
+        "colours": [
+          "pink"
+        ],
+        "audience": "UNISEX_ADULT",
+        "price": 8.49,
+        "rating": 4.4
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000TOZD2W",
+      "detail": {
+        "category": "Gloves",
+        "brand": "Planet Bike",
+        "colours": [
+          "black"
+        ],
+        "audience": "MEN",
+        "price": 42.96,
+        "rating": 4.0
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B000VLQBTM",
+      "detail": {
+        "category": "Wigs",
+        "brand": "Rubie's",
+        "colours": [
+          "brown"
+        ],
+        "audience": "WOMEN",
+        "price": 46.93,
+        "rating": 4.2
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B00123VTAY",
+      "detail": {
+        "category": "Money Clips",
+        "brand": "Slim Clip",
+        "colours": [
+          "silver"
+        ],
+        "audience": "MEN",
+        "price": 17.0,
+        "rating": 4.4
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0012N37UE",
+      "detail": {
+        "category": "Baseball Caps",
+        "brand": "ADAMS",
+        "colours": [
+          "blue"
+        ],
+        "audience": "UNISEX_ADULT",
+        "price": 10.04,
+        "rating": 4.5
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0012TDR9E",
+      "detail": {
+        "category": "Luggage Scales",
+        "brand": "AMERICAN WEIGH SCALES",
+        "colours": [
+          "black"
+        ],
+        "audience": "MEN",
+        "price": 25.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0013648H6",
+      "detail": {
+        "category": "Compression Shorts",
+        "brand": "AERO|TECH|DESIGNS",
+        "colours": [
+          "blue"
+        ],
+        "audience": "MEN",
+        "price": 54.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B0017WQHIY",
+      "detail": {
+        "category": "Wallets",
+        "brand": "Vine Branch",
+        "colours": [
+          "black"
+        ],
+        "audience": "MEN",
+        "price": 8.99,
+        "rating": 4.2
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B00180R7RA",
+      "detail": {
+        "category": "Headbands",
+        "brand": "Funny Girl Designs",
+        "colours": [
+          "red"
+        ],
+        "audience": "WOMEN",
+        "price": 8.98,
+        "rating": 4.4
+      }
+    },
+    {
+      "name": "raw_multi_constraint_intersection",
+      "passed": true,
+      "product_id": "B00188UDKU",
+      "detail": {
+        "category": "Handkerchiefs",
+        "brand": "Umo Lorenzo",
+        "colours": [
+          "white"
+        ],
+        "audience": "MEN",
+        "price": 16.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": {
+        "token": "green",
+        "title": "The Elf on the Shelf Party Skirt Set - 2 Holiday Skirt Combo - Dress Up Your Girl Elf for Holiday Parties Green"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": {
+        "token": "brown",
+        "title": "Amerileather Leather Three-suit Garment Bag - Brown (#2435-2)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": {
+        "token": "silver",
+        "title": "Raindrops of Ireland - Sterling Silver Celtic Knot Simulated Blue Topaz Hook Earrings"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": {
+        "token": "silver",
+        "title": "Antiqued Elephant Sterling Silver Marching Elephants Toe Ring or Adjustable Pinky Ring"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": {
+        "token": "black",
+        "title": "Timex Men's T205019J Easy Reader Black Leather Strap Watch"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": {
+        "token": "white",
+        "title": "Hanes Boys ComfortSoft Crewneck T-Shirt 3 Pack, White - Medium (10-12)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": {
+        "token": "black",
+        "title": "Perry Products SN200 Men's Clip-On 2-in Suspenders Black Regular"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0003DKW5C",
+      "detail": {
+        "token": "tan",
+        "title": "2 In. Perry Work Suspenders (Tan Regular)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B00062NHIO",
+      "detail": {
+        "token": "white",
+        "title": "Calvin Klein Men's 3-Pack Classic V-Neck T-Shirt, White, X-Large"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B00074KYC8",
+      "detail": {
+        "token": "black",
+        "title": "Citizen Men's Eco-Drive Promaster Air Nighthawk Pilot Watch in Stainless Steel, Black Dial (Model: BJ7000-52E)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0007NMJ3G",
+      "detail": {
+        "token": "silver",
+        "title": "Leverback 8mm Clear AB Cube Austrian Crystals Handmade Drop Sterling Silver Earrings"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0009GVL6C",
+      "detail": {
+        "token": "black",
+        "title": "Tri-fold Garment Bag (Black) (45\"L x 2 1/4\"W x 22 1/4\"H)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0009JE77E",
+      "detail": {
+        "token": "white",
+        "title": "Spasilk Unisex-Baby Newborn Sleeveless Lap Shoulder Bodysuits, 3 pack, 0 - 24 Months - White Bodysuits"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0009P66YK",
+      "detail": {
+        "token": "gold",
+        "title": "Invicta Men's Pro Diver Automatic Watch with Gold Tone Stainless Steel Band, Gold (Model: 9010)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0009P834G",
+      "detail": {
+        "token": "black",
+        "title": "Casio Women's 'Classic' Quartz Resin Casual Watch, Color:Black (Model: LQ139A-1)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B0009RO212",
+      "detail": {
+        "token": "black",
+        "title": "Deluxe Black Vinyl Boot Tops Costume Accessory"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000A1BJWM",
+      "detail": {
+        "token": "silver",
+        "title": "Very Tiny Sterling Silver Star Stud Earrings 3/16 inch"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000AONZWQ",
+      "detail": {
+        "token": "brown",
+        "title": "Hamilton Men's H64455533 Khaki King Series Stainless Steel Automatic Watch with Brown Leather Band"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000AQVRWO",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's DBC32-1A Data Bank Black Digital Watch"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000AYW0M2",
+      "detail": {
+        "token": "white",
+        "title": "Timex Women's T2H331 Indiglo Leather Strap Watch, Black/Silver-Tone/White"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000BO5F9Q",
+      "detail": {
+        "token": "black",
+        "title": "Propet Womens Stability Walker Walking Walking Sneakers Athletic Shoes - Black"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000BUYRLC",
+      "detail": {
+        "token": "gold",
+        "title": "Invicta Women's 0133 Wildflower Collection 18k Gold-Plated and Stainless Steel Watch"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000BVZYYA",
+      "detail": {
+        "token": "black",
+        "title": "Propet Mens LifeWalker Strap Walking Walking Sneakers Athletic Shoes - Black"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000C1HLPE",
+      "detail": {
+        "token": "black",
+        "title": "Propet Womens Vista Walking Walking Sneakers Shoes - Black"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000CD2SJG",
+      "detail": {
+        "token": "white",
+        "title": "Hanes Little Boys' 3-Pack Crewneck T-Shirt - White - Small/Petite (6-8)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000CDFV18",
+      "detail": {
+        "token": "silver",
+        "title": "Invicta Men's 9404 Pro Diver Collection Automatic Silver-Tone Watch"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000E9ZR6Y",
+      "detail": {
+        "token": "white",
+        "title": "K Alexander Men's Solid WHITE Tie"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000EQS1JW",
+      "detail": {
+        "token": "black",
+        "title": "Citizen Men's Eco-Drive Weekender Garrison Field Watch in Stainless Steel with Olive Nylon strap, Black Dial (Model: BM8180-03E)"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000ES7A6U",
+      "detail": {
+        "token": "black",
+        "title": "Yellowstone Dutton Ranch Trucker Hat Black Gray"
+      }
+    },
+    {
+      "name": "title_model_colour_not_exact",
+      "passed": true,
+      "product_id": "B000EWK8YC",
+      "detail": {
+        "token": "white",
+        "title": "Married with Children Al Bundy NO MA'AM Tshirt White"
+      }
+    }
+  ]
+}

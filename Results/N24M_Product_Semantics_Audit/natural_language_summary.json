@@ -1,0 +1,9 @@
+{
+  "suite": "N24M natural-language live API acceptance",
+  "total": 53,
+  "exact_pass": 53,
+  "acceptable_partial": 0,
+  "fail": 0,
+  "user_id": 14,
+  "profile_id": "account_14_8bccb8f2b49e"
+}

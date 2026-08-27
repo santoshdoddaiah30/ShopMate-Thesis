@@ -1,0 +1,249 @@
+{
+  "suite": "N24M2 focused regression only",
+  "checks": {
+    "recommendation": true,
+    "show_more": true,
+    "comparison": true,
+    "price": true,
+    "auth": true,
+    "references": true,
+    "preference": true,
+    "outfit": true,
+    "persistence": true,
+    "cross_chat_isolation": true
+  },
+  "passed": 10,
+  "failed": 0,
+  "all_passed": true,
+  "details": {
+    "auth": {
+      "status": 200,
+      "seconds": 0.27,
+      "display_name": "N24M Suite"
+    },
+    "references": {
+      "target": "B0BG65PQ9F",
+      "status": "product_reference"
+    },
+    "preference": {
+      "status": "profile_updated",
+      "hard_brands": []
+    },
+    "outfit": {
+      "status": "recommendations",
+      "looks": 3,
+      "product_ids": [
+        "B07TVHSDMQ",
+        "B07KD71X11",
+        "B07BZGVBF7",
+        "B08R8W8GP9",
+        "B07KD9N14R",
+        "B08134XNNB",
+        "B07T7RFKSR",
+        "B0BYRM5ZTV",
+        "B00Q4V24RQ"
+      ],
+      "totals": [
+        113.68,
+        133.13,
+        117.94
+      ]
+    },
+    "persistence_cross_chat": {
+      "chat_a": 512,
+      "chat_b": 513,
+      "state_a": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 80.0,
+        "price_mode": "exact_max",
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "state_b": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Watches"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "restored_state_a": {
+        "_n24l_conversation_state": {
+          "state_version": "n24l_persistent_conversation_v1",
+          "conversation": {
+            "schema_version": "n24_conversation_state_bundle_v1",
+            "hard_request": {
+              "schema_version": "n24_hard_request_state_v1",
+              "categories": [
+                "Shoes"
+              ],
+              "brands": [
+                "Nike"
+              ],
+              "colours": [
+                "black"
+              ],
+              "materials": [],
+              "sizes": [],
+              "minimum_price": null,
+              "maximum_price": 80.0,
+              "price_mode": "exact_max",
+              "occasions": [],
+              "recipient": null,
+              "destination": null,
+              "timeframe": null,
+              "currency": "USD"
+            },
+            "exclusions": {
+              "schema_version": "n24_exclusion_state_v1",
+              "categories": [],
+              "brands": [],
+              "colours": [],
+              "materials": [],
+              "sizes": [],
+              "product_ids": []
+            },
+            "active_result_set": {
+              "schema_version": "n24_result_set_state_v1",
+              "result_set_id": "n24rs-2231ef312eb14b5495db9d16a7ea82df",
+              "chat_id": 512,
+              "source_message_id": 1348,
+              "parent_result_set_id": null,
+              "ordered_product_ids": [],
+              "query_fingerprint": "sha256:f7e4eaac7d71605d32687959ec72d5308a8deda4d5170b3385733b1dcf4ec749",
+              "continuation_offset": 0,
+              "excluded_prior_product_ids": [],
+              "created_at": "2026-08-25T17:35:57.923962Z"
+            },
+            "outfit_dialogue": {
+              "schema_version": "n24_outfit_dialogue_state_v1",
+              "original_request": null,
+              "recipient": null,
+              "total_budget": null,
+              "occasion": null,
+              "style": null,
+              "pending_clarification": null,
+              "generated_look_ids": [],
+              "active_look_reference": null,
+              "requested_slot_edit": null,
+              "continuation_history": []
+            }
+          },
+          "active_goal": "Shoes",
+          "active_result_set_id": "n24rs-2231ef312eb14b5495db9d16a7ea82df",
+          "result_sets": [
+            {
+              "state": {
+                "schema_version": "n24_result_set_state_v1",
+                "result_set_id": "n24rs-2231ef312eb14b5495db9d16a7ea82df",
+                "chat_id": 512,
+                "source_message_id": 1348,
+                "parent_result_set_id": null,
+                "ordered_product_ids": [],
+                "query_fingerprint": "sha256:f7e4eaac7d71605d32687959ec72d5308a8deda4d5170b3385733b1dcf4ec749",
+                "continuation_offset": 0,
+                "excluded_prior_product_ids": [],
+                "created_at": "2026-08-25T17:35:57.923962Z"
+              },
+              "validated_request": {
+                "profile_id": "account_24_c1e11f55ebe7",
+                "categories": [
+                  "Shoes"
+                ],
+                "brands": [
+                  "Nike"
+                ],
+                "colours": [
+                  "black"
+                ],
+                "materials": [],
+                "sizes": [],
+                "minimum_price": null,
+                "maximum_price": 80.0,
+                "price_mode": "exact_max",
+                "occasions": [],
+                "recipient": null,
+                "destination": null,
+                "timeframe": null,
+                "currency": "USD",
+                "excluded_categories": [],
+                "excluded_brands": [],
+                "excluded_colours": [],
+                "excluded_materials": [],
+                "excluded_sizes": [],
+                "excluded_product_ids": [],
+                "request_display_text": "N24 validated request: categories=Shoes; brands=Nike; colours=black; maximum_price=80",
+                "request_fingerprint": "sha256:f7e4eaac7d71605d32687959ec72d5308a8deda4d5170b3385733b1dcf4ec749",
+                "request_version": "n24_validated_request_v1"
+              },
+              "recommendations": [],
+              "cards": []
+            }
+          ],
+          "seen_product_ids": [],
+          "pending_clarification": null,
+          "updated_at": "2026-08-25T17:36:02.131719+00:00",
+          "n24m_constraints": {
+            "state_version": "n24m_semantic_sidecar_v1",
+            "minimum_rating": null,
+            "rating_exclusive": false,
+            "allow_mixed_colours": false,
+            "excluded_audiences": [],
+            "soft_materials": [],
+            "style_context": [],
+            "limitations": []
+          }
+        },
+        "profile_id": "account_24_c1e11f55ebe7",
+        "memory_version": "active_request_memory_v1"
+      },
+      "restored_hard_request": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 80.0,
+        "price_mode": "exact_max",
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      }
+    }
+  }
+}

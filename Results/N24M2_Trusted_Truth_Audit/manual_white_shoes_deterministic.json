@@ -1,0 +1,50 @@
+{
+  "request": "i need white shoes",
+  "eligible_catalogue_count": 3,
+  "returned": 3,
+  "brand_only_false_white": 0,
+  "model_name_only_false_white": 0,
+  "mixed_exact_violations": 0,
+  "unknown_exact_violations": 0,
+  "products": [
+    {
+      "product_id": "B00MISO4OU",
+      "brand": "Nfinity",
+      "title": "Nfinity Adult Evolution Cheer Shoes",
+      "raw_colour_field": "details.Color",
+      "raw_variant_evidence": "White",
+      "trusted_colour": [
+        "white"
+      ],
+      "trusted_source": "details.Color",
+      "mode": "STRICT_SINGLE_COLOUR",
+      "eligible": true
+    },
+    {
+      "product_id": "B00XOYS1IC",
+      "brand": "Kaepa",
+      "title": "Kaepa Women's Stellarlyte Cheer Shoe",
+      "raw_colour_field": "details.Color",
+      "raw_variant_evidence": "White",
+      "trusted_colour": [
+        "white"
+      ],
+      "trusted_source": "details.Color",
+      "mode": "STRICT_SINGLE_COLOUR",
+      "eligible": true
+    },
+    {
+      "product_id": "B093GRVR16",
+      "brand": "ARUNNERS",
+      "title": "ARUNNERS Rain Shoe Covers Black",
+      "raw_colour_field": "details.Color",
+      "raw_variant_evidence": "White",
+      "trusted_colour": [
+        "white"
+      ],
+      "trusted_source": "details.Color",
+      "mode": "STRICT_SINGLE_COLOUR",
+      "eligible": true
+    }
+  ]
+}

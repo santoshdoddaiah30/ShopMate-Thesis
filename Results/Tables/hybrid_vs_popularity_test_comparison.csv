@@ -1,0 +1,6 @@
+metric,popularity_value,hybrid_value,absolute_difference,relative_difference_percentage,better_model
+hit_rate_at_5,0.016119,0.014876,-0.001243,-7.71,Popularity higher
+hit_rate_at_10,0.019242,0.01904,-0.000202,-1.05,Popularity higher
+hit_rate_at_20,0.022835,0.023641,0.000806,3.53,Hybrid higher
+mrr_at_10,0.014003,0.009334,-0.004669,-33.34,Popularity higher
+ndcg_at_10,0.015217,0.011631,-0.003586,-23.57,Popularity higher

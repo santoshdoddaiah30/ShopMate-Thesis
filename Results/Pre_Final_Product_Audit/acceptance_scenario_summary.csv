@@ -1,0 +1,76 @@
+﻿scenario_id,behavioral_family,turn_count,chat_ids,pass_status,failure_categories,expected_behavior,summary_notes
+S001,BASIC_PRODUCT_DISCOVERY,1,[86],PASS,,Interpret watches as the current category with normal product mode and no stale constraints.,
+S002,BASIC_PRODUCT_DISCOVERY,1,[87],PASS,,Interpret shoes as the current category with normal product mode and no stale constraints.,
+S003,BASIC_PRODUCT_DISCOVERY,1,[88],PASS,,Interpret t-shirts as the current category with normal product mode and no stale constraints.,
+S004,BASIC_PRODUCT_DISCOVERY,1,[89],PASS,,Interpret jacket as the current category with normal product mode.,
+S005,BASIC_PRODUCT_DISCOVERY,1,[90],PASS,,Interpret accessories without unrelated stale constraints.,
+S006,BRAND_REQUESTS,1,[91],PASS,,Nike is an explicit hard brand constraint and shoes is the product category.,
+S007,BRAND_REQUESTS,1,[92],PASS,,adidas is an explicit hard brand constraint and t-shirts is the product category.,
+S008,BRAND_REQUESTS,1,[93],PASS,,Skechers becomes the explicit hard brand constraint.,
+S009,COLOUR,1,[94],PASS,,Black is enforced as an explicit colour constraint for shoes.,
+S010,COLOUR,1,[95],PASS,,Red is enforced as an explicit colour constraint for t-shirts.,
+S011,COLOUR,1,[96],PASS,,Blue is enforced as an explicit colour constraint for jackets.,
+S012,BUDGET_LANGUAGE,1,[97],PASS,,Interpret under $100 as maximum_price 100.,
+S013,BUDGET_LANGUAGE,1,[98],PASS,,Interpret below $100 as maximum_price 100.,
+S014,BUDGET_LANGUAGE,1,[99],PASS,,Interpret less than $100 as maximum_price 100.,
+S015,BUDGET_LANGUAGE,1,[100],PASS,,Interpret max $100 as maximum_price 100.,
+S016,BUDGET_LANGUAGE,1,[101],PARTIAL,PARSER,Record the current interpretation of budget is $100.,Recorded interpretation: minimum=None maximum=100.0.
+S017,BUDGET_LANGUAGE,1,[102],PARTIAL,PARSER,Record the current interpretation of around $100 without inventing precision.,Recorded interpretation: minimum=None maximum=100.0.
+S018,BUDGET_LANGUAGE,1,[103],PARTIAL,PARSER,Record the current interpretation of about $100 without inventing precision.,Recorded interpretation: minimum=None maximum=100.0.
+S019,BUDGET_LANGUAGE,1,[104],PASS,,Interpret minimum_price 50 and maximum_price 100.,
+S020,BUDGET_REMOVAL,2,[105],FAIL,STATE_MEMORY,Second turn clears maximum_price while preserving relevant brand/category/colour.,maximum_price retained as 40.0.
+S021,BUDGET_REMOVAL,2,[106],FAIL,STATE_MEMORY,Second turn clears maximum_price while preserving relevant brand/category/colour.,maximum_price retained as 40.0.
+S022,BUDGET_REMOVAL,2,[107],FAIL,STATE_MEMORY,Second turn clears maximum_price while preserving relevant brand/category/colour.,maximum_price retained as 40.0.
+S023,BUDGET_REMOVAL,2,[108],FAIL,STATE_MEMORY,Second turn clears maximum_price while preserving relevant brand/category/colour.,maximum_price retained as 40.0.
+S024,BUDGET_REMOVAL,2,[109],FAIL,STATE_MEMORY,Second turn clears maximum_price while preserving relevant brand/category/colour.,maximum_price retained as 40.0.
+S025,CONSTRAINT_REPLACEMENT,2,[110],PASS,,Replace Nike with adidas and remove obsolete Nike constraint.,
+S026,CONSTRAINT_REPLACEMENT,2,[111],PASS,,Replace black with white and remove obsolete black constraint.,
+S027,CONSTRAINT_REPLACEMENT,2,[112],FAIL,STATE_MEMORY,Replace maximum_price 40 with 80.,"Replacement failed: wanted 80, obsolete 40, state={'profile_id': 'account_10_7c280d1d4b3d', 'categories': ['Shoes'], 'brands': [], 'colors': [], 'materials': [], 'sizes': [], 'occasions': [], 'minimum_price': None, 'maximum_price': 40.0, 'currency': 'USD', 'destination': None, 'timeframe': None, 'top_brand_mode': False, 'active_request_text': 'Shoes under $40', 'memory_version': 'active_request_memory_v1', '_pending_bridge_version': 'chat_pending_bridge_v1'}."
+S028,CONSTRAINT_REPLACEMENT,2,[113],PASS,,Replace shoes with t-shirts and remove obsolete shoe goal constraints.,
+S029,CONSTRAINT_RELAXATION,2,[114],FAIL,STATE_MEMORY,Clear only the colour constraint.,Named constraint colors was not cleared.
+S030,CONSTRAINT_RELAXATION,2,[115],FAIL,STATE_MEMORY,Clear only the brand constraint.,Named constraint brands was not cleared.
+S031,CONSTRAINT_RELAXATION,2,[116],FAIL,STATE_MEMORY,Clear only price constraints.,Named constraint maximum_price was not cleared.
+S032,CONSTRAINT_RELAXATION,2,[117],FAIL,STATE_MEMORY,Clear only the Nike brand constraint.,Named constraint brands was not cleared.
+S033,NEGATIVE_CONSTRAINTS,1,[118],FAIL,PARSER,Understand Nike as an exclusion rather than a positive brand filter.,Negative brand exclusion was ignored; no exclusion state was stored or acknowledged.
+S034,NEGATIVE_CONSTRAINTS,1,[119],FAIL,PARSER,Understand red as an exclusion.,Negative constraint appears as a positive active constraint.
+S035,NEGATIVE_CONSTRAINTS,1,[120],FAIL,PARSER,Understand adidas as an exclusion.,Negative brand exclusion was ignored; no exclusion state was stored or acknowledged.
+S036,NEGATIVE_CONSTRAINTS,1,[121],FAIL,PARSER,Understand black as an exclusion.,Negative constraint appears as a positive active constraint.
+S037,NEW_SHOPPING_GOAL,2,[122],FAIL,STATE_MEMORY,"A genuine watch goal drops irrelevant shoe, black, Nike, and $80 constraints.","Stale new-goal constraints retained: black, nike, 80"
+S038,NEW_SHOPPING_GOAL,2,[123],FAIL,STATE_MEMORY,"A genuine jacket goal drops obsolete shirt, red, adidas, and $40 constraints.","Stale new-goal constraints retained: red, adidas, 40"
+S039,NEW_SHOPPING_GOAL,2,[124],FAIL,STATE_MEMORY,"A genuine shoe goal drops obsolete jacket, blue, and budget constraints.","Stale new-goal constraints retained: blue, 100"
+S040,NEW_SHOPPING_GOAL,2,[125],FAIL,STATE_MEMORY,"A genuine t-shirt goal drops obsolete watch, Casio, and budget constraints.","Stale new-goal constraints retained: casio, 80"
+S041,NEW_CHAT_ISOLATION,2,"[126, 127]",PASS,,Second message occurs in a newly created chat and must not inherit Chat A constraints.,
+S042,NEW_CHAT_ISOLATION,2,"[128, 129]",PASS,,Second message occurs in a newly created chat and must not inherit Chat A constraints.,
+S043,NEW_CHAT_ISOLATION,2,"[130, 131]",PASS,,Second message occurs in a newly created chat and must not inherit Chat A constraints.,
+S044,CHAT_RELOAD,2,[132],PASS,,Reselecting the same chat restores its own active state and a separate chat remains independent.,
+S045,PROFILE_PREFERENCE_VS_HARD,4,[133],FAIL,PROFILE_PERSONALIZATION|STATE_MEMORY,Profile Nike may influence ranking but must not become a hard brand constraint unless explicitly requested; adidas must override it.,'I like Nike' was treated as a current hard shopping filter and no saved preference row was created. Nike persisted as a hard active-chat constraint; the audit profile contained no saved Nike preference. Nike persisted as a hard active-chat constraint; the audit profile contained no saved Nike preference.
+S046,TYPO_CASUAL_LANGUAGE,1,[134],FAIL,PARSER,Understand likely adidas t-shirts typo or clearly request clarification.,Casual/typo intent missing: adidas
+S047,TYPO_CASUAL_LANGUAGE,1,[135],FAIL,PARSER,Understand black shoes from casual wording.,Casual/typo intent missing: shoe
+S048,TYPO_CASUAL_LANGUAGE,1,[136],PARTIAL,PARSER,Understand maximum budget 80 and request/retain an appropriate product goal.,"The engine asked for product type, but maximum_price was not active yet; the raw pending request retained '80 bucks'."
+S049,TYPO_CASUAL_LANGUAGE,1,[137],FAIL,PARSER,Understand Nike sneakers typo.,Casual/typo intent missing: sneaker
+S050,TYPO_CASUAL_LANGUAGE,1,[138],PASS,,Understand t-shirts and useful low-price intent.,
+S051,SHOW_MORE,2,[139],FAIL,CONVERSATION_RESPONSE,Continue discovery without simply repeating the identical product set.,Identical product IDs repeated.
+S052,SHOW_MORE,2,[140],FAIL,CONVERSATION_RESPONSE,Continue discovery without simply repeating the identical product set.,Identical product IDs repeated.
+S053,SHOW_MORE,2,[141],FAIL,CONVERSATION_RESPONSE,Continue discovery without simply repeating the identical product set.,Identical product IDs repeated.
+S054,RELATIVE_REFINEMENT,2,[142],FAIL,CONVERSATION_RESPONSE,Understand relative cheaper refinement using prior results.,Relative refinement was ignored and the same deterministic product set/order was returned.
+S055,RELATIVE_REFINEMENT,2,[143],FAIL,CONVERSATION_RESPONSE,Understand relative rating refinement using prior results.,Relative refinement was ignored and the same deterministic product set/order was returned.
+S056,RELATIVE_REFINEMENT,2,[144],FAIL,CONVERSATION_RESPONSE,Understand cheapest refinement using available catalogue price.,Relative refinement was ignored and the same deterministic product set/order was returned.
+S057,RELATIVE_REFINEMENT,2,[145],FAIL,CONVERSATION_RESPONSE,Use available review counts to identify the most-reviewed prior result.,Relative refinement was ignored and the same deterministic product set/order was returned.
+S058,RELATIVE_REFINEMENT,2,[146],FAIL,CONVERSATION_RESPONSE,Handle ambiguous better-options request realistically or clarify.,Relative refinement was ignored and the same deterministic product set/order was returned.
+S059,RESULT_REFERENCES,2,[147],FAIL,RESULT_REFERENCE,Resolve the first prior result and use its catalogue evidence.,The ordinal/reference request was not resolved; the engine repeated ordinary recommendation behavior instead of answering about prior products.
+S060,RESULT_REFERENCES,2,[148],FAIL,RESULT_REFERENCE,Resolve and describe the second prior result without fabrication.,The ordinal/reference request was not resolved; the engine repeated ordinary recommendation behavior instead of answering about prior products.
+S061,RESULT_REFERENCES,2,[149],FAIL,RESULT_REFERENCE,Resolve the third result and explain using available match evidence.,The ordinal/reference request was not resolved; the engine repeated ordinary recommendation behavior instead of answering about prior products.
+S062,RESULT_REFERENCES,2,[150],FAIL,RESULT_REFERENCE,Return the stored Amazon link for the first result.,The ordinal/reference request was not resolved; the engine repeated ordinary recommendation behavior instead of answering about prior products.
+S063,PRODUCT_COMPARISON,2,[151],FAIL,RESULT_REFERENCE,"Compare prior products using available price, rating, reviews, trust, match, brand, and category without fabricating specifications.",The ordinal/reference request was not resolved; the engine repeated ordinary recommendation behavior instead of answering about prior products.
+S064,NO_EXACT_MATCH,1,[152],PASS,,"Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+S065,NO_EXACT_MATCH,1,[153],PASS,,"Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+S066,NO_EXACT_MATCH,1,[154],PASS,,"Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+S067,GENERAL_SHOPPING_ADVICE,1,[155],UNSUPPORTED,DATA_LIMITATION,Provide grounded general guidance or explicitly classify this as unsupported.,General shopping-advice behavior is not implemented as a distinct capability in the deterministic response path.
+S068,GENERAL_SHOPPING_ADVICE,1,[156],UNSUPPORTED,DATA_LIMITATION,Provide grounded general guidance or explicitly classify this as unsupported.,General shopping-advice behavior is not implemented as a distinct capability in the deterministic response path.
+S069,GIFT_SHOPPING,1,[157],PARTIAL,CONVERSATION_RESPONSE,"Handle recipient and budget, ground recommendations, and clarify useful missing details.",Recipient/occasion handling recorded for qualitative audit.
+S070,GIFT_SHOPPING,1,[158],PARTIAL,CONVERSATION_RESPONSE,Handle gift intent with useful clarification and catalogue grounding.,Recipient/occasion handling recorded for qualitative audit.
+S071,OCCASION_SHOPPING,1,[159],PARTIAL,PARSER,Interpret occasion and provide grounded recommendations or clarification.,Recipient/occasion handling recorded for qualitative audit.
+S072,OCCASION_SHOPPING,1,[160],PARTIAL,PARSER,Interpret work occasion and provide grounded recommendations or clarification.,Recipient/occasion handling recorded for qualitative audit.
+S073,OUTFIT_MAKEOVER,3,[161],FAIL,OUTFIT,"Clarify supported recipient, then return 3x5 complete looks within total budget with slots, links, persistence, and reloadability.",Appropriate recipient clarification was asked. The pending outfit clarification was lost; the flow switched to generic product-type clarification and produced no 3x5 outfits. The pending outfit clarification was lost; the flow switched to generic product-type clarification and produced no 3x5 outfits.
+S074,OUTFIT_FOLLOW_UP,2,[162],FAIL,OUTFIT,Return supported outfit recommendations then handle another-outfit follow-up.,"The request was routed to normal Casual product recommendations, not the grouped outfit mode; follow-up repeated the same products. The request was routed to normal Casual product recommendations, not the grouped outfit mode; follow-up repeated the same products."
+S075,MULTI_PRODUCT_AND_GROUNDING,3,[163],PARTIAL,CONVERSATION_RESPONSE|DATA_LIMITATION,"Record multi-product capability and clearly refuse unsupported live stock, delivery, current-price, and coupon claims.","The multi-product request was treated as an impossible category intersection rather than a basket with a total budget. No live claim was fabricated, but the response did not directly explain that stock/delivery/current price/coupon data are unavailable. No live claim was fabricated, but the response did not directly explain that stock/delivery/current price/coupon data are unavailable."

@@ -1,0 +1,5986 @@
+{
+  "suite": "N24M2 adversarial brand/model token generator",
+  "total": 588,
+  "passed": 588,
+  "failed": 0,
+  "groups": {
+    "brand_token_not_colour": 459,
+    "brand_token_not_audience": 5,
+    "brand_token_not_material": 44,
+    "model_title_token_not_colour": 80
+  },
+  "llm_calls": 0,
+  "assertions": [
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B007IFWHRY",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Carly Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00EI8PG0Y",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN 'Loyal ' Women's Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00I4OXU9C",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "White Mountain 'BEACHBALL' Women's Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00KJ92HUS",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Cherub' Women's Clogs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0102PJGAC",
+      "detail": {
+        "token": "white",
+        "brand": "White Cloud",
+        "title": "White Cloud Ultraslim Nylon Water Resistant Stealth Small Running Travel Waist Bag Packs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0170U9YQ8",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE APPAREL",
+        "title": "WHITE APPAREL 2ND Date Women's Tummy Tuck High Waisted Fleece Leggings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B019OEUO12",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "Cliffs 'Cameo' Women's Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01DQCBHT6",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Helga Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BDHBZKQ",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Shoes All Good Women's Cork Wedge Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BHZHPXV",
+      "detail": {
+        "token": "white",
+        "brand": "LILIE&WHITE",
+        "title": "LILIE&WHITE Metal Triangle Danlge Drop Earrings For Women Costume Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CQSFTLS",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "White Mountain 'Brilliant' Women's Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07GGPKK2C",
+      "detail": {
+        "token": "white",
+        "brand": "LILIE&WHITE",
+        "title": "LILIE&WHITE Round Curved Dangle Earrings With Matte Paint Discs For Women Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07J1YDYB6",
+      "detail": {
+        "token": "white",
+        "brand": "Black & White",
+        "title": "Black & White Women’s Memory Foam Thong Flip Flop Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07M7L6SZP",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "CLIFFS BY WHITE MOUNTAIN Women's Duena Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07Q98J1JL",
+      "detail": {
+        "token": "white",
+        "brand": "LILIE&WHITE",
+        "title": "LILIE&WHITE Hammered Surface Geometric Boho Earrings Dangle Drop Earrings Jewelry For Girls …"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07RKSW74H",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN 'Ranger' Women's Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07SCZF9CX",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Shoes Women's Dorian Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07SZ6Q4H6",
+      "detail": {
+        "token": "white",
+        "brand": "LILIE&WHITE",
+        "title": "LILIE&WHITE Clear Crystal and Cubic Zircon Necklace and Earrings Jewelry Set for Women Wedding Accessories"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B082VYLGGV",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Shoes HUDLIN Women's Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0837KH4ZB",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Harrington Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0869G445P",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "CLIFFS BY WHITE MOUNTAIN Women's Thong Sandal Flip-Flop"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08778MQ5G",
+      "detail": {
+        "token": "white",
+        "brand": "LILIE&WHITE",
+        "title": "LILIE&WHITE Chunky Gold Hoop Earrings for Women Cute Fashion Hypoallergenic earrings Minimalist Jewelry Gift"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08R7FKZ5Q",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Hayleigh Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08SKCW6FT",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Harley Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08SKFV6WZ",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Mamba Espadrille Wedge Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08SKFX42S",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Courage Sneaker"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08Z5F4NQN",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Crawford Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B098FYZLDW",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "CLIFFS BY WHITE MOUNTAIN Women's Cienna Wedge Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09M23LHWK",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Gracie Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09PH14X8L",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Astonish Heeled Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09R8DLX1S",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "White Mountain Shoes Valencia Women's Clog Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09R9GQD1S",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Shoes Being Leather Footbeds Clog"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09R9M5LM1",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Shoes Aida Women's Wedge Sandal, Denim Blue/Fab, 11 M"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09THV4KPM",
+      "detail": {
+        "token": "white",
+        "brand": "White Ivy",
+        "title": "White Ivy Women’s String Bikini Underwear - 12 piece Multi Pack - No Panty Line Pinch Free Comfy Cool Colorful"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BTYYYQSK",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "CLIFFS BY WHITE MOUNTAIN Women's Clara Ballet Flat"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BZCVF7Y4",
+      "detail": {
+        "token": "white",
+        "brand": "CLIFFS BY WHITE MOUNTAIN",
+        "title": "CLIFFS BY WHITE MOUNTAIN Women's Cynthia Wedge Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C67HZFG5",
+      "detail": {
+        "token": "white",
+        "brand": "WHITE MOUNTAIN",
+        "title": "WHITE MOUNTAIN Women's Holland Footbed Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B005G19356",
+      "detail": {
+        "token": "black",
+        "brand": "Black Clover",
+        "title": "Black Clover Premium Flex Cap"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07481BGKQ",
+      "detail": {
+        "token": "black",
+        "brand": "Black Bear",
+        "title": "Black Bear Boys’ Underwear – 4 Pack Long Leg Performance Compression Boxer Briefs (4-18)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0749D517H",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Signature Boys' Slim Fit Suit Complete Outfit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B075H22ZCD",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boys' Signature Sateen Long Sleeve Dress Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BLJNCDX",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boys' First Class Slim Fit Suits Lightweight Style. Presented by Baby Muffin"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BRBY72D",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boys Pinstripe Suit with Matching Tie Size 2-20"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BS6DK36",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boy's Modern Tuxedo Dresswear Set"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BTSCX55",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boys Suit with Tie for Toddlers and Infants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C4K81NB",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Baby Boys and Infants Tuxedo with No Tail"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CLTH3GN",
+      "detail": {
+        "token": "black",
+        "brand": "Black n Bianco",
+        "title": "Black n Bianco Boys' Formal Black Suit with Shirt and Vest"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07J1YDYB6",
+      "detail": {
+        "token": "black",
+        "brand": "Black & White",
+        "title": "Black & White Women’s Memory Foam Thong Flip Flop Sandal"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084C2M9RN",
+      "detail": {
+        "token": "black",
+        "brand": "Black Rifle Coffee Company",
+        "title": "Black Rifle Coffee T Shirts"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084RDPYTP",
+      "detail": {
+        "token": "black",
+        "brand": "Everything Black",
+        "title": "Everything Black 9\" Skull Cap Beanie That Will Fit Your Head Perfect"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B086PF3P3Y",
+      "detail": {
+        "token": "black",
+        "brand": "Black Clover",
+        "title": "Black Clover Sharp Luck 2 Hat"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08M9D8NW6",
+      "detail": {
+        "token": "black",
+        "brand": "Black Bear",
+        "title": "Black Bear Boys’ Athletic T-Shirt – 4 Pack Active Performance Dry-Fit Sports Tee (4-18)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09LKZYSLL",
+      "detail": {
+        "token": "black",
+        "brand": "Black Bear",
+        "title": "Black Bear Boys’ Underwear - 4 Pack Performance Compression Boxer Briefs (4-18)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09WB54PSF",
+      "detail": {
+        "token": "black",
+        "brand": "BLACK JACKY",
+        "title": "Womens Metallic Rave Booty Dance Shorts Shiny Festival Dance Shorts"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09Y5MVWLL",
+      "detail": {
+        "token": "black",
+        "brand": "Black Butterfly",
+        "title": "Black Butterfly Premium Backpack for Women,Bohemia Style Daypack,Fashion,Light and Small (15-Red)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09YDNLHNQ",
+      "detail": {
+        "token": "black",
+        "brand": "Black Butterfly",
+        "title": "Black Butterfly Premium Canvas Tote Shoulder Bag, Top Handle Bag for Womens, Light and Small Style"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0018DW7QS",
+      "detail": {
+        "token": "red",
+        "brand": "Red Wing",
+        "title": "Red Wing Heritage Men's Classic Moc 6\" Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0032UYNKI",
+      "detail": {
+        "token": "red",
+        "brand": "Red Wing",
+        "title": "Red Wing Men's Iron Ranger 6\" Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYU62",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Classic Work Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYUAS",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Loose-Fit Dungaree Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYUF8",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Relaxed Fit Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYXA0",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Wrinkle-Free Regular Fit Twill Blend Work Pants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYXC8",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Double Knee No-Scratch Shop Pants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYXNW",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Plain Front Short"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UYXSC",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Stain Resistant, Flat Front Work Pants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UZ19W",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Cell Phone Pocket Pant"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UZ55C",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Elastic Insert Work Pant"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O4UZCU0",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Industrial Cargo Pant"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O97199Q",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's No Scratch Leather Belt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O9719KU",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Denim Bib Overall"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971BVC",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Zip-Front Cotton Coverall"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971DN8",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Navy Speedsuit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971EJ6",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Twill Action Back Coverall"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971MHK",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Slash Pocket Jacket"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971RHU",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Perma Lined Panel Jacket"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O971TWI",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Shop Coat"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O9729B8",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Exterior Pocket Lab Coat"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O972ZAI",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Industrial Long Sleeve Work Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O9734IK",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Industrial Work Shirt, Regular Fit, Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O973MDC",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Utility Uniform Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00O9OQIA4",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Performance Knit Twill Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B012ZFYUZI",
+      "detail": {
+        "token": "red",
+        "brand": "Red Bene",
+        "title": "Red Bene Women's Microfiber Seamless Capri Leggings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01FDZX1K2",
+      "detail": {
+        "token": "red",
+        "brand": "Red Hanger",
+        "title": "Red Hanger Cardigans for Women - Short Sleeve Womens Open Cardigan Sweaters"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MUG9PZL",
+      "detail": {
+        "token": "red",
+        "brand": "RED MOOSE",
+        "title": "RED MOOSE Shoe Horn - 7.5 Inch, Solid Steel - Durable Metal, Ergonomic Handle - Made in USA"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01N0RWNV1",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Men's Compression Sports Shirt Cool America Solider Running Long Sleeve Tee"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B072ZVVF1D",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Lightweight Crew Pant"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B077ZQ4M9V",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Men's Compression Sports Shirt Cool Lightning Running Long Sleeve Tee"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BHWGSPF",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Men's Fitness Shirt Sonic Compression Short Sleeve Sports Bat T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BT84KBQ",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Men's Compression Sports Fitness Shirt Superhero T-Shirt Running Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CMXDVYC",
+      "detail": {
+        "token": "red",
+        "brand": "Red Bene",
+        "title": "Red Bene Women's Seamless Padded Wirefree Comfort Bra Bralette"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07HB85878",
+      "detail": {
+        "token": "red",
+        "brand": "RED MOOSE",
+        "title": "RED MOOSE Premium Boot and Shoe Cream Polish - Made in the USA"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07PVCKL78",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "917 - Plus Size Faux Leather Pleated High Waist Maxi Mermaid Skirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07RD65DJ8",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Women's Super Sercies Short-Sleeved T-Shirt Yoga Sport Shirt Fitness Short Sleeve for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07V3GG8B2",
+      "detail": {
+        "token": "red",
+        "brand": "Red Fox",
+        "title": "Red Fox Women's Twill Jogger Pants - Casual & Comfy Ultra-Stretch Trendy Slim Relaxed Fit Basic Jean Joggers with Pockets"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07VCXHWQB",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Mens 3D Digital Printing Short Sleeve T-Shirt Outdoor Running Yoga Fitness Tight Shirt for Men"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07Y8Q5B6J",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "RED DOT BOUTIQUE 701 - Jumpsuit Plus Size Mesh Long Sleeves V Neck Wide Pants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0829S1M5V",
+      "detail": {
+        "token": "red",
+        "brand": "Red Plume",
+        "title": "Red Plume Women's Compression Fitness Sport T-Shirt,Wonder Woman Short-Sleeve Red"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0831SHG1Z",
+      "detail": {
+        "token": "red",
+        "brand": "RED MOOSE",
+        "title": "RED MOOSE 3pc Shoe Shine Kit - Shoe Brush and Cleaning Cloth Set - [2] Premium Horsehair Cleaning Brushes and X-Large Buffing Cloth - Leather Polish and Care Set for Shoes and Boots"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084M8FXCK",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "832 - Plus Size Mermaid Lace Maxi Long Sleeves Maxi Cocktail Wedding Prom Evening Dress Gown"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B085MPMSPL",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "730 - Plus Size Jumpsuit Double Slits Lace Chiffon Jumpsuit Maxi All White Party Wedding Party Dress"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08HDNZTQ9",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "RED DOT BOUTIQUE - 807 - Black Sheer Mesh Long Sleeves Club Sequins Dress Plus Size"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08JPY28B6",
+      "detail": {
+        "token": "red",
+        "brand": "RED DOT BOUTIQUE",
+        "title": "- 818 - Plus Size Hi Low Lace Overlay Halter Cocktail Casual Beach Wedding Maxi Dress"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08NCZWBLJ",
+      "detail": {
+        "token": "red",
+        "brand": "RED MOOSE",
+        "title": "Red Moose Liquid Shoe Polish - 4 oz Sponge Top for Leather, Boots, Dress Shoes"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08WJLR7R1",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Standard Short Sleeve Performance Plus Shop Shirt with Oilblok Technology"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B098NBJMKP",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap mens Rk Lab Coat With Pockets"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B099WZVYNQ",
+      "detail": {
+        "token": "red",
+        "brand": "Red Suricata",
+        "title": "Red Suricata Mesh Beach Bag with Zipper - Extra Large Beach Tote Bag – Pool Bag"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09HQCJB86",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap mens Poplin Dress Shirt, Stain and Wrinkle Resistant, Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09XXYLS1B",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Industrial Work Shirt, Regular Fit, Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B21WYY3Z",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Ripstop Crew Shirt, Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BJ14NK9J",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Tall Size Twill Action Back Coverall"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BJQTQXZF",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap mens Snap Front Cotton Coverall, Oversized Fit, Long Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BJVYBKZR",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Poplin Dress Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BLKQT8KT",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Solid Team Jacket"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BLT1VC7N",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap mens Speedsuit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BXD7MF9B",
+      "detail": {
+        "token": "red",
+        "brand": "Red Kap",
+        "title": "Red Kap Men's Motorsports Shirt, Short Sleeve"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B001SERWXU",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Kiss Destroyer Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B001SES07C",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Lynyrd Skynyrd Gimme Back My Bullets Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B004QWYXFQ",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Pink Floyd Dark Side V-Dye T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0050SPCMI",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Grateful Dead Celtic Mandala Tie Dye T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00W9DYBDS",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Led Zeppelin Icarus 1975 T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B011AGGLTG",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Q",
+        "title": "Blue Q Women's Funny Crew Socks - I Love My Job. Ha Ha Just Kidding! (fit shoe size 5-10)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01CPSPF3Q",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Age",
+        "title": "Blue Age Womens Destroyed Ripped Distressed Skinny Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01EGQMG1O",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Plus-Size Hanging Out T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01EGQO3LK",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Big Bertha T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01EGQPRYW",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Space Top T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01EGQQASY",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Stars and Stripes T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01EGQQBVK",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Plus-Size Space Shroom T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01FIQK6GI",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Age",
+        "title": "Blue Age Womens Denim Jean Jacket and Sleeveless Vest"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LF76SJS",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Done Dirt Cheap T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LF76TW4",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Animals T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LF76VLI",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Rainbow Spiral Streak T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LWVZ5ZG",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue 55",
+        "title": "Blue 55 Women's Bralette Wireless Padded Bra Top Sexy Everyday Basic Deep V-Neck"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01M20XS6A",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Plus Size Pink Floyd Dark Side Space Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01M217Z3V",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Crazy Blue Krinkle Tie Dye Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B06XK1S63Y",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Woodstock Banded Tie Dye Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B06XXNYZC8",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Apple Co.",
+        "title": "Blue Apple Co. Tree of Life Ring Solid 925 Sterling Silver Family Tree of Life Band 3-14 Simple Plain"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071L4J58Q",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Rainbow Blue Streak Tie Dye Short Sleeve T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071SHYNF5",
+      "detail": {
+        "token": "blue",
+        "brand": "Little Blue House by Hatley",
+        "title": "Little Blue House By Hatley Women's Cats & Dogs Sleepshirts"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B079C3P221",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Q",
+        "title": "Blue Q Women's Novelty Crew Socks (fit women's shoe size 5-10)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C3J8VW4",
+      "detail": {
+        "token": "blue",
+        "brand": "Full Blue",
+        "title": "Full Blue Big & Tall Men's Cargo Pants 100% Cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C9LBY69",
+      "detail": {
+        "token": "blue",
+        "brand": "Little Blue House by Hatley",
+        "title": "Little Blue House by Hatley womens Land Animals Pajama Boxer Shorts"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CRV4T6B",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Banana",
+        "title": "Blue Banana Women's Long Sleeve Shrug"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07FXY3CF6",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Sand Textiles",
+        "title": "Birthplace Earth Race Human Politics Freedom Religion Love. Human Rights Shirt. Super Soft & Comfy Unisex T-Shirt."
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07N4C6RKP",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Sand Textiles",
+        "title": "Blue Sand Textiles Thirty Flirty & Thriving Shirt. 30th Birthday T-Shirt. Unisex Shirt for Thirtieth Birthday."
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07T6J3MX4",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Q",
+        "title": "Blue Q Shoulder Totes: The Carry Everywhere Bag With a Hefty Zipper, Exterior Pocket, Reinforced Floor. 95% Recycled Material"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TCBR392",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Q",
+        "title": "Blue Q Men's Funny Crew Socks (fits men's shoe size 7-12)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B081TQNKCQ",
+      "detail": {
+        "token": "blue",
+        "brand": "Farm Blue",
+        "title": "Farm Blue Men's Ranger Boots - High Top Hiking Shoes for Men - Water-Resistant Canvas Combat Boots with Orthotic Insoles - Tactical Shoes for Casual, Work, or Outdoor Wear"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09M6QR35H",
+      "detail": {
+        "token": "blue",
+        "brand": "Blue Berry",
+        "title": "Blue Berry Unisex-Child Riding Boots"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BMW8M8XQ",
+      "detail": {
+        "token": "blue",
+        "brand": "BLUE HEAVEN",
+        "title": "BLUE HEAVEN 3 Pack Girl's Cable Knit Footed Tights for Children & Teens Warm Winter Leggings, Perfect for School Uniforms"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BXFMSVVH",
+      "detail": {
+        "token": "blue",
+        "brand": "BLUE CUT",
+        "title": "BLUE CUT Clip on Polarized Night Vision, Driving Sunglasses UV 400 Blocker To Wear Over Prescription Glasses"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C3JCFGGK",
+      "detail": {
+        "token": "blue",
+        "brand": "Liquid Blue",
+        "title": "Liquid Blue Men's Grateful Dead Summer Tour Bus T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C782NKT3",
+      "detail": {
+        "token": "blue",
+        "brand": "BLUE GARLIC",
+        "title": "BLUE GARLIC Men Masquerade Masks Bulk Black male, Venetian Mask Mascarade Ball Birthday Party Mardi Gras"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000FHHDHG",
+      "detail": {
+        "token": "green",
+        "brand": "Daniel Green",
+        "title": "Daniel Green Women's Denise Slipper"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000OWX362",
+      "detail": {
+        "token": "green",
+        "brand": "Daniel Green",
+        "title": "Daniel Green Women's Glamour Slipper"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B001MS72ZK",
+      "detail": {
+        "token": "green",
+        "brand": "Daniel Green",
+        "title": "Daniel Green Women's Dormie Slipper"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00G1RV00A",
+      "detail": {
+        "token": "green",
+        "brand": "GREEN FABWOOD",
+        "title": "GREEN FABWOOD Fashion Earrings Pendant Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00K8TDDXY",
+      "detail": {
+        "token": "green",
+        "brand": "Daniel Green",
+        "title": "Daniel Green Women's Ava Mule"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B015JU7Y8G",
+      "detail": {
+        "token": "green",
+        "brand": "Green Breeze Imports",
+        "title": "Green Breeze Imports Natural Abaca Fiber Large Wallet"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BSTYYH3",
+      "detail": {
+        "token": "green",
+        "brand": "The Green Glove Dryer",
+        "title": "Green Glove Dryer for Hats, Gloves, Shoes & More (Eco Dryer White W/2 Extension Nozzles)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C33ZTHL",
+      "detail": {
+        "token": "green",
+        "brand": "Green Lantern",
+        "title": "Green Lantern Superheroes DC Comics Hunter Green Tee T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07LGKG14X",
+      "detail": {
+        "token": "green",
+        "brand": "Green Billow",
+        "title": "Adult Novelty Sun Visor Cap with Spiked Hairs Wig Peaked Adjustable Baseball Hat Fake Hair"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0848F8N74",
+      "detail": {
+        "token": "green",
+        "brand": "GREEN LIFESTYLE",
+        "title": "GREEN LIFESTYLE 12 Pack Bib Apron - Unisex Red Aprons, Machine Washable Aprons for Men and Women, Kitchen Cooking BBQ Aprons Bulk (Pack of 12, No Pockets, Red)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0921ZWVBJ",
+      "detail": {
+        "token": "green",
+        "brand": "Green Town",
+        "title": "Green Town Womens Nurse Scrub Set GT4FLEX Straight Leg Cargo and V-Neck Solids and Prints"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B094GT23T7",
+      "detail": {
+        "token": "green",
+        "brand": "JIM GREEN",
+        "title": "Jim Green Men's Razorback Boots Lace-Up Water Resistant Full Grain Leather Work or Hiking Boot"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BXG87CRN",
+      "detail": {
+        "token": "green",
+        "brand": "Daniel Green",
+        "title": "Daniel Green Women's Meg Slipper"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C66Y3MQ4",
+      "detail": {
+        "token": "green",
+        "brand": "Green Town",
+        "title": "Green Town Women's Jogger Scrub Set Medical Nursing GT 4FLEX Top and Pant Solid Colors and Prints"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07D1GD8RK",
+      "detail": {
+        "token": "brown",
+        "brand": "buster brown",
+        "title": "Women's BUSTER BROWN 100% COTTON SOCKS (3 PAIR PACKAGE)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07LFLN8SK",
+      "detail": {
+        "token": "brown",
+        "brand": "Brown Oak",
+        "title": "Brown Oak Womens Lightweight Closed Toe Breathable Water Shoes Sport Hiking Sandals"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QQ3CJWN",
+      "detail": {
+        "token": "brown",
+        "brand": "Brown Oak",
+        "title": "Brown Oak Womens Rebecca Waterproof Adjustable Wellington Mid Calf Rubber Rain Boots"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07YYPC5P6",
+      "detail": {
+        "token": "brown",
+        "brand": "Brown Oak",
+        "title": "Men's Waterproof All Weather Insulated Casual Hiking Snow Rain Work Boots"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08THW2BGL",
+      "detail": {
+        "token": "brown",
+        "brand": "Brown Oak",
+        "title": "Brown Oak Mens Casual Memory Foam Comfort Slip on Boat Shoes"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0921MXCLH",
+      "detail": {
+        "token": "brown",
+        "brand": "buster brown",
+        "title": "6-Pair Buster Brown Seamless Toe Cotton Socks Dark"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B2CNYMJQ",
+      "detail": {
+        "token": "brown",
+        "brand": "MIX BROWN",
+        "title": "MIX BROWN Hat Feathers, Assorted Natural Feather Packs Accessories for Fedora Cowboy Hats, Pork Pie Trilby Hats"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0002TR7QY",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Anklet Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0002TRJMQ",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Weekend Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0002TV0M6",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Metropolitan Over-The-Calf Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0002TV2RE",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Windsor Wool Over-The-Calf Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B003HC8RYE",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Flat Knit Quarter Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B007CW0ZVI",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Ultratec Quarter Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B007CW10H6",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Ultratec Terry Cuff Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00CEOKXXO",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Bermuda Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00CEOKYBU",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Liner Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00CEOL4DC",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Hydro Teck Crew Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00HFL4BJI",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Boys Athletic Crew Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00RO1WAGA",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Verona Crew Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00XZ84NKW",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Boys Ultra Tec Athletic Quarter Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B016BTX9WO",
+      "detail": {
+        "token": "gold",
+        "brand": "D-GOLD",
+        "title": "DGOLD Sterling Silver Round Diamond Twisted Fashion Ring (0.05 cttw)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01JNY91FS",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Crew Neck T-Shirt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LWRMK2F",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold and Luster",
+        "title": "Gold and Luster Women Jewelry Drop Dangle Earrings Set Diamond Cut Silver And Gold Plated 2 Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MXZDP1R",
+      "detail": {
+        "token": "gold",
+        "brand": "BR Gold Jewelry",
+        "title": "Big Size Crystal Africa Map Pendant Necklace Women Girl 24K Gold Plated African Map Hiphop Item"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B06WVHLGRB",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Straight Fit Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071454HZ5",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Tech Ankle Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B073V1FVRP",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Boys Pull On Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B076CTRTCV",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Bootcut Jeans (Available in Big & Tall)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B076DS34JP",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Ultra Soft and Cozy Geo Crew Socks, 3 Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B077VPPSXW",
+      "detail": {
+        "token": "gold",
+        "brand": "CS-DB Gold",
+        "title": "CS-DB Silver Plated Butterfly Pendant+Chain Women Lady Girl Sterling"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0797KBCFF",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co Men's Skinny Fit Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B079K3HGTP",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Castaway Crew Socks, 3 Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B079Z22SVK",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Carpenter Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C7QXWGQ",
+      "detail": {
+        "token": "gold",
+        "brand": "GH GOLD HORSE",
+        "title": "GH GOLD HORSE Slim Magnetic Money Clip Genuine Leather Business Card Holder for Men"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07D1M9H5S",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Original Trucker Jacket (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07D218FRB",
+      "detail": {
+        "token": "gold",
+        "brand": "GH GOLD HORSE",
+        "title": "GH GOLD HORSE Slim RFID Blocking Card Holder Minimalist Leather Front Pocket Wallet for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07KFR2MQN",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Standard",
+        "title": "Gold Standard Premium Shoe Cleaning Kit with 4 Oz Shoe Cleaner Solution & Hog Hair Brush - Sneaker Cleaning Kit for Tennis, Leather, Canvas Shoes – White Shoe Cleaner Sneakers Kit – Shoe Cleaner Kit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07PVV9LK5",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Kids Classic Easy Snap Lock Outdoor/Water Sandals & Slides. Adjustable Straps"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TM7H9YX",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Crew Dress Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07V258L27",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Designer Collection Crew Socks, 3 Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07XYGYDPD",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Women's Modern Bootcut Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B081W4LZ6Q",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Canterbury Over-the-Calf Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B085QJ16ZV",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon WOMEN WEDGE Sandals, Slides & Flip-Flops, Slides"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0874SQYKV",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon Shoes AIR Cushion Unisex Easy SNAP LOCK Sandals & Flip Flops"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B087N6SDLF",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping Bootcut Jeans (Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B088XZH4GT",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Signature Trucker Jacket"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08BBRYSVF",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Athletic Crew Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08D7G6BJZ",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Mid-Rise Bermuda Shorts (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08DLP3545",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Boys' Straight Fit Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08F76WZBD",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon CLASSIC Unisex Slides, Flip-flops & Sandals"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08QD3P3B2",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's High Rise Super Skinny Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08YHTQNH7",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Designer Collection Midi Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09246SBZM",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Modern Straight Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0928RJ5X5",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Classic Canterbury Crew Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B093JJL2MC",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Pull On Casual Elastic Waist Short (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09532XQL9",
+      "detail": {
+        "token": "gold",
+        "brand": "GOLD XIONG PADISHAH",
+        "title": "I Think About You Every Daisy Ring Tiny Dainty Simple Flower Ring 925 Sterling Silver Rings Stacking Rings for Women Casual Rings Delicate Everyday Ring Comfort Fit Bands Ring for Girls & Womens (9)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095JHDJNC",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Women's Casual Texture Crew Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L1FWQQ",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Windsor Wool Crew Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L1FWWL",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Girls Liner Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L2DD7Z",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Ultra Soft Mid Crew Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L312LZ",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Metropolitan Crew Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L4XPF2",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Uptown Crew Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L53619",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Sport Vacation No Show Socks with Tab, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095L5S645",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Cotton Low Cut Sport Liner Socks, 6-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B096VSGLB3",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's 656P Cotton Ankle Athletic Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B098RH28G3",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Women's Casual Ribbed Crew Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B098RN349X",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's 656S Cotton Crew Athletic Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B098RNSFDB",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's 656F Cotton No Show Athletic Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B099QWQSYS",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Curvy Totally Shaping Straight Jeans (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09B1KSZHD",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Cotton Quarter Athletic Sock"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09M2XQ3XS",
+      "detail": {
+        "token": "gold",
+        "brand": "gacimy gold",
+        "title": "Gacimy Gold Hoop Earrings for Women 14K Real Gold Plated, 925 Sterling Silver Post Gold hoops for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09MLHBLZL",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping Pull-On Bootcut (Also Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09QP6RMRW",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon Breeze Ultra Light Women Flip Flops"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09QPRVYBV",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon Toe Guard Unisex Outdoor/Water Sandals"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09QT6ZMC3",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Mid Rise Slim Boyfriend Jeans (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09R273ZD5",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Modern Bootcut Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09V215J3R",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Over-The-Calf Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B5BR42DL",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Maternity Skinny Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BCYBHP7B",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping Skinny Jeans (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BFXLJGWL",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Straight Stretch Chino Pants"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BFZVHCB8",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Regular Fit Flex Jeans (Available in Big & Tall)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BKLRG1P7",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Maternity Baby Bump Skinny Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BQDTGHMZ",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Modern Skinny Jeans (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BQVRWY7D",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Relaxed Fit Flex Jeans (Available in Big & Tall)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BR1NH9S2",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping High Rise Skinny Jeans (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BV8F1H41",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping Pull-on Skinny Jeans (Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BXHLKXCV",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Athletic Fit Jean"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYC3YQ24",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Original Trucker Jacket (Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYC74VS6",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Mid-Rise Bermuda Shorts (Standard and Plus)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYC79F57",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Mid-Rise Slim Fit Capris (Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYX9MVHB",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Carlyle Argyle Crew Dress Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYXTTWS8",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Men's Athletic Tech Jeans (Available in Big & Tall)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C15R4WD1",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Harrington Crew Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C1HVP2WB",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Fluffies Casual Crew Socks"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C1Z8M1VM",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Men's Hampton Crew Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C39HWB2K",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Totally Shaping Pull on Bermuda Shorts (Available in Plus Size)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C3J46QG2",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Argyle Dress Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C3PCBYCP",
+      "detail": {
+        "token": "gold",
+        "brand": "Signature by Levi Strauss & Co. Gold Label",
+        "title": "Signature by Levi Strauss & Co. Gold Label Women's Heritage High-Rise Loose Straight"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C4ZGYYKY",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Ultra Tec Performance Ankle Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C5XX9YZW",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon Shoes SIMPLUS Unisex Yoga Mat Sandals, Flip-flops & Slides Sandals with Heel Support"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C5Y2KP6K",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Pigeon Shoes",
+        "title": "Gold Pigeon WOMEN SIGNATURE: Comfort Walking Ergonomic Flip Flops, Slides & Sandals"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C6R93HH4",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Stanton Crew Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C6R9JRF2",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Ultra Tec Performance Crew Athletic Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C7M4HW1Y",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "GOLDTOE Women's Ultratec Crew Socks, 3-Pairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C7M6DXN4",
+      "detail": {
+        "token": "gold",
+        "brand": "Gold Toe",
+        "title": "Gold Toe Men's Ultra Tec Performance Over-The-Calf Athletic Socks, Multipairs"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Raindrops of Ireland - Sterling Silver Celtic Knot Simulated Blue Topaz Hook Earrings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Antiqued Elephant Sterling Silver Marching Elephants Toe Ring or Adjustable Pinky Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000A1BJWM",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Very Tiny Sterling Silver Star Stud Earrings 3/16 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000FX1C40",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Sterling Silver Coiled Wirework Ear Cuff Pair Earrings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000FZ3UGQ",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Sterling Silver Celtic Trinity Knot Heart Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15,16)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000PV9ODS",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Classic Smooth Puffed Teardrop Sterling Silver Hook Earrings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000Q0QX0U",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Curley Cue Twisted Spiral Sterling Silver Hook Earrings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000U8SS4W",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Small Stainless Steel Celtic Triquetra Trinity Dangle Earrings, 1 3/4 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B000UONYO0",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver Triquetra interlaced w/Circle Celtic Knot Stud Earrings, 1/4 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B002MX8LBS",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Celtic Trinity Knot Tree of Life with Sun and Moon Sterling Silver Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15,16)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B002ODTWBE",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Rising Sun - Interconnected Celtic Knot Tree and Roots of Life Sterling Silver Pendant"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B007X9BPMS",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "Hawaiian Silver Jewelry Hoop Earrings for Women – Premium 2 x 10mm Sterling Silver Earrings – Extra Small Hoop Earrings with Simple Elegant Design – Includes Jewelry Box and Pouch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B008VUY8PO",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "Mimi 925 Sterling Silver 7 Day 7 Band Stacked Stacking Band Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00IS6S8HU",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "MIMI 6MM Sterling Silver Plain Flat Wedding Band Ring Size 5, 6, 7, 8, 9, 10, 11, 12"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00IS8AL28",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "Mimi 925 Sterling Silver Open Tree of Life Ring Size 5, 6, 7, 8, 9, 10, 11, 12"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00QDTZTJY",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "2mm Sterling Silver Bead or Ball Chain Necklace(Lengths 14\",16\",18\",20\",22\",24\",26\",28\",30\",36\")"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00SD7N7Y8",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Clover",
+        "title": "Gold Cufflinks for Men, 18K Gold Plated Vintage Celtic Cross Filigree, Gift Box Packed, Suitable for Wedding, Birthday, Anniversary and Father's Day"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B011M2QAOO",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Women's Vintage Design Simulated Black Onyx Ring New .925 Sterling Silver Band Sizes 4-10"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01550GI8C",
+      "detail": {
+        "token": "silver",
+        "brand": "925 Silver Plated",
+        "title": "Natural Labradorite Necklace 925 Silver Overlay Handmade Vintage Style Fashion Jewelry For Women Mom Wife"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B015P83HF6",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "Sterling Silver 1.3mm Diamond-Cut Rope Chain Necklace Solid Italian Nickel-Free, 14-36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B015P83HG0",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "14kt Yellow Gold Plated Sterling Silver 1mm Box Chain Necklace Solid Italian Nickel-Free, 14-36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B018GR6Q74",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Round Snake 1.9mm 2.2mm 2.4mm 3mm 4mm 5mm Chain Solid 925 Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B018GWG4UI",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Wheat Chain 1.5mm 1.9mm 2.6mm 3.4mm 4.4mm 5.1mm 6mm 8mm Solid 925 Italy New Foxtail Spiga Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B018UR3J84",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Invisible Belt for Women - Elastic Adjustable No Show Web Belt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01B3HZ7II",
+      "detail": {
+        "token": "silver",
+        "brand": "Beverly Hills Silver",
+        "title": "Silver Cubic Zirconia Comfort Fit Hoop Earring-giftboxed"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BEAXXEO",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1.5 MM Box Chain Italian Necklace Sturdy Lightweight - Lobster Claw Clasp 16-36\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BM86778",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Long Oval Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BM86MFK",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Oval Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BM86MWI",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Round Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BM89J9G",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Eternity Wave Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BM89L80",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Oval Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01BO6RYBG",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Teardrop Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01DKV63RE",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Oxidized Leaf Fashion Feather Ring New .925 Sterling Silver Band Size 3-12"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01DLAHCRO",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Chevron Filigree .925 Sterling Silver Toe Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01ERXDT0I",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Heart Halo Promise Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01FMMSQ6U",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "MIMI 925 Sterling Silver Hammered Open Teardrop Hoop Earrings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01G408EBG",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Knot Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01H24HL30",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Nugget Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01H32OKLW",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1.8MM Figaro Chain - Italian Necklace For Women - Lobster Claw Clasp - 16-30\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LXFZOXI",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Celtic Knot Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01LZE5IW1",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Eternity Infinity Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MDNQ7VL",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Custom Fit Thumb Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MPZMYOB",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Sideways Cross Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MTD6S5H",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Infinity Knot Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01N380XIK",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Evil Eye Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B06XS9K1JQ",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Light Jewelry",
+        "title": "925 Sterling Silver Good Luck Vintage Irish Celtic Triquetra Knot Heart Pendant Necklace and Earrings Jewelry Set…"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0716YBBRX",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Chevron Thumb Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071KH1TQJ",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Wave Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071NN2Z93",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Simulated Turquoise Oxidized Feather Ring .925 Sterling Silver Tree Leaf Band Sizes 6-10"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071P275GL",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Tree of Life Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07468R7XV",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1.5 MM Box Chain Italian Crafted Necklace - Lobster Claw 16-36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B075RCXVHT",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Wedding 2mm Band Plain Comfort Fit Ring Solid 925 Italy"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B076B9TD5W",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Canyon Boot and Clothing Company",
+        "title": "Children Western Cowboy Cowgirl Boot, Monterey by Silver Canyon for Boys, Girls and Toddlers"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0775D5GS1",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Slim Buffalo Plaid Flapjack Pajamas - Warm Adult Onesie Jumpsuit, Cotton One Piece PJs, Union Suit, Women's"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B077V51Z71",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR CLASP Sterling Silver 0.8mm Box Chain Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0792N4TXJ",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Stainless Steel Tiny Moon & Star Stud Earrings 5/16 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0792QGJF4",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Small Stainless Steel Celtic Trinity Stud Earrings Triquetra available in two sizes"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07994PMBJ",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "1.2mm - 5 mm Sterling Silver Plain Pallini Bead Ball Chain NecklaceNickel Free Italy"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BJBK1JS",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Italian 2mm Sterling Silver Snake Chain Necklace(Lengths 14\",16\",18\",20\",22\",24\",30\",36\")"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BM6ZQ5F",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Fuzzy Bear Feet Paw Slippers for Women & Men, Big Foot, Monster Funny House Shoes for Indoor & Outdoor, Teddy Cute Novelty"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BSB8HFM",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Women's Celtic Flower Ring Classic 925 Band 6mm New Sizes 4-10"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BTMVVDV",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Sun Moon Universe Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BVWQN23",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver fine Boston Link Chain Necklace 1mm Very Thin Nickel Free Italy sizes 16-24 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BWLX8VP",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver Box Chain Necklace 0.8mm Very Thin Nickel Free Italy, Sizes 7-30 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BYDL1FG",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Scottish Thistle and Celtic Knot Wedding Band 11mm Wide Sterling Silver Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BYZMMMP",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1MM Round Snake Italian Chain Necklace - Lobster Claw Clasp 16-30\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07BZR9PSX",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Fuzzy Dog Slippers for Women & Men, Funny, House Shoes, Animal, Cute Novelty, Great Mother's Day Gift for Mom, Wife, Daughter"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C1QYBP6",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Women's Claddagh Heart Hand Ring Cute 925 Band 9mm Sizes 2-14"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C2173YB",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Heart Promise Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C2NY4S8",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "Hawaiian Silver Jewelry 1mm Sterling Silver Box Chain – Elegant and Simple Silver Box Chain Necklace 7-36-inch – Exquisite Silver Box Chain Necklace for Women – Thin Design – No Nickel Sterling Silver"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C3RZC14",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1.2 MM Singapore Italian Chain Necklace with Lobster Claw Clasp 16-30\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C4YB8Q9",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "Mimi 925 Sterling Silver Wicca Pentacle Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C91X7J6",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Small Sterling Silver Detailed Rose Flower Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07C9R86LT",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Sterling Silver Celtic Knot and Genuine Rainbow Moonstone Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15)"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CBS6W2L",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Bali Bead Wide Fashion Ring New .925 Sterling Silver Thin Band Sizes 5-12"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CGFYR6T",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "Mimi 925 Sterling Silver Triple Plumeria Flower Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CGNRR7B",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver .8MM Box Chain - Italian Necklace - Super Thin & Strong - 16\" - 30\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CL6F6L6",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "Sterling Silver Antiqued Popcorn Chain Necklace or Bracelet(Lengths 7\",8\",14\",16\",18\",20\",22\",24\",30\",32\",36\")"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CN8G4ZC",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "New Black Silk Cord Chain Necklace Sterling Silver(Lengths 15\",16\",19\",24\")"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CNBGHNP",
+      "detail": {
+        "token": "silver",
+        "brand": "Mimi Silver",
+        "title": "Mimi 925 Sterling Silver 3 Triple Band Interlocked Rolling Russian Wedding Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CNV7FL9",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 2 MM Singapore (Twisted Curb) Italian Chain - Lobster Claw Clasp 16-30\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CR7DSST",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Insanity",
+        "title": "2mm Sterling Silver Diamond-Cut Rope Chain Necklace(Lengths 14\",16\",18\",20\",22\",24\",26\",28\",30\",32\",34\",36\")"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CRR7XYY",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1MM Box Chain Italian Necklace Lightweight Strong - Lobster Claw Clasp 16\" - 36\""
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07D3G1GFX",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Canyon Boot and Clothing Company",
+        "title": "Indiana Outback Crushable Wool Fedora Hat, Silver Canyon"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07DNK6Q3C",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver 6mm Princess Cut CZ Stud Earrings Assorted Birthstone Colors"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07DR8GFNT",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "14kt Yellow Gold Plated Sterling Silver 1.1mm Diamond-Cut Rope Chain Necklace Solid Italian Nickel-Free, 14-36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07FVMWWB4",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "Hawaiian Silver Jewelry Sterling Silver Necklace – 1.1mm Diamond-Cut Rope Chain Necklace – Premium Italian Made Silver Jewelry – Elegant Silver Necklace for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07GP5RKWR",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Mountain Range Snow Caps Outdoor Hiking Ring 925 Sterling Silver Band Sizes 4-13"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07JXQY8KQ",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Canyon Boot and Clothing Company",
+        "title": "Weathered Outback Outdoorsmen Shapeable Hat, Silver Canyon, Brown"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07K5L64LK",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 1MM or 1.6MM 8 Sided Italian Snake Chain - Italian Necklace For Women - Lobster Claw Clasp"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07K6TCFKC",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Womens Sherpa Trim Fleece Robe with Hood - Full Length Warm Plush Luxury Bathrobe"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07L1WVF9S",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Phantom Jewelry",
+        "title": "Silver Phantom Jewelry Cat Ear Ring in Sterling Silver"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07NBMBJ2C",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Filigree Cut Hoop Earrings for Women Girl 26 MM"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07NBVZMJG",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Round Oval Shaped Puff Diamond Cut Click Top Hoop Earrings for Teens and Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07NDCHCRW",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Inspiration Engraved Pendant Necklace with Cable Chain for Women Teen"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07PGLBWZY",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "14kt Rose Gold Plated Sterling Silver 1.1mm Diamond-Cut Rope Chain Necklace Solid Italian Nickel-Free, 14-36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07PK2YJ2D",
+      "detail": {
+        "token": "silver",
+        "brand": "Sterling Silver Jewelry",
+        "title": "Gemstone Earrings for Women, Handmade Dangle Earrings, Pear Stone Earrings, Silver Plated Earrings Dangle"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07PWXGHCW",
+      "detail": {
+        "token": "silver",
+        "brand": "Sterling Silver Jewelry",
+        "title": "Natural Stone Rings for Women, Solitaire Rings for Women, 1 Stone Rings for Women, Ring Size 5-12 for Women, Silver Plated Rings, Oval Stone Rings for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QDZ84G6",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR CLASP Sterling Silver 1.2mm Cable Chain Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QG2QML7",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Italian Ball Bead Chain 1mm 1.2mm 1.5mm 1.8mm 2.4mm 925 Italy New Dog Tag Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QG2QPCV",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Round Snake 0.8mm 0.9mm 1mm 1.2mm 1.6mm Chain 925 Italy Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QKC7SF2",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Diamond-Cut Rope Chain 1.1mm 1.5mm 1.7mm 2mm 2.5mm Solid 925 Italy New Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07QKM3BHG",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR CLASP Sterling Silver 1mm Box Chain Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07SXD7QBS",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Pave Heart Charm Bracelet with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07T3FPPYN",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Circle Charm French Hook Drop Earrings with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07T861TRT",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Pave Heart Charm for Bracelet with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TCC9NW2",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Square Charm for Bracelet with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TCD26JV",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Square Charm for Bracelet with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TDMX82R",
+      "detail": {
+        "token": "silver",
+        "brand": "Inspired Silver",
+        "title": "Inspired Silver - Silver Circle Charm 18 Inch Necklace with Cubic Zirconia Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07TK98N33",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Diamond-Cut Love Knot Stud Earrings for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B081X9D75L",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Flexible Magic Herringbone Necklace 2.7mm-14.6mm Solid 925 Italian Chain"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B081XC9HM5",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Sterling Silver Flat Figaro Chain 1mm-4.5mm Solid 925 Italy Link Women's Men's Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B081XCRRND",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "Men's Women's Sterling Silver Flat Curb Chain 1.2mm-4.4mm Solid 925 Italy Link Necklace"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08262FC4B",
+      "detail": {
+        "token": "silver",
+        "brand": "925 Silver Plated",
+        "title": "Natural Moonstone Labradorite Pearl Bangle 6x9mm Pear Shape Gemstone 925 Silver Overlay Handmade Cuff Bangle Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B082R454NZ",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Infinity Knot Twist French-Wire Drop Dangle Earring for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084H6PRXL",
+      "detail": {
+        "token": "silver",
+        "brand": "Hawaiian Silver Jewelry",
+        "title": "Hawaiian Silver Jewelry Plumeria Womens Stud Earrings – Hawaiian Flower Stud Earrings for Women – Sterling Silver Flower Earrings with CZ Stone – Sterling Silver Plumeria Earrings 7mm"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084RYPGXN",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Polishing Cloth for Silver, Gold, Brass & Most Other Metals, 12x15 Largest Size"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0851PB8QT",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver Assorted Shapes Click Top Tube Hoop Earrings for Women 3mm Tubing"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B085RHS4FW",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Men's Zac Relaxed Fit Straight Leg Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B085SNFZCG",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Tuesday Low Rise Slim Bootcut Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B085X4HZ3H",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "2mm Tube Sterling Silver 10mm-20mm Hoop Earrings Women and Men Click Top 3/8-13/16 inch Round"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08GY1TM6S",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 2MM Diamond Cut Rope Chain Necklace for Women & Girls Upgraded Lobster Claw Clasp Made in Italy 16 18 20 22 24 30 and 36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08GYMXX1L",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver 2.5 MM Diamond Cut Rope Chain Necklace for Men Women & Girls Upgraded Lobster Claw Clasp Made in Italy 16 18 20 22 24 30 and 36 Inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08MJFPTPP",
+      "detail": {
+        "token": "silver",
+        "brand": "Designer Sterling Silver",
+        "title": "925 Sterling Silver Wheat Chain 1.5mm - Italian Spiga Sterling Silver Necklace Chain with Lobster Claw Clasp, Nickel Free 925 Silver Chain Necklace in lengths from 16-30 Inches"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08X12L9KF",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "2.2mm Sterling Silver Rope Chain Necklaces & Bracelets for Women Diamond Cut Nickel Free Italy 7-30 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08XWDWM5W",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver Synthetic Opal Bead Charm CZ Accent Charm Bracelet Compatible assorted colors 3/8 inch"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0929816YG",
+      "detail": {
+        "token": "silver",
+        "brand": "Sterling Silver Jewelry",
+        "title": "Gemstone Bracelets for Women 7mm Round Shape Gemstone 925 Silver Overlay Handmade Bracelet Jewelry"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B093GXBP7S",
+      "detail": {
+        "token": "silver",
+        "brand": "Sterling Silver Jewelry",
+        "title": "Cuff Bangles for Women, Natural & Synthetic Stone Bangles, Single Stone Bangles for Women, Handmade Bangle, Bohemian Bangles for Women, Silver Plated Bangles for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0966DFF6S",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Suki Mid Rise Skinny Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B099G12D32",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Suki Mid Rise Straight Leg Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09BFX4ZWX",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy Sterling Silver Jewelry Filigree Cut Click-Top Hoop Earrings for Teen And Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09DSS3Q7W",
+      "detail": {
+        "token": "silver",
+        "brand": "Sterling Silver Jewelry",
+        "title": "Natural Stone Rings for Women, 12x16mm Oval Solitaire Rings for Women, 1 Stone Rings for Women, Ring Size 5-12 for Women, Silver Plated Rings, 12x16mm Oval Stone Rings for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09GX94PRX",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Suki Mid Rise Straight Leg Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09LSW3WWN",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Suki Mid Rise Slim Bootcut Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B7FQSK9F",
+      "detail": {
+        "token": "silver",
+        "brand": "Sabrina Silver",
+        "title": "Sterling Silver 1mm Box Chain Necklace for Men and Women Assorted Finishes Nickel Free Italy 14-36 inch lengths"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B7JYBMDK",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Canyon Boot and Clothing Company",
+        "title": "Western Hat Band for Cowboy Hats by Silver Canyon, Brown Leather with Horsehair and Diamond Concho"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BCB5TZP7",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Suki Mid Rise Bootcut Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BGMCWBX3",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Womens Sherpa Fleece Bath Robe, Fluffy Plush Bathrobe Great Mothers Day Gift Present for Mom, Grandma, Daughter, Sister, Wife"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BHD37ZX3",
+      "detail": {
+        "token": "silver",
+        "brand": "Sac Silver",
+        "title": "CHOOSE YOUR COLOR Sterling Silver Wave Stacking Ring"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BJ7QQ8LY",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Adult Onesie Halloween Costume - Animal and Sea Creature - Plush One Piece Cosplay Suit for Adults, Women and Men FUNZIEZ!"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BL63259S",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Dinosaur Adult Onesie - T-Rex Halloween Costume - Plush Dino One Piece Cosplay Suit for Adults, Women and Men FUNZIEZ!"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BLP7XR4J",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Slim Fit Adult Onesie - Animal Halloween Costume - Plush Fruit One Piece Cosplay Suit for Women and Men by FUNZIEZ!"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BVTYVTH3",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Womens Zip Front Fleece Bath Robe, Sherpa Hooded Bathrobe, Great Mothers Day Gift for Mom, Grandma, Daughter, Sister, Wife"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BVXMLZMS",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Womens Plush Fleece Bath Robe, Fluffy Long Bathrobe - MidLength Plush Soft Luxury Bathrobe"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BVY7XRBK",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Silver Lilly Fuzzy Animal Slippers for Women & Men, House Shoes, Teddy Bear, Cow, Cute, Great Mother's Day Gift for Mom, Wife, Daughter"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BYN6BD59",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy 925 Sterling Silver Adjustable Lightweight Bolo Bracelet for Teen Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BZ19Z8G2",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Jeans Co.",
+        "title": "Silver Jeans Co. Women's Boyfriend Mid Rise Slim Leg Jeans"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BZLZQGWJ",
+      "detail": {
+        "token": "silver",
+        "brand": "Silver Lilly",
+        "title": "Womens Plush Fleece Bath Robe, Fluffy Long Bathrobe, Great Gift for Mom, Grandma, Daughter, Sister, Wife, Friend"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C3MGKYSL",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy 925 Sterling Silver Hoops 2.5mm Thick Lightweight Round Italian Hoop Earrings for Teen Women 15/20/25/30/35/40mm"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C6ZJGNX8",
+      "detail": {
+        "token": "silver",
+        "brand": "Charmsy Silver",
+        "title": "Charmsy 925 Sterling Silver Light-Weight Antique Filigree Teardrop Drop Earrings for Women"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00N201S7O",
+      "detail": {
+        "token": "pink",
+        "brand": "Totally Pink",
+        "title": "Totally Pink Women's Warm and Cozy Plush Fleece Winter Pajama Set Teen and Girls"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00N21DGPA",
+      "detail": {
+        "token": "pink",
+        "brand": "Totally Pink",
+        "title": "Totally Pink Women's Warm and Cozy Plush Adult Onesies for Women One Piece Novelty Pajamas"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00PFPA98S",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Platinum",
+        "title": "Pink Platinum Girls' Double Leopard Jacket"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B00YAFFTMU",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Hero",
+        "title": "Pink Hero Men's Superhero Panties Marvel Cartoon Print Batman Boxer Briefs for Men Underwear"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01B8S5LIS",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "Sport Wrap Bifocal Sunglasses - Outdoor Reading/Activity Sunglasses - Soft Pouch Included"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01C2IPCQ4",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Womens Button Up Printed Long Wide Leg Pant Party Jumpsuits with Belt"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01GDQH5TI",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Removable Strap Wrap Pad Cheeky High Waist Bikini Set Swimsuit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B01MDRGXJ2",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "Hawaii Flower Polarized Rhinestone Sunglasses Fit Over Oval Rectangular Cover Sunglasses"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B06XG1JRPQ",
+      "detail": {
+        "token": "pink",
+        "brand": "Celebrity Pink",
+        "title": "Celebrity Pink Women's Power Ponte Mid Rise Super Skinny"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B071F7XNJ6",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "3 Pair Classic Bifocal Outdoor Reading Sunglasses Stylish Comfort Magnification Lens"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0734JT3KV",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Plus Size Sleeveless Long Pants Jumpsuit with Chiffon Overlay"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B075JDDMWV",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Tassel Hem Open Front Cardigan Pullover Knit Sweater Coat"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0761KZVCY",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Loose Turtleneck Oversize Long Pullover Sweater Dress"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0762382RR",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "Polarized Fit Over Wear Over Wrap Around Reading Glasses Sunglasses Men and Women Large"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B077DFDLTZ",
+      "detail": {
+        "token": "pink",
+        "brand": "Miss Pink",
+        "title": "Miss Pink Silver/14k Gold Plated Birthday Bracelet Gifts for Her Birthday for Daughter Granddaughter Friends Mom Grandma Sister"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B077JXNCPW",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Womens Loose Crew Neck Batwing Sleeve Patches Blouse Top T-Shirts"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0789CRZN5",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "Pink Ribbon Shades 2 Pair Polarized Rhinestone Fit Over Wear Over Reading Reader Glasses Sunglasses"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B078WZW2QR",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Ribbon Shades",
+        "title": "Pink Ribbon Shades 2 Pair Polarized Fit Over Wear Over Reading Glasses Lens Cover Sunglasses"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CPY4547",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Crop Top High Waisted Cheeky Bikini Set Two Piece Swimsuits"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07CQRGTN6",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Floyd",
+        "title": "Pink Floyd Rock Band Wish You were Here '75 Adult Fitted Jersey T-Shirt Tee"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07KW18QBF",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Platinum",
+        "title": "Pink Platinum Girls' Snowmobile Snowsuit"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07MG771BL",
+      "detail": {
+        "token": "pink",
+        "brand": "PINK",
+        "title": "Women Bras 6 Pack of Basic No Wire Free Wireless Bra B Cup C Cup"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07SHB8BM1",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Long Sleeve Flowy Maxi Swimsuit Tie Front Robe Cover Up"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B07YP2N46H",
+      "detail": {
+        "token": "pink",
+        "brand": "PINK",
+        "title": "50s Pink Coat Halloween Costumes Lady with 2 Neck Scarf and Cateye Glasses for Women Role-Playing and Fancy Dress Props"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0841VXPSZ",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women Plus Size 2 Piece Bikinis Tummy Control Floral Print Ruffle Swimsuits"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B084SQS774",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's 2 Piece Plus Size High Waisted Swimsuits Ruched Tummy Control Bikini Set"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B087FZDRGN",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Women 2 Piece Tie Dye Sweatsuit Set Long Sleeve Pullover and Drawstring Sweatpants Sets"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08B4FLP2L",
+      "detail": {
+        "token": "pink",
+        "brand": "Totally Pink",
+        "title": "Totally Pink Women's Plush Warm Cozy Character Adult Onesies for Women One Piece Novelty Pajamas"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08HM1XJNG",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women Off Shoulder Sweater Long Sleeve Striped Color Block Casual Knit Pullover Top"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08P3RWY77",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women Turtleneck Loose Print Christmas Long Sweater Dress with Pockets"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B08R576GFG",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Womens One Piece Swimsuit Tummy Control V Neck Twist Front Ruched Swimwear"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B093GWWJ63",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Wind",
+        "title": "Pink Wind Bra Padded Cami Tanks Tops for Women Camisole with Built in Bra"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B095PHFKVT",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Wind",
+        "title": "Pink Wind Women's Bell Bottom Pants High Waist Flare Boho Print Maxi Trousers"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B09MMY5JGY",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Crew Neck Sleeveless Cutout Side Slit Knee Length Bodycon Midi Dress"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0B7NSJYP1",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's Casual Long Sleeve Slim Ruched Tunic Tshirt Dress to Wear with Leggings"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BHLHWNPR",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's V Neck Button Sweater Oversized Batwing Long Sleeve Henley Pullover Knit Jumper Top"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0BTLXPP1T",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Queen",
+        "title": "Pink Queen Women's 3\" High Waisted Swim Shorts Bathing Suit Bottoms Quick Dry Flared Yoga Board Shorts with Liner"
+      }
+    },
+    {
+      "name": "brand_token_not_colour",
+      "passed": true,
+      "product_id": "B0C548M4Q2",
+      "detail": {
+        "token": "pink",
+        "brand": "Pink Platinum",
+        "title": "Pink Platinum Girls' Swim Cover-Up – Kids Hooded Terry Beach Towel Robe – UPF 50+ Beach/Pool Bathrobe for Girls"
+      }
+    },
+    {
+      "name": "brand_token_not_audience",
+      "passed": true,
+      "product_id": "B08PNNNP3R",
+      "detail": {
+        "token": "women",
+        "brand": "Andees-USA STOCK Women Leggings"
+      }
+    },
+    {
+      "name": "brand_token_not_audience",
+      "passed": true,
+      "product_id": "B07C1T4BDX",
+      "detail": {
+        "token": "kids",
+        "brand": "TeeHee Kids"
+      }
+    },
+    {
+      "name": "brand_token_not_audience",
+      "passed": true,
+      "product_id": "B07SRTM58P",
+      "detail": {
+        "token": "kids",
+        "brand": "Simply Kids"
+      }
+    },
+    {
+      "name": "brand_token_not_audience",
+      "passed": true,
+      "product_id": "B0978TL2SZ",
+      "detail": {
+        "token": "kids",
+        "brand": "LULLABY KIDS"
+      }
+    },
+    {
+      "name": "brand_token_not_audience",
+      "passed": true,
+      "product_id": "B098X7GFPX",
+      "detail": {
+        "token": "kids",
+        "brand": "LULLABY KIDS"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B00B6FGOTO",
+      "detail": {
+        "token": "leather",
+        "brand": "Leather Luster",
+        "title": "Leather Luster Hi Gloss Brilliant Patent Leather Finish 4 Ounce - Black",
+        "masked_title": "Hi Gloss Brilliant Patent Leather Finish 4 Ounce - Black",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B00OHX8IBO",
+      "detail": {
+        "token": "leather",
+        "brand": "North Star Leather",
+        "title": "North Star Men's Leather Squeeze Coin Pouch Change Holder (3.25 X 3 X 0.25 Inches, Bass Tan)",
+        "masked_title": "North Star Men's Leather Squeeze Coin Pouch Change Holder (3.25 X 3 X 0.25 Inches, Bass Tan)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B00U52JX7O",
+      "detail": {
+        "token": "leather",
+        "brand": "The Leather Factory",
+        "title": "The Leather Factory Men's SWORD Genuine Lambskin Leather Biker Jacket",
+        "masked_title": "Men's SWORD Genuine Lambskin Leather Biker Jacket",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B00Y29PA8W",
+      "detail": {
+        "token": "leather",
+        "brand": "Event Biker Leather",
+        "title": "Event Biker Leather Men's Basic Motorcycle Jacket with Pockets",
+        "masked_title": "Men's Basic Motorcycle Jacket with Pockets",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B00ZJJON6Y",
+      "detail": {
+        "token": "leather",
+        "brand": "Milwaukee Leather",
+        "title": "Milwaukee Leather Men's Deerskin Leather Thermal Gauntlet Gloves (2XL)",
+        "masked_title": "Men's Deerskin Leather Thermal Gauntlet Gloves (2XL)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0133E5BO4",
+      "detail": {
+        "token": "leather",
+        "brand": "Milwaukee Leather",
+        "title": "Milwaukee Leather DM1002 Men's Black Lightweight Sleeveless Denim Shirt",
+        "masked_title": "DM1002 Men's Black Lightweight Sleeveless Denim Shirt",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B01FWIE1W2",
+      "detail": {
+        "token": "leather",
+        "brand": "MJL Leather",
+        "title": "MJL\"Classic\" Genuine Napa Leather Coin Purse. 3 x 4.5 inches Made in USA",
+        "masked_title": "MJL\"Classic\" Genuine Napa Leather Coin Purse. 3 x 4.5 inches Made in USA",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B01NAPJORD",
+      "detail": {
+        "token": "leather",
+        "brand": "Logical Leather",
+        "title": "Logical Leather Reversible Men’s Belt - Genuine Full Grain Leather Belts for Men",
+        "masked_title": "Reversible Men’s Belt - Genuine Full Grain Leather Belts for Men",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B06XX89VY8",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Genuine Leather U.S.A. Made Zipper Coin Purse, Coin pouch Change Holder For Men & Woman By Nabob Leather",
+        "masked_title": "Genuine Leather U.S.A. Made Zipper Coin Purse, Coin pouch Change Holder For Men & Woman By",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B06XXRLY9G",
+      "detail": {
+        "token": "leather",
+        "brand": "Preston Leather",
+        "title": "Preston Leather Nautical Code Flag Belt Blue",
+        "masked_title": "Nautical Code Flag Belt Blue",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B075C2HHH1",
+      "detail": {
+        "token": "leather",
+        "brand": "Reindeer Leather",
+        "title": "Reindeer Leather Men's Leather Slippers | Genuine Sheepskin Leather Slip-On, Odor Resistant Sole, Therapeutic Foot Bed & Traction Sole, Indoor House Sliders For Men",
+        "masked_title": "Men's Leather Slippers | Genuine Sheepskin Leather Slip-On, Odor Resistant Sole, Therapeutic Foot Bed & Traction Sole, Indoor House Sliders For Men",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0768KY4MD",
+      "detail": {
+        "token": "leather",
+        "brand": "URBAN LEATHER",
+        "title": "URBAN LEATHER Women's Crossbody Shoulder Sling Bags Genuine Leather Boho Hippie Satchel for Teen Girls Handmade Vintage Travel Cross body Saddle Bag Wallet for Women Ladies Handbag Purses for Her",
+        "masked_title": "Women's Crossbody Shoulder Sling Bags Genuine Leather Boho Hippie Satchel for Teen Girls Handmade Vintage Travel Cross body Saddle Bag Wallet for Women Ladies Handbag Purses for Her",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B079P8WLMY",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Fanny Pack Waist Bag Multifunction Genuine Leather Hip Bum Bag Travel Pouch for Men and Women- Multiple Pockets & Sturdy Zippers Ideal for Hiking Running And Cycling",
+        "masked_title": "Fanny Pack Waist Bag Multifunction Genuine Leather Hip Bum Bag Travel Pouch for Men and Women- Multiple Pockets & Sturdy Zippers Ideal for Hiking Running And Cycling",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07BHPFGW4",
+      "detail": {
+        "token": "leather",
+        "brand": "Dona Michi Leather",
+        "title": "Dona Michi Leather Womens Sandal Beach Flip Flops Wedge with Studded Straps Style Thongs Style#2928",
+        "masked_title": "Womens Sandal Beach Flip Flops Wedge with Studded Straps Style Thongs Style#2928",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07BLLMSLG",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Oval Rubber Coin Purse Change Holder Made in U.S.A. For Men/Woman With Chain By Nabob…",
+        "masked_title": "Oval Rubber Coin Purse Change Holder Made in U.S.A. For Men/Woman With Chain By Nabob…",
+        "source_type": "STRUCTURED",
+        "match_level": "EXACT",
+        "observed_untrusted_value": "rubber cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07BMWNKTL",
+      "detail": {
+        "token": "leather",
+        "brand": "Atitlan Leather",
+        "title": "Atitlan Leather Brown Leather Money Belt with Interchangeable Buckle",
+        "masked_title": "Brown Leather Money Belt with Interchangeable Buckle",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07C3RNVXG",
+      "detail": {
+        "token": "leather",
+        "brand": "Boston Leather",
+        "title": "Boston Leather Mens Leather 1 3/8 inch hook and loop No Scratch Work Belt",
+        "masked_title": "Mens Leather 1 3/8 inch hook and loop No Scratch Work Belt",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07CDD9NJN",
+      "detail": {
+        "token": "leather",
+        "brand": "World of Leather",
+        "title": "World of Leather Mens House Slippers | Genuine Leather | 02",
+        "masked_title": "Mens House Slippers | Genuine Leather | 02",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07CP3BVWB",
+      "detail": {
+        "token": "leather",
+        "brand": "World of Leather",
+        "title": "Mens House Slippers | Genuine Leather | _VIP …",
+        "masked_title": "Mens House Slippers | Genuine Leather | _VIP …",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07DTL6B8V",
+      "detail": {
+        "token": "leather",
+        "brand": "Solid Leather Goods",
+        "title": "Solid Leather Goods Men's Belt - Full Grain Heavy Duty Leather Belts for Men",
+        "masked_title": "Men's Belt - Full Grain Heavy Duty Leather Belts for Men",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07F21VBKH",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Genuine Leather Coin Pouch Change Holder For Men/Woman With Zipper Pouch Size 4 x2.5 Made In U.S.A, Rustic Leather Orange, 4x2.5, Coinsm-par",
+        "masked_title": "Genuine Leather Coin Pouch Change Holder For Men/Woman With Zipper Pouch Size 4 x2.5 Made In U.S.A, Rustic Leather Orange, 4x2.5, Coinsm-par",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07TXQGWLT",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "KPL Large 32 inch duffel bags for men holdall leather travel bag overnight gym sports weekend bag",
+        "masked_title": "KPL Large 32 inch duffel bags for men holdall leather travel bag overnight gym sports weekend bag",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07V6RNBW9",
+      "detail": {
+        "token": "leather",
+        "brand": "Logical Leather",
+        "title": "Logical Leather Men's Work Belt - Heavy Duty Genuine Full Grain Leather Double Prong Belts",
+        "masked_title": "Men's Work Belt - Heavy Duty Genuine Full Grain Leather Double Prong Belts",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07WSZV92Q",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "Komal's Passion Leather 11 Inch Sturdy Leather Ipad Messenger Satchel Bag (Distressed Tan Pocket)",
+        "masked_title": "11 Inch Sturdy Leather Ipad Messenger Satchel Bag (Distressed Tan Pocket)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07XX4YS28",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "KPL 14 Inch Leather Purse Women Shoulder Bag Crossbody Satchel Ladies Tote Travel Purse Genuine Leather (Distressed Tan Buffalo Leather)",
+        "masked_title": "KPL 14 Inch Leather Purse Women Shoulder Bag Crossbody Satchel Ladies Tote Travel Purse Genuine Leather (Distressed Tan Buffalo Leather)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B084C53JN2",
+      "detail": {
+        "token": "leather",
+        "brand": "USA Leather",
+        "title": "USA Leather 1201 Men's Black 'Club Style' Classic Original Leather Vest - Medium",
+        "masked_title": "1201 Men's Black 'Club Style' Classic Original Leather Vest - Medium",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B09J83CTL9",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "Leather Crossbody Bag for women purse tote ladies bags satchel travel tote shoulder bag by KPL",
+        "masked_title": "Leather Crossbody Bag for women purse tote ladies bags satchel travel tote shoulder bag by KPL",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B09RSZ36D1",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Nabob Leather Genuine Leather Squeeze Coin Purse, Coin Pouch Made IN U.S.A. Change Holder For Men/Woman Size 3.5 X 3.5",
+        "masked_title": "Genuine Leather Squeeze Coin Purse, Coin Pouch Made IN U.S.A. Change Holder For Men/Woman Size 3.5 X 3.5",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B09T3BY6M1",
+      "detail": {
+        "token": "leather",
+        "brand": "CREATIVE LEATHER ART",
+        "title": "CLA Bags Sel De Mer Upcycled Canvas Hand Bag Upcycled Canvas & Cowhide Tote Bag Radiant Upcycled Canvas & Cowhide Leather Bag",
+        "masked_title": "CLA Bags Sel De Mer Upcycled Canvas Hand Bag Upcycled Canvas & Cowhide Tote Bag Radiant Upcycled Canvas & Cowhide Leather Bag",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "canvas leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0BJ7GJK6S",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "Leather Crossbody Bag for women purse tote ladies bags satchel travel tote shoulder bag",
+        "masked_title": "Leather Crossbody Bag for women purse tote ladies bags satchel travel tote shoulder bag",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0BMLQ6CF3",
+      "detail": {
+        "token": "leather",
+        "brand": "Komal's Passion Leather",
+        "title": "Leather 24 inch Duffel Bag Travel Sports Overnight Weekend Leather Duffle Bag for Gym Sports Cabin Holdall bag",
+        "masked_title": "Leather 24 inch Duffel Bag Travel Sports Overnight Weekend Leather Duffle Bag for Gym Sports Cabin Holdall bag",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0BTMT51JY",
+      "detail": {
+        "token": "leather",
+        "brand": "AARON LEATHER GOODS VENDIMIA ESTILO",
+        "title": "Leather Travel Duffel Bag | Gym Sports Bag Airplane Luggage Carry-On Bag | Gift for Father's Day By Aaron Leather Goods (Caramel)",
+        "masked_title": "Leather Travel Duffel Bag | Gym Sports Bag Airplane Luggage Carry-On Bag | Gift for Father's Day By Aaron Leather Goods (Caramel)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0BV9S2SQ5",
+      "detail": {
+        "token": "leather",
+        "brand": "Nabob Leather",
+        "title": "Rustic Leather Mouse Coin Purse Change Pouch Holder Cute Design YKK Zipper Handmade By Nabob Leather (Rustic Brown)",
+        "masked_title": "Rustic Leather Mouse Coin Purse Change Pouch Holder Cute Design YKK Zipper Handmade By   (Rustic Brown)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "leather"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B01BDI4VZM",
+      "detail": {
+        "token": "cotton",
+        "brand": "Cotton Whisper",
+        "title": "Cotton Whisper Womens Cotton 8 Pack Thongs G-String Briefs",
+        "masked_title": "Womens Cotton 8 Pack Thongs G-String Briefs",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B01GWW4DGG",
+      "detail": {
+        "token": "cotton",
+        "brand": "Stretch Cotton Bodysuit",
+        "title": "Stretch Cotton Bodysuit Women Sleeveless Stretch Cotton Skinny Solid Knee Length Sport Active Unitard Bodysuit (& Plus)",
+        "masked_title": "Women Sleeveless Stretch Cotton Skinny Solid Knee Length Sport Active Unitard Bodysuit (& Plus)",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07CL36NH6",
+      "detail": {
+        "token": "cotton",
+        "brand": "COTTON TRADERS",
+        "title": "COTTON TRADERS Allover Patriotic Polo Shirt",
+        "masked_title": "Allover Patriotic Polo Shirt",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07HVGBKCN",
+      "detail": {
+        "token": "cotton",
+        "brand": "BC BARE COTTON",
+        "title": "BC BARE COTTON Kids Microfiber Fleece Shawl Robe - Boys",
+        "masked_title": "Kids Microfiber Fleece Shawl Robe - Boys",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07N9MGY4K",
+      "detail": {
+        "token": "cotton",
+        "brand": "Cotton Fly",
+        "title": "Back Scratcher with Shoe Horn Long Handle Each 19.5\" Long Handled Shoe Horn with Hand Shaped Backscratcher is Perfect for Itchy Backs and Putting on Shoes While Standing (Blue and Green, 2 Pack)",
+        "masked_title": "Back Scratcher with Shoe Horn Long Handle Each 19.5\" Long Handled Shoe Horn with Hand Shaped Backscratcher is Perfect for Itchy Backs and Putting on Shoes While Standing (Blue and Green, 2 Pack)",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B07SR5WND2",
+      "detail": {
+        "token": "cotton",
+        "brand": "BC BARE COTTON",
+        "title": "BC BARE COTTON Bare Cotton Kids Microfiber Fleece Shawl Robe - Girls",
+        "masked_title": "Bare Cotton Kids Microfiber Fleece Shawl Robe - Girls",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B08PV9VQ64",
+      "detail": {
+        "token": "cotton",
+        "brand": "COTTON DAY",
+        "title": "COTTON DAY 2 Pack Little Kids Youth Girls School Dress Cotton Tight Black White Navy Blue Grey Burgundy",
+        "masked_title": "2 Pack Little Kids Youth Girls School Dress Cotton Tight Black White Navy Blue Grey Burgundy",
+        "source_type": "TITLE_GENERIC",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": "cotton"
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B09WLYLFFZ",
+      "detail": {
+        "token": "cotton",
+        "brand": "Mama Cotton",
+        "title": "Mama Cotton Women's Over The Bump Maternity Panties High Waist Full Coverage Pregnancy Underwear Multi-Pack (S-4XL)",
+        "masked_title": "Women's Over The Bump Maternity Panties High Waist Full Coverage Pregnancy Underwear Multi-Pack (S-4XL)",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B09ZVDK5R8",
+      "detail": {
+        "token": "cotton",
+        "brand": "COTTON DAY",
+        "title": "COTTON DAY 3 Pack Kids Girls Soft Knee High School Uniform Dress Socks Seamless Toe Black White Navy Blue Gray",
+        "masked_title": "3 Pack Kids Girls Soft Knee High School Uniform Dress Socks Seamless Toe Black White Navy Blue Gray",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0B5LCV5VQ",
+      "detail": {
+        "token": "cotton",
+        "brand": "COTTON DAY",
+        "title": "COTTON DAY 7 Days of the Week Gift Box Kids Girls Short Socks Cute Animal Floral Stripes Stars Seamless Toe",
+        "masked_title": "7 Days of the Week Gift Box Kids Girls Short Socks Cute Animal Floral Stripes Stars Seamless Toe",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "brand_token_not_material",
+      "passed": true,
+      "product_id": "B0BZS11XKL",
+      "detail": {
+        "token": "cotton",
+        "brand": "COTTON DAY",
+        "title": "COTTON DAY Kids Boys Fun Novelty Crew Socks Colorful Pattern Design Shark Scull Robot",
+        "masked_title": "Kids Boys Fun Novelty Crew Socks Colorful Pattern Design Shark Scull Robot",
+        "source_type": "UNKNOWN",
+        "match_level": "UNKNOWN",
+        "observed_untrusted_value": ""
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "0976990768",
+      "detail": {
+        "token": "green",
+        "title": "The Elf on the Shelf Party Skirt Set - 2 Holiday Skirt Combo - Dress Up Your Girl Elf for Holiday Parties Green"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000144AA6",
+      "detail": {
+        "token": "brown",
+        "title": "Amerileather Leather Three-suit Garment Bag - Brown (#2435-2)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B00023K3YS",
+      "detail": {
+        "token": "blue",
+        "title": "Raindrops of Ireland - Sterling Silver Celtic Knot Simulated Blue Topaz Hook Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0002FQCT6",
+      "detail": {
+        "token": "silver",
+        "title": "Antiqued Elephant Sterling Silver Marching Elephants Toe Ring or Adjustable Pinky Ring"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0002LYEJK",
+      "detail": {
+        "token": "black",
+        "title": "Timex Men's T205019J Easy Reader Black Leather Strap Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0002MFU3I",
+      "detail": {
+        "token": "white",
+        "title": "Hanes Boys ComfortSoft Crewneck T-Shirt 3 Pack, White - Medium (10-12)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0003DKV8K",
+      "detail": {
+        "token": "black",
+        "title": "Perry Products SN200 Men's Clip-On 2-in Suspenders Black Regular"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B00062NHIO",
+      "detail": {
+        "token": "white",
+        "title": "Calvin Klein Men's 3-Pack Classic V-Neck T-Shirt, White, X-Large"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B00074KYC8",
+      "detail": {
+        "token": "black",
+        "title": "Citizen Men's Eco-Drive Promaster Air Nighthawk Pilot Watch in Stainless Steel, Black Dial (Model: BJ7000-52E)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0007NMJ3G",
+      "detail": {
+        "token": "silver",
+        "title": "Leverback 8mm Clear AB Cube Austrian Crystals Handmade Drop Sterling Silver Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0009GVL6C",
+      "detail": {
+        "token": "black",
+        "title": "Tri-fold Garment Bag (Black) (45\"L x 2 1/4\"W x 22 1/4\"H)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0009JE77E",
+      "detail": {
+        "token": "white",
+        "title": "Spasilk Unisex-Baby Newborn Sleeveless Lap Shoulder Bodysuits, 3 pack, 0 - 24 Months - White Bodysuits"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0009P66YK",
+      "detail": {
+        "token": "gold",
+        "title": "Invicta Men's Pro Diver Automatic Watch with Gold Tone Stainless Steel Band, Gold (Model: 9010)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0009P834G",
+      "detail": {
+        "token": "black",
+        "title": "Casio Women's 'Classic' Quartz Resin Casual Watch, Color:Black (Model: LQ139A-1)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B0009RO212",
+      "detail": {
+        "token": "black",
+        "title": "Deluxe Black Vinyl Boot Tops Costume Accessory"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000A1BJWM",
+      "detail": {
+        "token": "silver",
+        "title": "Very Tiny Sterling Silver Star Stud Earrings 3/16 inch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000AONZWQ",
+      "detail": {
+        "token": "brown",
+        "title": "Hamilton Men's H64455533 Khaki King Series Stainless Steel Automatic Watch with Brown Leather Band"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000AQVRWO",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's DBC32-1A Data Bank Black Digital Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000AYW0M2",
+      "detail": {
+        "token": "white",
+        "title": "Timex Women's T2H331 Indiglo Leather Strap Watch, Black/Silver-Tone/White"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000BO5F9Q",
+      "detail": {
+        "token": "black",
+        "title": "Propet Womens Stability Walker Walking Walking Sneakers Athletic Shoes - Black"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000BUYRLC",
+      "detail": {
+        "token": "gold",
+        "title": "Invicta Women's 0133 Wildflower Collection 18k Gold-Plated and Stainless Steel Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000BVZYYA",
+      "detail": {
+        "token": "black",
+        "title": "Propet Mens LifeWalker Strap Walking Walking Sneakers Athletic Shoes - Black"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000C1HLPE",
+      "detail": {
+        "token": "black",
+        "title": "Propet Womens Vista Walking Walking Sneakers Shoes - Black"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000CD2SJG",
+      "detail": {
+        "token": "white",
+        "title": "Hanes Little Boys' 3-Pack Crewneck T-Shirt - White - Small/Petite (6-8)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000CDFV18",
+      "detail": {
+        "token": "silver",
+        "title": "Invicta Men's 9404 Pro Diver Collection Automatic Silver-Tone Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000E9ZR6Y",
+      "detail": {
+        "token": "white",
+        "title": "K Alexander Men's Solid WHITE Tie"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000EQS1JW",
+      "detail": {
+        "token": "black",
+        "title": "Citizen Men's Eco-Drive Weekender Garrison Field Watch in Stainless Steel with Olive Nylon strap, Black Dial (Model: BM8180-03E)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000ES7A6U",
+      "detail": {
+        "token": "black",
+        "title": "Yellowstone Dutton Ranch Trucker Hat Black Gray"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000EWK8YC",
+      "detail": {
+        "token": "white",
+        "title": "Married with Children Al Bundy NO MA'AM Tshirt White"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FGDE70",
+      "detail": {
+        "token": "green",
+        "title": "Timex Men's T45181 Expedition Resin Combo Brown/Green Nylon Strap Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FGVYOA",
+      "detail": {
+        "token": "black",
+        "title": "MG Ladies Straw Toyo Cowboy Hat (Black)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FTLVNG",
+      "detail": {
+        "token": "white",
+        "title": "Bulova Ladies' Classic Two-Tone Stainless Steel 3-Hand Quartz, White Dial Style: 98T84"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FVE2HQ",
+      "detail": {
+        "token": "white",
+        "title": "Bulova Ladies' Classic Two-Tone Stainless Steel 3-Hand Quartz, White Patterned Dial Style: 98V02"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FVE3BG",
+      "detail": {
+        "token": "brown",
+        "title": "Invicta Men's I-Force Left Handed Quartz Watch with Leather Strap, Brown (Model: 3329)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FX1C40",
+      "detail": {
+        "token": "silver",
+        "title": "Sterling Silver Coiled Wirework Ear Cuff Pair Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000FZ3UGQ",
+      "detail": {
+        "token": "silver",
+        "title": "Sterling Silver Celtic Trinity Knot Heart Ring(Sizes 3,4,5,6,7,8,9,10,11,12,13,14,15,16)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000G7XWZC",
+      "detail": {
+        "token": "white",
+        "title": "Fox River Wick Dry CoolMax Liner Sock, White, Large (Men 9-11.5, Women 10-12.5)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAWSF4",
+      "detail": {
+        "token": "black",
+        "title": "Casio W87H-1V Sports Wrist Watch (Black)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAWSHC",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's MQ24-1B3 Watch with Black Rubber Band"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAWSHM",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's MQ24-1E Black Resin Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAYQKY",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's G-Shock Quartz Watch with Resin Strap, Black, 20 (Model: DW5600E-1V)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAYQOK",
+      "detail": {
+        "token": "black",
+        "title": "Casio Women's MQ24-7B3LL Classic Black Resin Band Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAYQRM",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's W96H-1AV Sport Watch with Black Band"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GAYQU4",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's Quartz Resin Casual Watch, Color:Black (Model: MQ24-7B)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GB0G2K",
+      "detail": {
+        "token": "black",
+        "title": "Casio Women's LQ139A-1B3 Black Classic Resin Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GB0G7A",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's MQ24-7B2 Analog Watch with Black Resin Band"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GKXZFG",
+      "detail": {
+        "token": "red",
+        "title": "California Costumes Fashion Flapper Adult Costume - Red"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000GX8WAG",
+      "detail": {
+        "token": "silver",
+        "title": "Invicta Men's INVICTA-9204 Pro Diver Collection Silver-Tone Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000H2YFUW",
+      "detail": {
+        "token": "brown",
+        "title": "Eastland Womens Syracuse Slip-On Loafer, Brown Leather, 6"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000H8KV3G",
+      "detail": {
+        "token": "black",
+        "title": "Rubies Child's Black Ninja Gloves"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000HD71IO",
+      "detail": {
+        "token": "black",
+        "title": "Isotoner Women's Classic Satin Ballerina Slipper, Black, Medium (6.5-7.5 M US)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000HJKGOE",
+      "detail": {
+        "token": "black",
+        "title": "Polarized Black Metal Clip On Flip Up Grey / Gray Sunglass Lenses, Rectangle, 56mm Wide X 47mm High, 131mm Wide with Bridge"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000HZTKZE",
+      "detail": {
+        "token": "white",
+        "title": "Timex Women's T2H371 Quartz Easy Reader Watch with White Dial Analogue Display and Silver Stainless Steel Bracelet Women's"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000J4IICO",
+      "detail": {
+        "token": "silver",
+        "title": "GlassOfVenice Murano Glass Millefiori Pendant \"Multicolor\" in Silver Frame 7/8\""
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000JJNJKK",
+      "detail": {
+        "token": "pink",
+        "title": "Men's Dress Vest & NeckTie Solid PINK Color Neck Tie Set for Suit or Tuxedo"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000JNKABW",
+      "detail": {
+        "token": "black",
+        "title": "Casio Men's Quartz Resin Casual Watch, Color:Black (Model: MQ24-7B)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000K7F3YG",
+      "detail": {
+        "token": "black",
+        "title": "Oakley Men's OO9236 Valve Rectangular Sunglasses, Black/Grey Black Iridium Polarized, 60 mm"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000LMRFX2",
+      "detail": {
+        "token": "white",
+        "title": "Royal Silk Fine White 100% Silk Pocket Square for Men Full-Sized 17\"x17\""
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000LTAY1U",
+      "detail": {
+        "token": "green",
+        "title": "Men's SNK805 SEIKO 5 Automatic Stainless Steel Watch with Green Canvas"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000MGSN2E",
+      "detail": {
+        "token": "black",
+        "title": "Giovanni Navarre Mosaic Leather Biker Vest Black, Black, L, Large"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000N5Z64W",
+      "detail": {
+        "token": "black",
+        "title": "Timex Women's T20433 \"Easy Reader\" Gold-Tone and Black Leather Watch"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000O8YKDG",
+      "detail": {
+        "token": "black",
+        "title": "Maxam Italian Mosaic Genuine Lambskin Leather Waist Bag, Fanny Pack, Black"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000OVNLHY",
+      "detail": {
+        "token": "black",
+        "title": "FindingKing 12 Black Metal Earring Dancers Jewelry Showcase Display Stands 3.25\""
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000P50VWM",
+      "detail": {
+        "token": "white",
+        "title": "Fruit of the Loom Men's Crew Neck T-shirt, White, Medium(Pack of 5)"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000P55140",
+      "detail": {
+        "token": "white",
+        "title": "Fruit of the Loom Men's 5-Pack Crew Neck T-Shirt, White, Large"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000P55R6W",
+      "detail": {
+        "token": "white",
+        "title": "Fruit of the Loom Men's 5-Pack Crew Neck T-Shirt, White, XX-Large"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000P55R7Q",
+      "detail": {
+        "token": "white",
+        "title": "Fruit of the Loom Men's 5-Pack Crew Neck T-Shirt, White, XXX-Large"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000P6CXNQ",
+      "detail": {
+        "token": "black",
+        "title": "Casio Replacement Bands 70368314 – Strap, Black (22), Strip"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000PAGO8W",
+      "detail": {
+        "token": "silver",
+        "title": "10mm Faux Pearl with Austrian Crystals 925 Sterling Silver Handmade Leverback Drop Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000PARWSI",
+      "detail": {
+        "token": "silver",
+        "title": "women Sterling Silver Mizpah Medal Necklace with Stainless Steel Chains, 20\" and 24\""
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000PQJXZC",
+      "detail": {
+        "token": "black",
+        "title": "MG Womens Straw Outback Toyo Cowboy Hat Black"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000PV9ODS",
+      "detail": {
+        "token": "silver",
+        "title": "Classic Smooth Puffed Teardrop Sterling Silver Hook Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000Q0QX0U",
+      "detail": {
+        "token": "silver",
+        "title": "Curley Cue Twisted Spiral Sterling Silver Hook Earrings"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000QGXSC0",
+      "detail": {
+        "token": "black",
+        "title": "Sloggers Men's Premium Garden Clog , Black, Size 12, Style 261BK12"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000R738W8",
+      "detail": {
+        "token": "blue",
+        "title": "Medline Blue Adult Soft Knit Gripper Slippers - 3 Pair - 1 Size Fits Most"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000R8V0T0",
+      "detail": {
+        "token": "gold",
+        "title": "Vesuvio Napoli Men's Paisley Design Dress Vest & NeckTie GOLD Color Neck Tie Set for Suit Tux"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000RAYKJ0",
+      "detail": {
+        "token": "black",
+        "title": "18pc Black Watch Travel Tray Showcase Display Case Unit W/Glass Top"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000RB0MU0",
+      "detail": {
+        "token": "gold",
+        "title": "Studex 24K Gold Earrings Plated Ball Stud Piercing Jewelry, Pack of 4 Pairs"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000RB0PUC",
+      "detail": {
+        "token": "black",
+        "title": "12 Black Flocked Ring Gift Boxes Jewelry Displays"
+      }
+    },
+    {
+      "name": "model_title_token_not_colour",
+      "passed": true,
+      "product_id": "B000RB2H3K",
+      "detail": {
+        "token": "silver",
+        "title": "FindingKing 15 Silver Cotton Jewelry Gift Boxes Pocket Watch Displays 3.25\""
+      }
+    }
+  ]
+}

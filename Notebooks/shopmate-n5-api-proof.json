@@ -1,0 +1,12 @@
+{
+  "shell_port": 49459,
+  "iopub_port": 49460,
+  "stdin_port": 49461,
+  "control_port": 49462,
+  "hb_port": 49463,
+  "ip": "127.0.0.1",
+  "key": "shopmate-n5-clean-proof",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": ""
+}

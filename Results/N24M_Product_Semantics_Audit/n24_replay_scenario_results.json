@@ -1,0 +1,834 @@
+[
+  {
+    "scenario_id": "S001",
+    "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      356
+    ]
+  },
+  {
+    "scenario_id": "S002",
+    "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      357
+    ]
+  },
+  {
+    "scenario_id": "S003",
+    "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      358
+    ]
+  },
+  {
+    "scenario_id": "S004",
+    "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      359
+    ]
+  },
+  {
+    "scenario_id": "S005",
+    "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      360
+    ]
+  },
+  {
+    "scenario_id": "S006",
+    "behavioral_family": "BRAND_REQUESTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      361
+    ]
+  },
+  {
+    "scenario_id": "S007",
+    "behavioral_family": "BRAND_REQUESTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      362
+    ]
+  },
+  {
+    "scenario_id": "S008",
+    "behavioral_family": "BRAND_REQUESTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      363
+    ]
+  },
+  {
+    "scenario_id": "S009",
+    "behavioral_family": "COLOUR",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      364
+    ]
+  },
+  {
+    "scenario_id": "S010",
+    "behavioral_family": "COLOUR",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      365
+    ]
+  },
+  {
+    "scenario_id": "S011",
+    "behavioral_family": "COLOUR",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      366
+    ]
+  },
+  {
+    "scenario_id": "S012",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      367
+    ]
+  },
+  {
+    "scenario_id": "S013",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      368
+    ]
+  },
+  {
+    "scenario_id": "S014",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      369
+    ]
+  },
+  {
+    "scenario_id": "S015",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      370
+    ]
+  },
+  {
+    "scenario_id": "S016",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      371
+    ]
+  },
+  {
+    "scenario_id": "S017",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      372
+    ]
+  },
+  {
+    "scenario_id": "S018",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      373
+    ]
+  },
+  {
+    "scenario_id": "S019",
+    "behavioral_family": "BUDGET_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      374
+    ]
+  },
+  {
+    "scenario_id": "S020",
+    "behavioral_family": "BUDGET_REMOVAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      375
+    ]
+  },
+  {
+    "scenario_id": "S021",
+    "behavioral_family": "BUDGET_REMOVAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      376
+    ]
+  },
+  {
+    "scenario_id": "S022",
+    "behavioral_family": "BUDGET_REMOVAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      377
+    ]
+  },
+  {
+    "scenario_id": "S023",
+    "behavioral_family": "BUDGET_REMOVAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      378
+    ]
+  },
+  {
+    "scenario_id": "S024",
+    "behavioral_family": "BUDGET_REMOVAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      379
+    ]
+  },
+  {
+    "scenario_id": "S025",
+    "behavioral_family": "CONSTRAINT_REPLACEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      380
+    ]
+  },
+  {
+    "scenario_id": "S026",
+    "behavioral_family": "CONSTRAINT_REPLACEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      381
+    ]
+  },
+  {
+    "scenario_id": "S027",
+    "behavioral_family": "CONSTRAINT_REPLACEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      382
+    ]
+  },
+  {
+    "scenario_id": "S028",
+    "behavioral_family": "CONSTRAINT_REPLACEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      383
+    ]
+  },
+  {
+    "scenario_id": "S029",
+    "behavioral_family": "CONSTRAINT_RELAXATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      384
+    ]
+  },
+  {
+    "scenario_id": "S030",
+    "behavioral_family": "CONSTRAINT_RELAXATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      385
+    ]
+  },
+  {
+    "scenario_id": "S031",
+    "behavioral_family": "CONSTRAINT_RELAXATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      386
+    ]
+  },
+  {
+    "scenario_id": "S032",
+    "behavioral_family": "CONSTRAINT_RELAXATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      387
+    ]
+  },
+  {
+    "scenario_id": "S033",
+    "behavioral_family": "NEGATIVE_CONSTRAINTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      388
+    ]
+  },
+  {
+    "scenario_id": "S034",
+    "behavioral_family": "NEGATIVE_CONSTRAINTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      389
+    ]
+  },
+  {
+    "scenario_id": "S035",
+    "behavioral_family": "NEGATIVE_CONSTRAINTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      390
+    ]
+  },
+  {
+    "scenario_id": "S036",
+    "behavioral_family": "NEGATIVE_CONSTRAINTS",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      391
+    ]
+  },
+  {
+    "scenario_id": "S037",
+    "behavioral_family": "NEW_SHOPPING_GOAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      392
+    ]
+  },
+  {
+    "scenario_id": "S038",
+    "behavioral_family": "NEW_SHOPPING_GOAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      393
+    ]
+  },
+  {
+    "scenario_id": "S039",
+    "behavioral_family": "NEW_SHOPPING_GOAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      394
+    ]
+  },
+  {
+    "scenario_id": "S040",
+    "behavioral_family": "NEW_SHOPPING_GOAL",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      395
+    ]
+  },
+  {
+    "scenario_id": "S041",
+    "behavioral_family": "NEW_CHAT_ISOLATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      396,
+      397
+    ]
+  },
+  {
+    "scenario_id": "S042",
+    "behavioral_family": "NEW_CHAT_ISOLATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      398,
+      399
+    ]
+  },
+  {
+    "scenario_id": "S043",
+    "behavioral_family": "NEW_CHAT_ISOLATION",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      400,
+      401
+    ]
+  },
+  {
+    "scenario_id": "S044",
+    "behavioral_family": "CHAT_RELOAD",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      402
+    ]
+  },
+  {
+    "scenario_id": "S045",
+    "behavioral_family": "PROFILE_PREFERENCE_VS_HARD",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 4,
+    "chat_ids": [
+      404
+    ]
+  },
+  {
+    "scenario_id": "S046",
+    "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      405
+    ]
+  },
+  {
+    "scenario_id": "S047",
+    "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      406
+    ]
+  },
+  {
+    "scenario_id": "S048",
+    "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      407
+    ]
+  },
+  {
+    "scenario_id": "S049",
+    "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      408
+    ]
+  },
+  {
+    "scenario_id": "S050",
+    "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      409
+    ]
+  },
+  {
+    "scenario_id": "S051",
+    "behavioral_family": "SHOW_MORE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      410
+    ]
+  },
+  {
+    "scenario_id": "S052",
+    "behavioral_family": "SHOW_MORE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      411
+    ]
+  },
+  {
+    "scenario_id": "S053",
+    "behavioral_family": "SHOW_MORE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      412
+    ]
+  },
+  {
+    "scenario_id": "S054",
+    "behavioral_family": "RELATIVE_REFINEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      413
+    ]
+  },
+  {
+    "scenario_id": "S055",
+    "behavioral_family": "RELATIVE_REFINEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      414
+    ]
+  },
+  {
+    "scenario_id": "S056",
+    "behavioral_family": "RELATIVE_REFINEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      415
+    ]
+  },
+  {
+    "scenario_id": "S057",
+    "behavioral_family": "RELATIVE_REFINEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      416
+    ]
+  },
+  {
+    "scenario_id": "S058",
+    "behavioral_family": "RELATIVE_REFINEMENT",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      417
+    ]
+  },
+  {
+    "scenario_id": "S059",
+    "behavioral_family": "RESULT_REFERENCES",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      418
+    ]
+  },
+  {
+    "scenario_id": "S060",
+    "behavioral_family": "RESULT_REFERENCES",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      419
+    ]
+  },
+  {
+    "scenario_id": "S061",
+    "behavioral_family": "RESULT_REFERENCES",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      420
+    ]
+  },
+  {
+    "scenario_id": "S062",
+    "behavioral_family": "RESULT_REFERENCES",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      421
+    ]
+  },
+  {
+    "scenario_id": "S063",
+    "behavioral_family": "PRODUCT_COMPARISON",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      422
+    ]
+  },
+  {
+    "scenario_id": "S064",
+    "behavioral_family": "NO_EXACT_MATCH",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      423
+    ]
+  },
+  {
+    "scenario_id": "S065",
+    "behavioral_family": "NO_EXACT_MATCH",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      424
+    ]
+  },
+  {
+    "scenario_id": "S066",
+    "behavioral_family": "NO_EXACT_MATCH",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      425
+    ]
+  },
+  {
+    "scenario_id": "S067",
+    "behavioral_family": "GENERAL_SHOPPING_ADVICE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      426
+    ]
+  },
+  {
+    "scenario_id": "S068",
+    "behavioral_family": "GENERAL_SHOPPING_ADVICE",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      427
+    ]
+  },
+  {
+    "scenario_id": "S069",
+    "behavioral_family": "GIFT_SHOPPING",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      428
+    ]
+  },
+  {
+    "scenario_id": "S070",
+    "behavioral_family": "GIFT_SHOPPING",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      429
+    ]
+  },
+  {
+    "scenario_id": "S071",
+    "behavioral_family": "OCCASION_SHOPPING",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 1,
+    "chat_ids": [
+      430
+    ]
+  },
+  {
+    "scenario_id": "S072",
+    "behavioral_family": "OCCASION_SHOPPING",
+    "classification": "PARTIAL",
+    "failure_category": "PARSER",
+    "notes": [
+      "limited gift/occasion support"
+    ],
+    "turn_count": 1,
+    "chat_ids": [
+      431
+    ]
+  },
+  {
+    "scenario_id": "S073",
+    "behavioral_family": "OUTFIT_MAKEOVER",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 3,
+    "chat_ids": [
+      432
+    ]
+  },
+  {
+    "scenario_id": "S074",
+    "behavioral_family": "OUTFIT_FOLLOW_UP",
+    "classification": "PASS",
+    "failure_category": "",
+    "notes": [],
+    "turn_count": 2,
+    "chat_ids": [
+      433
+    ]
+  },
+  {
+    "scenario_id": "S075",
+    "behavioral_family": "MULTI_PRODUCT_AND_GROUNDING",
+    "classification": "PARTIAL",
+    "failure_category": "DATA_LIMITATION",
+    "notes": [
+      "multi-product shared basket remains unsupported"
+    ],
+    "turn_count": 3,
+    "chat_ids": [
+      434
+    ]
+  }
+]

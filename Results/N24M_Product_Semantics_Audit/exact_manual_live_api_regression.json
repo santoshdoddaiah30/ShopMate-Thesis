@@ -1,0 +1,21 @@
+{
+  "suite": "N24M exact live API manual regression",
+  "user_message": "i need white shoes from adidas for men",
+  "http_status": 200,
+  "engine": "n24",
+  "status": "no_exact_match",
+  "eligible_exact": 0,
+  "returned": 0,
+  "men_compatible": 0,
+  "strict_white": 0,
+  "women_returned": 0,
+  "kids_returned": 0,
+  "mixed_colour_returned": 0,
+  "unknown_audience_returned": 0,
+  "hard_violations": 0,
+  "hundred_percent_match_violations": 0,
+  "passed": true,
+  "product_ids": [],
+  "user_id": 20,
+  "profile_id": "account_20_5843793bc7b0"
+}

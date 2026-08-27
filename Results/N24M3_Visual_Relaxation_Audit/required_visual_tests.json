@@ -1,0 +1,1717 @@
+{
+  "suite": "N24M3 required visual tests V1-V10",
+  "results": [
+    {
+      "case": "V1",
+      "query": "show me white t-shirts",
+      "passed": true,
+      "metadata_eligible": 2,
+      "metadata_shortlist": 2,
+      "visually_checked": 2,
+      "visual_exact": 1,
+      "visual_compatible": 0,
+      "visual_mixed": 0,
+      "visual_conflict": 1,
+      "visual_unknown": 0,
+      "returned": 1,
+      "returned_product_ids": [
+        "B0BQ9DG7J6"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.136312,
+      "cache_hits": 0,
+      "cache_misses": 2,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "T-Shirts"
+        ],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B0BQ9DG7J6",
+          "title": "Fox Racing Men's Legacy Moth Short Sleeve Tee",
+          "brand": "Fox Racing",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Optic White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Optic White",
+          "image_url": "https://m.media-amazon.com/images/I/31B0+mr2iXL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BQ9DG7J6.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9565,
+          "returned": true
+        },
+        {
+          "product_id": "B0BBXKBQYY",
+          "title": "adidas Men's Crewneck",
+          "brand": "adidas",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Onix/White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Onix/White",
+          "image_url": "https://m.media-amazon.com/images/I/31wuJjdaLpL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BBXKBQYY.jpg",
+          "visual_classification": "VISUAL_CONFLICT",
+          "visual_confidence": 0.9047,
+          "returned": false
+        }
+      ]
+    },
+    {
+      "case": "V2",
+      "query": "show me black t-shirts",
+      "passed": true,
+      "metadata_eligible": 6,
+      "metadata_shortlist": 6,
+      "visually_checked": 6,
+      "visual_exact": 3,
+      "visual_compatible": 2,
+      "visual_mixed": 1,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 5,
+      "returned_product_ids": [
+        "B09MK3BDD1",
+        "B0743MHZX2",
+        "B09Y3X7NZ4",
+        "B08HF1K5X9",
+        "B099PFXRWB"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.004221,
+      "cache_hits": 6,
+      "cache_misses": 0,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "T-Shirts"
+        ],
+        "brands": [],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B08HF1K5X9",
+          "title": "Under Armour Women's ColdGear Authentics Compression Mock",
+          "brand": "Under Armour",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black (001)/Metal",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black (001)/Metal",
+          "image_url": "https://m.media-amazon.com/images/I/31hLckXwslL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08HF1K5X9_e564237a02559c.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9126,
+          "returned": true
+        },
+        {
+          "product_id": "B09MK3BDD1",
+          "title": "BALEAF Men's Sun Protection Hoodie Shirt UPF 50+ Long Sleeve UV SPF T-Shirts Rash Guard Fishing Swimming Lightweight",
+          "brand": "BALEAF",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Style 1-black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Style 1-black",
+          "image_url": "https://m.media-amazon.com/images/I/314stxw1JlL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09MK3BDD1_1938b957b46d66.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9226,
+          "returned": true
+        },
+        {
+          "product_id": "B099PFXRWB",
+          "title": "Retrospec Revolve Steel Macebell for Strength Training, Rehabilitation, Stretching, Conditioning and Rotational Training - 5, 7, 10, 15, 20, 30lb Options for Women & Men",
+          "brand": "Retrospec",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Matte Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Matte Black",
+          "image_url": "https://m.media-amazon.com/images/I/31XKQVfN1JS._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B099PFXRWB_f1db56ffb4d5b1.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9589,
+          "returned": true
+        },
+        {
+          "product_id": "B0C49H7N9Q",
+          "title": "Under Armour Men's Tech 2.0 Novelty Short-Sleeve T-Shirt",
+          "brand": "Under Armour",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Beta (628)/Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Beta (628)/Black",
+          "image_url": "https://m.media-amazon.com/images/I/41lR4tpTn4L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C49H7N9Q_f41d609f25a1d8.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.7729,
+          "returned": false
+        },
+        {
+          "product_id": "B0743MHZX2",
+          "title": "Razor for Men",
+          "brand": "Gillette",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41W4SFjJ-JL.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0743MHZX2_6b64c7dfcf8991.jpg",
+          "visual_classification": "VISUAL_COMPATIBLE",
+          "visual_confidence": 0.6384,
+          "returned": true
+        },
+        {
+          "product_id": "B09Y3X7NZ4",
+          "title": "Hanes Ladies Nano-TCotton V-Neck T-Shirt, XL, Black",
+          "brand": "Hanes",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41J5HAXzcIL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09Y3X7NZ4_d45fafb14ed6a7.jpg",
+          "visual_classification": "VISUAL_COMPATIBLE",
+          "visual_confidence": 0.7152,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V3",
+      "query": "show me red shoes",
+      "passed": true,
+      "metadata_eligible": 1,
+      "metadata_shortlist": 1,
+      "visually_checked": 1,
+      "visual_exact": 0,
+      "visual_compatible": 1,
+      "visual_mixed": 0,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 1,
+      "returned_product_ids": [
+        "B07FFXW2MY"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 1.191795,
+      "cache_hits": 0,
+      "cache_misses": 1,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B07FFXW2MY",
+          "title": "ALTRA Men's Vali Sneaker",
+          "brand": "ALTRA",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "red"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Red",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Red",
+          "image_url": "https://m.media-amazon.com/images/I/418r0LqfdnL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07FFXW2MY_da5b31039e9d01.jpg",
+          "visual_classification": "VISUAL_COMPATIBLE",
+          "visual_confidence": 0.6886,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V4",
+      "query": "show me white shoes",
+      "passed": true,
+      "metadata_eligible": 3,
+      "metadata_shortlist": 3,
+      "visually_checked": 3,
+      "visual_exact": 3,
+      "visual_compatible": 0,
+      "visual_mixed": 0,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 3,
+      "returned_product_ids": [
+        "B00XOYS1IC",
+        "B00MISO4OU",
+        "B093GRVR16"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 2.212624,
+      "cache_hits": 0,
+      "cache_misses": 3,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B00MISO4OU",
+          "title": "Nfinity Adult Evolution Cheer Shoes",
+          "brand": "Nfinity",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/41kTaxukXPL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00MISO4OU_95845563ee351c.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8332,
+          "returned": true
+        },
+        {
+          "product_id": "B00XOYS1IC",
+          "title": "Kaepa Women's Stellarlyte Cheer Shoe",
+          "brand": "Kaepa",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/31GFtZGE6OL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00XOYS1IC_8b864b162e6525.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.962,
+          "returned": true
+        },
+        {
+          "product_id": "B093GRVR16",
+          "title": "ARUNNERS Rain Shoe Covers Black",
+          "brand": "ARUNNERS",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/41Z5YFhrTZL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B093GRVR16_7a883f64d66d6e.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8462,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V5",
+      "query": "show me black shoes",
+      "passed": true,
+      "metadata_eligible": 30,
+      "metadata_shortlist": 20,
+      "visually_checked": 20,
+      "visual_exact": 19,
+      "visual_compatible": 0,
+      "visual_mixed": 1,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 10,
+      "returned_product_ids": [
+        "B09MVQ8NP7",
+        "B0C672212P",
+        "B09YTZ1H4D",
+        "B00B6ZRPII",
+        "B0958KXPS1",
+        "B0B57LZVRH",
+        "B0BZQHH61R",
+        "B083QTM398",
+        "B0BVMS91HD",
+        "B09LMHB3MF"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 1.708626,
+      "cache_hits": 0,
+      "cache_misses": 20,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B09LMHB3MF",
+          "title": "Fila Women's w Memory Workshift Sr",
+          "brand": "Fila",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "black",
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/Black/Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/Black/Black",
+          "image_url": "https://m.media-amazon.com/images/I/3135nXFv8HL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09LMHB3MF_cc56560f609cfb.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9611,
+          "returned": true
+        },
+        {
+          "product_id": "B0BVMS91HD",
+          "title": "Speedo Men's Water Shoe Surfwalker Pro 3.0",
+          "brand": "Speedo",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Speedo Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Speedo Black",
+          "image_url": "https://m.media-amazon.com/images/I/31zaTHpURrL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BVMS91HD_89ca4c55c9c803.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9602,
+          "returned": true
+        },
+        {
+          "product_id": "B09MVQ8NP7",
+          "title": "FREE SOLDIER Waterproof Hiking Work Boots Men's Tactical Boots 6 Inches Lightweight Military Boots Breathable Desert Boots",
+          "brand": "FREE SOLDIER",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black(not Waterproof/Thin Fabric)",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black(not Waterproof/Thin Fabric)",
+          "image_url": "https://m.media-amazon.com/images/I/41JNQe6J9qL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09MVQ8NP7_c63e262a27b293.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9433,
+          "returned": true
+        },
+        {
+          "product_id": "B0C672212P",
+          "title": "Timberland PRO Men's Powertrain Sport Alloy Toe Sd+ Ripstop Nylon Industrial Boot",
+          "brand": "Timberland PRO",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/31u456ZpjhL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C672212P_958b35cf9aece1.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9619,
+          "returned": true
+        },
+        {
+          "product_id": "B0C5P8F8LY",
+          "title": "KEEN Utility Mens Utility K-20 Cushion",
+          "brand": "KEEN Utility",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/Black",
+          "image_url": "https://m.media-amazon.com/images/I/51z+rB+R8zL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C5P8F8LY_d6c706dfaf6fd3.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.7581,
+          "returned": false
+        },
+        {
+          "product_id": "B083QTM398",
+          "title": "Twisted X Men's Hooey Loper - Slip-on or Lace-up Wicking Loper Shoes for Men - Designed with Blended Rice Husk and Durable",
+          "brand": "Twisted X",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Softy Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Softy Black",
+          "image_url": "https://m.media-amazon.com/images/I/31QxAVfatEL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B083QTM398_b787c9d2c674c4.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.947,
+          "returned": true
+        },
+        {
+          "product_id": "B09YTZ1H4D",
+          "title": "USHTH Black Waterproof Rain Boot Shoe Cover with reflector (1 Pair) (Medium)",
+          "brand": "USHTH",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/412SkuZ+woL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09YTZ1H4D_ff3d2cbef69853.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9345,
+          "returned": true
+        },
+        {
+          "product_id": "B0B57LZVRH",
+          "title": "KR Strikeforce Flyer Lite Black Mens Athletic Bowling Shoe",
+          "brand": "KR Strikeforce",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Slate/Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Slate/Black",
+          "image_url": "https://m.media-amazon.com/images/I/31EaBTWZdzL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0B57LZVRH_4759d07aeec238.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8493,
+          "returned": true
+        },
+        {
+          "product_id": "B0958KXPS1",
+          "title": "Dexter Bowling - Mens - Ricky IV",
+          "brand": "Dexter Bowling",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/Alloy",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/Alloy",
+          "image_url": "https://m.media-amazon.com/images/I/41lHjHpkQtL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0958KXPS1_a9a7911f8d840a.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9223,
+          "returned": true
+        },
+        {
+          "product_id": "B0BZQHH61R",
+          "title": "Birkenstock Women's Honolulu Watermelon Eva R",
+          "brand": "Birkenstock",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/31ssjZhVHaL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BZQHH61R_fd81c4f111ecff.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9465,
+          "returned": true
+        },
+        {
+          "product_id": "B00B6ZRPII",
+          "title": "BSI Men's Basic #521 Bowling Shoes",
+          "brand": "BSI PRODUCTS, INC.",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41kuvTzs7nL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00B6ZRPII_a50df6c6dadfdb.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9615,
+          "returned": true
+        },
+        {
+          "product_id": "B0C3CKJCFT",
+          "title": "KEEN Utility Men's PTC Dress Oxford Low Height Non Slip Food Service Shoe",
+          "brand": "KEEN Utility",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41h6nOSohWL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C3CKJCFT_95b6e69cf065f2.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9567,
+          "returned": false
+        },
+        {
+          "product_id": "B018MVD456",
+          "title": "Rothco Uniform Oxford/Work Sole",
+          "brand": "Rothco",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/31B9kC4sbuL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B018MVD456_a730ab196e6245.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9552,
+          "returned": false
+        },
+        {
+          "product_id": "B0C3Z947DF",
+          "title": "UNOW Chinese Traditional Cloth Kung Fu Shoes,Black",
+          "brand": "UNOW",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Classic Soles + Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Classic Soles + Black",
+          "image_url": "https://m.media-amazon.com/images/I/41pPYPyRvdL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C3Z947DF_908f5c349ce928.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8947,
+          "returned": false
+        },
+        {
+          "product_id": "B08R83115B",
+          "title": "EQUISTAR Girl's All-Weather Synthetic Zip Paddock Boots",
+          "brand": "EQUISTAR",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41t8+wNWFRL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08R83115B_6e7a7bc5b16138.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9232,
+          "returned": false
+        },
+        {
+          "product_id": "B0BRT2KJGB",
+          "title": "Fila Women's Memory Reckoning 8 Slip Resistant Steel Toe Running Shoe Meiera 2 Sr Ct",
+          "brand": "Fila",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/Black/Kopk",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/Black/Kopk",
+          "image_url": "https://m.media-amazon.com/images/I/419Vk1z4DxL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BRT2KJGB_9152395cc89724.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9342,
+          "returned": false
+        },
+        {
+          "product_id": "B081T79NGQ",
+          "title": "atika Men's Islander Walking Sandals, Arch Support Trail Outdoor Hiking Sandals, Strap Sport Sandals, Summer Water Shoes",
+          "brand": "atika",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Islander Sandals Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Islander Sandals Black",
+          "image_url": "https://m.media-amazon.com/images/I/416jDtXBtTL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B081T79NGQ_fe3b5fd8413927.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.902,
+          "returned": false
+        },
+        {
+          "product_id": "B000FPCHGU",
+          "title": "Servus Comfort Technology 14\" PVC Soft Toe Men's Work Boots, 7",
+          "brand": "SERVUS",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41+kyW7-YxL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B000FPCHGU_0c5226b48d3e95.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9002,
+          "returned": false
+        },
+        {
+          "product_id": "B0C54KWYSP",
+          "title": "Klogs Footwear Naples Women's Shoes",
+          "brand": "Klogs Footwear",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black Tooled",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black Tooled",
+          "image_url": "https://m.media-amazon.com/images/I/31ScAsXmBpL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C54KWYSP_000e6bf7a1c1a6.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9493,
+          "returned": false
+        },
+        {
+          "product_id": "B00B6ZKJ18",
+          "title": "BSI Men's #751 Bowling Shoes",
+          "brand": "BSI PRODUCTS, INC.",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black",
+          "image_url": "https://m.media-amazon.com/images/I/41rKarOItEL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00B6ZKJ18_04abce43ef0991.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9335,
+          "returned": false
+        }
+      ]
+    },
+    {
+      "case": "V6",
+      "query": "show me blue shoes",
+      "passed": true,
+      "metadata_eligible": 2,
+      "metadata_shortlist": 1,
+      "visually_checked": 1,
+      "visual_exact": 1,
+      "visual_compatible": 0,
+      "visual_mixed": 0,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 1,
+      "returned_product_ids": [
+        "B083Y6HGV8"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.305525,
+      "cache_hits": 0,
+      "cache_misses": 1,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "blue"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B083Y6HGV8",
+          "title": "Xtratuf Women's Durable Waterproof Breathable Slip-Resistant 6 Inch Ankle Deck Boots, Light Blue/Blue Mermaid, 11",
+          "brand": "Xtratuf",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "blue",
+              "blue"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Light Blue/Blue Mermaid Life",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Light Blue/Blue Mermaid Life",
+          "image_url": "https://m.media-amazon.com/images/I/31y+j9fcS8L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B083Y6HGV8_c59602ea3bcd32.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8306,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V7",
+      "query": "show me white Adidas shoes",
+      "passed": true,
+      "metadata_eligible": 0,
+      "metadata_shortlist": 0,
+      "visually_checked": 0,
+      "visual_exact": 0,
+      "visual_compatible": 0,
+      "visual_mixed": 0,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 0,
+      "returned_product_ids": [],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 7e-06,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": []
+    },
+    {
+      "case": "V8",
+      "query": "show me white shoes for men",
+      "passed": true,
+      "metadata_eligible": 1,
+      "metadata_shortlist": 1,
+      "visually_checked": 1,
+      "visual_exact": 1,
+      "visual_compatible": 0,
+      "visual_mixed": 0,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 1,
+      "returned_product_ids": [
+        "B00MISO4OU"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.002255,
+      "cache_hits": 1,
+      "cache_misses": 0,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "men",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B00MISO4OU",
+          "title": "Nfinity Adult Evolution Cheer Shoes",
+          "brand": "Nfinity",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/41kTaxukXPL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00MISO4OU_95845563ee351c.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8332,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V9",
+      "query": "show me white and black shoes",
+      "passed": true,
+      "metadata_eligible": 3,
+      "metadata_shortlist": 3,
+      "visually_checked": 3,
+      "visual_exact": 0,
+      "visual_compatible": 0,
+      "visual_mixed": 3,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 3,
+      "returned_product_ids": [
+        "B073K3VVHH",
+        "B008F7E9G6",
+        "B08KPF1NZ8"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.259338,
+      "cache_hits": 0,
+      "cache_misses": 3,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "white",
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": true,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B008F7E9G6",
+          "title": "Sanuk Women's Yoga Sling 2 Print Vintage Sandal, black/white island stripe, 05 M US",
+          "brand": "Sanuk",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/White Island Stripe",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/White Island Stripe",
+          "image_url": "https://m.media-amazon.com/images/I/41EwICagp1L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B008F7E9G6_138fa3ce03c259.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.8832,
+          "returned": true
+        },
+        {
+          "product_id": "B08KPF1NZ8",
+          "title": "Venzo Bicycle Men's Road Cycling Riding Shoes - 3 Straps- Compatible with Delta Shimano SPD & Look ARC Delta - Perfect for Road Racing Bikes White Color",
+          "brand": "Venzo",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black & White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black & White",
+          "image_url": "https://m.media-amazon.com/images/I/51A7g4pKzHL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08KPF1NZ8_091c35283d764a.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.8528,
+          "returned": true
+        },
+        {
+          "product_id": "B073K3VVHH",
+          "title": "Tulum Vero Backstrap Wedge",
+          "brand": "Vionic",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white",
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White Black",
+          "image_url": "https://m.media-amazon.com/images/I/51oplkJob4L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B073K3VVHH_3eaf23870a3c72.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.9194,
+          "returned": true
+        }
+      ]
+    },
+    {
+      "case": "V10",
+      "query": "show me white shoes, mixed colours are okay",
+      "passed": true,
+      "metadata_eligible": 9,
+      "metadata_shortlist": 9,
+      "visually_checked": 9,
+      "visual_exact": 7,
+      "visual_compatible": 0,
+      "visual_mixed": 2,
+      "visual_conflict": 0,
+      "visual_unknown": 0,
+      "returned": 9,
+      "returned_product_ids": [
+        "B00XOYS1IC",
+        "B00MISO4OU",
+        "B00J08EW7U",
+        "B073K3VVHH",
+        "B0C387R78F",
+        "B00MHSNR12",
+        "B093GRVR16",
+        "B08KPF1NZ8",
+        "B008F7E9G6"
+      ],
+      "visual_conflicts_returned": [],
+      "visual_unknown_returned": [],
+      "visual_overhead_seconds": 0.302598,
+      "cache_hits": 6,
+      "cache_misses": 3,
+      "hard_state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": true,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      },
+      "internal_product_audit": [
+        {
+          "product_id": "B008F7E9G6",
+          "title": "Sanuk Women's Yoga Sling 2 Print Vintage Sandal, black/white island stripe, 05 M US",
+          "brand": "Sanuk",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black/White Island Stripe",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black/White Island Stripe",
+          "image_url": "https://m.media-amazon.com/images/I/41EwICagp1L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B008F7E9G6_138fa3ce03c259.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.6363,
+          "returned": true
+        },
+        {
+          "product_id": "B00MISO4OU",
+          "title": "Nfinity Adult Evolution Cheer Shoes",
+          "brand": "Nfinity",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/41kTaxukXPL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00MISO4OU_95845563ee351c.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8332,
+          "returned": true
+        },
+        {
+          "product_id": "B00XOYS1IC",
+          "title": "Kaepa Women's Stellarlyte Cheer Shoe",
+          "brand": "Kaepa",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/31GFtZGE6OL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00XOYS1IC_8b864b162e6525.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.962,
+          "returned": true
+        },
+        {
+          "product_id": "B00J08EW7U",
+          "title": "BSI Women's 460 Bowling Shoe",
+          "brand": "BSI PRODUCTS, INC.",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white",
+              "purple"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White/Purple",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White/Purple",
+          "image_url": "https://m.media-amazon.com/images/I/41BNj7TT0KL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00J08EW7U_106481227074e2.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8626,
+          "returned": true
+        },
+        {
+          "product_id": "B093GRVR16",
+          "title": "ARUNNERS Rain Shoe Covers Black",
+          "brand": "ARUNNERS",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White",
+          "image_url": "https://m.media-amazon.com/images/I/41Z5YFhrTZL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B093GRVR16_7a883f64d66d6e.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8462,
+          "returned": true
+        },
+        {
+          "product_id": "B0C387R78F",
+          "title": "Brunswick Men's Modern Fuze Bowling Shoes-Black/Neon",
+          "brand": "Brunswick",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white",
+              "red"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White/Red",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White/Red",
+          "image_url": "https://m.media-amazon.com/images/I/411-D2iOJWL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C387R78F_8929c6650d302e.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8337,
+          "returned": true
+        },
+        {
+          "product_id": "B08KPF1NZ8",
+          "title": "Venzo Bicycle Men's Road Cycling Riding Shoes - 3 Straps- Compatible with Delta Shimano SPD & Look ARC Delta - Perfect for Road Racing Bikes White Color",
+          "brand": "Venzo",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "black",
+              "white"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "Black & White",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "Black & White",
+          "image_url": "https://m.media-amazon.com/images/I/51A7g4pKzHL._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08KPF1NZ8_091c35283d764a.jpg",
+          "visual_classification": "VISUAL_MIXED",
+          "visual_confidence": 0.6185,
+          "returned": true
+        },
+        {
+          "product_id": "B00MHSNR12",
+          "title": "Dexter Bowling - Womens - Raquel IV",
+          "brand": "Dexter Bowling",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white",
+              "blue"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White Blue",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White Blue",
+          "image_url": "https://m.media-amazon.com/images/I/41CD1bLX0-L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00MHSNR12_747b0f08104131.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.9327,
+          "returned": true
+        },
+        {
+          "product_id": "B073K3VVHH",
+          "title": "Tulum Vero Backstrap Wedge",
+          "brand": "Vionic",
+          "metadata_colour_evidence": {
+            "contract_version": "n24m2_trusted_attribute_evidence_v1",
+            "attribute": "colour",
+            "canonical_value": [
+              "white",
+              "black"
+            ],
+            "source_field": "details.Color",
+            "source_type": "VARIANT",
+            "raw_value": "White Black",
+            "confidence": 1.0,
+            "match_level": "EXACT",
+            "reason": "explicit structured colour/variant field"
+          },
+          "variant_evidence": "White Black",
+          "image_url": "https://m.media-amazon.com/images/I/51oplkJob4L._AC_.jpg",
+          "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B073K3VVHH_3eaf23870a3c72.jpg",
+          "visual_classification": "VISUAL_EXACT",
+          "visual_confidence": 0.8268,
+          "returned": true
+        }
+      ]
+    }
+  ],
+  "passed": 10,
+  "failed": 0,
+  "all_passed": true,
+  "strict_visual_conflicts_returned": 0,
+  "strict_visual_unknown_returned": 0,
+  "white_tshirt_observed_dark_product": {
+    "product_id": "B0BBXKBQYY",
+    "title": "adidas Men's Crewneck",
+    "brand": "adidas",
+    "metadata_colour_evidence": {
+      "contract_version": "n24m2_trusted_attribute_evidence_v1",
+      "attribute": "colour",
+      "canonical_value": [
+        "white"
+      ],
+      "source_field": "details.Color",
+      "source_type": "VARIANT",
+      "raw_value": "Onix/White",
+      "confidence": 1.0,
+      "match_level": "EXACT",
+      "reason": "explicit structured colour/variant field"
+    },
+    "variant_evidence": "Onix/White",
+    "image_url": "https://m.media-amazon.com/images/I/31wuJjdaLpL._AC_.jpg",
+    "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BBXKBQYY.jpg",
+    "visual_classification": "VISUAL_CONFLICT",
+    "visual_confidence": 0.9047,
+    "returned": false
+  }
+}

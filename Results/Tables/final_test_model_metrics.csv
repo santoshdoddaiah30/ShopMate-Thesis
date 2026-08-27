@@ -1,0 +1,9 @@
+evaluation_scope,model,evaluation_users,users_with_candidates,user_candidate_coverage_percentage,targets_in_training_catalogue,catalogue_availability_percentage,targets_with_rank,target_rank_available_percentage,hit_rate_at_5,hit_rate_at_10,hit_rate_at_20,mrr_at_10,ndcg_at_10
+all_test,Popularity baseline,76387,76387,100.0,74847,97.98,74847,97.98,0.015552,0.018393,0.021836,0.013533,0.014662
+all_test,TF-IDF content-based,76387,75543,98.9,74847,97.98,74021,96.9,0.004975,0.007698,0.011782,0.002976,0.004075
+all_test,Tuned latent-factor CF,76387,75543,98.9,74847,97.98,67092,87.83,0.004281,0.007344,0.012109,0.002408,0.003547
+all_test,Final locked hybrid,76387,76387,100.0,74847,97.98,13202,17.28,0.014479,0.018315,0.022661,0.009101,0.011284
+positive_test,Popularity baseline,59558,59558,100.0,58362,97.99,58362,97.99,0.016119,0.019242,0.022835,0.014003,0.015217
+positive_test,TF-IDF content-based,59558,59179,99.36,58362,97.99,57991,97.37,0.005507,0.008563,0.012845,0.003282,0.00451
+positive_test,Tuned latent-factor CF,59558,59179,99.36,58362,97.99,52636,88.38,0.004483,0.007757,0.01266,0.00249,0.003704
+positive_test,Final locked hybrid,59558,59558,100.0,58362,97.99,10673,17.92,0.014876,0.01904,0.023641,0.009334,0.011631

@@ -1,0 +1,509 @@
+{
+  "manifest_version": "final_n23_application_evaluation_v1",
+  "created_at": "2026-08-25T01:11:05+02:00",
+  "evaluation_mode": "evaluation_only",
+  "frozen_application": {
+    "status": "SECTION 153E7N23 — FINAL APPLICATION FREEZE",
+    "startup_sequence": [397, 398, 399, 400, 396, 394, 395, 401],
+    "change_rule": "Record failures; do not modify recommender, application, configuration, thresholds, ranking, filtering, models, or scenarios."
+  },
+  "frozen_hybrid_configuration": {
+    "content_weight": 0.2,
+    "collaborative_weight": 0.1,
+    "popularity_weight": 0.7,
+    "rrf_k": 60,
+    "candidates_per_model": 500,
+    "source": "Datasets/Processed/final_hybrid_configuration.json"
+  },
+  "data_identifiers": {
+    "source_dataset": "Amazon Reviews 2023 — Clothing, Shoes and Jewelry",
+    "catalogue_artifact": "Datasets/Processed/cf_content_documents.parquet",
+    "catalogue_rows": 65546,
+    "final_test_protocol": "chronological leave-two-out; latest interaction=test, second-latest=validation",
+    "final_test_users": 76387,
+    "positive_test_users": 59558
+  },
+  "catalogue_precheck": {
+    "method": "read-only scan of Datasets/Processed/clothing_products_test.parquet",
+    "confirmed_exact_brands": {
+      "Nike": 19,
+      "adidas": 34,
+      "PUMA": 13,
+      "Casio": 3,
+      "Levi's": 17,
+      "Amazon Essentials": 50
+    },
+    "confirmed_text_combinations": {
+      "black Nike shoes": 3,
+      "Casio watches": 3,
+      "red t-shirts": 2,
+      "blue jackets": 1
+    },
+    "purpose": "Confirm fixed feasible scenario vocabulary only; not a recommendation run."
+  },
+  "execution_defaults": {
+    "top_n": 10,
+    "account_policy": "Use the dedicated evaluation account; create a fresh isolated chat unless a scenario explicitly specifies same-chat turns or cross-chat isolation.",
+    "price_policy": "Validate numeric historical price fields, not formatted display text.",
+    "no_exact_match_policy": "A pass requires no fabricated product and no silent violation of an explicit constraint."
+  },
+  "metric_definitions": {
+    "constraint_satisfaction_rate": "satisfied explicit constraints / evaluated explicit constraints",
+    "exact_match_integrity_rate": "responses that either satisfy every explicit constraint or correctly report no exact match / evaluated exact-match responses",
+    "no_fabrication_rate": "responses containing only real catalogue products, or no product when no exact match exists / evaluated responses",
+    "scenario_pass_rate": "passed scenarios / executed scenarios"
+  },
+  "application_scenarios": [
+    {
+      "scenario_id": "A01",
+      "evaluation_type": "application",
+      "scenario_name": "Category: shoes",
+      "turns": [{"turn": 1, "message": "Show me shoes under $100."}],
+      "expected_constraints": {"categories_any": ["Shoes"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication", "persistence"]
+    },
+    {
+      "scenario_id": "A02",
+      "evaluation_type": "application",
+      "scenario_name": "Category and approximate budget: t-shirts",
+      "turns": [{"turn": 1, "message": "I want tshirts around 50$."}],
+      "expected_constraints": {"categories_any": ["T-Shirts", "Shirts"], "maximum_price": 50.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication", "persistence"]
+    },
+    {
+      "scenario_id": "A03",
+      "evaluation_type": "application",
+      "scenario_name": "Category: watches",
+      "turns": [{"turn": 1, "message": "Show me watches under $100."}],
+      "expected_constraints": {"categories_any": ["Watches"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A04",
+      "evaluation_type": "application",
+      "scenario_name": "Category: jackets",
+      "turns": [{"turn": 1, "message": "Show me jackets under $100."}],
+      "expected_constraints": {"categories_any": ["Jackets"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A05",
+      "evaluation_type": "application",
+      "scenario_name": "Brand only: Nike",
+      "turns": [{"turn": 1, "message": "Show me Nike products."}],
+      "expected_constraints": {"brands_all": ["Nike"]},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A06",
+      "evaluation_type": "application",
+      "scenario_name": "Brand, category, budget: Nike shoes",
+      "turns": [{"turn": 1, "message": "Show me Nike shoes under $100."}],
+      "expected_constraints": {"brands_all": ["Nike"], "categories_any": ["Shoes"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication", "persistence"]
+    },
+    {
+      "scenario_id": "A07",
+      "evaluation_type": "application",
+      "scenario_name": "Brand, category, budget: Casio watches",
+      "turns": [{"turn": 1, "message": "Show me Casio watches under $100."}],
+      "expected_constraints": {"brands_all": ["Casio"], "categories_any": ["Watches"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A08",
+      "evaluation_type": "application",
+      "scenario_name": "Brand, category, budget: adidas shoes",
+      "turns": [{"turn": 1, "message": "Show me adidas shoes under $100."}],
+      "expected_constraints": {"brands_all": ["adidas"], "categories_any": ["Shoes"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A09",
+      "evaluation_type": "application",
+      "scenario_name": "Category and strict budget: shoes",
+      "turns": [{"turn": 1, "message": "Show me shoes under $40."}],
+      "expected_constraints": {"categories_any": ["Shoes"], "maximum_price": 40.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A10",
+      "evaluation_type": "application",
+      "scenario_name": "Category and budget: jackets",
+      "turns": [{"turn": 1, "message": "Show me jackets under $60."}],
+      "expected_constraints": {"categories_any": ["Jackets"], "maximum_price": 60.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A11",
+      "evaluation_type": "application",
+      "scenario_name": "Brand, category, budget: Amazon Essentials jackets",
+      "turns": [{"turn": 1, "message": "Show me Amazon Essentials jackets under $80."}],
+      "expected_constraints": {"brands_all": ["Amazon Essentials"], "categories_any": ["Jackets"], "maximum_price": 80.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A12",
+      "evaluation_type": "application",
+      "scenario_name": "Colour and category: black shoes",
+      "turns": [{"turn": 1, "message": "Show me black shoes under $80."}],
+      "expected_constraints": {"colors_all": ["black"], "categories_any": ["Shoes"], "maximum_price": 80.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["colour", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A13",
+      "evaluation_type": "application",
+      "scenario_name": "Colour, category, budget: red t-shirts",
+      "turns": [{"turn": 1, "message": "Show me red tshirts under $50."}],
+      "expected_constraints": {"colors_all": ["red"], "categories_any": ["T-Shirts", "Shirts"], "maximum_price": 50.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["colour", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A14",
+      "evaluation_type": "application",
+      "scenario_name": "Colour, brand, category, budget: black Nike shoes",
+      "turns": [{"turn": 1, "message": "Show me black Nike shoes under $100."}],
+      "expected_constraints": {"colors_all": ["black"], "brands_all": ["Nike"], "categories_any": ["Shoes"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["colour", "brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A15",
+      "evaluation_type": "application",
+      "scenario_name": "Colour, category, budget: blue jackets",
+      "turns": [{"turn": 1, "message": "Show me blue jackets under $100."}],
+      "expected_constraints": {"colors_all": ["blue"], "categories_any": ["Jackets"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["colour", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A16",
+      "evaluation_type": "application",
+      "scenario_name": "Tight combined constraints: black Nike shoes",
+      "turns": [{"turn": 1, "message": "Show me black Nike shoes under $40."}],
+      "expected_constraints": {"colors_all": ["black"], "brands_all": ["Nike"], "categories_any": ["Shoes"], "maximum_price": 40.0},
+      "expected_behavior": {"response_type": "recommendations", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["colour", "brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A17",
+      "evaluation_type": "application",
+      "scenario_name": "Combined constraints: adidas shoes",
+      "turns": [{"turn": 1, "message": "Show me adidas shoes under $80."}],
+      "expected_constraints": {"brands_all": ["adidas"], "categories_any": ["Shoes"], "maximum_price": 80.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A18",
+      "evaluation_type": "application",
+      "scenario_name": "Combined constraints: PUMA shoes",
+      "turns": [{"turn": 1, "message": "Show me PUMA shoes under $100."}],
+      "expected_constraints": {"brands_all": ["PUMA"], "categories_any": ["Shoes"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A19",
+      "evaluation_type": "application",
+      "scenario_name": "Combined constraints: Levi's jackets",
+      "turns": [{"turn": 1, "message": "Show me Levi's jackets under $100."}],
+      "expected_constraints": {"brands_all": ["Levi's"], "categories_any": ["Jackets"], "maximum_price": 100.0},
+      "expected_behavior": {"response_type": "recommendations_or_no_exact_match", "pipeline_mode": "products", "require_real_catalogue_products": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A20",
+      "evaluation_type": "application",
+      "scenario_name": "No exact match: incompatible Casio jacket request",
+      "turns": [{"turn": 1, "message": "Show me purple Casio jackets under $10."}],
+      "expected_constraints": {"colors_all": ["purple"], "brands_all": ["Casio"], "categories_any": ["Jackets"], "maximum_price": 10.0},
+      "expected_behavior": {"response_type": "no_exact_match", "pipeline_mode": "products", "card_count": 0, "require_clear_no_exact_match_message": true},
+      "metrics_to_check": ["colour", "brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A21",
+      "evaluation_type": "application",
+      "scenario_name": "No exact match: incompatible Nike watch request",
+      "turns": [{"turn": 1, "message": "Show me green Nike watches under $10."}],
+      "expected_constraints": {"colors_all": ["green"], "brands_all": ["Nike"], "categories_any": ["Watches"], "maximum_price": 10.0},
+      "expected_behavior": {"response_type": "no_exact_match", "pipeline_mode": "products", "card_count": 0, "require_clear_no_exact_match_message": true},
+      "metrics_to_check": ["colour", "brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    },
+    {
+      "scenario_id": "A22",
+      "evaluation_type": "application",
+      "scenario_name": "No exact match: incompatible adidas watch request",
+      "turns": [{"turn": 1, "message": "Show me adidas watches under $5."}],
+      "expected_constraints": {"brands_all": ["adidas"], "categories_any": ["Watches"], "maximum_price": 5.0},
+      "expected_behavior": {"response_type": "no_exact_match", "pipeline_mode": "products", "card_count": 0, "require_clear_no_exact_match_message": true},
+      "metrics_to_check": ["brand", "category", "budget", "exact_match_integrity", "no_fabrication"]
+    }
+  ],
+  "conversational_scenarios": [
+    {
+      "scenario_id": "M01",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Budget replacement preserves black Nike shoes",
+      "turns": [
+        {"turn": 1, "message": "Show me black Nike shoes under $40.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}},
+        {"turn": 2, "message": "Increase my budget to $80.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 80.0, "forbidden_maximum_price": 40.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "constraint_retention", "constraint_replacement", "persistence", "reload_memory"]
+    },
+    {
+      "scenario_id": "M02",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Brand retention across colour follow-up",
+      "turns": [
+        {"turn": 1, "message": "Show me Nike shoes under $100.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "maximum_price": 100.0}},
+        {"turn": 2, "message": "Show me black ones.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 100.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "brand_retention", "category_retention", "budget_retention"]
+    },
+    {
+      "scenario_id": "M03",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Category retention for Casio watch colour follow-up",
+      "turns": [
+        {"turn": 1, "message": "Show me Casio watches under $100.", "expected_active_state": {"categories": ["Watches"], "brands": ["Casio"], "maximum_price": 100.0}},
+        {"turn": 2, "message": "Show me black options.", "expected_active_state": {"categories": ["Watches"], "brands": ["Casio"], "colors": ["black"], "maximum_price": 100.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "brand_retention", "category_retention", "colour_replacement"]
+    },
+    {
+      "scenario_id": "M04",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Colour retention across budget follow-up",
+      "turns": [
+        {"turn": 1, "message": "Show me black adidas shoes under $100.", "expected_active_state": {"categories": ["Shoes"], "brands": ["adidas"], "colors": ["black"], "maximum_price": 100.0}},
+        {"turn": 2, "message": "Increase my budget to $120.", "expected_active_state": {"categories": ["Shoes"], "brands": ["adidas"], "colors": ["black"], "maximum_price": 120.0, "forbidden_maximum_price": 100.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "brand_retention", "category_retention", "colour_retention", "constraint_replacement"]
+    },
+    {
+      "scenario_id": "M05",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Explicit replacement of brand and colour",
+      "turns": [
+        {"turn": 1, "message": "Show me black Nike shoes under $100.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 100.0}},
+        {"turn": 2, "message": "Show me red adidas shoes under $100 instead.", "expected_active_state": {"categories": ["Shoes"], "brands": ["adidas"], "colors": ["red"], "maximum_price": 100.0, "forbidden_brands": ["Nike"], "forbidden_colors": ["black"]}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "constraint_replacement", "old_constraint_removal"]
+    },
+    {
+      "scenario_id": "M06",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Explicit colour removal and budget relaxation",
+      "turns": [
+        {"turn": 1, "message": "Show me black Nike shoes under $40.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}},
+        {"turn": 2, "message": "Remove the colour restriction and increase my budget to $80.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": [], "maximum_price": 80.0, "forbidden_maximum_price": 40.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "constraint_removal", "constraint_replacement", "brand_retention", "category_retention"]
+    },
+    {
+      "scenario_id": "M07",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "New goal resets unrelated state",
+      "turns": [
+        {"turn": 1, "message": "Show me black Nike shoes under $40.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}},
+        {"turn": 2, "message": "I need Casio watches under $100.", "expected_active_state": {"categories": ["Watches"], "brands": ["Casio"], "colors": [], "maximum_price": 100.0, "forbidden_brands": ["Nike"], "forbidden_categories": ["Shoes"]}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"pipeline_mode": "products", "new_goal_recognized": true},
+      "metrics_to_check": ["turn_state_accuracy", "new_goal_reset_accuracy", "old_constraint_removal"]
+    },
+    {
+      "scenario_id": "M08",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Separate chats do not share active-request state",
+      "turns": [
+        {"turn": 1, "chat_label": "chat_a", "message": "Show me black Nike shoes under $40.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}},
+        {"turn": 2, "chat_label": "chat_b", "message": "Show me Casio watches under $100.", "expected_active_state": {"categories": ["Watches"], "brands": ["Casio"], "colors": [], "maximum_price": 100.0}},
+        {"turn": 3, "chat_label": "chat_a", "action": "reload_only", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}}
+      ],
+      "expected_constraints": {"separate_chats": true},
+      "expected_behavior": {"chat_isolation": true},
+      "metrics_to_check": ["chat_isolation_success", "reload_memory_success"]
+    },
+    {
+      "scenario_id": "M09",
+      "evaluation_type": "conversational_memory",
+      "scenario_name": "Reload restores final budget-replacement state",
+      "turns": [
+        {"turn": 1, "message": "Show me black Nike shoes under $40.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 40.0}},
+        {"turn": 2, "message": "Increase my budget to $80.", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 80.0}},
+        {"turn": 3, "action": "reload_only", "expected_active_state": {"categories": ["Shoes"], "brands": ["Nike"], "colors": ["black"], "maximum_price": 80.0}}
+      ],
+      "expected_constraints": {"same_chat": true},
+      "expected_behavior": {"reload_preserves_active_state": true},
+      "metrics_to_check": ["turn_state_accuracy", "constraint_replacement", "reload_memory_success"]
+    }
+  ],
+  "outfit_scenarios": [
+    {
+      "scenario_id": "O01",
+      "evaluation_type": "outfit",
+      "scenario_name": "Men's birthday-party makeover, $500",
+      "turns": [
+        {"turn": 1, "message": "I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Men", "expected_recipient": "men", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "men", "maximum_total_price": 500.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"look_count_when_sufficient": 3, "items_per_look": 5, "required_slots": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "within_look_uniqueness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O02",
+      "evaluation_type": "outfit",
+      "scenario_name": "Women's birthday-party makeover, $500",
+      "turns": [
+        {"turn": 1, "message": "I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Women", "expected_recipient": "women", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "women", "maximum_total_price": 500.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"look_count_when_sufficient": 3, "items_per_look": 5, "required_slots": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "within_look_uniqueness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O03",
+      "evaluation_type": "outfit",
+      "scenario_name": "Men's birthday-party makeover, $300",
+      "turns": [
+        {"turn": 1, "message": "I have a 300 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Men", "expected_recipient": "men", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "men", "maximum_total_price": 300.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"look_count_when_sufficient": 3, "items_per_look": 5, "required_slots": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "within_look_uniqueness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O04",
+      "evaluation_type": "outfit",
+      "scenario_name": "Women's birthday-party makeover, $300",
+      "turns": [
+        {"turn": 1, "message": "I have a 300 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Women", "expected_recipient": "women", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "women", "maximum_total_price": 300.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"look_count_when_sufficient": 3, "items_per_look": 5, "required_slots": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "within_look_uniqueness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O05",
+      "evaluation_type": "outfit",
+      "scenario_name": "Men's constrained birthday-party makeover, $150",
+      "turns": [
+        {"turn": 1, "message": "I have a 150 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Men", "expected_recipient": "men", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "men", "maximum_total_price": 150.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"record_catalogue_limitation_if_incomplete": true, "required_slots_if_complete": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload_when_complete": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O06",
+      "evaluation_type": "outfit",
+      "scenario_name": "Women's constrained birthday-party makeover, $150",
+      "turns": [
+        {"turn": 1, "message": "I have a 150 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Women", "expected_recipient": "women", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "women", "maximum_total_price": 150.0, "occasion": "party", "timeframe": "tomorrow"},
+      "expected_behavior": {"record_catalogue_limitation_if_incomplete": true, "required_slots_if_complete": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload_when_complete": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    },
+    {
+      "scenario_id": "O07",
+      "evaluation_type": "outfit",
+      "scenario_name": "Men's work-event makeover, $400",
+      "turns": [
+        {"turn": 1, "message": "I have a 400 $ budget for my complete makeover. Give me combinations for tomorrow's work event.", "expected_pending_field": "outfit_recipient", "expected_response_type": "clarification"},
+        {"turn": 2, "message": "Men", "expected_recipient": "men", "expected_response_type": "recommendations", "expected_pipeline_mode": "outfit"}
+      ],
+      "expected_constraints": {"recipient": "men", "maximum_total_price": 400.0, "occasion": "work", "timeframe": "tomorrow"},
+      "expected_behavior": {"record_catalogue_limitation_if_incomplete": true, "required_slots_if_complete": ["top", "bottom", "footwear", "outerwear", "accessory"], "stored_rows_when_complete": 15, "grouped_reload_when_complete": "3x5"},
+      "metrics_to_check": ["clarification_accuracy", "recipient", "occasion", "complete_look", "slot_completeness", "within_look_uniqueness", "catalogue_validity", "budget", "persistence", "grouped_reload", "pending_clear"]
+    }
+  ],
+  "performance_scenarios": [
+    {
+      "scenario_id": "P1",
+      "evaluation_type": "performance",
+      "scenario_name": "Nike shoes under $100",
+      "turns": [{"turn": 1, "message": "Show me Nike shoes under $100."}],
+      "expected_constraints": {"fresh_chat_each_run": true},
+      "expected_behavior": {"pipeline_mode": "products"},
+      "metrics_to_check": ["backend_generation_seconds", "api_end_to_end_wall_seconds", "response_validity"]
+    },
+    {
+      "scenario_id": "P2",
+      "evaluation_type": "performance",
+      "scenario_name": "T-shirts around $50",
+      "turns": [{"turn": 1, "message": "I want tshirts around 50$."}],
+      "expected_constraints": {"fresh_chat_each_run": true},
+      "expected_behavior": {"pipeline_mode": "products"},
+      "metrics_to_check": ["backend_generation_seconds", "api_end_to_end_wall_seconds", "response_validity"]
+    },
+    {
+      "scenario_id": "P3",
+      "evaluation_type": "performance",
+      "scenario_name": "Black Nike shoes under $40",
+      "turns": [{"turn": 1, "message": "Show me black Nike shoes under $40."}],
+      "expected_constraints": {"fresh_chat_each_run": true},
+      "expected_behavior": {"pipeline_mode": "products"},
+      "metrics_to_check": ["backend_generation_seconds", "api_end_to_end_wall_seconds", "response_validity"]
+    },
+    {
+      "scenario_id": "P4",
+      "evaluation_type": "performance",
+      "scenario_name": "Two-turn budget-update flow",
+      "turns": [{"turn": 1, "message": "Show me black Nike shoes under $40."}, {"turn": 2, "message": "Increase my budget to $80."}],
+      "expected_constraints": {"fresh_chat_each_run": true, "same_chat_within_run": true},
+      "expected_behavior": {"pipeline_mode": "products", "follow_up_recognized": true},
+      "metrics_to_check": ["backend_generation_seconds_per_turn", "api_end_to_end_wall_seconds_per_turn", "sequence_wall_seconds", "response_validity"]
+    },
+    {
+      "scenario_id": "P5",
+      "evaluation_type": "performance",
+      "scenario_name": "Outfit generation after recipient resolution",
+      "turns": [{"turn": 1, "message": "I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party."}, {"turn": 2, "message": "Men"}],
+      "expected_constraints": {"fresh_chat_each_run": true, "same_chat_within_run": true},
+      "expected_behavior": {"turn_1_response_type": "clarification", "turn_2_pipeline_mode": "outfit"},
+      "metrics_to_check": ["backend_generation_seconds_turn_2", "api_end_to_end_wall_seconds_turn_2", "full_sequence_wall_seconds", "response_validity"]
+    }
+  ],
+  "performance_protocol": {
+    "measured_repetitions_per_scenario": 5,
+    "warmup_runs_per_scenario": 1,
+    "cold_start_condition": "Record the first valid request after a fresh N23 manifest and FastAPI startup separately; do not combine it with warm-state summaries.",
+    "warm_state_condition": "After the scenario-specific warm-up, use five fresh-chat generations; no cached or pre-existing response may be counted as a measured generation.",
+    "report_each_metric": ["count", "mean", "median", "standard_deviation", "minimum", "maximum", "p90", "p95"],
+    "separation_rule": "Backend generation time comes only from response performance.total_seconds; API end-to-end wall time is measured independently by the client."
+  }
+}

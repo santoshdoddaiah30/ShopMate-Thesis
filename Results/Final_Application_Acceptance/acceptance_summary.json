@@ -1,0 +1,16 @@
+{
+  "version": "shopmate_final_application_acceptance_v2_raw_category_oracle",
+  "generated_at": "2026-08-27T07:46:24.228289+00:00",
+  "scenario_count": 35,
+  "turn_count": 48,
+  "pass": 35,
+  "fail": 0,
+  "hard_constraint_violations": 0,
+  "average_latency_seconds": 3.983,
+  "median_latency_seconds": 0.859,
+  "zero_result_turns": 25,
+  "files": {
+    "turns": "acceptance_turn_results.csv",
+    "scenarios": "acceptance_scenario_summary.csv"
+  }
+}

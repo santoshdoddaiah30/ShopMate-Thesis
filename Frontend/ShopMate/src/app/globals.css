@@ -1,0 +1,1277 @@
+﻿@import "tailwindcss";
+
+:root {
+  --shopmate-purple: #583bf5;
+  --shopmate-purple-light: #9181f8;
+  --shopmate-sidebar-width: 360px;
+  --shopmate-background: #f4f7fc;
+  --shopmate-panel: #ffffff;
+  --shopmate-border: #dce2eb;
+  --shopmate-text: #172033;
+  --shopmate-muted: #667085;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #ffffff;
+  color: var(--shopmate-text);
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.shopmate-app {
+  display: grid;
+  grid-template-columns:
+    var(--shopmate-sidebar-width)
+    minmax(0, 1fr);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--shopmate-background);
+}
+
+/* Sidebar */
+
+.shopmate-sidebar {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100vh;
+  overflow: hidden;
+  border-right: 1px solid var(--shopmate-border);
+  background: var(--shopmate-panel);
+}
+
+.shopmate-brand {
+  flex: 0 0 auto;
+  padding: 42px 26px 25px;
+  border-bottom: 1px solid var(--shopmate-border);
+}
+
+.shopmate-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.shopmate-brand-logo {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  color: var(--shopmate-purple);
+}
+
+.shopmate-brand-name {
+  color: var(--shopmate-purple);
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+}
+
+.shopmate-powered {
+  margin-top: 8px;
+  color: var(--shopmate-muted);
+  font-size: 16px;
+}
+
+.shopmate-sidebar-content {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 25px 22px;
+  overflow-y: auto;
+}
+
+.shopmate-sidebar-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 49px;
+  padding: 0 14px;
+  gap: 12px;
+  border: 0;
+  border-radius: 11px;
+  background: transparent;
+  color: #334155;
+  font-size: 17px;
+  text-align: left;
+}
+
+.shopmate-sidebar-button:hover {
+  background: #f2f4f8;
+}
+
+.new-chat-button {
+  margin-bottom: 25px;
+}
+
+.sidebar-icon {
+  display: inline-grid;
+  width: 24px;
+  place-items: center;
+  color: #536174;
+  font-size: 22px;
+}
+
+.sidebar-section-title {
+  margin: 0 5px 11px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.recent-title {
+  margin-top: 29px;
+}
+
+.recent-chat-list {
+  display: grid;
+  gap: 3px;
+}
+
+.recent-chat {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 42px;
+  padding: 0 12px;
+  gap: 10px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #475569;
+  text-align: left;
+}
+
+.recent-chat:hover,
+.recent-chat.active {
+  background: #f0f2f7;
+}
+
+.recent-chat-icon {
+  color: #8b95a5;
+  font-size: 13px;
+}
+
+.recent-chat-text {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shopmate-account {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  min-height: 78px;
+  padding: 12px 21px;
+  gap: 11px;
+  border-top: 1px solid var(--shopmate-border);
+  background: #ffffff;
+}
+
+.account-avatar {
+  display: grid;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.account-copy {
+  min-width: 0;
+}
+
+.account-name {
+  overflow: hidden;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-status {
+  color: #8a94a3;
+  font-size: 11px;
+}
+
+.account-menu {
+  margin-left: auto;
+  padding: 6px 9px;
+  border: 0;
+  background: transparent;
+  color: #667085;
+  font-size: 21px;
+}
+
+/* Main application */
+
+.shopmate-main {
+  display: flex;
+  min-width: 0;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--shopmate-background);
+}
+
+.shopmate-topbar {
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  flex: 0 0 82px;
+  align-items: center;
+  min-height: 82px;
+  padding: 0 25px;
+  border-bottom: 1px solid var(--shopmate-border);
+  background: #ffffff;
+}
+
+.topbar-back {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #475569;
+  font-size: 37px;
+  font-weight: 300;
+}
+
+.topbar-title {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 650;
+  text-align: center;
+}
+
+.shopmate-conversation {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--shopmate-background);
+}
+
+.conversation-inner {
+  width: min(960px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 29px 0 32px;
+}
+
+.message-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 23px;
+  gap: 14px;
+}
+
+.user-row {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.assistant-row {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.message-avatar {
+  display: grid;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.user-avatar {
+  background: var(--shopmate-purple);
+}
+
+.assistant-avatar {
+  background: #6849f6;
+}
+
+.message-bubble {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.user-bubble {
+  max-width: 70%;
+  padding: 17px 23px;
+  border-radius: 25px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+}
+
+.assistant-bubble {
+  max-width: 84%;
+  padding: 19px 23px;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 25px;
+  background: #ffffff;
+  color: var(--shopmate-text);
+}
+
+/* Products */
+
+.recommendation-section {
+  margin: 12px 0 0 62px;
+}
+
+.recommendation-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 20px;
+}
+
+.recommendation-heading h2 {
+  margin: 0;
+  color: #172033;
+  font-size: 20px;
+  font-weight: 750;
+}
+
+.recommendation-heading p {
+  margin: 3px 0 0;
+  color: var(--shopmate-muted);
+  font-size: 13px;
+}
+
+.recommendation-heading > span {
+  color: var(--shopmate-muted);
+  font-size: 13px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.product-card {
+  display: grid;
+  grid-template-columns: 145px minmax(0, 1fr);
+  min-height: 205px;
+  padding: 15px;
+  overflow: hidden;
+  gap: 16px;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 21px;
+  background: #ffffff;
+}
+
+.product-image-wrap {
+  display: grid;
+  min-height: 170px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #f5f6f8;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-information {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.product-brand {
+  color: var(--shopmate-purple);
+  font-size: 12px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.product-title {
+  display: -webkit-box;
+  margin: 5px 0 7px;
+  overflow: hidden;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #667085;
+  font-size: 12px;
+}
+
+.rating-star {
+  color: #f59e0b;
+  font-size: 15px;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.product-tags span {
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: #f0efff;
+  color: #5845c8;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.product-footer {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 10px;
+  gap: 8px;
+}
+
+.product-price {
+  color: #111827;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.product-footer button {
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+/* Composer */
+
+.shopmate-composer-shell {
+  flex: 0 0 auto;
+  padding: 18px 24px 11px;
+  border-top: 1px solid var(--shopmate-border);
+  background: #ffffff;
+}
+
+.shopmate-composer {
+  display: flex;
+  width: min(900px, 100%);
+  margin: 0 auto;
+  align-items: center;
+  gap: 16px;
+}
+
+.shopmate-composer textarea {
+  width: 100%;
+  min-height: 72px;
+  max-height: 130px;
+  padding: 20px 22px;
+  resize: none;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 19px;
+  outline: none;
+  background: #fbfcfe;
+  color: var(--shopmate-text);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.shopmate-composer textarea:focus {
+  border-color: #a99df9;
+  box-shadow: 0 0 0 3px rgba(88, 59, 245, 0.09);
+}
+
+.shopmate-composer textarea::placeholder {
+  color: #98a2b3;
+}
+
+.composer-send {
+  display: grid;
+  flex: 0 0 66px;
+  width: 66px;
+  height: 66px;
+  place-items: center;
+  border: 0;
+  border-radius: 18px;
+  background: var(--shopmate-purple-light);
+  color: #ffffff;
+  font-size: 27px;
+}
+
+.composer-send:hover:not(:disabled) {
+  background: var(--shopmate-purple);
+}
+
+.composer-send:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.shopmate-dataset-note {
+  width: min(900px, 100%);
+  margin: 8px auto 0;
+  color: #98a2b3;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media (max-width: 1100px) {
+  :root {
+    --shopmate-sidebar-width: 300px;
+  }
+
+  .product-card {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 850px) {
+  .shopmate-app {
+    grid-template-columns: 245px minmax(0, 1fr);
+  }
+
+  .shopmate-brand {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .shopmate-brand-name {
+    font-size: 23px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .shopmate-app {
+    grid-template-columns: 1fr;
+  }
+
+  .shopmate-sidebar {
+    display: none;
+  }
+
+  .conversation-inner {
+    width: calc(100% - 24px);
+  }
+
+  .recommendation-section {
+    margin-left: 0;
+  }
+
+  .shopmate-composer-shell {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .message-avatar {
+    display: none;
+  }
+
+  .user-bubble,
+  .assistant-bubble {
+    max-width: 90%;
+  }
+}
+
+/* ==========================================================
+   Connected login and API workspace additions
+   ========================================================== */
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.shopmate-loading-screen {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-content: center;
+  justify-items: center;
+  background:
+    radial-gradient(
+      circle at top,
+      #eeeaff,
+      #f8f9fc 48%,
+      #ffffff
+    );
+  color: var(--shopmate-text);
+  text-align: center;
+}
+
+.shopmate-loading-logo,
+.shopmate-auth-logo {
+  display: grid;
+  width: 72px;
+  height: 72px;
+  place-items: center;
+  border-radius: 22px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 800;
+  box-shadow:
+    0 18px 45px rgba(88, 59, 245, 0.25);
+}
+
+.shopmate-loading-screen h1 {
+  margin: 18px 0 2px;
+  color: var(--shopmate-purple);
+}
+
+.shopmate-loading-screen p {
+  color: var(--shopmate-muted);
+}
+
+.shopmate-auth-page {
+  display: grid;
+  grid-template-columns:
+    minmax(380px, 0.9fr)
+    minmax(500px, 1.1fr);
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+  background: #f5f7fc;
+}
+
+.shopmate-auth-brand {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px clamp(42px, 7vw, 115px);
+  background:
+    linear-gradient(
+      145deg,
+      #4d2fe9,
+      #6e56f7 58%,
+      #8c7cff
+    );
+  color: #ffffff;
+}
+
+.shopmate-auth-brand h1 {
+  margin: 20px 0 0;
+  font-size: 44px;
+  letter-spacing: -1.5px;
+}
+
+.shopmate-auth-powered {
+  margin: 5px 0 48px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.shopmate-auth-brand h2 {
+  max-width: 620px;
+  margin: 0;
+  font-size: clamp(29px, 3.5vw, 48px);
+  line-height: 1.12;
+  letter-spacing: -1.2px;
+}
+
+.shopmate-auth-description {
+  max-width: 610px;
+  margin: 25px 0 35px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.shopmate-auth-feature {
+  margin: 9px 0;
+  color: rgba(255, 255, 255, 0.93);
+  font-size: 15px;
+}
+
+.shopmate-auth-panel {
+  display: grid;
+  min-height: 100vh;
+  padding: 45px;
+  place-items: center;
+}
+
+.shopmate-auth-card {
+  width: min(500px, 100%);
+  padding: 34px;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 27px;
+  background: #ffffff;
+  box-shadow:
+    0 25px 70px rgba(32, 41, 67, 0.1);
+}
+
+.shopmate-auth-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 28px;
+  padding: 5px;
+  border-radius: 13px;
+  background: #f0f2f7;
+}
+
+.shopmate-auth-tabs button {
+  min-height: 46px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: #667085;
+  font-weight: 650;
+}
+
+.shopmate-auth-tabs button.active {
+  background: #ffffff;
+  color: var(--shopmate-purple);
+  box-shadow:
+    0 4px 15px rgba(42, 52, 74, 0.09);
+}
+
+.shopmate-auth-form {
+  display: grid;
+  gap: 17px;
+}
+
+.shopmate-auth-form h2 {
+  margin: 0;
+  color: #172033;
+  font-size: 27px;
+}
+
+.shopmate-auth-form > p {
+  margin: -7px 0 8px;
+  color: var(--shopmate-muted);
+  line-height: 1.55;
+}
+
+.shopmate-auth-form label {
+  display: grid;
+  gap: 7px;
+  color: #344054;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.shopmate-auth-form input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 11px;
+  outline: none;
+  background: #fbfcfe;
+  color: var(--shopmate-text);
+}
+
+.shopmate-auth-form input:focus {
+  border-color: #9b8ff8;
+  box-shadow:
+    0 0 0 3px rgba(88, 59, 245, 0.1);
+}
+
+.shopmate-auth-submit {
+  min-height: 50px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.shopmate-error {
+  margin-bottom: 18px;
+  padding: 12px 14px;
+  border: 1px solid #fecaca;
+  border-radius: 11px;
+  background: #fff1f2;
+  color: #b42318;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.workspace-error {
+  margin: 0 0 22px;
+}
+
+.shopmate-brand-logo {
+  border-radius: 11px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.shopmate-empty-chats {
+  padding: 12px;
+  color: #98a2b3;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.shopmate-thinking {
+  color: #667085;
+  font-style: italic;
+}
+
+.shopmate-workspace-status {
+  margin: 8px 0 20px 62px;
+  padding: 10px 14px;
+  border: 1px solid #dfe3ec;
+  border-radius: 11px;
+  background: #ffffff;
+  color: #667085;
+  font-size: 13px;
+}
+
+.shopmate-generation-time {
+  margin: -12px 0 16px 62px;
+  color: #667085;
+  font-size: 12px;
+}
+
+.shopmate-weather-panel {
+  margin: 12px 0 24px 62px;
+  padding: 17px 19px;
+  border: 1px solid #cbd5ff;
+  border-radius: 16px;
+  background: #f2f4ff;
+  color: #344054;
+}
+
+.shopmate-weather-panel strong {
+  color: #503bd2;
+}
+
+.shopmate-weather-panel p {
+  margin: 7px 0 0;
+  line-height: 1.55;
+}
+
+.product-category {
+  margin-bottom: 6px;
+  color: #7b8493;
+  font-size: 11px;
+}
+
+.product-explanation {
+  display: -webkit-box;
+  margin: 9px 0 0;
+  overflow: hidden;
+  color: #667085;
+  font-size: 11px;
+  line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.product-image-placeholder {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 15px;
+  color: #98a2b3;
+  font-size: 12px;
+  text-align: center;
+}
+
+.product-footer a {
+  padding: 7px 9px;
+  border-radius: 9px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.historical-price-note {
+  margin: 13px 0 0;
+  color: #98a2b3;
+  font-size: 11px;
+  text-align: center;
+}
+
+.shopmate-html-card-fallback {
+  margin: 20px 0 0 62px;
+}
+
+@media (max-width: 900px) {
+  .shopmate-auth-page {
+    grid-template-columns: 1fr;
+  }
+
+  .shopmate-auth-brand {
+    min-height: auto;
+    padding: 55px 35px;
+  }
+
+  .shopmate-auth-panel {
+    min-height: auto;
+    padding: 35px 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .shopmate-workspace-status,
+  .shopmate-generation-time,
+  .shopmate-weather-panel,
+  .shopmate-html-card-fallback {
+    margin-left: 0;
+  }
+}
+
+
+/* ==========================================================
+   N18Q — GROUPED OUTFIT STYLES
+   ========================================================== */
+
+.outfit-recommendation-section {
+  margin: 16px 0 0 62px;
+}
+
+.outfit-look-list {
+  display: grid;
+  gap: 22px;
+}
+
+.outfit-look-card {
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid var(--shopmate-border);
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow:
+    0 8px 28px rgba(15, 23, 42, 0.05);
+}
+
+.outfit-look-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #edf0f5;
+  gap: 20px;
+}
+
+.outfit-look-number {
+  margin-bottom: 5px;
+  color: var(--shopmate-purple);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+}
+
+.outfit-look-header h3 {
+  margin: 0;
+  color: #172033;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.outfit-look-subtitle {
+  margin-top: 5px;
+  color: var(--shopmate-muted);
+  font-size: 13px;
+}
+
+.outfit-budget-summary {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  text-align: right;
+}
+
+.outfit-budget-summary strong {
+  color: #172033;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.outfit-budget-summary span {
+  margin-top: 4px;
+  color: #7b8493;
+  font-size: 11px;
+}
+
+.outfit-budget-summary small {
+  margin-top: 7px;
+  color: #16a34a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.outfit-product-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+  margin-top: 17px;
+  gap: 12px;
+}
+
+.outfit-product-card {
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #e8ebf1;
+  border-radius: 16px;
+  background: #fafbfc;
+}
+
+.outfit-slot-label {
+  width: fit-content;
+  margin-bottom: 9px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #eeeaff;
+  color: #5946c9;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.outfit-product-image-wrap {
+  display: grid;
+  width: 100%;
+  height: 145px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.outfit-product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outfit-product-information {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.outfit-product-title {
+  display: -webkit-box;
+  min-height: 38px;
+  margin: 5px 0 7px;
+  overflow: hidden;
+  color: #172033;
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.outfit-product-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 10px;
+  gap: 8px;
+}
+
+.outfit-product-price {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 850;
+}
+
+.outfit-product-footer small {
+  display: block;
+  margin-top: 2px;
+  color: #98a2b3;
+  font-size: 9px;
+}
+
+.outfit-product-footer a {
+  flex: 0 0 auto;
+  padding: 7px 8px;
+  border-radius: 9px;
+  background: var(--shopmate-purple);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.outfit-product-footer a:hover {
+  opacity: 0.9;
+}
+
+.outfit-link-unavailable {
+  color: #98a2b3;
+  font-size: 10px;
+}
+
+.outfit-explanation {
+  margin: 16px 0 0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f7f7fb;
+  color: #667085;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+@media (max-width: 1250px) {
+  .outfit-product-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .outfit-product-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .outfit-recommendation-section {
+    margin-left: 0;
+  }
+
+  .outfit-look-card {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .outfit-look-header {
+    flex-direction: column;
+  }
+
+  .outfit-budget-summary {
+    text-align: left;
+  }
+
+  .outfit-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .outfit-product-image-wrap {
+    height: 210px;
+  }
+}
+
+
+/* ==========================================================
+   N18Q1 — AUTH PAGE SCROLL FIX
+   ========================================================== */
+
+/*
+   The login/register card can be taller than the visible
+   browser viewport. Make the authentication page itself
+   vertically scrollable without changing the logged-in
+   workspace layout.
+*/
+
+.shopmate-auth-page {
+  height: 100dvh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.shopmate-auth-brand,
+.shopmate-auth-panel {
+  min-height: 100dvh;
+  height: auto;
+}
+
+.shopmate-auth-panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.shopmate-auth-card {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-height: 800px) {
+  .shopmate-auth-panel {
+    align-items: flex-start;
+  }
+
+  .shopmate-auth-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .shopmate-auth-page {
+    height: auto;
+    min-height: 100dvh;
+    overflow-y: visible;
+  }
+
+  .shopmate-auth-brand,
+  .shopmate-auth-panel {
+    min-height: auto;
+  }
+}
+
+

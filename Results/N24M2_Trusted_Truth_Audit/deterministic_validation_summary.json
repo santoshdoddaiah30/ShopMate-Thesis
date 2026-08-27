@@ -1,0 +1,82 @@
+{
+  "provenance": {
+    "total": 310,
+    "passed": 310,
+    "failed": 0,
+    "seconds": 20.102
+  },
+  "adversarial": {
+    "total": 588,
+    "passed": 588,
+    "failed": 0
+  },
+  "multi_constraint": {
+    "total": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  "manual_white": {
+    "eligible_catalogue_count": 3,
+    "returned": 3,
+    "brand_only_false_white": 0,
+    "model_name_only_false_white": 0,
+    "mixed_exact_violations": 0,
+    "unknown_exact_violations": 0
+  },
+  "diagnostics": {
+    "WHITE MOUNTAIN Carly": {
+      "found": true,
+      "product_id": "B007IFWHRY",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Carly Footbed Sandal",
+      "raw_colour_source": null,
+      "raw_colour_value": null,
+      "trusted_components": [],
+      "title_after_brand_mask": "Women's Carly Footbed Sandal",
+      "production_source_type": "UNKNOWN",
+      "production_match_level": "UNKNOWN",
+      "eligible": false
+    },
+    "WHITE MOUNTAIN Helga": {
+      "found": true,
+      "product_id": "B01DQCBHT6",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Helga Footbed Sandal",
+      "raw_colour_source": null,
+      "raw_colour_value": null,
+      "trusted_components": [],
+      "title_after_brand_mask": "Women's Helga Footbed Sandal",
+      "production_source_type": "UNKNOWN",
+      "production_match_level": "UNKNOWN",
+      "eligible": false
+    },
+    "WHITE MOUNTAIN Hayleigh": {
+      "found": true,
+      "product_id": "B08R7FKZ5Q",
+      "brand": "WHITE MOUNTAIN",
+      "title": "WHITE MOUNTAIN Women's Hayleigh Footbed Sandal",
+      "raw_colour_source": null,
+      "raw_colour_value": null,
+      "trusted_components": [],
+      "title_after_brand_mask": "Women's Hayleigh Footbed Sandal",
+      "production_source_type": "UNKNOWN",
+      "production_match_level": "UNKNOWN",
+      "eligible": false
+    },
+    "Timberland White Ledge": {
+      "found": true,
+      "product_id": "B0C62MD9JY",
+      "brand": "Timberland",
+      "title": "Timberland Men's White Ledge Mid Waterproof Hiking Boot",
+      "raw_colour_source": null,
+      "raw_colour_value": null,
+      "trusted_components": [],
+      "title_after_brand_mask": "Men's White Ledge Mid Waterproof Hiking Boot",
+      "production_source_type": "TITLE_GENERIC",
+      "production_match_level": "UNKNOWN",
+      "eligible": false
+    }
+  },
+  "critical_failures": 0,
+  "llm_calls": 0
+}

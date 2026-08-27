@@ -1,0 +1,10 @@
+scenario_id,scenario_name,turn_number,chat_id,assistant_message_id,product_rank,product_id,title,brand,category,historical_price
+S01,Strict black top-brand shoes,1,12,10,1,B07SBH1HRL,Clarks Women's May Marigold Slip-On Loafer,Clarks,Loafers & Slip-Ons,36.89
+S01,Strict black top-brand shoes,1,12,10,2,B08XX28VQ9,Mens Nike Benassi JDI Beach Summer Lightweight Slides Black Pool Sandals,Nike,Sandals,34.99
+S01,Strict black top-brand shoes,1,12,10,3,B009ZDFENQ,"Skechers Performance Women's Go Walk 2 Slip-On Walking Shoe, Black/Black, 11 M US",Skechers,Walking,38.95
+S01,Strict black top-brand shoes,1,12,10,4,B09GL35Q49,Clarks Women's Adjustable Slide Slippers - Open-Toe Terry Slides - Plush Spa Sandals with Rubber Grip Sole & Adjustable Wrap Strap for Indoor & Outdoor Use Available in 5 Colors,Clarks,Slippers,31.95
+S07,Budget increase preserves Nike and black,2,18,32,1,B01HZR3P02,Nike Women's Shoes,Nike,Running,99.0
+S07,Budget increase preserves Nike and black,2,18,32,2,B08XX28VQ9,Mens Nike Benassi JDI Beach Summer Lightweight Slides Black Pool Sandals,Nike,Sandals,34.99
+S07,Budget increase preserves Nike and black,2,18,32,3,B01LWRFXMD,Nike Basketball Shoe,Nike,Basketball,197.5
+S07,Budget increase preserves Nike and black,2,18,32,4,B07BSBKPL6,Nike Womens WMNS Air Max 270 AH6789 100 White/Black,Nike,Fashion Sneakers,159.0
+S07,Budget increase preserves Nike and black,2,18,32,5,B0B2TB19C3,Nike Men's Air Monarch IV Wide 4E Black/Black (416355 001),Nike,Fitness & Cross-Training,78.99

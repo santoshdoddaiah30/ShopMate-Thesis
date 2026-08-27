@@ -1,0 +1,6 @@
+metric,best_model,best_value
+hit_rate_at_5,Popularity baseline,0.016119
+hit_rate_at_10,Popularity baseline,0.019242
+hit_rate_at_20,Final locked hybrid,0.023641
+mrr_at_10,Popularity baseline,0.014003
+ndcg_at_10,Popularity baseline,0.015217

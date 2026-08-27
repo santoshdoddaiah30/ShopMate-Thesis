@@ -1,0 +1,345 @@
+{
+  "suite": "N24M3 realistic relaxation-to-new-goal flow",
+  "audit_user_id": 29,
+  "audit_profile_id": "account_29_1e4164bc4ec5",
+  "chat_id": 541,
+  "passed": true,
+  "turns": [
+    {
+      "message": "i need red dress",
+      "http_status": 200,
+      "engine": "n24",
+      "status": "no_exact_match",
+      "assistant": "I found no exact match for red Dresses. I can allow mixed colours or broaden the product type.",
+      "state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Dresses"
+        ],
+        "brands": [],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "product_ids": [],
+      "cards": [],
+      "result_metadata": {
+        "result_set_id": "n24rs-43acf4925922419d9ce64c80e1f4b678",
+        "ordered_product_ids": [],
+        "seen_product_ids": [],
+        "active_goal": "Dresses"
+      },
+      "latest_outfit_groups": [],
+      "comparison": null,
+      "response_seconds": 3.043,
+      "ollama_calls": {
+        "intent": 0,
+        "response": 1,
+        "repair": 0,
+        "total": 1,
+        "interpreter_status": "N24M_DETERMINISTIC",
+        "interpreter_latency_seconds": 0.0,
+        "semantic_guard": "n24m_deterministic_semantics",
+        "ollama_available": true,
+        "model_available": true
+      }
+    },
+    {
+      "message": "yes show me mixed",
+      "http_status": 200,
+      "engine": "n24",
+      "status": "no_exact_match",
+      "assistant": "I found no exact match for red Dresses. I can relax the colour or broaden the product type.",
+      "state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Dresses"
+        ],
+        "brands": [],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "product_ids": [],
+      "cards": [],
+      "result_metadata": {
+        "result_set_id": "n24rs-9cb426e2ea8449e2a420111a8361295f",
+        "ordered_product_ids": [],
+        "seen_product_ids": [],
+        "active_goal": "Dresses"
+      },
+      "latest_outfit_groups": [],
+      "comparison": null,
+      "response_seconds": 2.463,
+      "ollama_calls": {
+        "intent": 0,
+        "response": 1,
+        "repair": 0,
+        "total": 1,
+        "interpreter_status": "N24M3_PENDING_OFFER",
+        "interpreter_latency_seconds": 0.0,
+        "semantic_guard": "n24m3_pending_relaxation_accepted",
+        "ollama_available": false,
+        "model_available": false,
+        "accepted_offer_id": "n24m3-offer-fad99298c12c421eace5e1faa4d4ee03",
+        "accepted_action": "ALLOW_MIXED_COLOURS"
+      }
+    },
+    {
+      "message": "only mostly red ones",
+      "http_status": 200,
+      "engine": "n24",
+      "status": "no_exact_match",
+      "assistant": "I found no exact match for red Dresses. I can allow mixed colours or broaden the product type.",
+      "state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "Dresses"
+        ],
+        "brands": [],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "product_ids": [],
+      "cards": [],
+      "result_metadata": {
+        "result_set_id": "n24rs-5428e5fb93894712b245f15edf4b77b0",
+        "ordered_product_ids": [],
+        "seen_product_ids": [],
+        "active_goal": "Dresses"
+      },
+      "latest_outfit_groups": [],
+      "comparison": null,
+      "response_seconds": 2.408,
+      "ollama_calls": {
+        "intent": 0,
+        "response": 1,
+        "repair": 0,
+        "total": 1,
+        "interpreter_status": "N24M3_DETERMINISTIC",
+        "interpreter_latency_seconds": 0.0,
+        "semantic_guard": "n24m3_mostly_colour_strict",
+        "ollama_available": false,
+        "model_available": false
+      }
+    },
+    {
+      "message": "forget dresses, show me white t-shirts",
+      "http_status": 200,
+      "engine": "n24",
+      "status": "recommendations",
+      "assistant": "Here's a white t-shirt that matches your request: Fox Racing Men's Legacy Moth Short Sleeve Tee, priced at $29.95 (historical dataset price).",
+      "state": {
+        "schema_version": "n24_hard_request_state_v1",
+        "categories": [
+          "T-Shirts"
+        ],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD"
+      },
+      "product_ids": [
+        "B0BQ9DG7J6"
+      ],
+      "cards": [
+        {
+          "card_rank": 1,
+          "product_id": "B0BQ9DG7J6",
+          "title": "Fox Racing Men's Legacy Moth Short Sleeve Tee",
+          "brand": "Fox Racing",
+          "specific_category": "T-Shirts",
+          "price_display": "$29.95 (historical)",
+          "rating_display": "4.7/5 from 2,402 ratings",
+          "match_score": 100.0,
+          "trust_score": 83.62,
+          "trust_level": "High",
+          "recommendation_explanation": "Matches your requested category, colour. Trust evidence: 4.7/5 rating; 2,402 review signals; 95.8% verified-purchase evidence; 12 helpful votes.",
+          "image_url": "https://m.media-amazon.com/images/I/31B0+mr2iXL._AC_.jpg",
+          "purchase_link": "https://www.amazon.com/dp/B0BQ9DG7J6",
+          "price_note": "Historical dataset price; current price and availability are not verified.",
+          "source_dataset": "Clothing, Shoes and Jewelry",
+          "product_card_version": "product_card_v1",
+          "eligibility_evidence": {
+            "product_id": "B0BQ9DG7J6",
+            "eligible": true,
+            "attribute_matches": {
+              "category": "EXACT",
+              "colour": "EXACT"
+            },
+            "attribute_evidence": {
+              "category": {
+                "contract_version": "n24m2_trusted_attribute_evidence_v1",
+                "attribute": "category",
+                "canonical_value": [
+                  "Clothing, Shoes & Jewelry",
+                  "Men",
+                  "Clothing",
+                  "Shirts",
+                  "T-Shirts"
+                ],
+                "source_field": "categories",
+                "source_type": "STRUCTURED",
+                "raw_value": "[\"Clothing, Shoes & Jewelry\", \"Men\", \"Clothing\", \"Shirts\", \"T-Shirts\"]",
+                "confidence": 1.0,
+                "match_level": "EXACT",
+                "reason": "all requested hierarchy nodes proven"
+              },
+              "colour": {
+                "contract_version": "n24m2_trusted_attribute_evidence_v1",
+                "attribute": "colour",
+                "canonical_value": {
+                  "primary_colour": "white",
+                  "secondary_colours": [],
+                  "colour_components": [
+                    "white"
+                  ],
+                  "mode": "STRICT_SINGLE_COLOUR"
+                },
+                "source_field": "details.Color",
+                "source_type": "VARIANT",
+                "raw_value": "Optic White",
+                "confidence": 1.0,
+                "match_level": "EXACT",
+                "reason": "trusted components prove strict single colour"
+              }
+            },
+            "hard_constraint_count": 2,
+            "exact_constraint_count": 2,
+            "partial_constraint_count": 0,
+            "unknown_constraint_count": 0,
+            "violation_count": 0,
+            "match_score": 100.0,
+            "engine_version": "n24m2_trusted_exact_eligibility_v1"
+          },
+          "matched_attributes": [],
+          "audience": "MEN",
+          "colour_components": [
+            "white"
+          ],
+          "trusted_eligibility_evidence": {
+            "product_id": "B0BQ9DG7J6",
+            "eligible": true,
+            "attribute_matches": {
+              "category": "EXACT",
+              "colour": "EXACT"
+            },
+            "attribute_evidence": {
+              "category": {
+                "contract_version": "n24m2_trusted_attribute_evidence_v1",
+                "attribute": "category",
+                "canonical_value": [
+                  "Clothing, Shoes & Jewelry",
+                  "Men",
+                  "Clothing",
+                  "Shirts",
+                  "T-Shirts"
+                ],
+                "source_field": "categories",
+                "source_type": "STRUCTURED",
+                "raw_value": "[\"Clothing, Shoes & Jewelry\", \"Men\", \"Clothing\", \"Shirts\", \"T-Shirts\"]",
+                "confidence": 1.0,
+                "match_level": "EXACT",
+                "reason": "all requested hierarchy nodes proven"
+              },
+              "colour": {
+                "contract_version": "n24m2_trusted_attribute_evidence_v1",
+                "attribute": "colour",
+                "canonical_value": {
+                  "primary_colour": "white",
+                  "secondary_colours": [],
+                  "colour_components": [
+                    "white"
+                  ],
+                  "mode": "STRICT_SINGLE_COLOUR"
+                },
+                "source_field": "details.Color",
+                "source_type": "VARIANT",
+                "raw_value": "Optic White",
+                "confidence": 1.0,
+                "match_level": "EXACT",
+                "reason": "trusted components prove strict single colour"
+              }
+            },
+            "hard_constraint_count": 2,
+            "exact_constraint_count": 2,
+            "partial_constraint_count": 0,
+            "unknown_constraint_count": 0,
+            "violation_count": 0,
+            "match_score": 100.0,
+            "engine_version": "n24m2_trusted_exact_eligibility_v1"
+          },
+          "currency": "USD",
+          "price": 29.95,
+          "price_is_historical": true,
+          "price_contract_version": "n24_historical_price_contract_v1"
+        }
+      ],
+      "result_metadata": {
+        "result_set_id": "n24rs-fc2097f18b9d4df2bbe3efac51f47e90",
+        "ordered_product_ids": [
+          "B0BQ9DG7J6"
+        ],
+        "seen_product_ids": [
+          "B0BQ9DG7J6"
+        ],
+        "active_goal": "T-Shirts"
+      },
+      "latest_outfit_groups": [],
+      "comparison": null,
+      "response_seconds": 55.518,
+      "ollama_calls": {
+        "intent": 0,
+        "response": 1,
+        "repair": 0,
+        "total": 1,
+        "interpreter_status": "N24M_DETERMINISTIC",
+        "interpreter_latency_seconds": 0.0,
+        "semantic_guard": "n24m_deterministic_semantics",
+        "ollama_available": true,
+        "model_available": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+evaluation_run_id,evaluation_timestamp,total_scenarios,passed_scenarios,failed_scenarios,scenario_pass_rate_percent,total_turns,passed_turns,failed_turns,turn_pass_rate_percent,runtime_errors,average_response_seconds,maximum_response_seconds
+20260807_210326_1155d3,2026-08-07T21:15:30.285809,12,8,4,66.67,17,13,4,76.47,0,42.395,89.282

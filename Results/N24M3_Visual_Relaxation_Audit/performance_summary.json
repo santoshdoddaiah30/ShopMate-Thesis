@@ -1,0 +1,21 @@
+{
+  "cold_normal_query_overheads_seconds": [
+    0.136312,
+    1.191795,
+    2.212624,
+    1.708626,
+    0.305525,
+    0.259338,
+    0.302598
+  ],
+  "cold_normal_query_max_seconds": 2.212624,
+  "cold_normal_query_median_seconds": 0.305525,
+  "cached_white_tshirt_overhead_seconds": 0.040298,
+  "cached_white_shoes_overhead_seconds": 0.003929,
+  "typical_images_checked_median": 2.5,
+  "typical_images_checked_mean": 4.6,
+  "images_checked_range": [
+    0,
+    20
+  ]
+}

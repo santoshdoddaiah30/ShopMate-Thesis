@@ -1,0 +1,1924 @@
+{
+  "suite": "N24M3 deterministic stratified 50-image development audit",
+  "selection": "round-robin SHA-256 order across white, black, red, blue, green, brown trusted metadata buckets",
+  "total": 50,
+  "classifications": {
+    "VISUAL_EXACT": 20,
+    "VISUAL_MIXED": 10,
+    "VISUAL_CONFLICT": 12,
+    "VISUAL_COMPATIBLE": 5,
+    "VISUAL_UNKNOWN": 3
+  },
+  "metadata_image_disagreements": 12,
+  "mismatch_rate": 0.24,
+  "strict_conflicts_incorrectly_accepted": 0,
+  "cold_parallel_wall_seconds": 4.472499,
+  "cached_serial_wall_seconds": 0.000454,
+  "cached_hits": 50,
+  "rows": [
+    {
+      "requested_colour": "white",
+      "product_id": "B0BY82F85W",
+      "title": "Vlando Small Travel Jewelry Box Organizer - Mirrored Carry-on Jewelries Necklaces Rings Earrings Necklace Storage Case, White…",
+      "brand": "Vlando",
+      "metadata_colour_components": [
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41pigEv6tkL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BY82F85W_9e1a32e2905be2.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9206,
+      "requested_share": 0.85896,
+      "dominant_colours": [
+        "white",
+        "light_grey",
+        "brown",
+        "orange"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.72451
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B08GCD33V1",
+      "title": "REALON Wetsuit Shorts Neoprene Men 3mm Buoyancy Swim Pants Adult Women Sweat Wet Suit Trunks Jammers Keep Warm Water Sport Aerobics for Swimming Surfing Snorkeling Diving Kayaking Scuba",
+      "brand": "REALON",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "3mm Black Neoprene",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41idK4lJNvL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08GCD33V1_ea3667967b73f1.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9027,
+      "requested_share": 0.807821,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "blue",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.724596
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B07QSF47HH",
+      "title": "Bea CooL Polarized Sports Sunglasses for Men Women Youth Motorcycle Safety Driving Riding Military Goggles TAC Glasses",
+      "brand": "Bea CooL",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31Kl1cXqwuL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07QSF47HH_2b78e6dc2fcdf5.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.654,
+      "requested_share": 0.183096,
+      "dominant_colours": [
+        "blue",
+        "red",
+        "black",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.414547
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B09BPZCWDP",
+      "title": "Hicarer 21 Pieces Surfer Wave Bracelet Ocean Wave Adjustable Waterproof Handmade Friendship Bracelet Summer Sunflower Bracelets Anklets Jewelry for Women Teen Girls",
+      "brand": "Hicarer",
+      "metadata_colour_components": [
+        "blue",
+        "orange"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue",
+          "orange"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Blue,Orange",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/516SXM0SM9L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09BPZCWDP_813f953dd74cb4.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8285,
+      "requested_share": 0.113375,
+      "dominant_colours": [
+        "white",
+        "cyan",
+        "pink",
+        "yellow"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.770623
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B01ABHIR2E",
+      "title": "Falari Vintage Acrylic Crystal Antique Silver Stretch Bracelet",
+      "brand": "Falari",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Emerald & Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51RiEFQX-BL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B01ABHIR2E_aa55ef7f6e15ff.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.7691,
+      "requested_share": 0.06021,
+      "dominant_colours": [
+        "white",
+        "black",
+        "light_grey",
+        "grey"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.670235
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B08RWML2YJ",
+      "title": "BULL GUARD RFID Mens Bifold Leather Wallet with 2 ID Windows Premium Security Full Grain Leather High Capacity Credit Card Wallet",
+      "brand": "BULL GUARD",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Mountain Rock Brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51IUy+PtHpL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08RWML2YJ_510e76e5fd5e1c.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8589,
+      "requested_share": 0.682454,
+      "dominant_colours": [
+        "brown",
+        "red",
+        "dark_grey",
+        "black"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.609896
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B01MYGAMBH",
+      "title": "EBOOT 36 Pieces Bra Extenders Brassiere Extension Hooks, 2 and 3 Hooks, 18 Color",
+      "brand": "EBOOT",
+      "metadata_colour_components": [
+        "red",
+        "purple",
+        "black",
+        "beige",
+        "pink",
+        "blue",
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red",
+          "purple",
+          "black",
+          "beige",
+          "pink",
+          "blue",
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red, Purple, Black, Beige, Pink, Blue, White, Etc.",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31BwAlXlRhL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B01MYGAMBH_d1828ba97f15de.jpg",
+      "classification": "VISUAL_COMPATIBLE",
+      "confidence": 0.69,
+      "requested_share": 0.474939,
+      "dominant_colours": [
+        "white",
+        "red",
+        "orange",
+        "light_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.610328
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B07MZQ8STV",
+      "title": "OZERO Winter Thermal Gloves Men Women Touch Screen Water Resistant Windproof Anti Slip Heated Glove Hands Warm for Hiking Driving Running Bike Cycling",
+      "brand": "OZERO",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51QXpKsQZ9L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07MZQ8STV_704bb2307854ed.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9518,
+      "requested_share": 0.947892,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "white",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.505345
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B007U1TP6C",
+      "title": "Disguise Merida Wig",
+      "brand": "Disguise",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51SGtVlq7PL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B007U1TP6C_6345b24aa9a2f8.jpg",
+      "classification": "VISUAL_COMPATIBLE",
+      "confidence": 0.6899,
+      "requested_share": 0.474738,
+      "dominant_colours": [
+        "red",
+        "cyan",
+        "orange",
+        "blue"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.626178
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B0BG4Y3D85",
+      "title": "Itzy Ritzy Packing Cubes - Set of 3 Packing Cubes or Travel Organizers; Each Cube Features a Mesh Top, Double Zippers and a Fabric Handle; Blue Dinosaurs",
+      "brand": "Itzy Ritzy",
+      "metadata_colour_components": [
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Blue Dinosaurs",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/512etAEj5UL.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BG4Y3D85_0392332bf4e232.jpg",
+      "classification": "VISUAL_COMPATIBLE",
+      "confidence": 0.7105,
+      "requested_share": 0.526277,
+      "dominant_colours": [
+        "blue",
+        "black",
+        "white",
+        "green"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.457268
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B0BRQRG8CD",
+      "title": "JOTW Gold Overlay with Mini Evil Eye Style 7.5 Inch Clasp Bracelet",
+      "brand": "JOTW",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41FWsEsNkEL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BRQRG8CD_85df57660e2270.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8959,
+      "requested_share": 0.050609,
+      "dominant_colours": [
+        "white",
+        "orange",
+        "green",
+        "yellow"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.593211
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B0855CWM5Q",
+      "title": "Custom Engraved Wallet,Personalized Photo RFID Wallets for Men,Husband,Dad,Son,Personalized Gifts",
+      "brand": "Amlion",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Light brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/517gUeGh64L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0855CWM5Q_52191fb964d47a.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8985,
+      "requested_share": 0.795767,
+      "dominant_colours": [
+        "brown",
+        "black",
+        "white",
+        "red"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.622512
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B010RS6N6Y",
+      "title": "Nike Performance Cotton Cushioned Socks 6 Pack Low-Cut SX5173, Black, Large 8-12",
+      "brand": "Nike",
+      "metadata_colour_components": [
+        "black",
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black / White",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41PXVSWDViL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B010RS6N6Y_55b57d34e2fe97.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8101,
+      "requested_share": 0.046554,
+      "dominant_colours": [
+        "black",
+        "orange",
+        "brown",
+        "white"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.619553
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B07KWM2CST",
+      "title": "KIMBORA 54\" Trifold Dress Garment Bags for Travel Gusseted Suit Cover with 2 Large Mesh Shoe Pockets (Black)",
+      "brand": "KIMBORA",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/317IShhnrUL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07KWM2CST_484bd143e32267.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9368,
+      "requested_share": 0.905212,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "white",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.69385
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B07BWBJPBB",
+      "title": "MIRMARU Men's 5 Pairs Multi Performance Outdoor Sports Hiking Trekking Crew Socks",
+      "brand": "MIRMARU",
+      "metadata_colour_components": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "blue",
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "1 X Black, 1 X Charcoal, 1 X Olive, 1 X Blue, 1 X Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51Ij3PJd64L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07BWBJPBB_69be86309b8793.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.78,
+      "requested_share": 0.060129,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "grey",
+        "red"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.665165
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B09BNHCPP4",
+      "title": "Extremus Winter Gloves for Men Women, Touchscreen Running Gloves, Anti-Slip Palm Warm Gloves for Running, Cycling, Hiking & Driving, Cold Weather Thermal Gloves Liner",
+      "brand": "Extremus",
+      "metadata_colour_components": [
+        "black",
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "B:Black-Blue",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41RMOxtlKtL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09BNHCPP4_41dca937a56802.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8779,
+      "requested_share": 0.108382,
+      "dominant_colours": [
+        "black",
+        "blue",
+        "white",
+        "cyan"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.679683
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B07BLQ25ST",
+      "title": "Insulated Zippered Hot & Cold Cooler Tote - Large",
+      "brand": "Ensign Peak",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/312NGPZvzNL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07BLQ25ST_4c88868fe0d3b3.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8819,
+      "requested_share": 0.036508,
+      "dominant_colours": [
+        "black",
+        "white",
+        "green",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.531358
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B08VG6KBPN",
+      "title": "Fox River Unisex Fingerless Gripper Glove, Brown Tweed",
+      "brand": "FoxRiver",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Brown Tweed",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41+Kf8CGf8L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08VG6KBPN_708d3878709d67.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6469,
+      "requested_share": 0.173159,
+      "dominant_colours": [
+        "black",
+        "brown",
+        "dark_grey",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.581196
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B08KPF1NZ8",
+      "title": "Venzo Bicycle Men's Road Cycling Riding Shoes - 3 Straps- Compatible with Delta Shimano SPD & Look ARC Delta - Perfect for Road Racing Bikes White Color",
+      "brand": "Venzo",
+      "metadata_colour_components": [
+        "black",
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black & White",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51A7g4pKzHL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08KPF1NZ8_091c35283d764a.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6185,
+      "requested_share": 0.250946,
+      "dominant_colours": [
+        "black",
+        "red",
+        "white",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": true,
+      "analysis_seconds": 0.231387
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B002GIFV6M",
+      "title": "Sof Sole Shoe Goo Footwear Adhesive, Black",
+      "brand": "Sof Sole",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51x3g2Vt4dL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B002GIFV6M_b03914c7e06163.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6008,
+      "requested_share": 0.146769,
+      "dominant_colours": [
+        "red",
+        "grey",
+        "light_grey",
+        "brown"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.655937
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B06XRKSMQL",
+      "title": "Halisis Eyeglasses Holder Strap – Premium Leather [Pack of 4 + Bonuses] – Glasses Holder Lanyard Chain Cord Necklace – Eyewear Retainer for Men Women Boys Girls - Never Lose Glasses Again",
+      "brand": "Halisis",
+      "metadata_colour_components": [
+        "black",
+        "red",
+        "brown",
+        "gold"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "red",
+          "brown",
+          "gold"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black, Red, Brown, Gold",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51w+rz7BTKL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B06XRKSMQL_aa996b02b7ea23.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8276,
+      "requested_share": 0.096563,
+      "dominant_colours": [
+        "white",
+        "black",
+        "red",
+        "brown"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.511349
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B09C8RNGLH",
+      "title": "ele ELEOPTION Kids Watch for Girls Boys Analog Watch, Waterproof Toddlers Digital Watch 3D Cute Cartoon Silicone Strap Watches for Kids Birthday Gift",
+      "brand": "ele ELEOPTION",
+      "metadata_colour_components": [
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Light Blue",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/415TYHuTjSL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09C8RNGLH_3b980a22317acc.jpg",
+      "classification": "VISUAL_COMPATIBLE",
+      "confidence": 0.6841,
+      "requested_share": 0.460201,
+      "dominant_colours": [
+        "cyan",
+        "white",
+        "red",
+        "pink"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.671962
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B07TZMC6Y8",
+      "title": "Tovly Wristlet Round Key Ring Chain Leather/Silicone Oversized Bracelet Bangle Keychain Holder Tassel for Women Girl",
+      "brand": "Tovly",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Green Floral",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41Tq7zvc5cL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07TZMC6Y8_37ba791aef159b.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.7861,
+      "requested_share": 0.031496,
+      "dominant_colours": [
+        "white",
+        "black",
+        "blue",
+        "brown"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.46834
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B0BW13WKPZ",
+      "title": "Superio Shoe and Boot Scraper, Outside Shoe Scrubber Brush 10.5 X 14 Inch - Cleans Deep Removes All Outdoor Dirt, Snow, Mud and Sand. Construction, Hiking Cleaner (Wood 2-Pack)",
+      "brand": "Superio",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51xW-OpI4NL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BW13WKPZ_7c4a24f7b5c15c.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6049,
+      "requested_share": 0.271463,
+      "dominant_colours": [
+        "orange",
+        "brown",
+        "black",
+        "yellow"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.607034
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B0BLY4NC24",
+      "title": "PUDDING CABIN White Dinosaur Ring Holder - Birthday Gifts for Women Unique Jewelry Dish Tray for Rings Earrings Bracelets Organizer - Cute Gifts for Women Girls Her Birthday Christmas Wedding Gifts",
+      "brand": "PUDDING CABIN",
+      "metadata_colour_components": [
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White Dinosaur",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31ax7r3ar+L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BLY4NC24_cdb99b0af6342d.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9224,
+      "requested_share": 0.863932,
+      "dominant_colours": [
+        "white",
+        "light_grey",
+        "grey",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.655923
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B08QZBF8VS",
+      "title": "Women’s RFID Wristlet Wallet & Phone Holder | Multi Credit Card Bifold Organizer w/Zipper Pockets & Sweetly Packed in Gift Box",
+      "brand": "Claasico",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black- Saffiano Grain",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51h26cZ3fqS._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08QZBF8VS_5d95a1fed05de2.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9103,
+      "requested_share": 0.829319,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "white",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.589057
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B00ZYWLULC",
+      "title": "Costume Culture Mermaid Wig, Neon Red, One Size",
+      "brand": "Costume Culture",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Neon Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51oBLz-ivFL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00ZYWLULC_119ad8a4dd3c73.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8245,
+      "requested_share": 0.584179,
+      "dominant_colours": [
+        "red",
+        "orange",
+        "blue",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.478246
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B075HQ654Z",
+      "title": "NOMATIC Slim Minimalist Front Pocket Wallet For Men and Women, Holds 4-15 Cards, with Hidden Cash and Key Pocket, Ultra-Thin Elastic Wallet, Stretchy Card Holder",
+      "brand": "NOMATIC",
+      "metadata_colour_components": [
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Electric Blue V2",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51zgGXWh7kL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B075HQ654Z_414e2e12119238.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8485,
+      "requested_share": 0.652856,
+      "dominant_colours": [
+        "blue",
+        "black",
+        "dark_grey",
+        "cyan"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.486673
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B076Q727VR",
+      "title": "Travelon Set of 2 Handle Wraps, Neon Green, 7.63 x 4.5 x 0.13",
+      "brand": "Travelon",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Neon Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41pGEdFGqML._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B076Q727VR_7c93ef30499743.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8596,
+      "requested_share": 0.68447,
+      "dominant_colours": [
+        "green",
+        "black",
+        "white",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.561245
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B01MFBVHIZ",
+      "title": "Dockers Men's Slim Trifold Wallet",
+      "brand": "Dockers",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41apg-8JoZL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B01MFBVHIZ_6f73c77dafddee.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.8904,
+      "requested_share": 0.001482,
+      "dominant_colours": [
+        "black",
+        "white",
+        "light_grey",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.602985
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B071ZXQ1QN",
+      "title": "Pure Athlete Padded Walking Socks Men, Women – Thick Ankle Cotton Blister Cushion Sock",
+      "brand": "Pure Athlete",
+      "metadata_colour_components": [
+        "white",
+        "grey"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white",
+          "grey"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White/Grey - 1 Pair",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41ftBN8jvaL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B071ZXQ1QN_074fbbe2e4df69.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8716,
+      "requested_share": 0.718985,
+      "dominant_colours": [
+        "white",
+        "grey",
+        "light_grey",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.577689
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B0BGD6KVYL",
+      "title": "Vera Bradley Women's Cotton Turnlock With RFID Protection Wallet",
+      "brand": "Vera Bradley",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31Kb1TtLcpL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BGD6KVYL_7fc9e412de7ce1.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9541,
+      "requested_share": 0.954654,
+      "dominant_colours": [
+        "black",
+        "white",
+        "dark_grey",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.553622
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B09GFGRY1W",
+      "title": "Justinstones Gem Semi Precious Gemstone Love Heart Charm Stretch Beaded Bracelet Unisex",
+      "brand": "Justinstones",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red Tiger Eye",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41sGkkH66dL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09GFGRY1W_d5e34c9653eeac.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6118,
+      "requested_share": 0.298904,
+      "dominant_colours": [
+        "white",
+        "red",
+        "black",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.504498
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B08PC84BCT",
+      "title": "Lady Slim Fajas Colombianas Reductoras Y Moldeadoras para Mujer Underbust Latex Waist Trainer Hourglass Body Shaper for Women",
+      "brand": "LadySlim by NuvoFit",
+      "metadata_colour_components": [
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Blue",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51ujLZtE2SL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08PC84BCT_ff77de4e4ac9c0.jpg",
+      "classification": "VISUAL_UNKNOWN",
+      "confidence": 0.3,
+      "requested_share": 0.002308,
+      "dominant_colours": [
+        "orange",
+        "white",
+        "black",
+        "brown"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.586228
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B00A0K8C4G",
+      "title": "50 + Carats Mixed Gem Natural Gem Mart Usa Loose Gemstone Mix Lot Wholesale Loose Mixed Gemstones Loose Natural Wholesale Gems Mix, Mix Gems, Mixed Gemstone, Gem Mart Usa Stones Lot",
+      "brand": "GemMartUSA Loose Gemstone",
+      "metadata_colour_components": [
+        "white",
+        "blue",
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white",
+          "blue",
+          "green"
+        ],
+        "source_field": "details.Stone Color",
+        "source_type": "VARIANT",
+        "raw_value": "White, Blue, Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51WwWLuTQUL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00A0K8C4G_e109b77386bbed.jpg",
+      "classification": "VISUAL_UNKNOWN",
+      "confidence": 0.3,
+      "requested_share": 0.110282,
+      "dominant_colours": [
+        "yellow",
+        "brown",
+        "orange",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.660916
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B082YS1CGX",
+      "title": "Kaneles Mullet Wigs for Men 70s 80s Costumes Mens Brown Fancy Party Accessory Cosplay Hair Wig",
+      "brand": "Kaneles",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51++6NN6g3L.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B082YS1CGX_63888bbbee41e1.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.5842,
+      "requested_share": 0.163538,
+      "dominant_colours": [
+        "black",
+        "red",
+        "brown",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.766289
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B0BF4NXLNK",
+      "title": "Boxiki Travel Set of 12 RFID Blocking Sleeves Best way to Protect your Cards from Electronic Theft. Durable, Lightweight and Compact Design to fit in any Pocket or Purse. (White)",
+      "brand": "Boxiki Travel",
+      "metadata_colour_components": [
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51HtpTu8OwS._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BF4NXLNK_cbfb30ba4e8195.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8935,
+      "requested_share": 0.781422,
+      "dominant_colours": [
+        "white",
+        "red",
+        "grey",
+        "orange"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.645873
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B0C672212P",
+      "title": "Timberland PRO Men's Powertrain Sport Alloy Toe Sd+ Ripstop Nylon Industrial Boot",
+      "brand": "Timberland PRO",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31u456ZpjhL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C672212P_958b35cf9aece1.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9619,
+      "requested_share": 0.976726,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "grey",
+        "white"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": true,
+      "analysis_seconds": 0.56793
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B08N11NY1S",
+      "title": "Kids Snow Ski Mittens Winter Gloves Warm Waterproof Mittens for Girls and Boys",
+      "brand": "Boao",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41GElie-JJL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08N11NY1S_44f902989b14ca.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9019,
+      "requested_share": 0.805507,
+      "dominant_colours": [
+        "red",
+        "black",
+        "white",
+        "blue"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.673969
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B08FT4CB2B",
+      "title": "FDJASGY UV Sun Umbrella Compact Folding Travel Umbrella Auto Open Close Compact Folding Rain Umbrellas for Women Men Blocking UV 99.98%",
+      "brand": "FDJASGY",
+      "metadata_colour_components": [
+        "blue"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Blue",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41SnIHbSrIL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08FT4CB2B_1cf79f2a7d8d9b.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.7402,
+      "requested_share": 0.089724,
+      "dominant_colours": [
+        "white",
+        "light_grey",
+        "grey",
+        "blue"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.554279
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B0BJ6P2MGC",
+      "title": "Aoliks Graduated Compression Socks for Women & Men 20-30 mmHg-Best for Running,Nurses,Travel",
+      "brand": "Aoliks",
+      "metadata_colour_components": [
+        "red",
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red",
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "12 Red/Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51roFB9gWQL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BJ6P2MGC_6d0f80f1a19a76.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.5644,
+      "requested_share": 0.178262,
+      "dominant_colours": [
+        "black",
+        "cyan",
+        "red",
+        "green"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.9845
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B07T2FN5QW",
+      "title": "Jason Markk Suede Cleaning Kit",
+      "brand": "Jason Markk",
+      "metadata_colour_components": [
+        "brown"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "brown"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Brown",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/21A7rcrAQIL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07T2FN5QW_3544b9a7210ebe.jpg",
+      "classification": "VISUAL_CONFLICT",
+      "confidence": 0.7925,
+      "requested_share": 0.043059,
+      "dominant_colours": [
+        "white",
+        "light_grey",
+        "black",
+        "orange"
+      ],
+      "metadata_image_disagreement": true,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.41746
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B018MU8JZC",
+      "title": "Rothco Parade Gloves",
+      "brand": "Rothco",
+      "metadata_colour_components": [
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/31yVXG+fBfL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B018MU8JZC_0ba50d0196777a.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.9352,
+      "requested_share": 0.900552,
+      "dominant_colours": [
+        "white",
+        "light_grey",
+        "grey",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.345606
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B08Q3276FG",
+      "title": "SRIWATANA Watch Box 6 Slot Watch Case, Watch Box Organizer for Men Women, Wood Display Case with Glass Lid, Weathered Black",
+      "brand": "SRIWATANA",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Weathered Black",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/5177sSHTdoL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B08Q3276FG_a78302f2f62fe3.jpg",
+      "classification": "VISUAL_COMPATIBLE",
+      "confidence": 0.6581,
+      "requested_share": 0.395238,
+      "dominant_colours": [
+        "black",
+        "white",
+        "orange",
+        "brown"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.484275
+    },
+    {
+      "requested_colour": "red",
+      "product_id": "B082BB4FY6",
+      "title": "OYEFLY Vintage Bohemia Beaded Bracelet, Multilayer Hand Woven Wristbands, Hemp Cords Wrap Bracelet Jewelry for Men and Women",
+      "brand": "OYEFLY",
+      "metadata_colour_components": [
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/51XStp++-cL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B082BB4FY6_674033aa183079.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.5972,
+      "requested_share": 0.162553,
+      "dominant_colours": [
+        "white",
+        "black",
+        "red",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.546995
+    },
+    {
+      "requested_colour": "blue",
+      "product_id": "B0B7MZJ79T",
+      "title": "ThunderFit Silicone Wedding Rings for Men - Rubber Wedding Bands 8.7mm Wide (2mm Thick)",
+      "brand": "ThunderFit",
+      "metadata_colour_components": [
+        "black",
+        "grey",
+        "blue",
+        "red"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black",
+          "grey",
+          "blue",
+          "red"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Black, Dark Grey, Blue + Red",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41y4E3K1+fL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0B7MZJ79T_da6eb7bcfd9e01.jpg",
+      "classification": "VISUAL_MIXED",
+      "confidence": 0.6535,
+      "requested_share": 0.122253,
+      "dominant_colours": [
+        "white",
+        "black",
+        "red",
+        "blue"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.445316
+    },
+    {
+      "requested_colour": "green",
+      "product_id": "B00GLO3D2G",
+      "title": "Kikkerland KRL12TC Frog LED Keychain with Sound",
+      "brand": "Kikkerland",
+      "metadata_colour_components": [
+        "green"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "green"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Green",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41AsnN8Km5L._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00GLO3D2G_0912f8302035cf.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8272,
+      "requested_share": 0.59214,
+      "dominant_colours": [
+        "green",
+        "white",
+        "light_grey",
+        "black"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.502819
+    },
+    {
+      "requested_colour": "brown",
+      "product_id": "B015FGNP0K",
+      "title": "Giant Macaron Case, Coolrunner Macaron Jewelry Box, Macaron Cute Pill Box, Colorful Macaron Jewelry Storage Box, Shape Storage Box Candy Cute Pill Organizer Case Container",
+      "brand": "Coolrunner",
+      "metadata_colour_components": [
+        "blue",
+        "brown",
+        "green",
+        "purple",
+        "pink",
+        "yellow"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "blue",
+          "brown",
+          "green",
+          "purple",
+          "pink",
+          "yellow"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "Multicolored(blue/Brown/Green/Purple/Pink/Yellow)",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41CAbx2j0UL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B015FGNP0K_e2431c55e8e82e.jpg",
+      "classification": "VISUAL_UNKNOWN",
+      "confidence": 0.3,
+      "requested_share": 0.044193,
+      "dominant_colours": [
+        "white",
+        "orange",
+        "purple",
+        "cyan"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": false,
+      "cache_hit": false,
+      "analysis_seconds": 0.555352
+    },
+    {
+      "requested_colour": "white",
+      "product_id": "B0C5PZJBMB",
+      "title": "HUK Men's Rogue Wave Shoe | High-Performance Fishing & Deck Boot Footwear",
+      "brand": "HUK",
+      "metadata_colour_components": [
+        "white"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "white"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "White - New",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/319FD7LKclL._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0C5PZJBMB_90a3c476a21165.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8486,
+      "requested_share": 0.653152,
+      "dominant_colours": [
+        "white",
+        "grey",
+        "light_grey",
+        "dark_grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 0.479443
+    },
+    {
+      "requested_colour": "black",
+      "product_id": "B002HB9WY0",
+      "title": "Caddy Bay Collection Carbon Fiber Pattern Glass Top Watch Case Display Storage Box Chest Holds 20 Watches with High Depth for Larger Watches",
+      "brand": "Caddy Bay Collection",
+      "metadata_colour_components": [
+        "black"
+      ],
+      "metadata_colour_evidence": {
+        "contract_version": "n24m2_trusted_attribute_evidence_v1",
+        "attribute": "colour",
+        "canonical_value": [
+          "black"
+        ],
+        "source_field": "details.Color",
+        "source_type": "VARIANT",
+        "raw_value": "BLACK",
+        "confidence": 1.0,
+        "match_level": "EXACT",
+        "reason": "explicit structured colour/variant field"
+      },
+      "image_url": "https://m.media-amazon.com/images/I/41MEYLYURuS._AC_.jpg",
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B002HB9WY0_3a06391ae949a4.jpg",
+      "classification": "VISUAL_EXACT",
+      "confidence": 0.8479,
+      "requested_share": 0.651003,
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "white",
+        "grey"
+      ],
+      "metadata_image_disagreement": false,
+      "strict_gate_accepted": true,
+      "cache_hit": false,
+      "analysis_seconds": 1.180381
+    }
+  ]
+}

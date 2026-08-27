@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-08-19T21:19:47.204077",
+  "purpose": "N18M2 chat-scoped pending clarification bridge validation",
+  "user_id": 6,
+  "profile_id": "account_6_4d0ccce3732b",
+  "chat_id": 35,
+  "final_message_id": 69,
+  "stored_recommendation_count": 15,
+  "bridge_version": "chat_pending_bridge_v1"
+}

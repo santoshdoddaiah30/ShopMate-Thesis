@@ -1,0 +1,81 @@
+{
+  "suite": "N24M2 named multi-constraint raw-oracle validation",
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "tests": {
+    "white shoes": {
+      "eligible_count": 3,
+      "checked": 3,
+      "violations": [],
+      "passed": true
+    },
+    "black shoes": {
+      "eligible_count": 30,
+      "checked": 30,
+      "violations": [],
+      "passed": true
+    },
+    "red shoes": {
+      "eligible_count": 1,
+      "checked": 1,
+      "violations": [],
+      "passed": true
+    },
+    "white Adidas": {
+      "eligible_count": 0,
+      "checked": 0,
+      "violations": [],
+      "passed": true
+    },
+    "black Nike": {
+      "eligible_count": 0,
+      "checked": 0,
+      "violations": [],
+      "passed": true
+    },
+    "white men": {
+      "eligible_count": 1,
+      "checked": 1,
+      "violations": [],
+      "passed": true
+    },
+    "white women": {
+      "eligible_count": 3,
+      "checked": 3,
+      "violations": [],
+      "passed": true
+    },
+    "kids white": {
+      "eligible_count": 0,
+      "checked": 0,
+      "violations": [],
+      "passed": true
+    },
+    "white Adidas men": {
+      "eligible_count": 0,
+      "checked": 0,
+      "violations": [],
+      "passed": true
+    },
+    "black Nike women": {
+      "eligible_count": 0,
+      "checked": 0,
+      "violations": [],
+      "passed": true
+    },
+    "red men under100": {
+      "eligible_count": 1,
+      "checked": 1,
+      "violations": [],
+      "passed": true
+    },
+    "Nike rating>=4": {
+      "eligible_count": 64,
+      "checked": 64,
+      "violations": [],
+      "passed": true
+    }
+  },
+  "llm_calls": 0
+}

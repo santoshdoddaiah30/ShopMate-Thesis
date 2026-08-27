@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend build output
+node_modules/
+.next/
+dist/
+build/
+*.tsbuildinfo
+
+# Local AI session state
+.codex/
+.claude/
+
+# Databases
+*.duckdb
+*.duckdb.wal
+*.db-wal
+*.db-shm
+
+# Raw datasets
+*.jsonl
+*.jsonl.gz
+
+# Large processed data / model artifacts
+Datasets/*
+!Datasets/Processed/
+Datasets/Processed/*
+!Datasets/Processed/final_hybrid_configuration.json
+!Datasets/Processed/hybrid_selected_weights.json
+
+# Notebook backup snapshots (not authoritative)
+Notebooks/*.ipynb.bak
+Notebooks/*.ipynb.bak_*
+Notebooks/migration_baseline_*/
+Notebooks/takeover_snapshot_*/
+
+# Cache/temp/logs
+.cache/
+tmp/
+temp/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

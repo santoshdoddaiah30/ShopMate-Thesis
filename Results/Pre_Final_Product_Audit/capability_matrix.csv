@@ -1,0 +1,30 @@
+﻿behavioral_family,scenario_count,pass,partial,fail,unsupported,currently_supported,diagnostic_interpretation
+BASIC_PRODUCT_DISCOVERY,5,5,0,0,0,YES,Behaves realistically in tested cases
+BRAND_REQUESTS,3,3,0,0,0,YES,Behaves realistically in tested cases
+BUDGET_LANGUAGE,8,5,3,0,0,YES,Partial or unsupported capability
+BUDGET_REMOVAL,5,0,0,5,0,NO,Material failures observed
+CHAT_RELOAD,1,1,0,0,0,YES,Behaves realistically in tested cases
+COLOUR,3,3,0,0,0,YES,Behaves realistically in tested cases
+CONSTRAINT_RELAXATION,4,0,0,4,0,NO,Material failures observed
+CONSTRAINT_REPLACEMENT,4,3,0,1,0,YES,Material failures observed
+GENERAL_SHOPPING_ADVICE,2,0,0,0,2,NO,Partial or unsupported capability
+GIFT_SHOPPING,2,0,2,0,0,PARTIAL,Partial or unsupported capability
+MULTI_PRODUCT_AND_GROUNDING,1,0,1,0,0,PARTIAL,Partial or unsupported capability
+NEGATIVE_CONSTRAINTS,4,0,0,4,0,NO,Material failures observed
+NEW_CHAT_ISOLATION,3,3,0,0,0,YES,Behaves realistically in tested cases
+NEW_SHOPPING_GOAL,4,0,0,4,0,NO,Material failures observed
+NO_EXACT_MATCH,3,3,0,0,0,YES,Behaves realistically in tested cases
+OCCASION_SHOPPING,2,0,2,0,0,PARTIAL,Partial or unsupported capability
+OUTFIT_FOLLOW_UP,1,0,0,1,0,NO,Material failures observed
+OUTFIT_MAKEOVER,1,0,0,1,0,NO,Material failures observed
+PRODUCT_COMPARISON,1,0,0,1,0,NO,Material failures observed
+PROFILE_PREFERENCE_VS_HARD,1,0,0,1,0,NO,Material failures observed
+RELATIVE_REFINEMENT,5,0,0,5,0,NO,Material failures observed
+RESULT_REFERENCES,4,0,0,4,0,NO,Material failures observed
+SHOW_MORE,3,0,0,3,0,NO,Material failures observed
+TYPO_CASUAL_LANGUAGE,5,1,1,3,0,YES,Material failures observed
+HISTORICAL_PRICE_DISPLAY,1,0,0,1,0,NO,"1,152 persisted numeric-price records use a formatted card price string that the frontend numeric parser rejects."
+AUTHENTICATION_UX,1,0,1,0,0,PARTIAL,"Display name is stored and returned, but signup still requires username and confirmation password; login accepts username or email."
+PERSONAL_PREFERENCE_UPDATES,1,0,0,1,0,NO,'I like Nike' became a hard request constraint and did not create a saved preference row.
+NATURAL_CONVERSATIONAL_LANGUAGE,16,1,1,14,0,PARTIAL,"Natural removal, relaxation, new-goal, relative, and casual-language turns are frequently ignored or retain stale state."
+DATA_GROUNDING,1,0,1,0,0,PARTIAL,"No live-commerce claims were fabricated, but unsupported stock/delivery/current-price/coupon questions were not answered directly."

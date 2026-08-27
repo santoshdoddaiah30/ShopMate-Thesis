@@ -1,0 +1,17 @@
+{
+  "suite": "N24M replay of Pre_Final_Product_Audit",
+  "scenario_count": 75,
+  "turn_count": 117,
+  "PASS": 73,
+  "PARTIAL": 2,
+  "FAIL": 0,
+  "UNSUPPORTED": 0,
+  "supported_pass_rate": 97.33,
+  "failure_categories": {
+    "PARSER": 1,
+    "DATA_LIMITATION": 1
+  },
+  "historical_n23_supported_pass_rate": 36.99,
+  "user_id": 18,
+  "profile_id": "account_18_81c504032886"
+}

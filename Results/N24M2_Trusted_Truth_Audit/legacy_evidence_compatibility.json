@@ -1,0 +1,9 @@
+{
+  "tests": {
+    "NaN": true,
+    "None": true,
+    "Non-dict": true,
+    "Missing": true
+  },
+  "all_passed": true
+}

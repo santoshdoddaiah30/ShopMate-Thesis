@@ -1,0 +1,20 @@
+{
+  "recommendation": true,
+  "show_more": true,
+  "references": true,
+  "comparison": true,
+  "preference": true,
+  "outfit": true,
+  "price": true,
+  "auth": true,
+  "persistence": true,
+  "cross_chat_isolation": true,
+  "n23": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true
+  },
+  "engine": "n24"
+}

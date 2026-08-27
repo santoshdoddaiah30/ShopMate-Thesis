@@ -1,0 +1,38 @@
+evaluation_run_id,evaluation_user_id,scenario_id,scenario_name,scenario_category,turn_number,chat_id,user_message,assistant_response,card_count,card_brands,minimum_card_price,maximum_card_price,product_ids,response_seconds,runtime_error,check_results_json,failed_checks,turn_passed
+20260807_210326_1155d3,2,S01,Strict black top-brand shoes,single_turn_constraints,1,12,Show me black shoes under $40 from top brands.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: major/top brands
+- Colour: black
+- Maximum price: $40
+
+I found 4 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget, allow additional colours, or include brands outside the major-brand list.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",4,Clarks | Nike | Skechers,31.95,38.95,B07SBH1HRL | B08XX28VQ9 | B009ZDFENQ | B09GL35Q49,34.917,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""all_card_categories_valid"": false, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",all_card_categories_valid,False
+20260807_210326_1155d3,2,S02,T-shirt currency suffix and approximate budget,parser_robustness,1,13,I want tshirts around 50$.,What type of product are you looking for?,0,,,,,6.343,,"{""assistant_contains_any"": false, ""assistant_excludes_forbidden_text"": true, ""minimum_card_count"": false, ""all_known_prices_within_budget"": false, ""runtime_execution"": true}",assistant_contains_any | minimum_card_count | all_known_prices_within_budget,False
+20260807_210326_1155d3,2,S04,Complete makeover starts new goal,new_goal_detection,2,15,I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.,"I updated your previous shopping request.
+
+- Product: Shirts, T-Shirts
+- Brand: PARTY
+- Maximum price: $50
+- Timeframe: tomorrow
+
+I found no exact matches satisfying all of these constraints. I did not add unrelated products.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",0,,,,,51.583,,"{""assistant_contains_any"": false, ""assistant_excludes_forbidden_text"": false, ""runtime_execution"": true}",assistant_contains_any | assistant_excludes_forbidden_text,False
+20260807_210326_1155d3,2,S07,Budget increase preserves Nike and black,constraint_relaxation,2,18,Increase my budget to $80.,"I updated your previous shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: flexible
+
+I found 5 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can allow additional colours or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",5,Nike,34.99,197.5,B01HZR3P02 | B08XX28VQ9 | B01LWRFXMD | B07BSBKPL6 | B0B2TB19C3,80.748,,"{""assistant_contains_all"": false, ""minimum_card_count"": true, ""all_card_brands_valid"": true, ""all_known_prices_within_budget"": false, ""runtime_execution"": true}",assistant_contains_all | all_known_prices_within_budget,False

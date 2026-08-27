@@ -1,0 +1,19 @@
+{
+    "configuration_name": "sample_ndcg_selected",
+    "content_weight": 0.2,
+    "collaborative_weight": 0.1,
+    "popularity_weight": 0.7,
+    "rrf_constant": 60,
+    "candidates_per_model": 500,
+    "selection_stage": "complete_positive_validation",
+    "selection_metric": "ndcg_at_10",
+    "evaluation_users": 60658,
+    "user_candidate_coverage_percentage": 100.0,
+    "catalogue_availability_percentage": 98.35,
+    "target_candidate_coverage_percentage": 20.63,
+    "validation_hit_rate_at_5": 0.014376,
+    "validation_hit_rate_at_10": 0.019058,
+    "validation_hit_rate_at_20": 0.023591,
+    "validation_mrr_at_10": 0.009059,
+    "validation_ndcg_at_10": 0.011416
+}

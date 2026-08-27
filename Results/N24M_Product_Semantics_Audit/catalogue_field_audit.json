@@ -1,0 +1,87 @@
+{
+  "catalogue_rows": 65546,
+  "fields": {
+    "product_id": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "title": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "brand": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "categories": {
+      "non_null": 64865,
+      "coverage_percentage": 98.96,
+      "reliability": "HIGH"
+    },
+    "price": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "average_rating": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "rating_number": {
+      "non_null": 65546,
+      "coverage_percentage": 100.0,
+      "reliability": "HIGH"
+    },
+    "audience": {
+      "non_null": 64423,
+      "coverage_percentage": 98.29,
+      "reliability": "HIGH"
+    },
+    "colour_evidence": {
+      "non_null": 11448,
+      "coverage_percentage": 17.47,
+      "reliability": "MEDIUM"
+    },
+    "material_evidence": {
+      "non_null": 4644,
+      "coverage_percentage": 7.09,
+      "reliability": "LOW"
+    },
+    "size_evidence": {
+      "non_null": 1846,
+      "coverage_percentage": 2.82,
+      "reliability": "LOW"
+    },
+    "style_activity_evidence": {
+      "non_null": 64916,
+      "coverage_percentage": 99.04,
+      "reliability": "MEDIUM"
+    }
+  },
+  "audience_counts": {
+    "GIRLS": 2726,
+    "UNKNOWN": 1123,
+    "UNISEX_ADULT": 3152,
+    "MEN": 14549,
+    "WOMEN": 39564,
+    "TODDLER": 1454,
+    "UNISEX_CHILD": 944,
+    "KIDS": 47,
+    "BOYS": 1987
+  },
+  "colour_source_counts": {
+    "UNKNOWN": 54098,
+    "title": 5884,
+    "Color": 3774,
+    "title_variant": 1762,
+    "Band Color": 22,
+    "Stone Color": 4,
+    "Color Name": 1,
+    "Lens Color": 1
+  },
+  "build_seconds": 19.043
+}

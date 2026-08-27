@@ -1,0 +1,15 @@
+result_item,result_value
+Final hybrid content weight,0.2
+Final hybrid collaborative weight,0.1
+Final hybrid popularity weight,0.7
+Positive test users,59558
+Hybrid Hit Rate@5,0.014876
+Hybrid Hit Rate@10,0.01904
+Hybrid Hit Rate@20,0.023641
+Hybrid MRR@10,0.009334
+Hybrid NDCG@10,0.011631
+Best model at Hit Rate@5,Popularity baseline
+Best model at Hit Rate@10,Popularity baseline
+Best model at Hit Rate@20,Final locked hybrid
+Best model at MRR@10,Popularity baseline
+Best model at NDCG@10,Popularity baseline

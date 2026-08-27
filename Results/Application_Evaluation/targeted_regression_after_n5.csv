@@ -1,0 +1,45 @@
+scenario_id,scenario_name,turn_number,chat_id,user_message,assistant_response,card_count,card_brands,minimum_card_price,maximum_card_price,response_seconds,check_results,failed_checks,runtime_error,turn_passed
+S02,T-shirt currency suffix and approximate budget,1,25,I want tshirts around 50$.,"I understood your shopping request.
+
+- Product: T-Shirts, Shirts
+- Maximum price: $50
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,Aura Apparel | Fun Summer Gifts and Tee shirts Co | Funny Civil Engineers Shirt | Gildan | Hanes | Made By Johnny | Top Gun,14.0,38.3,21.327,"{""assistant_contains_any"": true, ""assistant_excludes_forbidden_text"": true, ""minimum_card_count"": true, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",,,True
+S04,Complete makeover starts new goal,1,26,I need Puma t-shirts under $50.,"I understood your shopping request.
+
+- Product: T-Shirts, Shirts
+- Brand: PUMA
+- Maximum price: $50
+
+I found 1 exact match. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",1,PUMA,14.0,14.0,20.829,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""runtime_execution"": true}",,,True
+S04,Complete makeover starts new goal,2,26,I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.,What type of product are you looking for?,0,,,,7.104,"{""assistant_contains_any"": false, ""assistant_excludes_forbidden_text"": true, ""runtime_execution"": true}",assistant_contains_any,,False
+S07,Budget increase preserves Nike and black,1,27,Show me black Nike shoes under $40.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: $40
+
+I found 1 exact match. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget, allow additional colours, or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",1,Nike,34.99,34.99,30.569,"{""assistant_contains_all"": true, ""runtime_execution"": true}",,,True
+S07,Budget increase preserves Nike and black,2,27,Increase my budget to $80.,"I updated your previous shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: flexible
+
+I found 5 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can allow additional colours or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",5,Nike,34.99,197.5,30.55,"{""assistant_contains_all"": false, ""assistant_excludes_forbidden_text"": false, ""minimum_card_count"": true, ""all_card_brands_valid"": true, ""all_known_prices_within_budget"": false, ""runtime_execution"": true}",assistant_contains_all | assistant_excludes_forbidden_text | all_known_prices_within_budget,,False

@@ -1,0 +1,249 @@
+{
+  "A": {
+    "passed": true,
+    "checks": {
+      "product_ids_order": true,
+      "categories": true,
+      "brands": true,
+      "colours": true,
+      "maximum_price": true,
+      "card_structure": true
+    },
+    "actual": {
+      "product_ids": [
+        "B0BG65PQ9F",
+        "B071D37SF9",
+        "B01M636GNK",
+        "B01I9OMC2C",
+        "B08X2X5YN5",
+        "B000GAYQKY",
+        "B01M4I8D07",
+        "B09S4VHC1B",
+        "B001AWZDA4",
+        "B01AYFTRJA"
+      ],
+      "categories": [
+        "Watches"
+      ],
+      "brands": [],
+      "colours": [],
+      "maximum_price": null,
+      "card_columns": [
+        "card_rank",
+        "product_id",
+        "title",
+        "brand",
+        "specific_category",
+        "price_display",
+        "rating_display",
+        "match_score",
+        "trust_score",
+        "trust_level",
+        "recommendation_explanation",
+        "image_url",
+        "purchase_link",
+        "price_note",
+        "source_dataset",
+        "product_card_version",
+        "eligibility_evidence",
+        "matched_attributes",
+        "audience",
+        "colour_components"
+      ],
+      "card_count": 10
+    }
+  },
+  "B": {
+    "passed": true,
+    "checks": {
+      "product_ids_order": true,
+      "categories": true,
+      "brands": true,
+      "colours": true,
+      "maximum_price": true,
+      "card_structure": true
+    },
+    "actual": {
+      "product_ids": [
+        "B07RJTN4CS",
+        "B01D3MS79W",
+        "B0753J399N",
+        "B01HZR3P02",
+        "B078H9Z1S5",
+        "B01MRC85DW",
+        "B08XX28VQ9",
+        "B00P927FTI",
+        "B01LWRFXMD",
+        "B01MUHRR8I"
+      ],
+      "categories": [
+        "Shoes"
+      ],
+      "brands": [
+        "Nike"
+      ],
+      "colours": [],
+      "maximum_price": null,
+      "card_columns": [
+        "card_rank",
+        "product_id",
+        "title",
+        "brand",
+        "specific_category",
+        "price_display",
+        "rating_display",
+        "match_score",
+        "trust_score",
+        "trust_level",
+        "recommendation_explanation",
+        "image_url",
+        "purchase_link",
+        "price_note",
+        "source_dataset",
+        "product_card_version",
+        "eligibility_evidence",
+        "matched_attributes",
+        "audience",
+        "colour_components"
+      ],
+      "card_count": 10
+    }
+  },
+  "C": {
+    "passed": true,
+    "checks": {
+      "product_ids_order": true,
+      "categories": true,
+      "brands": true,
+      "colours": true,
+      "maximum_price": true,
+      "card_structure": true
+    },
+    "actual": {
+      "product_ids": [
+        "B07FXWWPN6",
+        "B07D8NRTXC",
+        "B0C4LT6VYD",
+        "B00WQ4DIYI",
+        "B0C49D8R7P",
+        "B07Q2347GD",
+        "B0C4LJGW26",
+        "B002G9UFNK",
+        "B096DWNW67",
+        "B008F7E9G6"
+      ],
+      "categories": [
+        "Shoes"
+      ],
+      "brands": [],
+      "colours": [
+        "black"
+      ],
+      "maximum_price": null,
+      "card_columns": [
+        "card_rank",
+        "product_id",
+        "title",
+        "brand",
+        "specific_category",
+        "price_display",
+        "rating_display",
+        "match_score",
+        "trust_score",
+        "trust_level",
+        "recommendation_explanation",
+        "image_url",
+        "purchase_link",
+        "price_note",
+        "source_dataset",
+        "product_card_version",
+        "eligibility_evidence",
+        "matched_attributes",
+        "audience",
+        "colour_components"
+      ],
+      "card_count": 10
+    }
+  },
+  "D": {
+    "passed": true,
+    "checks": {
+      "product_ids_order": true,
+      "categories": true,
+      "brands": true,
+      "colours": true,
+      "maximum_price": true,
+      "card_structure": true
+    },
+    "actual": {
+      "product_ids": [
+        "B07BZGVBF7",
+        "B08134XNNB",
+        "B00DJSRER2",
+        "B09DTQXJDP",
+        "B07W5J6XMP",
+        "B0922DBSLN",
+        "B07JPYSNDP",
+        "B0BYNY3FQR",
+        "B00Q4V24RQ",
+        "B09M74TRNM"
+      ],
+      "categories": [
+        "Shoes"
+      ],
+      "brands": [],
+      "colours": [],
+      "maximum_price": 100.0,
+      "card_columns": [
+        "card_rank",
+        "product_id",
+        "title",
+        "brand",
+        "specific_category",
+        "price_display",
+        "rating_display",
+        "match_score",
+        "trust_score",
+        "trust_level",
+        "recommendation_explanation",
+        "image_url",
+        "purchase_link",
+        "price_note",
+        "source_dataset",
+        "product_card_version",
+        "eligibility_evidence",
+        "matched_attributes",
+        "audience",
+        "colour_components"
+      ],
+      "card_count": 10
+    }
+  },
+  "E": {
+    "passed": true,
+    "checks": {
+      "product_ids_order": true,
+      "categories": true,
+      "brands": true,
+      "colours": true,
+      "maximum_price": true,
+      "card_structure": true
+    },
+    "actual": {
+      "product_ids": [],
+      "categories": [
+        "T-Shirts",
+        "Shirts"
+      ],
+      "brands": [
+        "Casio"
+      ],
+      "colours": [
+        "purple"
+      ],
+      "maximum_price": 1.0,
+      "card_columns": [],
+      "card_count": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "content_weight": 0.2,
+    "collaborative_weight": 0.1,
+    "popularity_weight": 0.7,
+    "rrf_constant": 60,
+    "candidates_per_model": 500
+}

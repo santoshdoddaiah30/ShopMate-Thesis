@@ -1,0 +1,11 @@
+{
+  "operation": "deterministic full-catalogue eligibility scan",
+  "catalogue_rows": 65546,
+  "repetitions": 20,
+  "eligible_count": 0,
+  "average_milliseconds": 228.417,
+  "p95_milliseconds": 281.643,
+  "minimum_milliseconds": 201.584,
+  "maximum_milliseconds": 304.035,
+  "additional_llm_calls": 0
+}

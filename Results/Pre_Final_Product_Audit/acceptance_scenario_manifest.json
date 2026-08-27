@@ -1,0 +1,799 @@
+{
+  "suite_name": "Pre-Final Real-World Shopping Assistant Acceptance Audit",
+  "frozen_before_execution": true,
+  "scenario_count": 75,
+  "scenarios": [
+    {
+      "scenario_id": "S001",
+      "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+      "turns": [
+        "Show me watches."
+      ],
+      "expected_behavior": "Interpret watches as the current category with normal product mode and no stale constraints.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S002",
+      "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+      "turns": [
+        "Show me shoes."
+      ],
+      "expected_behavior": "Interpret shoes as the current category with normal product mode and no stale constraints.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S003",
+      "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+      "turns": [
+        "Show me t-shirts."
+      ],
+      "expected_behavior": "Interpret t-shirts as the current category with normal product mode and no stale constraints.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S004",
+      "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+      "turns": [
+        "I need a jacket."
+      ],
+      "expected_behavior": "Interpret jacket as the current category with normal product mode.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S005",
+      "behavioral_family": "BASIC_PRODUCT_DISCOVERY",
+      "turns": [
+        "Show me some accessories."
+      ],
+      "expected_behavior": "Interpret accessories without unrelated stale constraints.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S006",
+      "behavioral_family": "BRAND_REQUESTS",
+      "turns": [
+        "Show me Nike shoes."
+      ],
+      "expected_behavior": "Nike is an explicit hard brand constraint and shoes is the product category.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S007",
+      "behavioral_family": "BRAND_REQUESTS",
+      "turns": [
+        "Show me adidas t-shirts."
+      ],
+      "expected_behavior": "adidas is an explicit hard brand constraint and t-shirts is the product category.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S008",
+      "behavioral_family": "BRAND_REQUESTS",
+      "turns": [
+        "Show me products from Skechers."
+      ],
+      "expected_behavior": "Skechers becomes the explicit hard brand constraint.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S009",
+      "behavioral_family": "COLOUR",
+      "turns": [
+        "Show me black shoes."
+      ],
+      "expected_behavior": "Black is enforced as an explicit colour constraint for shoes.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S010",
+      "behavioral_family": "COLOUR",
+      "turns": [
+        "Show me red t-shirts."
+      ],
+      "expected_behavior": "Red is enforced as an explicit colour constraint for t-shirts.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S011",
+      "behavioral_family": "COLOUR",
+      "turns": [
+        "Show me blue jackets."
+      ],
+      "expected_behavior": "Blue is enforced as an explicit colour constraint for jackets.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S012",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me watches under $100."
+      ],
+      "expected_behavior": "Interpret under $100 as maximum_price 100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S013",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me shoes below $100."
+      ],
+      "expected_behavior": "Interpret below $100 as maximum_price 100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S014",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me jackets less than $100."
+      ],
+      "expected_behavior": "Interpret less than $100 as maximum_price 100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S015",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me t-shirts, max $100."
+      ],
+      "expected_behavior": "Interpret max $100 as maximum_price 100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S016",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "I need shoes and my budget is $100."
+      ],
+      "expected_behavior": "Record the current interpretation of budget is $100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S017",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me watches around $100."
+      ],
+      "expected_behavior": "Record the current interpretation of around $100 without inventing precision.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S018",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me jackets about $100."
+      ],
+      "expected_behavior": "Record the current interpretation of about $100 without inventing precision.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S019",
+      "behavioral_family": "BUDGET_LANGUAGE",
+      "turns": [
+        "Show me shoes between $50 and $100."
+      ],
+      "expected_behavior": "Interpret minimum_price 50 and maximum_price 100.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S020",
+      "behavioral_family": "BUDGET_REMOVAL",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Forget the budget."
+      ],
+      "expected_behavior": "Second turn clears maximum_price while preserving relevant brand/category/colour.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S021",
+      "behavioral_family": "BUDGET_REMOVAL",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Don't worry about budget."
+      ],
+      "expected_behavior": "Second turn clears maximum_price while preserving relevant brand/category/colour.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S022",
+      "behavioral_family": "BUDGET_REMOVAL",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Price doesn't matter."
+      ],
+      "expected_behavior": "Second turn clears maximum_price while preserving relevant brand/category/colour.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S023",
+      "behavioral_family": "BUDGET_REMOVAL",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Show me all of them regardless of price."
+      ],
+      "expected_behavior": "Second turn clears maximum_price while preserving relevant brand/category/colour.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S024",
+      "behavioral_family": "BUDGET_REMOVAL",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Remove the price limit."
+      ],
+      "expected_behavior": "Second turn clears maximum_price while preserving relevant brand/category/colour.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S025",
+      "behavioral_family": "CONSTRAINT_REPLACEMENT",
+      "turns": [
+        "Show me Nike shoes.",
+        "Actually, make that adidas."
+      ],
+      "expected_behavior": "Replace Nike with adidas and remove obsolete Nike constraint.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S026",
+      "behavioral_family": "CONSTRAINT_REPLACEMENT",
+      "turns": [
+        "Show me black shoes.",
+        "Make them white instead."
+      ],
+      "expected_behavior": "Replace black with white and remove obsolete black constraint.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S027",
+      "behavioral_family": "CONSTRAINT_REPLACEMENT",
+      "turns": [
+        "Show me shoes under $40.",
+        "Raise the limit to $80."
+      ],
+      "expected_behavior": "Replace maximum_price 40 with 80.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S028",
+      "behavioral_family": "CONSTRAINT_REPLACEMENT",
+      "turns": [
+        "Show me Nike shoes.",
+        "Actually I want t-shirts."
+      ],
+      "expected_behavior": "Replace shoes with t-shirts and remove obsolete shoe goal constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S029",
+      "behavioral_family": "CONSTRAINT_RELAXATION",
+      "turns": [
+        "Show me black shoes.",
+        "Any colour is fine."
+      ],
+      "expected_behavior": "Clear only the colour constraint.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S030",
+      "behavioral_family": "CONSTRAINT_RELAXATION",
+      "turns": [
+        "Show me Nike shoes.",
+        "Any brand is okay."
+      ],
+      "expected_behavior": "Clear only the brand constraint.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S031",
+      "behavioral_family": "CONSTRAINT_RELAXATION",
+      "turns": [
+        "Show me shoes under $50.",
+        "Ignore the price."
+      ],
+      "expected_behavior": "Clear only price constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S032",
+      "behavioral_family": "CONSTRAINT_RELAXATION",
+      "turns": [
+        "Show me Nike shoes.",
+        "It doesn't have to be Nike."
+      ],
+      "expected_behavior": "Clear only the Nike brand constraint.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S033",
+      "behavioral_family": "NEGATIVE_CONSTRAINTS",
+      "turns": [
+        "Show me shoes but not Nike."
+      ],
+      "expected_behavior": "Understand Nike as an exclusion rather than a positive brand filter.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S034",
+      "behavioral_family": "NEGATIVE_CONSTRAINTS",
+      "turns": [
+        "Show me t-shirts. Anything except red."
+      ],
+      "expected_behavior": "Understand red as an exclusion.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S035",
+      "behavioral_family": "NEGATIVE_CONSTRAINTS",
+      "turns": [
+        "Show me shoes. No adidas."
+      ],
+      "expected_behavior": "Understand adidas as an exclusion.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S036",
+      "behavioral_family": "NEGATIVE_CONSTRAINTS",
+      "turns": [
+        "Show me jackets. I don't want black."
+      ],
+      "expected_behavior": "Understand black as an exclusion.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S037",
+      "behavioral_family": "NEW_SHOPPING_GOAL",
+      "turns": [
+        "Show me black Nike shoes under $80.",
+        "Now I need a watch."
+      ],
+      "expected_behavior": "A genuine watch goal drops irrelevant shoe, black, Nike, and $80 constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S038",
+      "behavioral_family": "NEW_SHOPPING_GOAL",
+      "turns": [
+        "Show me red adidas t-shirts under $40.",
+        "Actually forget the shirts, I need a jacket."
+      ],
+      "expected_behavior": "A genuine jacket goal drops obsolete shirt, red, adidas, and $40 constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S039",
+      "behavioral_family": "NEW_SHOPPING_GOAL",
+      "turns": [
+        "Show me blue jackets under $100.",
+        "Now help me find shoes."
+      ],
+      "expected_behavior": "A genuine shoe goal drops obsolete jacket, blue, and budget constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S040",
+      "behavioral_family": "NEW_SHOPPING_GOAL",
+      "turns": [
+        "Show me Casio watches under $80.",
+        "Instead I need t-shirts."
+      ],
+      "expected_behavior": "A genuine t-shirt goal drops obsolete watch, Casio, and budget constraints.",
+      "default_failure_category": "STATE_MEMORY",
+      "special": null
+    },
+    {
+      "scenario_id": "S041",
+      "behavioral_family": "NEW_CHAT_ISOLATION",
+      "turns": [
+        "Show me black Nike shoes under $40.",
+        "Show me watches."
+      ],
+      "expected_behavior": "Second message occurs in a newly created chat and must not inherit Chat A constraints.",
+      "default_failure_category": "PERSISTENCE",
+      "special": "new_chat_before_turn_2"
+    },
+    {
+      "scenario_id": "S042",
+      "behavioral_family": "NEW_CHAT_ISOLATION",
+      "turns": [
+        "Show me red adidas t-shirts under $50.",
+        "Show me jackets."
+      ],
+      "expected_behavior": "Second message occurs in a newly created chat and must not inherit Chat A constraints.",
+      "default_failure_category": "PERSISTENCE",
+      "special": "new_chat_before_turn_2"
+    },
+    {
+      "scenario_id": "S043",
+      "behavioral_family": "NEW_CHAT_ISOLATION",
+      "turns": [
+        "Show me blue Skechers shoes under $90.",
+        "Show me accessories."
+      ],
+      "expected_behavior": "Second message occurs in a newly created chat and must not inherit Chat A constraints.",
+      "default_failure_category": "PERSISTENCE",
+      "special": "new_chat_before_turn_2"
+    },
+    {
+      "scenario_id": "S044",
+      "behavioral_family": "CHAT_RELOAD",
+      "turns": [
+        "Show me black Nike shoes under $80.",
+        "Reload this chat."
+      ],
+      "expected_behavior": "Reselecting the same chat restores its own active state and a separate chat remains independent.",
+      "default_failure_category": "PERSISTENCE",
+      "special": "reselect_before_turn_2"
+    },
+    {
+      "scenario_id": "S045",
+      "behavioral_family": "PROFILE_PREFERENCE_VS_HARD",
+      "turns": [
+        "I like Nike.",
+        "Show me red t-shirts.",
+        "Show me watches.",
+        "Show me adidas t-shirts."
+      ],
+      "expected_behavior": "Profile Nike may influence ranking but must not become a hard brand constraint unless explicitly requested; adidas must override it.",
+      "default_failure_category": "PROFILE_PERSONALIZATION",
+      "special": null
+    },
+    {
+      "scenario_id": "S046",
+      "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+      "turns": [
+        "show me adiddas tshirts"
+      ],
+      "expected_behavior": "Understand likely adidas t-shirts typo or clearly request clarification.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S047",
+      "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+      "turns": [
+        "need some black kicks"
+      ],
+      "expected_behavior": "Understand black shoes from casual wording.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S048",
+      "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+      "turns": [
+        "something below 80 bucks"
+      ],
+      "expected_behavior": "Understand maximum budget 80 and request/retain an appropriate product goal.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S049",
+      "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+      "turns": [
+        "nike sneekers"
+      ],
+      "expected_behavior": "Understand Nike sneakers typo.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S050",
+      "behavioral_family": "TYPO_CASUAL_LANGUAGE",
+      "turns": [
+        "cheap tshirts pls"
+      ],
+      "expected_behavior": "Understand t-shirts and useful low-price intent.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S051",
+      "behavioral_family": "SHOW_MORE",
+      "turns": [
+        "Show me Nike shoes.",
+        "Show me more."
+      ],
+      "expected_behavior": "Continue discovery without simply repeating the identical product set.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S052",
+      "behavioral_family": "SHOW_MORE",
+      "turns": [
+        "Show me watches under $100.",
+        "More options."
+      ],
+      "expected_behavior": "Continue discovery without simply repeating the identical product set.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S053",
+      "behavioral_family": "SHOW_MORE",
+      "turns": [
+        "Show me black jackets.",
+        "Anything else?"
+      ],
+      "expected_behavior": "Continue discovery without simply repeating the identical product set.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S054",
+      "behavioral_family": "RELATIVE_REFINEMENT",
+      "turns": [
+        "Show me watches under $150.",
+        "Anything cheaper?"
+      ],
+      "expected_behavior": "Understand relative cheaper refinement using prior results.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S055",
+      "behavioral_family": "RELATIVE_REFINEMENT",
+      "turns": [
+        "Show me shoes.",
+        "Show me higher-rated ones."
+      ],
+      "expected_behavior": "Understand relative rating refinement using prior results.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S056",
+      "behavioral_family": "RELATIVE_REFINEMENT",
+      "turns": [
+        "Show me jackets.",
+        "Show me the cheapest."
+      ],
+      "expected_behavior": "Understand cheapest refinement using available catalogue price.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S057",
+      "behavioral_family": "RELATIVE_REFINEMENT",
+      "turns": [
+        "Show me watches.",
+        "Which has the most reviews?"
+      ],
+      "expected_behavior": "Use available review counts to identify the most-reviewed prior result.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S058",
+      "behavioral_family": "RELATIVE_REFINEMENT",
+      "turns": [
+        "Show me t-shirts.",
+        "Give me better options."
+      ],
+      "expected_behavior": "Handle ambiguous better-options request realistically or clarify.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S059",
+      "behavioral_family": "RESULT_REFERENCES",
+      "turns": [
+        "Show me Nike shoes.",
+        "Show me more like the first one."
+      ],
+      "expected_behavior": "Resolve the first prior result and use its catalogue evidence.",
+      "default_failure_category": "RESULT_REFERENCE",
+      "special": null
+    },
+    {
+      "scenario_id": "S060",
+      "behavioral_family": "RESULT_REFERENCES",
+      "turns": [
+        "Show me watches.",
+        "Tell me about the second product."
+      ],
+      "expected_behavior": "Resolve and describe the second prior result without fabrication.",
+      "default_failure_category": "RESULT_REFERENCE",
+      "special": null
+    },
+    {
+      "scenario_id": "S061",
+      "behavioral_family": "RESULT_REFERENCES",
+      "turns": [
+        "Show me jackets.",
+        "Why did you recommend the third one?"
+      ],
+      "expected_behavior": "Resolve the third result and explain using available match evidence.",
+      "default_failure_category": "RESULT_REFERENCE",
+      "special": null
+    },
+    {
+      "scenario_id": "S062",
+      "behavioral_family": "RESULT_REFERENCES",
+      "turns": [
+        "Show me adidas t-shirts.",
+        "Give me the Amazon link for the first one."
+      ],
+      "expected_behavior": "Return the stored Amazon link for the first result.",
+      "default_failure_category": "RESULT_REFERENCE",
+      "special": null
+    },
+    {
+      "scenario_id": "S063",
+      "behavioral_family": "PRODUCT_COMPARISON",
+      "turns": [
+        "Show me watches under $100.",
+        "Compare the first and second."
+      ],
+      "expected_behavior": "Compare prior products using available price, rating, reviews, trust, match, brand, and category without fabricating specifications.",
+      "default_failure_category": "RESULT_REFERENCE",
+      "special": null
+    },
+    {
+      "scenario_id": "S064",
+      "behavioral_family": "NO_EXACT_MATCH",
+      "turns": [
+        "Show me purple Casio t-shirts under $1."
+      ],
+      "expected_behavior": "Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S065",
+      "behavioral_family": "NO_EXACT_MATCH",
+      "turns": [
+        "Show me red Skechers watches under $2."
+      ],
+      "expected_behavior": "Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S066",
+      "behavioral_family": "NO_EXACT_MATCH",
+      "turns": [
+        "Show me blue Nike jackets between $1 and $2."
+      ],
+      "expected_behavior": "Return no fabricated products, preserve constraints, and suggest a useful relaxation.",
+      "default_failure_category": "FILTERING",
+      "special": null
+    },
+    {
+      "scenario_id": "S067",
+      "behavioral_family": "GENERAL_SHOPPING_ADVICE",
+      "turns": [
+        "What should I look for when buying running shoes?"
+      ],
+      "expected_behavior": "Provide grounded general guidance or explicitly classify this as unsupported.",
+      "default_failure_category": "DATA_LIMITATION",
+      "special": null
+    },
+    {
+      "scenario_id": "S068",
+      "behavioral_family": "GENERAL_SHOPPING_ADVICE",
+      "turns": [
+        "Which type of jacket is good for winter?"
+      ],
+      "expected_behavior": "Provide grounded general guidance or explicitly classify this as unsupported.",
+      "default_failure_category": "DATA_LIMITATION",
+      "special": null
+    },
+    {
+      "scenario_id": "S069",
+      "behavioral_family": "GIFT_SHOPPING",
+      "turns": [
+        "I need a gift for my dad under $100."
+      ],
+      "expected_behavior": "Handle recipient and budget, ground recommendations, and clarify useful missing details.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S070",
+      "behavioral_family": "GIFT_SHOPPING",
+      "turns": [
+        "Suggest a birthday gift."
+      ],
+      "expected_behavior": "Handle gift intent with useful clarification and catalogue grounding.",
+      "default_failure_category": "CONVERSATION_RESPONSE",
+      "special": null
+    },
+    {
+      "scenario_id": "S071",
+      "behavioral_family": "OCCASION_SHOPPING",
+      "turns": [
+        "I need something for a birthday party."
+      ],
+      "expected_behavior": "Interpret occasion and provide grounded recommendations or clarification.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S072",
+      "behavioral_family": "OCCASION_SHOPPING",
+      "turns": [
+        "Something for work."
+      ],
+      "expected_behavior": "Interpret work occasion and provide grounded recommendations or clarification.",
+      "default_failure_category": "PARSER",
+      "special": null
+    },
+    {
+      "scenario_id": "S073",
+      "behavioral_family": "OUTFIT_MAKEOVER",
+      "turns": [
+        "I have a 500 $ budget for my complete makeover.",
+        "Give me combinations for tomorrow's birthday party.",
+        "Men"
+      ],
+      "expected_behavior": "Clarify supported recipient, then return 3x5 complete looks within total budget with slots, links, persistence, and reloadability.",
+      "default_failure_category": "OUTFIT",
+      "special": null
+    },
+    {
+      "scenario_id": "S074",
+      "behavioral_family": "OUTFIT_FOLLOW_UP",
+      "turns": [
+        "I have a $400 budget for a complete men's casual outfit.",
+        "Show me another outfit."
+      ],
+      "expected_behavior": "Return supported outfit recommendations then handle another-outfit follow-up.",
+      "default_failure_category": "OUTFIT",
+      "special": null
+    },
+    {
+      "scenario_id": "S075",
+      "behavioral_family": "MULTI_PRODUCT_AND_GROUNDING",
+      "turns": [
+        "I need shoes and a watch under $150 total.",
+        "Is the first one in stock and can it arrive tomorrow?",
+        "What's today's Amazon price and is there a coupon?"
+      ],
+      "expected_behavior": "Record multi-product capability and clearly refuse unsupported live stock, delivery, current-price, and coupon claims.",
+      "default_failure_category": "DATA_LIMITATION",
+      "special": null
+    }
+  ]
+}

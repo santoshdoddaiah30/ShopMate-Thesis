@@ -1,0 +1,5242 @@
+{
+  "suite": "N24M deterministic real-catalogue eligibility properties",
+  "total": 272,
+  "passed": 272,
+  "failed": 0,
+  "target_assertions": 272,
+  "cases_evaluated": 65,
+  "sample_dimensions": {
+    "categories": [
+      [
+        "Shoes",
+        "Walking"
+      ],
+      [
+        "Shoes",
+        "Running"
+      ],
+      [
+        "Shoes",
+        "Basketball"
+      ],
+      [
+        "Shoes",
+        "Athletic"
+      ],
+      [
+        "Shoes",
+        "Fashion Sneakers"
+      ],
+      [
+        "Shoes"
+      ],
+      [
+        "Shoes",
+        "Sandals"
+      ],
+      [
+        "Shoes",
+        "Boots"
+      ],
+      [
+        "Shoes",
+        "Slippers"
+      ],
+      [
+        "Shoes",
+        "Flip-Flops"
+      ],
+      [
+        "T-Shirts"
+      ],
+      [
+        "Jackets & Coats"
+      ]
+    ],
+    "brands": [
+      "Amazon Essentials",
+      "Hanes",
+      "Skechers",
+      "adidas",
+      "Fruit of the Loom",
+      "DREAM PAIRS",
+      "Carhartt",
+      "Columbia",
+      "Ekouaer",
+      "New Balance",
+      "Dickies",
+      "Nike"
+    ],
+    "strict_colours": [
+      "black",
+      "silver",
+      "gold",
+      "blue",
+      "multicolour",
+      "white",
+      "brown",
+      "red"
+    ],
+    "audiences": [
+      "MEN",
+      "WOMEN",
+      "UNISEX_ADULT",
+      "BOYS",
+      "GIRLS",
+      "KIDS"
+    ],
+    "price_thresholds": [
+      14.99,
+      20.72,
+      27.99,
+      39.99
+    ],
+    "rating_thresholds": [
+      3.5,
+      4.0,
+      4.5
+    ]
+  },
+  "seconds": 13.589,
+  "case_summaries": [
+    {
+      "case": "category_1",
+      "eligible_count": 424,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Walking"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Walking",
+        "request_fingerprint": "sha256:bf6c2df781a975b65336d38cc470b55c34af96a534b4f92b3833b2db41aac2e8",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_2",
+      "eligible_count": 582,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Running"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Running",
+        "request_fingerprint": "sha256:7c53c85e6096e9f9470cef33521bee2d0547d89d6af060faec8f17d888fda06b",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_3",
+      "eligible_count": 22,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Basketball"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Basketball",
+        "request_fingerprint": "sha256:665a1bceac154098b3050fd1f092ba946115e116113fe78fc50488e0fa998aba",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_4",
+      "eligible_count": 1812,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Athletic"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Athletic",
+        "request_fingerprint": "sha256:61ae227e7c54ab15d04f3902432703ed6882fb4ea60bde8aa82796b365cc7f4d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_5",
+      "eligible_count": 700,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Fashion Sneakers",
+        "request_fingerprint": "sha256:4afc964528451e5a043d92379287c140f0bd90dbb9d6d28ce912c6ae3aa8e72c",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_6",
+      "eligible_count": 8775,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes",
+        "request_fingerprint": "sha256:dfed97e14a42dad32de43a30d0afb43587a8000ca1f1cce01b06b07b9424e557",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_7",
+      "eligible_count": 1716,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Sandals"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Sandals",
+        "request_fingerprint": "sha256:9d1df152ea6b04177496c463056a0ff1c58f8b23a3af2ffcadd1fcef7bd182a1",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_8",
+      "eligible_count": 788,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Boots"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Boots",
+        "request_fingerprint": "sha256:b1705cdd760da29bc5f995c0116e13d3e2fb25d4f4f9adcaee0a1ccbe2e0d676",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_9",
+      "eligible_count": 1020,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Slippers"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Slippers",
+        "request_fingerprint": "sha256:522dd657eb3adcf8b1a4c2041a87c33d07247694da751b12c096c2e32f515140",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_10",
+      "eligible_count": 323,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shoes",
+          "Flip-Flops"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shoes, Flip-Flops",
+        "request_fingerprint": "sha256:d143e3d78230ca187be9a0bfdb16843b9f537b3d148818fdd1de3a9846769ff9",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_11",
+      "eligible_count": 2557,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "T-Shirts"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=T-Shirts",
+        "request_fingerprint": "sha256:edf2e532da4cc64de35801cb1d2b9ab6bc0f63cc22b2bee4580c0ac9ef09e6d6",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "category_12",
+      "eligible_count": 628,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Jackets & Coats"
+        ],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Jackets & Coats",
+        "request_fingerprint": "sha256:e5a3924291959c510b2e1949f56447a4474306d22537cced6af898348ea4aed6",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_1",
+      "eligible_count": 629,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Amazon Essentials"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Amazon Essentials",
+        "request_fingerprint": "sha256:c17474df82a33a2f3692b31c6997e5cb6862e30f62d1898535f3a5a1f00212fd",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_2",
+      "eligible_count": 470,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Hanes"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Hanes",
+        "request_fingerprint": "sha256:6e7878d8923afa70d60f9705f7fbcb8bfa7f3b4d08bb54d1dd5e720714260f52",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_3",
+      "eligible_count": 468,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Skechers"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Skechers",
+        "request_fingerprint": "sha256:f24bc83d4625e34fa3cf6c37a3c0d4a3fca01282aa269a1a97a2bd3b18d4c082",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_4",
+      "eligible_count": 323,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=adidas",
+        "request_fingerprint": "sha256:f29ae7bff7733853b5c76c1a45f8e76b75e2306e951d335f111861dcd9492726",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_5",
+      "eligible_count": 273,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Fruit of the Loom"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Fruit of the Loom",
+        "request_fingerprint": "sha256:a1f512f9e484f912f4a26016ac6ea9811d5ea80ab4fedf6eaf6b5f6fd0a81af7",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_6",
+      "eligible_count": 254,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "DREAM PAIRS"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=DREAM PAIRS",
+        "request_fingerprint": "sha256:9f21d955d67827dfdf6d45eb33d9be63cbe73df130256a5ae18716e4a45a60c7",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_7",
+      "eligible_count": 227,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Carhartt"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Carhartt",
+        "request_fingerprint": "sha256:cbd6db0f3674adc8ff2cf5d8c2571e2ff6a0b69f5832d549fee6f230e57e3235",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_8",
+      "eligible_count": 206,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Columbia"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Columbia",
+        "request_fingerprint": "sha256:7f8d2260fc236e66ae4ee7e490a094b526c3485335833767a7f54105864b521e",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_9",
+      "eligible_count": 195,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Ekouaer"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Ekouaer",
+        "request_fingerprint": "sha256:cfc870f6d84412d38776bd4da7a8c8195f51fa30fcef094d8a42d2fc8526fe7d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_10",
+      "eligible_count": 194,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "New Balance"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=New Balance",
+        "request_fingerprint": "sha256:646b61c6ff577906e9eb7803ccedb4822c019575e56e1327f07417bef5be4cc3",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_11",
+      "eligible_count": 192,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Dickies"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Dickies",
+        "request_fingerprint": "sha256:a68d4788c9176566491f0c1ee52f0c50d6571c66b7d59ef07b1bd3f1f67587b6",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "brand_12",
+      "eligible_count": 187,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [
+          "Nike"
+        ],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: brands=Nike",
+        "request_fingerprint": "sha256:06f3258d85f9573fea8a8b2fc3e133507625a667709284139fda60829d6c1417",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "eligible_count": 2469,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=black",
+        "request_fingerprint": "sha256:c5e0a8272925527d871d934a9c10616911560c0572cabcf7b83b1789cb7946b2",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "eligible_count": 1806,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "silver"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=silver",
+        "request_fingerprint": "sha256:e1665eef2a37eb0858823cfe919b8854f2f9ffaf813e6dca7b4fa15851ce184d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "eligible_count": 1079,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "gold"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=gold",
+        "request_fingerprint": "sha256:4cf189e3af696472503eff51505b96fa6b0546906def868dc8b37dc62ba98241",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "eligible_count": 692,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "blue"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=blue",
+        "request_fingerprint": "sha256:78891451fe56b8cdd27ac47dc96aa37fa25ce5ea96f96947778b82267b42f660",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "eligible_count": 682,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "multicolour"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=multicolour",
+        "request_fingerprint": "sha256:09c44c9841f307153220688a2a5c44a3753e1fc4e2479d448dbc276e3f49bdcf",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "eligible_count": 602,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=white",
+        "request_fingerprint": "sha256:ffb5054525ccd5ad3479473bbc403c38e74877767b23e15f5dd637052363a673",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "eligible_count": 412,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "brown"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=brown",
+        "request_fingerprint": "sha256:da797b86641d699e33bd5ccfda9d564800d22f4b7254d44ec0f3e49ec14b51cb",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "eligible_count": 374,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: colours=red",
+        "request_fingerprint": "sha256:864ec8f2b71bebff0c0995b0b60c50a3b141dc1661ce8f6d2ae817892c527315",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_men",
+      "eligible_count": 17701,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:91f36f8587dcf9f95d31eb8a4c6b22f255edf1486c68d89d05469310c2dd67f1",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_women",
+      "eligible_count": 42716,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:32df1c01c40db7f38a86c552e88f9be820071c199b203651247b766693a109ff",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "eligible_count": 3152,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "UNISEX_ADULT",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:459f22169482a889a15db11ae5982f87760362200cca7ae925d59c8a1f620e1b",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_boys",
+      "eligible_count": 2931,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "BOYS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:a1f02460a8cdb904cac6b32cd22489232a3282d4dc16de4a0a6de23af964cef7",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_girls",
+      "eligible_count": 3670,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "GIRLS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:0df19cce1e8448ebb52660199525e4cbaceb772d419531a8cad61433f1a000ec",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "audience_kids",
+      "eligible_count": 7158,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "KIDS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:74e52f18f1e0f221690379c1ceef12c3d26924af845df9e554c9fd080e5ba5fe",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "eligible_count": 14420,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 14.99,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: maximum_price=14.99",
+        "request_fingerprint": "sha256:85efac6e8787a86ca77cbcf91d36b4d10cf540c88a15bc5c3fa8f220884b67f0",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "eligible_count": 52629,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": 14.99,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: minimum_price=14.99",
+        "request_fingerprint": "sha256:a7543b301b78bd631e3bb4ff12c6c0dfb0fe221d25c207de3eca98addf283885",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "eligible_count": 26237,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 20.72,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: maximum_price=20.72",
+        "request_fingerprint": "sha256:8fa985771bda0e2e0626e66b1c7a9baf419644e570c94e5010f9e96c7b2f0a4e",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "eligible_count": 39336,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": 20.72,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: minimum_price=20.72",
+        "request_fingerprint": "sha256:b26513344925b1b39d23af02675e751b34c87649ac517472a502884ba70f350e",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "eligible_count": 39899,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 27.99,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: maximum_price=27.99",
+        "request_fingerprint": "sha256:112fe4fe6f58f320fe16424caef7a6765539b4ed889d8070ad9ed66349491070",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "eligible_count": 26603,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": 27.99,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: minimum_price=27.99",
+        "request_fingerprint": "sha256:e06c32d7bbbbc551c3c113fbcd301f2b9a8f93b72be9ede4aab47a2ae7d383f0",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "eligible_count": 53349,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 39.99,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: maximum_price=39.99",
+        "request_fingerprint": "sha256:2e78158be0d9aef448cab934a4b3354186c0a0c881d050c613cca4720da21014",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "eligible_count": 13437,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": 39.99,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: minimum_price=39.99",
+        "request_fingerprint": "sha256:3c170e54809d9550d4ce8168556349ffb1da8bd6034832a790b6cd3295aa9e8d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": null,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "eligible_count": 65125,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:121cdad25433d068bbc38a72aad5dd9e76f790839607e0773121befec86a55dc",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 3.5,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "eligible_count": 60776,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:121cdad25433d068bbc38a72aad5dd9e76f790839607e0773121befec86a55dc",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.0,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "eligible_count": 26513,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [],
+        "brands": [],
+        "colours": [],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": null,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": null,
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: no hard constraints",
+        "request_fingerprint": "sha256:121cdad25433d068bbc38a72aad5dd9e76f790839607e0773121befec86a55dc",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.5,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_1",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Skirt Sets"
+        ],
+        "brands": [
+          "The Elf on the Shelf"
+        ],
+        "colours": [
+          "green"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 14.96,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "GIRLS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Skirt Sets; brands=The Elf on the Shelf; colours=green; maximum_price=14.96",
+        "request_fingerprint": "sha256:eb1ed400cd999cc801ea41b80382200b190024910844605d31de0d87099c3a29",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.59,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_2",
+      "eligible_count": 6,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Wrist Watches"
+        ],
+        "brands": [
+          "Invicta"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 71.62,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Wrist Watches; brands=Invicta; colours=black; maximum_price=71.62",
+        "request_fingerprint": "sha256:cee20484222b54b5e0bd9e9d2425301b81e79a0dde4a98891dc52701c8491672",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.49,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_3",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Accessories"
+        ],
+        "brands": [
+          "elope"
+        ],
+        "colours": [
+          "green"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 11.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Accessories; brands=elope; colours=green; maximum_price=11",
+        "request_fingerprint": "sha256:aa84e2c6edc0d5b752a493bec737a1595491a05e3e57627b3f99eda71a474ea3",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.39,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_4",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Stretch"
+        ],
+        "brands": [
+          "amscan"
+        ],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 8.95,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Stretch; brands=amscan; colours=white; maximum_price=8.95",
+        "request_fingerprint": "sha256:f7549c2a10b08c7edea1748d5a2e1d1d4ef9d1dc12fb31064344900a1bfc0dab",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 3.79,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_5",
+      "eligible_count": 7,
+      "sampled_count": 5,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Wallets"
+        ],
+        "brands": [
+          "Marshal"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 23.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Wallets; brands=Marshal; colours=black; maximum_price=23",
+        "request_fingerprint": "sha256:228a3511615f02bbd2f77e8d066da61a22ea4e6182344fef398b384d5f5bb94b",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.09,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_6",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Bracelets"
+        ],
+        "brands": [
+          "Hands Of Tibet"
+        ],
+        "colours": [
+          "gold"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 12.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Bracelets; brands=Hands Of Tibet; colours=gold; maximum_price=12",
+        "request_fingerprint": "sha256:c644a91294fa67b4ccddecc851759d57c357ec6f23291e80067f5e87e889d1fa",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.29,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_7",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Fashion Scarves"
+        ],
+        "brands": [
+          "CELTIC CLOTHING"
+        ],
+        "colours": [
+          "green"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 26.96,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Fashion Scarves; brands=CELTIC CLOTHING; colours=green; maximum_price=26.96",
+        "request_fingerprint": "sha256:4affe86f4eb88db047f1aa0daa7cdb9251b94bc7cec644c680a412efd32b1731",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.79,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_8",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Garment Bags"
+        ],
+        "brands": [
+          "DALIX"
+        ],
+        "colours": [
+          "white"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 25.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "UNISEX_ADULT",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Garment Bags; brands=DALIX; colours=white; maximum_price=25",
+        "request_fingerprint": "sha256:5c7048d5c455b75e1b3f0b63f0636ed85845eb51990c2359fd22eb600489ecf9",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 3.89,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_9",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Earmuffs"
+        ],
+        "brands": [
+          "caseling"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 14.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "UNISEX_ADULT",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Earmuffs; brands=caseling; colours=black; maximum_price=14",
+        "request_fingerprint": "sha256:14682e9ff6114d96cf5a614da1c8b4af6a340c4dc49e9b29c0975ea040a700c3",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.79,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_10",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Travel Duffels"
+        ],
+        "brands": [
+          "Malirona"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 41.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Travel Duffels; brands=Malirona; colours=black; maximum_price=41",
+        "request_fingerprint": "sha256:568d0830c65e67e03d4cf87d81a21bfa05f12bfc20a7c8aec090802fb4153e1a",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.59,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_11",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Gloves"
+        ],
+        "brands": [
+          "Tough Outdoors"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 21.96,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "BOYS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Gloves; brands=Tough Outdoors; colours=black; maximum_price=21.96",
+        "request_fingerprint": "sha256:b175c99ada0df8234c9252a3132ddc8de987a741e96dfc3e89436907b5e0721d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.59,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_12",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Shirts"
+        ],
+        "brands": [
+          "Red Plume"
+        ],
+        "colours": [
+          "red"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 19.01,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Shirts; brands=Red Plume; colours=red; maximum_price=19.01",
+        "request_fingerprint": "sha256:590b5ccfa62cb506cb40b1a9f25ef81a2eb136c5b65c2350eb19b1223747ea3d",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.49,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_13",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Bangle"
+        ],
+        "brands": [
+          "MILAKOO"
+        ],
+        "colours": [
+          "gold"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 12.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Bangle; brands=MILAKOO; colours=gold; maximum_price=12",
+        "request_fingerprint": "sha256:8ecac63867cec471b387b0020177bad4ace1e208d5e3bb875973c8840b12cb17",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.39,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_14",
+      "eligible_count": 1,
+      "sampled_count": 1,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Drop & Dangle"
+        ],
+        "brands": [
+          "Chanteur"
+        ],
+        "colours": [
+          "silver"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 18.97,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "GIRLS",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Drop & Dangle; brands=Chanteur; colours=silver; maximum_price=18.97",
+        "request_fingerprint": "sha256:924bdc5c5f8b660b2de93a82f13185a4bd2b0ade9a68be496fa7220bd6e983e1",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.39,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_15",
+      "eligible_count": 2,
+      "sampled_count": 2,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Chains"
+        ],
+        "brands": [
+          "Verona Jewelers"
+        ],
+        "colours": [
+          "silver"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 25.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "WOMEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Chains; brands=Verona Jewelers; colours=silver; maximum_price=25",
+        "request_fingerprint": "sha256:561abeba643a1f6ba4fd3e29da8ecf4562f4297892fbdc9358ebc2601cf3bc45",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.49,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    },
+    {
+      "case": "intersection_16",
+      "eligible_count": 3,
+      "sampled_count": 3,
+      "request": {
+        "profile_id": "account_10_7c280d1d4b3d",
+        "categories": [
+          "Wallets"
+        ],
+        "brands": [
+          "Stealth Mode"
+        ],
+        "colours": [
+          "black"
+        ],
+        "materials": [],
+        "sizes": [],
+        "minimum_price": null,
+        "maximum_price": 35.0,
+        "price_mode": null,
+        "occasions": [],
+        "recipient": "MEN",
+        "destination": null,
+        "timeframe": null,
+        "currency": "USD",
+        "excluded_categories": [],
+        "excluded_brands": [],
+        "excluded_colours": [],
+        "excluded_materials": [],
+        "excluded_sizes": [],
+        "excluded_product_ids": [],
+        "request_display_text": "N24 validated request: categories=Wallets; brands=Stealth Mode; colours=black; maximum_price=35",
+        "request_fingerprint": "sha256:31051612898c44b81d405ecdff58ef600b782d5352444f2e17a238611c8378c6",
+        "request_version": "n24_validated_request_v1"
+      },
+      "sidecar": {
+        "state_version": "n24m_semantic_sidecar_v1",
+        "minimum_rating": 4.59,
+        "rating_exclusive": false,
+        "allow_mixed_colours": false,
+        "excluded_audiences": [],
+        "soft_materials": [],
+        "style_context": [],
+        "limitations": []
+      }
+    }
+  ],
+  "assertions": [
+    {
+      "case": "category_1",
+      "product_id": "B000BO9CTA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_1",
+      "product_id": "B000C1HLPE",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_1",
+      "product_id": "B000F5VPRM",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_1",
+      "product_id": "B000I4P1JS",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_1",
+      "product_id": "B001ATV3LU",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_2",
+      "product_id": "B000M5CRC2",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_2",
+      "product_id": "B002ZCYK5C",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_2",
+      "product_id": "B003OYJ7CQ",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_2",
+      "product_id": "B004LB4P14",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_2",
+      "product_id": "B005Q5PBAS",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_3",
+      "product_id": "B00P927FTI",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_3",
+      "product_id": "B010Q3ISIG",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_3",
+      "product_id": "B01LWRFXMD",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_3",
+      "product_id": "B0751W3JRL",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_3",
+      "product_id": "B079H48HCB",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_4",
+      "product_id": "B000BO9CTA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_4",
+      "product_id": "B000C1HLPE",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_4",
+      "product_id": "B000EDTVYY",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_4",
+      "product_id": "B000F5VPRM",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_4",
+      "product_id": "B000I4P1JS",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_5",
+      "product_id": "B000AP3W82",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_5",
+      "product_id": "B000ARGWZA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_5",
+      "product_id": "B000ARKMQA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_5",
+      "product_id": "B000BO5F9Q",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_5",
+      "product_id": "B000BVZYYA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_6",
+      "product_id": "B0007MCUTK",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_6",
+      "product_id": "B000AP3W82",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_6",
+      "product_id": "B000ARF6Z2",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_6",
+      "product_id": "B000ARGWZA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_6",
+      "product_id": "B000ARKMQA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_7",
+      "product_id": "B000CQE22E",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_7",
+      "product_id": "B000DZXYTQ",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_7",
+      "product_id": "B000DZZFUW",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_7",
+      "product_id": "B000ENTCU2",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_7",
+      "product_id": "B000PHMZDS",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_8",
+      "product_id": "B0007MCUTK",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_8",
+      "product_id": "B000BOPP2I",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_8",
+      "product_id": "B000FPCHGU",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_8",
+      "product_id": "B000MLAJ4E",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_8",
+      "product_id": "B000SZWJ1U",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_9",
+      "product_id": "B000FHHDHG",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_9",
+      "product_id": "B000FIV2FO",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_9",
+      "product_id": "B000FIV2GS",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_9",
+      "product_id": "B000FJ07P4",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_9",
+      "product_id": "B000FJ082G",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_10",
+      "product_id": "B000DZZFUW",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_10",
+      "product_id": "B001KVYTAU",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_10",
+      "product_id": "B002MXZ2V0",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_10",
+      "product_id": "B0043UDOPG",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_10",
+      "product_id": "B0045XBCBO",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_11",
+      "product_id": "B000EWK8YC",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_11",
+      "product_id": "B000N8X7Z4",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_11",
+      "product_id": "B000X1L4EM",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_11",
+      "product_id": "B000YV5ELA",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_11",
+      "product_id": "B0012F49C2",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_12",
+      "product_id": "B000MGSN2E",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_12",
+      "product_id": "B001CCN6X8",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_12",
+      "product_id": "B001L6QGE6",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_12",
+      "product_id": "B001MBDARQ",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "category_12",
+      "product_id": "B002VWK5QY",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT"
+      }
+    },
+    {
+      "case": "brand_1",
+      "product_id": "B00200K8MS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_1",
+      "product_id": "B009PKAT7U",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_1",
+      "product_id": "B01BDA16UI",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_1",
+      "product_id": "B06XWLXL28",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_1",
+      "product_id": "B06Y6187TB",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_2",
+      "product_id": "B0002MFU3I",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_2",
+      "product_id": "B000CD2SJG",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_2",
+      "product_id": "B000KBH5TS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_2",
+      "product_id": "B000PHQIE0",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_2",
+      "product_id": "B0011WKJG6",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_3",
+      "product_id": "B000ARF6Z2",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_3",
+      "product_id": "B000ARGWZA",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_3",
+      "product_id": "B000ARKMQA",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_3",
+      "product_id": "B000ENTCU2",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_3",
+      "product_id": "B000H100IE",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_4",
+      "product_id": "B0008161HC",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_4",
+      "product_id": "B000W48FH4",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_4",
+      "product_id": "B002DW9LPS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_4",
+      "product_id": "B002F00D9G",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_4",
+      "product_id": "B002GYVFS4",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_5",
+      "product_id": "B000P50VWM",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_5",
+      "product_id": "B000P55140",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_5",
+      "product_id": "B000P555BE",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_5",
+      "product_id": "B000P55R6W",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_5",
+      "product_id": "B000P55R7Q",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_6",
+      "product_id": "B073T364MM",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_6",
+      "product_id": "B073TN9575",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_6",
+      "product_id": "B079GB72Q1",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_6",
+      "product_id": "B07BNJ44VJ",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_6",
+      "product_id": "B07CNNDQ7Z",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_7",
+      "product_id": "B002G9U38W",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_7",
+      "product_id": "B002G9U3WS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_7",
+      "product_id": "B002G9U4PE",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_7",
+      "product_id": "B002G9U8LE",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_7",
+      "product_id": "B002G9U8VE",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_8",
+      "product_id": "B00313JHHA",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_8",
+      "product_id": "B003NX87U6",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_8",
+      "product_id": "B004GIXCAM",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_8",
+      "product_id": "B004XFGE1C",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_8",
+      "product_id": "B0050VLN9Q",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_9",
+      "product_id": "B01MZ4IQVK",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_9",
+      "product_id": "B06XPDV2KR",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_9",
+      "product_id": "B06ZYV956Q",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_9",
+      "product_id": "B0713WZ6VK",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_9",
+      "product_id": "B07226M6B6",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_10",
+      "product_id": "B003UHUM5S",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_10",
+      "product_id": "B005Q5PBAS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_10",
+      "product_id": "B005UVNE9S",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_10",
+      "product_id": "B007HIPFTO",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_10",
+      "product_id": "B007IH20JC",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_11",
+      "product_id": "B000N8Q5GC",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_11",
+      "product_id": "B000N8S1SM",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_11",
+      "product_id": "B000N8S1UK",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_11",
+      "product_id": "B000N8S1WS",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_11",
+      "product_id": "B000N8X7Z4",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_12",
+      "product_id": "B000M5CRC2",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_12",
+      "product_id": "B004PKJ3XG",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_12",
+      "product_id": "B004TZOEF4",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_12",
+      "product_id": "B0059CVBWK",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "brand_12",
+      "product_id": "B0064NHS3Y",
+      "passed": true,
+      "attribute_matches": {
+        "brand": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "product_id": "B0002LYEJK",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "product_id": "B0003DKV8K",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "product_id": "B00074KYC8",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_1",
+      "product_id": "B0009GVL6C",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "product_id": "B0002FQCT6",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "product_id": "B0007NMJ3G",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "product_id": "B000A1BJWM",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "product_id": "B000CDFV18",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_2",
+      "product_id": "B000FX1C40",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "product_id": "B0002TR7QY",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "product_id": "B0002TRJMQ",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "product_id": "B0009P66YK",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "product_id": "B000BUYRLC",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_3",
+      "product_id": "B000R8V0T0",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "product_id": "B000NGC27A",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "product_id": "B000R738W8",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "product_id": "B000WY7JDU",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "product_id": "B0012N37UE",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_4",
+      "product_id": "B0013648H6",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "product_id": "B0002AZ080",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "product_id": "B001BPY9QE",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "product_id": "B001DBLLSA",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "product_id": "B001QFYDJW",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_5",
+      "product_id": "B002J4UBJA",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "product_id": "B0002MFU3I",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "product_id": "B00062NHIO",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "product_id": "B0009JE77E",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "product_id": "B000CD2SJG",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_6",
+      "product_id": "B000E9ZR6Y",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "product_id": "B000FVE3BG",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "product_id": "B000H2YFUW",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "product_id": "B000VLQBTM",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_7",
+      "product_id": "B0019X3HJS",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "product_id": "B000GKXZFG",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "product_id": "B0015DCPCC",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "product_id": "B00180R7RA",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "product_id": "B0018DW7QS",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "strict_colour_8",
+      "product_id": "B001CM8L5G",
+      "passed": true,
+      "attribute_matches": {
+        "colour": "EXACT"
+      }
+    },
+    {
+      "case": "audience_men",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_men",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_men",
+      "product_id": "B0000AX6DE",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_men",
+      "product_id": "B0000WKYUE",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_men",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_women",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_women",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_women",
+      "product_id": "B0000WKYUE",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_women",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_women",
+      "product_id": "B0001CULSS",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "product_id": "B0000WKYUE",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "product_id": "B0009GVL6C",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_unisex_adult",
+      "product_id": "B000A7G45I",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_boys",
+      "product_id": "B000BVYQ9O",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_boys",
+      "product_id": "B000G250SO",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_boys",
+      "product_id": "B000GC7GVS",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_boys",
+      "product_id": "B000GCAY5S",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_boys",
+      "product_id": "B000H0DIE8",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_girls",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_girls",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_girls",
+      "product_id": "B000A0RYBI",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_girls",
+      "product_id": "B000BVYQ9O",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_girls",
+      "product_id": "B000GC7GVS",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_kids",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_kids",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_kids",
+      "product_id": "B0009JE77E",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_kids",
+      "product_id": "B000A0RYBI",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "audience_kids",
+      "product_id": "B000BVYQ9O",
+      "passed": true,
+      "attribute_matches": {
+        "audience": "EXACT",
+        "age_group": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_1",
+      "product_id": "B0000ZLF18",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "product_id": "B0000AX6DE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "product_id": "B0000WKYUE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_1",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_2",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "product_id": "B0000AX6DE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "product_id": "B0000WKYUE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_2",
+      "product_id": "B00023K3YS",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_3",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "product_id": "B0000AX6DE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "product_id": "B00023K3YS",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_3",
+      "product_id": "B0002AZ080",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "maximum_price_4",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "product_id": "B0000AX6DE",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "product_id": "B00062NHIO",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_price_4",
+      "product_id": "B00062WT2E",
+      "passed": true,
+      "attribute_matches": {
+        "historical_price": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_3.5",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "product_id": "039915776X",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "product_id": "B00004SR8Z",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "product_id": "0307931528",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "product_id": "B00006I551",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "product_id": "B00008IM8Q",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "minimum_rating_4.5",
+      "product_id": "B000144AA6",
+      "passed": true,
+      "attribute_matches": {
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_1",
+      "product_id": "0976990768",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_2",
+      "product_id": "B003MYR658",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_2",
+      "product_id": "B00NF1Z16E",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_2",
+      "product_id": "B010EA7RME",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_2",
+      "product_id": "B08V1V923V",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_2",
+      "product_id": "B09LJ4K9PR",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_3",
+      "product_id": "B009GHNJU6",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_4",
+      "product_id": "B00J0I1ACK",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_5",
+      "product_id": "B004HYN67Y",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_5",
+      "product_id": "B00THSMQQ2",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_5",
+      "product_id": "B00TKIJKNG",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_5",
+      "product_id": "B00TKK98RW",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_5",
+      "product_id": "B00TT6W5YU",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_6",
+      "product_id": "B0171NG5G6",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_7",
+      "product_id": "B01F19DWZE",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_8",
+      "product_id": "B01M1F5AQ0",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_9",
+      "product_id": "B06Y133LMK",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_10",
+      "product_id": "B074T8GLS1",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_11",
+      "product_id": "B0789TJFN1",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_12",
+      "product_id": "B07BT84KBQ",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_13",
+      "product_id": "B07CNJKVDT",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_14",
+      "product_id": "B07G2VMMQV",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_15",
+      "product_id": "B07KGHJ81R",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_15",
+      "product_id": "B07NS89GJ7",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_16",
+      "product_id": "B06ZZKV5JM",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_16",
+      "product_id": "B07PPXLZ4R",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    },
+    {
+      "case": "intersection_16",
+      "product_id": "B08DG7YR7G",
+      "passed": true,
+      "attribute_matches": {
+        "category": "EXACT",
+        "brand": "EXACT",
+        "colour": "EXACT",
+        "audience": "EXACT",
+        "age_group": "EXACT",
+        "historical_price": "EXACT",
+        "rating": "EXACT"
+      }
+    }
+  ]
+}

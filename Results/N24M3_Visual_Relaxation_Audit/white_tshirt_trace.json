@@ -1,0 +1,129 @@
+{
+  "query": "show me white t-shirts",
+  "summary": {
+    "case": "V1",
+    "query": "show me white t-shirts",
+    "passed": true,
+    "metadata_eligible": 2,
+    "metadata_shortlist": 2,
+    "visually_checked": 2,
+    "visual_exact": 1,
+    "visual_compatible": 0,
+    "visual_mixed": 0,
+    "visual_conflict": 1,
+    "visual_unknown": 0,
+    "returned": 1,
+    "returned_product_ids": [
+      "B0BQ9DG7J6"
+    ],
+    "visual_conflicts_returned": [],
+    "visual_unknown_returned": [],
+    "visual_overhead_seconds": 0.136312,
+    "cache_hits": 0,
+    "cache_misses": 2,
+    "hard_state": {
+      "schema_version": "n24_hard_request_state_v1",
+      "categories": [
+        "T-Shirts"
+      ],
+      "brands": [],
+      "colours": [
+        "white"
+      ],
+      "materials": [],
+      "sizes": [],
+      "minimum_price": null,
+      "maximum_price": null,
+      "price_mode": null,
+      "occasions": [],
+      "recipient": null,
+      "destination": null,
+      "timeframe": null,
+      "currency": "USD"
+    },
+    "sidecar": {
+      "state_version": "n24m_semantic_sidecar_v1",
+      "minimum_rating": null,
+      "rating_exclusive": false,
+      "allow_mixed_colours": false,
+      "excluded_audiences": [],
+      "soft_materials": [],
+      "style_context": [],
+      "limitations": []
+    },
+    "internal_product_audit": [
+      {
+        "product_id": "B0BQ9DG7J6",
+        "title": "Fox Racing Men's Legacy Moth Short Sleeve Tee",
+        "brand": "Fox Racing",
+        "metadata_colour_evidence": {
+          "contract_version": "n24m2_trusted_attribute_evidence_v1",
+          "attribute": "colour",
+          "canonical_value": [
+            "white"
+          ],
+          "source_field": "details.Color",
+          "source_type": "VARIANT",
+          "raw_value": "Optic White",
+          "confidence": 1.0,
+          "match_level": "EXACT",
+          "reason": "explicit structured colour/variant field"
+        },
+        "variant_evidence": "Optic White",
+        "image_url": "https://m.media-amazon.com/images/I/31B0+mr2iXL._AC_.jpg",
+        "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BQ9DG7J6.jpg",
+        "visual_classification": "VISUAL_EXACT",
+        "visual_confidence": 0.9565,
+        "returned": true
+      },
+      {
+        "product_id": "B0BBXKBQYY",
+        "title": "adidas Men's Crewneck",
+        "brand": "adidas",
+        "metadata_colour_evidence": {
+          "contract_version": "n24m2_trusted_attribute_evidence_v1",
+          "attribute": "colour",
+          "canonical_value": [
+            "white"
+          ],
+          "source_field": "details.Color",
+          "source_type": "VARIANT",
+          "raw_value": "Onix/White",
+          "confidence": 1.0,
+          "match_level": "EXACT",
+          "reason": "explicit structured colour/variant field"
+        },
+        "variant_evidence": "Onix/White",
+        "image_url": "https://m.media-amazon.com/images/I/31wuJjdaLpL._AC_.jpg",
+        "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BBXKBQYY.jpg",
+        "visual_classification": "VISUAL_CONFLICT",
+        "visual_confidence": 0.9047,
+        "returned": false
+      }
+    ]
+  },
+  "browser_observed_dark_product": {
+    "product_id": "B0BBXKBQYY",
+    "title": "adidas Men's Crewneck",
+    "brand": "adidas",
+    "metadata_colour_evidence": {
+      "contract_version": "n24m2_trusted_attribute_evidence_v1",
+      "attribute": "colour",
+      "canonical_value": [
+        "white"
+      ],
+      "source_field": "details.Color",
+      "source_type": "VARIANT",
+      "raw_value": "Onix/White",
+      "confidence": 1.0,
+      "match_level": "EXACT",
+      "reason": "explicit structured colour/variant field"
+    },
+    "variant_evidence": "Onix/White",
+    "image_url": "https://m.media-amazon.com/images/I/31wuJjdaLpL._AC_.jpg",
+    "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BBXKBQYY.jpg",
+    "visual_classification": "VISUAL_CONFLICT",
+    "visual_confidence": 0.9047,
+    "returned": false
+  }
+}

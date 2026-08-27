@@ -1,0 +1,221 @@
+{
+  "category": {
+    "attribute": "category",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "categories"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Exact canonical hierarchy membership; broad catalogue roots are not product types."
+  },
+  "subcategory_product_type": {
+    "attribute": "subcategory_product_type",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "categories"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Exact normalized category-path membership with documented aliases."
+  },
+  "brand": {
+    "attribute": "brand",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "brand"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Exact canonical brand equality; arbitrary title substrings are never brands."
+  },
+  "colour": {
+    "attribute": "colour",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "MEDIUM",
+    "sources": [
+      "details.Color",
+      "details.Band Color",
+      "title variant text"
+    ],
+    "coverage_percentage": null,
+    "notes": "Ordered explicit colour components only; unknown evidence is excluded from strict colour results."
+  },
+  "audience_gender": {
+    "attribute": "audience_gender",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "details.Department",
+      "details.Suggested Users",
+      "categories"
+    ],
+    "coverage_percentage": 92.92,
+    "notes": "Canonical audience with structured metadata first and category fallback."
+  },
+  "age_group": {
+    "attribute": "age_group",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "MEDIUM",
+    "sources": [
+      "details.Department",
+      "details.Age Range (Description)",
+      "categories"
+    ],
+    "coverage_percentage": null,
+    "notes": "Adult/child/toddler compatibility derived conservatively from explicit metadata."
+  },
+  "historical_price": {
+    "attribute": "historical_price",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "price"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Numeric historical catalogue price only; never a live price claim."
+  },
+  "rating": {
+    "attribute": "rating",
+    "classification": "HARD_FILTER_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "average_rating"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Numeric historical catalogue rating."
+  },
+  "review_count": {
+    "attribute": "review_count",
+    "classification": "RANKING_SUPPORTED",
+    "reliability": "HIGH",
+    "sources": [
+      "rating_number",
+      "application_trust_metadata_df"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Deterministic ranking/comparison evidence; not an invented popularity claim."
+  },
+  "material": {
+    "attribute": "material",
+    "classification": "SOFT_MATCH_SUPPORTED",
+    "reliability": "LOW",
+    "sources": [
+      "details.Material",
+      "details.Fabric Type",
+      "details.Inner Material",
+      "details.Outer Material"
+    ],
+    "coverage_percentage": 6.9,
+    "notes": "Sparse historical metadata; may inform a soft match but cannot guarantee material eligibility."
+  },
+  "size": {
+    "attribute": "size",
+    "classification": "UNSUPPORTED",
+    "reliability": "LOW",
+    "sources": [
+      "details.Size",
+      "title historical variant text"
+    ],
+    "coverage_percentage": 2.82,
+    "notes": "Cannot confirm current size availability; title size text is historical listing text only."
+  },
+  "style": {
+    "attribute": "style",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "LOW",
+    "sources": [
+      "details.Style",
+      "categories",
+      "title"
+    ],
+    "coverage_percentage": 5.31,
+    "notes": "General style words are context unless represented by an exact structured subcategory."
+  },
+  "activity_use_case": {
+    "attribute": "activity_use_case",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "MEDIUM",
+    "sources": [
+      "categories",
+      "details.Sport Type",
+      "details.Sport"
+    ],
+    "coverage_percentage": null,
+    "notes": "Running, walking, basketball and other exact category-path values are enforced as subcategories; free-form use cases remain context."
+  },
+  "occasion": {
+    "attribute": "occasion",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "LOW",
+    "sources": [
+      "details.Occasion"
+    ],
+    "coverage_percentage": 0.64,
+    "notes": "Too sparse for universal hard filtering."
+  },
+  "department": {
+    "attribute": "department",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "HIGH",
+    "sources": [
+      "details.Department"
+    ],
+    "coverage_percentage": 92.92,
+    "notes": "Source evidence for canonical audience; the raw value is not exposed as a free-form filter."
+  },
+  "recipient_evidence": {
+    "attribute": "recipient_evidence",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "MEDIUM",
+    "sources": [
+      "audience_gender",
+      "age_group"
+    ],
+    "coverage_percentage": null,
+    "notes": "Gift recipient language is contextual unless it explicitly states a supported audience."
+  },
+  "title_description_features": {
+    "attribute": "title_description_features",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "MEDIUM",
+    "sources": [
+      "title",
+      "description",
+      "features"
+    ],
+    "coverage_percentage": 100.0,
+    "notes": "Grounding/context evidence; broad text is never a substitute for a supported structured hard attribute."
+  },
+  "variant_information": {
+    "attribute": "variant_information",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "MEDIUM",
+    "sources": [
+      "details.Color",
+      "details.Size",
+      "title"
+    ],
+    "coverage_percentage": null,
+    "notes": "Historical listing variant evidence, not live availability."
+  },
+  "historical_availability": {
+    "attribute": "historical_availability",
+    "classification": "CONTEXT_ONLY",
+    "reliability": "LOW",
+    "sources": [
+      "details.Is Discontinued By Manufacturer",
+      "details.Date First Available"
+    ],
+    "coverage_percentage": null,
+    "notes": "Historical metadata only; never current stock or delivery evidence."
+  },
+  "live_stock_delivery_coupon_current_price": {
+    "attribute": "live_stock_delivery_coupon_current_price",
+    "classification": "UNSUPPORTED",
+    "reliability": "UNSUPPORTED",
+    "sources": [],
+    "coverage_percentage": 0.0,
+    "notes": "No live commerce feed exists in the processed catalogue."
+  }
+}

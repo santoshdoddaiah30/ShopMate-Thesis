@@ -1,0 +1,4047 @@
+{
+  "suite": "N24M2 focused live independent raw oracle",
+  "total_card_assertions": 120,
+  "total_no_match_assertions": 6,
+  "passed_assertions": 126,
+  "failed_assertions": 0,
+  "case_passed": 20,
+  "case_failed": 0,
+  "cases": {
+    "1": {
+      "label": "white shoes",
+      "checked_cards": 3,
+      "passed": true,
+      "failures": []
+    },
+    "2": {
+      "label": "black shoes",
+      "checked_cards": 10,
+      "passed": true,
+      "failures": []
+    },
+    "3": {
+      "label": "white Adidas shoes",
+      "checked_cards": 0,
+      "passed": true,
+      "failures": []
+    },
+    "4": {
+      "label": "white Adidas shoes for men",
+      "checked_cards": 0,
+      "passed": true,
+      "failures": []
+    },
+    "5": {
+      "label": "black Nike shoes for women",
+      "checked_cards": 0,
+      "passed": true,
+      "failures": []
+    },
+    "6": {
+      "label": "red shoes for men under $100",
+      "checked_cards": 1,
+      "passed": true,
+      "failures": []
+    },
+    "7": {
+      "label": "shoes for kids",
+      "checked_cards": 10,
+      "passed": true,
+      "failures": []
+    },
+    "8": {
+      "label": "Nike shoes above 4 stars",
+      "checked_cards": 10,
+      "passed": true,
+      "failures": []
+    },
+    "9": {
+      "label": "white and black shoes",
+      "checked_cards": 3,
+      "passed": true,
+      "failures": []
+    },
+    "10": {
+      "label": "white shoes, mixed colours okay",
+      "checked_cards": 9,
+      "passed": true,
+      "failures": []
+    },
+    "11": {
+      "label": "shoes except red",
+      "checked_cards": 10,
+      "passed": true,
+      "failures": []
+    },
+    "12": {
+      "label": "any colour is fine",
+      "checked_cards": 11,
+      "passed": true,
+      "failures": []
+    },
+    "13": {
+      "label": "why are these white?",
+      "checked_cards": 0,
+      "passed": true,
+      "failures": []
+    },
+    "14": {
+      "label": "cheapest shoe",
+      "checked_cards": 1,
+      "passed": true,
+      "failures": []
+    },
+    "15": {
+      "label": "costliest shoe",
+      "checked_cards": 1,
+      "passed": true,
+      "failures": []
+    },
+    "16": {
+      "label": "highest-rated men's shoe",
+      "checked_cards": 1,
+      "passed": true,
+      "failures": []
+    },
+    "17": {
+      "label": "show more",
+      "checked_cards": 20,
+      "passed": true,
+      "failures": []
+    },
+    "18": {
+      "label": "compare first and third",
+      "checked_cards": 20,
+      "passed": true,
+      "failures": []
+    },
+    "19": {
+      "label": "new goal watches",
+      "checked_cards": 10,
+      "passed": true,
+      "failures": []
+    },
+    "20": {
+      "label": "no-match case",
+      "checked_cards": 0,
+      "passed": true,
+      "failures": []
+    }
+  },
+  "assertions": [
+    {
+      "case": 1,
+      "turn": 1,
+      "product_id": "B00MISO4OU",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Ballet & Dance"
+        ],
+        "brand": "Nfinity",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "UNISEX_ADULT",
+        "price": 94.99,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 1,
+      "turn": 1,
+      "product_id": "B00XOYS1IC",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Team Sports"
+        ],
+        "brand": "Kaepa",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 54.99,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 1,
+      "turn": 1,
+      "product_id": "B093GRVR16",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Outdoor",
+          "Rain Footwear"
+        ],
+        "brand": "ARUNNERS",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 13.99,
+        "rating": 4.1
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B09LMHB3MF",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Shoes"
+        ],
+        "brand": "Fila",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/Black/Black",
+        "colour_components": [
+          "black",
+          "black",
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 36.28,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0BVMS91HD",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Water Shoes"
+        ],
+        "brand": "Speedo",
+        "colour_source": "details.Color",
+        "colour_raw": "Speedo Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 32.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B09MVQ8NP7",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Military & Tactical"
+        ],
+        "brand": "FREE SOLDIER",
+        "colour_source": "details.Color",
+        "colour_raw": "Black(not Waterproof/Thin Fabric)",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 61.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0C672212P",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Industrial & Construction Boots"
+        ],
+        "brand": "Timberland PRO",
+        "colour_source": "details.Color",
+        "colour_raw": "Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 91.6,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0C5P8F8LY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Shoes"
+        ],
+        "brand": "KEEN Utility",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/Black",
+        "colour_components": [
+          "black",
+          "black"
+        ],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 24.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B083QTM398",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Boots",
+          "Chukka"
+        ],
+        "brand": "Twisted X",
+        "colour_source": "details.Color",
+        "colour_raw": "Softy Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 129.95,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B09YTZ1H4D",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Outdoor",
+          "Rain Footwear"
+        ],
+        "brand": "USHTH",
+        "colour_source": "details.Color",
+        "colour_raw": "Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "categories",
+        "audience": "WOMEN",
+        "price": 16.99,
+        "rating": 4.0
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0B57LZVRH",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "KR Strikeforce",
+        "colour_source": "details.Color",
+        "colour_raw": "Slate/Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 54.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0958KXPS1",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "Dexter Bowling",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/Alloy",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 54.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 2,
+      "turn": 1,
+      "product_id": "B0BZQHH61R",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Slides"
+        ],
+        "brand": "Birkenstock",
+        "colour_source": "details.Color",
+        "colour_raw": "Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 65.94,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 3,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [
+          "white"
+        ]
+      },
+      "eligible_sample": []
+    },
+    {
+      "case": 4,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [
+          "white"
+        ],
+        "recipient": "men"
+      },
+      "eligible_sample": []
+    },
+    {
+      "case": 5,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "colours": [
+          "black"
+        ],
+        "recipient": "women"
+      },
+      "eligible_sample": []
+    },
+    {
+      "case": 6,
+      "turn": 1,
+      "product_id": "B07FFXW2MY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "red"
+        ],
+        "recipient": "men",
+        "maximum_price": 100
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brand": "ALTRA",
+        "colour_source": "details.Color",
+        "colour_raw": "Red",
+        "colour_components": [
+          "red"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 73.97,
+        "rating": 3.6
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B08ZVF3LJT",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Girls",
+          "Shoes",
+          "Boots"
+        ],
+        "brand": "Hudson Baby",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "TODDLER",
+        "price": 10.99,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B09DF19555",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Girls",
+          "Shoes",
+          "Boots"
+        ],
+        "brand": "Luvable Friends",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "TODDLER",
+        "price": 7.45,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B09W9BP6LV",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Girls",
+          "Shoes",
+          "Athletic",
+          "Water Shoes"
+        ],
+        "brand": "Bigib",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "categories",
+        "audience": "GIRLS",
+        "price": 11.99,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B09M728T5F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Platforms & Wedges"
+        ],
+        "brand": "Soda",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "GIRLS",
+        "price": 42.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B002G9UFNK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Girls",
+          "Shoes",
+          "Athletic",
+          "Dance"
+        ],
+        "brand": "Capezio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "GIRLS",
+        "price": 8.85,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B084S8M8G6",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Boys",
+          "Shoes",
+          "Boots"
+        ],
+        "brand": "Western Chief",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "TODDLER",
+        "price": 32.83,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B07CPQRNF4",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Girls",
+          "Shoes",
+          "Boots"
+        ],
+        "brand": "Femizee",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 23.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B087FCFKLK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Sandals"
+        ],
+        "brand": "adidas",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 20.0,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B006WW4WMM",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Outdoor",
+          "Snow Boots"
+        ],
+        "brand": "Northside",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 35.95,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 7,
+      "turn": 1,
+      "product_id": "B08L6B6H1C",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "kids"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Girls",
+          "Shoes",
+          "Boots"
+        ],
+        "brand": "Hudson Baby",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "TODDLER",
+        "price": 10.17,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B07RJTN4CS",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Fitness & Cross-Training"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 74.99,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B01D3MS79W",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Sport Sandals & Slides"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 29.76,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B0753J399N",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Sport Sandals & Slides"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 44.0,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B01HZR3P02",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Athletic",
+          "Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 99.0,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B078H9Z1S5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 103.59,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B01MRC85DW",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 73.93,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B01LWRFXMD",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Team Sports",
+          "Basketball"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 197.5,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B08XX28VQ9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Sandals"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 34.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B00P927FTI",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Athletic",
+          "Basketball"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "GIRLS",
+        "price": 105.97,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 8,
+      "turn": 1,
+      "product_id": "B01MUHRR8I",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "minimum_rating": 4.0,
+        "rating_exclusive": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Girls",
+          "Shoes",
+          "Athletic",
+          "Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 69.95,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 9,
+      "turn": 1,
+      "product_id": "B008F7E9G6",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white",
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "Sanuk",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/White Island Stripe",
+        "colour_components": [
+          "black",
+          "white"
+        ],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 27.98,
+        "rating": 5.0
+      }
+    },
+    {
+      "case": 9,
+      "turn": 1,
+      "product_id": "B08KPF1NZ8",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white",
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Cycling"
+        ],
+        "brand": "Venzo",
+        "colour_source": "details.Color",
+        "colour_raw": "Black & White",
+        "colour_components": [
+          "black",
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 62.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 9,
+      "turn": 1,
+      "product_id": "B073K3VVHH",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white",
+          "black"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Walking"
+        ],
+        "brand": "Vionic",
+        "colour_source": "details.Color",
+        "colour_raw": "White Black",
+        "colour_components": [
+          "white",
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 79.95,
+        "rating": 3.0
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B008F7E9G6",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "Sanuk",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/White Island Stripe",
+        "colour_components": [
+          "black",
+          "white"
+        ],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 27.98,
+        "rating": 5.0
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B00MISO4OU",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Ballet & Dance"
+        ],
+        "brand": "Nfinity",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "UNISEX_ADULT",
+        "price": 94.99,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B00XOYS1IC",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Team Sports"
+        ],
+        "brand": "Kaepa",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 54.99,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B00J08EW7U",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "BSI PRODUCTS, INC.",
+        "colour_source": "details.Color",
+        "colour_raw": "White/Purple",
+        "colour_components": [
+          "white",
+          "purple"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 48.41,
+        "rating": 4.2
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B093GRVR16",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Outdoor",
+          "Rain Footwear"
+        ],
+        "brand": "ARUNNERS",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 13.99,
+        "rating": 4.1
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B0C387R78F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "Brunswick",
+        "colour_source": "details.Color",
+        "colour_raw": "White/Red",
+        "colour_components": [
+          "white",
+          "red"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 72.95,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B08KPF1NZ8",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Cycling"
+        ],
+        "brand": "Venzo",
+        "colour_source": "details.Color",
+        "colour_raw": "Black & White",
+        "colour_components": [
+          "black",
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 62.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B00MHSNR12",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "Dexter Bowling",
+        "colour_source": "details.Color",
+        "colour_raw": "White Blue",
+        "colour_components": [
+          "white",
+          "blue"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 54.5,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 10,
+      "turn": 1,
+      "product_id": "B073K3VVHH",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "white"
+        ],
+        "allow_mixed": true
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Walking"
+        ],
+        "brand": "Vionic",
+        "colour_source": "details.Color",
+        "colour_raw": "White Black",
+        "colour_components": [
+          "white",
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 79.95,
+        "rating": 3.0
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B008F7E9G6",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "Sanuk",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/White Island Stripe",
+        "colour_components": [
+          "black",
+          "white"
+        ],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 27.98,
+        "rating": 5.0
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B09LMHB3MF",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Shoes"
+        ],
+        "brand": "Fila",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/Black/Black",
+        "colour_components": [
+          "black",
+          "black",
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 36.28,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B0BVMS91HD",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Water Shoes"
+        ],
+        "brand": "Speedo",
+        "colour_source": "details.Color",
+        "colour_raw": "Speedo Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 32.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B081T9WZZP",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Sport Sandals & Slides"
+        ],
+        "brand": "atika",
+        "colour_source": "details.Color",
+        "colour_raw": "Arcane Camo Navy Grey",
+        "colour_components": [
+          "blue",
+          "grey"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 9.98,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B09MVQ8NP7",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Military & Tactical"
+        ],
+        "brand": "FREE SOLDIER",
+        "colour_source": "details.Color",
+        "colour_raw": "Black(not Waterproof/Thin Fabric)",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 61.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B0C672212P",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Industrial & Construction Boots"
+        ],
+        "brand": "Timberland PRO",
+        "colour_source": "details.Color",
+        "colour_raw": "Black",
+        "colour_components": [
+          "black"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "MEN",
+        "price": 91.6,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B0C5P8F8LY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Shoes"
+        ],
+        "brand": "KEEN Utility",
+        "colour_source": "details.Color",
+        "colour_raw": "Black/Black",
+        "colour_components": [
+          "black",
+          "black"
+        ],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 24.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B00MISO4OU",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Ballet & Dance"
+        ],
+        "brand": "Nfinity",
+        "colour_source": "details.Color",
+        "colour_raw": "White",
+        "colour_components": [
+          "white"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "UNISEX_ADULT",
+        "price": 94.99,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B0BX4JN679",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Bowling"
+        ],
+        "brand": "Dexter",
+        "colour_source": "details.Color",
+        "colour_raw": "Pink/Blue",
+        "colour_components": [
+          "pink",
+          "blue"
+        ],
+        "audience_source": "details.Suggested Users",
+        "audience": "WOMEN",
+        "price": 64.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 11,
+      "turn": 1,
+      "product_id": "B06XP2Q3MK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "excluded_colours": [
+          "red"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Uniforms, Work & Safety",
+          "Shoes",
+          "Work & Utility",
+          "Industrial & Construction Boots"
+        ],
+        "brand": "Honeywell Ademco",
+        "colour_source": "details.Color",
+        "colour_raw": "Black, Yellow & Gray",
+        "colour_components": [
+          "black",
+          "yellow",
+          "grey"
+        ],
+        "audience_source": "categories",
+        "audience": "MEN",
+        "price": 54.8,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 12,
+      "turn": 1,
+      "product_id": "B083Y6HGV8",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "colours": [
+          "blue"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Boots",
+          "Ankle & Bootie"
+        ],
+        "brand": "Xtratuf",
+        "colour_source": "details.Color",
+        "colour_raw": "Light Blue/Blue Mermaid Life",
+        "colour_components": [
+          "blue",
+          "blue"
+        ],
+        "audience_source": "categories",
+        "audience": "WOMEN",
+        "price": 82.81,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B07BZGVBF7",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "Clarks",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 31.62,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B08134XNNB",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Walking"
+        ],
+        "brand": "Slow Man",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 34.99,
+        "rating": 4.0
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B00DJSRER2",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brand": "Skechers",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 45.0,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B09DTQXJDP",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Slippers"
+        ],
+        "brand": "RockDove",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 23.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B07W5J6XMP",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "AEROTHOTIC",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 39.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B01M17LSEE",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Fitness & Cross-Training"
+        ],
+        "brand": "New Balance",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 127.24,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B0922DBSLN",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Mules & Clogs"
+        ],
+        "brand": "Crocs",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 49.95,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B07JPYSNDP",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Water Shoes"
+        ],
+        "brand": "VIFUUR",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_ADULT",
+        "price": 11.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B0BYNY3FQR",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Skechers",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 42.9,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 12,
+      "turn": 2,
+      "product_id": "B00Q4V24RQ",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Trail Running"
+        ],
+        "brand": "ASICS",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 57.95,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 13,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [
+          "black"
+        ]
+      },
+      "eligible_sample": []
+    },
+    {
+      "case": 14,
+      "turn": 1,
+      "product_id": "B01G3Q79US",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Girls",
+          "Shoes",
+          "Slippers"
+        ],
+        "brand": "Luvable Friends",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "TODDLER",
+        "price": 4.99,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 15,
+      "turn": 1,
+      "product_id": "B07N8RFWKK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Sandals",
+          "Flip-Flops"
+        ],
+        "brand": "Crocs",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 479.85,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 16,
+      "turn": 1,
+      "product_id": "B097J3MGV9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "recipient": "men"
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Under Armour",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 89.95,
+        "rating": 5.0
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B07RJTN4CS",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Fitness & Cross-Training"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 74.99,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B01D3MS79W",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Sport Sandals & Slides"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 29.76,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B0753J399N",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Sport Sandals & Slides"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 44.0,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B01HZR3P02",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Athletic",
+          "Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 99.0,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B078H9Z1S5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 103.59,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B01MRC85DW",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 73.93,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B01LWRFXMD",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Team Sports",
+          "Basketball"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 197.5,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B08XX28VQ9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Sandals"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 34.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B00P927FTI",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Athletic",
+          "Basketball"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "GIRLS",
+        "price": 105.97,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 1,
+      "product_id": "B01MUHRR8I",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Girls",
+          "Shoes",
+          "Athletic",
+          "Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 69.95,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B07BSTZ816",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Baby",
+          "Baby Boys",
+          "Shoes",
+          "Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 29.8,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B07BSX2HCZ",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Boys",
+          "Shoes",
+          "Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "UNISEX_CHILD",
+        "price": 21.79,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B085WQZCT5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 99.78,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B07FCQGVJF",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 159.99,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B01HDW5YEO",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Fitness & Cross-Training"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 50.0,
+        "rating": 4.3
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B0BJ498R66",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Team Sports",
+          "Basketball"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 92.55,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B08H1ZYW4F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Skateboarding"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 151.35,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B078H8HDF5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 107.97,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B07BSBKPL6",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Fashion Sneakers"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 159.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 17,
+      "turn": 2,
+      "product_id": "B07DDPJT57",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Shoes",
+          "Athletic",
+          "Running",
+          "Road Running"
+        ],
+        "brand": "Nike",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 89.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B0BG65PQ9F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 63.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B071D37SF9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 22.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B01M636GNK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 36.4,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B01I9OMC2C",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 37.73,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B08X2X5YN5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "CakCity",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 13.59,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B000GAYQKY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 52.92,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B01M4I8D07",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 32.9,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B09S4VHC1B",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 49.92,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B001AWZDA4",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 21.92,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 18,
+      "turn": 1,
+      "product_id": "B01AYFTRJA",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Armitron Sport",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 19.99,
+        "rating": 4.2
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B0BG65PQ9F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 63.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B071D37SF9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 22.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B01M636GNK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 36.4,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B01I9OMC2C",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 37.73,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B08X2X5YN5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "CakCity",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 13.59,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B000GAYQKY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 52.92,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B01M4I8D07",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 32.9,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B09S4VHC1B",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 49.92,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B001AWZDA4",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 21.92,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 18,
+      "turn": 2,
+      "product_id": "B01AYFTRJA",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Armitron Sport",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 19.99,
+        "rating": 4.2
+      }
+    },
+    {
+      "case": 19,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "Nike"
+        ],
+        "colours": [
+          "black"
+        ],
+        "maximum_price": 80
+      },
+      "eligible_sample": []
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B0BG65PQ9F",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 63.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B071D37SF9",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 22.0,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B01M636GNK",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 36.4,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B01I9OMC2C",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 37.73,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B08X2X5YN5",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "CakCity",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 13.59,
+        "rating": 4.4
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B000GAYQKY",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 52.92,
+        "rating": 4.7
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B01M4I8D07",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Timex",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 32.9,
+        "rating": 4.5
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B09S4VHC1B",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 49.92,
+        "rating": 4.8
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B001AWZDA4",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Men",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Casio",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "MEN",
+        "price": 21.92,
+        "rating": 4.6
+      }
+    },
+    {
+      "case": 19,
+      "turn": 2,
+      "product_id": "B01AYFTRJA",
+      "passed": true,
+      "reason": "all raw oracle constraints proven",
+      "spec": {
+        "categories": [
+          "Watches"
+        ]
+      },
+      "raw_sources": {
+        "categories": [
+          "Clothing, Shoes & Jewelry",
+          "Women",
+          "Watches",
+          "Wrist Watches"
+        ],
+        "brand": "Armitron Sport",
+        "colour_source": null,
+        "colour_raw": null,
+        "colour_components": [],
+        "audience_source": "details.Department",
+        "audience": "WOMEN",
+        "price": 19.99,
+        "rating": 4.2
+      }
+    },
+    {
+      "case": 20,
+      "turn": 1,
+      "product_id": null,
+      "passed": true,
+      "reason": "independent raw oracle confirms empty intersection",
+      "spec": {
+        "categories": [
+          "Shoes"
+        ],
+        "brands": [
+          "adidas"
+        ],
+        "colours": [
+          "white"
+        ],
+        "recipient": "men",
+        "maximum_price": 1
+      },
+      "eligible_sample": []
+    }
+  ],
+  "llm_calls": 0
+}

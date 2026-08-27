@@ -1,0 +1,142 @@
+evaluation_run_id,evaluation_user_id,scenario_id,scenario_name,scenario_category,turn_number,chat_id,user_message,assistant_response,card_count,card_brands,minimum_card_price,maximum_card_price,product_ids,response_seconds,runtime_error,check_results_json,failed_checks,turn_passed
+20260807_210326_1155d3,2,S01,Strict black top-brand shoes,single_turn_constraints,1,12,Show me black shoes under $40 from top brands.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: major/top brands
+- Colour: black
+- Maximum price: $40
+
+I found 4 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget, allow additional colours, or include brands outside the major-brand list.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",4,Clarks | Nike | Skechers,31.95,38.95,B07SBH1HRL | B08XX28VQ9 | B009ZDFENQ | B09GL35Q49,34.917,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""all_card_categories_valid"": false, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",all_card_categories_valid,False
+20260807_210326_1155d3,2,S02,T-shirt currency suffix and approximate budget,parser_robustness,1,13,I want tshirts around 50$.,What type of product are you looking for?,0,,,,,6.343,,"{""assistant_contains_any"": false, ""assistant_excludes_forbidden_text"": true, ""minimum_card_count"": false, ""all_known_prices_within_budget"": false, ""runtime_execution"": true}",assistant_contains_any | minimum_card_count | all_known_prices_within_budget,False
+20260807_210326_1155d3,2,S03,Puma follow-up preserves budget,conversation_memory,1,14,I want t-shirts under $50.,"I understood your shopping request.
+
+- Product: Shirts, T-Shirts
+- Maximum price: $50
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,Aura Apparel | Fun Summer Gifts and Tee shirts Co | Funny Civil Engineers Shirt | Gildan | Hanes | Made By Johnny | Top Gun,14.0,38.3,B07TVHSDMQ | B0BZDLXKTS | B08R8W8GP9 | B09DPVPZHY | B07QN1V2LF | B07T7RFKSR | B0C2D3BMC8 | B0C4HS52X9 | B09Y3V1P78 | B07KCN4G6T,18.518,,"{""assistant_contains_all"": true, ""assistant_contains_any"": true, ""minimum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S03,Puma follow-up preserves budget,conversation_memory,2,14,I need Puma t-shirts.,"I updated your previous shopping request.
+
+- Product: Shirts, T-Shirts
+- Brand: PUMA
+- Maximum price: $50
+
+I found 1 exact match. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",1,PUMA,14.0,14.0,B0BBSB4CWS,18.356,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""all_card_brands_valid"": true, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S04,Complete makeover starts new goal,new_goal_detection,1,15,I need Puma t-shirts under $50.,"I understood your shopping request.
+
+- Product: Shirts, T-Shirts
+- Brand: PUMA
+- Maximum price: $50
+
+I found 1 exact match. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",1,PUMA,14.0,14.0,B0BBSB4CWS,18.615,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S04,Complete makeover starts new goal,new_goal_detection,2,15,I have a 500 $ budget for my complete makeover. Give me combinations for tomorrow's birthday party.,"I updated your previous shopping request.
+
+- Product: Shirts, T-Shirts
+- Brand: PARTY
+- Maximum price: $50
+- Timeframe: tomorrow
+
+I found no exact matches satisfying all of these constraints. I did not add unrelated products.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",0,,,,,51.583,,"{""assistant_contains_any"": false, ""assistant_excludes_forbidden_text"": false, ""runtime_execution"": true}",assistant_contains_any | assistant_excludes_forbidden_text,False
+20260807_210326_1155d3,2,S05,Colour follow-up preserves shoes and budget,conversation_memory,1,16,Show me shoes under $80.,"I understood your shopping request.
+
+- Product: Shoes
+- Maximum price: $80
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,AEROTHOTIC | ASICS | Clarks | Crocs | RockDove | Skechers | Slow Man | TIOSEBON | VIFUUR,11.99,57.95,B07BZGVBF7 | B08134XNNB | B00DJSRER2 | B09DTQXJDP | B07W5J6XMP | B0922DBSLN | B07JPYSNDP | B0BYNY3FQR | B00Q4V24RQ | B09M74TRNM,49.23,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S05,Colour follow-up preserves shoes and budget,conversation_memory,2,16,Make them black.,"I updated your previous shopping request.
+
+- Product: Shoes
+- Colour: black
+- Maximum price: $80
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,Acorn | Capezio | DUOYANGJIASHA | Easy Spirit | Parlovable | Plaka | Sanuk | Skechers | ULTRAIDEAS | ZGR,8.85,55.99,B07FXWWPN6 | B07D8NRTXC | B0C4LT6VYD | B00WQ4DIYI | B0C49D8R7P | B07Q2347GD | B0C4LJGW26 | B002G9UFNK | B096DWNW67 | B008F7E9G6,74.275,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S06,Explicit Nike replaces top-brand mode,constraint_replacement,1,17,Show me black shoes under $80 from top brands.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: major/top brands
+- Colour: black
+- Maximum price: $80
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,Clarks | Nike | Reebok | Skechers,34.99,78.99,B096DWNW67 | B07SBH1HRL | B0BYJLQWYH | B07H63TP7Y | B0C1BXFVJ9 | B00R54SPV0 | B09D8GF4BZ | B08XX28VQ9 | B00YHHD6HG | B0B2TB19C3,89.282,,"{""minimum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S06,Explicit Nike replaces top-brand mode,constraint_replacement,2,17,Only Nike.,"I updated your previous shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: $80
+
+I found 2 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget, allow additional colours, or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",2,Nike,34.99,78.99,B08XX28VQ9 | B0B2TB19C3,76.164,,"{""assistant_contains_all"": true, ""minimum_card_count"": true, ""all_card_brands_valid"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S07,Budget increase preserves Nike and black,constraint_relaxation,1,18,Show me black Nike shoes under $40.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: $40
+
+I found 1 exact match. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can increase the maximum budget, allow additional colours, or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",1,Nike,34.99,34.99,B08XX28VQ9,75.974,,"{""assistant_contains_all"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S07,Budget increase preserves Nike and black,constraint_relaxation,2,18,Increase my budget to $80.,"I updated your previous shopping request.
+
+- Product: Shoes
+- Brand: Nike
+- Colour: black
+- Maximum price: flexible
+
+I found 5 exact matches. I did not add unrelated products to reach 10 recommendations.
+
+To see more results, you can allow additional colours or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",5,Nike,34.99,197.5,B01HZR3P02 | B08XX28VQ9 | B01LWRFXMD | B07BSBKPL6 | B0B2TB19C3,80.748,,"{""assistant_contains_all"": false, ""minimum_card_count"": true, ""all_card_brands_valid"": true, ""all_known_prices_within_budget"": false, ""runtime_execution"": true}",assistant_contains_all | all_known_prices_within_budget,False
+20260807_210326_1155d3,2,S08,Vague clothing request asks clarification,clarification,1,19,I need clothes.,What type of product are you looking for?,0,,,,,20.593,,"{""clarification_question_present"": true, ""maximum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S09,Travel request asks city and dates,travel_clarification,1,20,I need clothes for a trip to Switzerland.,"Which city in Switzerland are you visiting, and what are your travel dates? I’ll check the expected weather and recommend more personalized clothing options.",0,,,,,8.608,,"{""assistant_contains_all"": true, ""clarification_question_present"": true, ""maximum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S10,Ordinary request does not mention weather,weather_policy,1,21,Show me black shirts under $40.,"I understood your shopping request.
+
+- Product: Shirts
+- Colour: black
+- Maximum price: $40
+
+I found 10 exact matches satisfying the current constraints.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",10,BAISHENGGT | Champion | Fruit of the Loom | Hanes | Hotouch | LookbookStore | Mom's care | Wrangler Authentics,10.98,37.5,B09M8H4N6G | B0BWRJXM4M | B095RTMW5T | B0BPFTD8B9 | B0C3Y25C54 | B09J22Q1JM | B0C2PBN2V2 | B06Y61LKLD | B0C8RD98DK | B086SXP96L,77.485,,"{""assistant_excludes_forbidden_text"": true, ""minimum_card_count"": true, ""all_known_prices_within_budget"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S11,Unsupported laptop request,out_of_domain,1,22,I need a laptop under $500.,What type of product are you looking for?,0,,,,,6.046,,"{""maximum_card_count"": true, ""runtime_execution"": true}",,True
+20260807_210326_1155d3,2,S12,Impossible Adidas budget,impossible_constraints,1,23,Show me Adidas shoes under $2.,"I understood your shopping request.
+
+- Product: Shoes
+- Brand: adidas
+- Maximum price: $2
+
+I found no exact matches satisfying all of these constraints. I did not add unrelated products.
+
+To see more results, you can increase the maximum budget or allow additional brands.
+
+Prices are historical dataset prices and may differ from current Amazon prices.",0,,,,,13.977,,"{""assistant_contains_any"": true, ""maximum_card_count"": true, ""runtime_execution"": true}",,True
