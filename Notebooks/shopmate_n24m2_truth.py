@@ -765,6 +765,21 @@ N24_DECLARATIVE_TAXONOMY = {
         "conflicts": ["SHIRTS", "DRESSES", "JACKETS", "PANTS", "SHOES", "WATCHES", "HANDBAGS", "JEWELRY"],
         "unsupported": True,
     },
+    "SPORTING_EQUIPMENT": {
+        "parent": "UNSUPPORTED", "aliases": ["macebell", "dumbbell", "kettlebell", "barbell", "weight plate"],
+        "subtypes": [], "accessory_terms": [], "conflicts": ["SHIRTS", "DRESSES", "JACKETS", "PANTS", "SHOES", "WATCHES", "HANDBAGS", "JEWELRY"],
+        "unsupported": True,
+    },
+    "PHONE_ACCESSORY": {
+        "parent": "UNSUPPORTED", "aliases": ["phone case", "iphone case", "smartphone case", "screen protector"],
+        "subtypes": [], "accessory_terms": [], "conflicts": ["SHIRTS", "DRESSES", "JACKETS", "PANTS", "SHOES", "WATCHES", "HANDBAGS", "JEWELRY"],
+        "unsupported": True,
+    },
+    "CLEANING_CARE": {
+        "parent": "UNSUPPORTED", "aliases": ["cleaner", "cleaning kit", "polish", "care kit"],
+        "subtypes": [], "accessory_terms": [], "conflicts": ["SHIRTS", "DRESSES", "JACKETS", "PANTS", "SHOES", "WATCHES", "HANDBAGS", "JEWELRY"],
+        "unsupported": True,
+    },
 }
 
 N24_OUTFIT_SLOT_FAMILIES = {
@@ -776,7 +791,7 @@ _N24M2_PRODUCT_FAMILY_PATTERNS = {
     "SHIRTS": r"\b(?:shirt|shirts|t[ -]?shirt|tee|tees|polo|blouse|button[ -]?down)\b",
     "SHOES": r"\b(?:shoe|shoes|sneaker|sneakers|boot|boots|sandal|sandals|slipper|slippers|loafer|loafers|footwear)\b",
     "WATCHES": r"\b(?:watch|watches|wristwatch|wristwatches|timepiece)\b",
-    "HANDBAGS": r"\b(?:handbag|handbags|purse|purses|tote|totes|clutch|clutches|wallet|wallets)\b",
+    "HANDBAGS": r"\b(?:handbag|handbags|purse|purses|tote|totes|clutch|clutches|wallet|wallets|crossbody\s+bags?|shoulder\s+bags?|satchels?|backpack\s+purses?)\b",
     # "dress" is also a common formality adjective for other product types
     # ("dress shoes", "dress shirt", "dress watch", "dress code", "dress
     # pants/socks/belt/boots") -- those are not the Dresses category, so they
@@ -786,6 +801,9 @@ _N24M2_PRODUCT_FAMILY_PATTERNS = {
     "BEAUTY": r"\b(?:beauty|razor|razors|shav(?:e|er|ing)|cosmetic|cosmetics|makeup|lipstick|mascara|perfume|fragrance|skincare|grooming)\b",
     "JACKETS": r"\b(?:jacket|jackets|coat|coats|blazer|blazers|outerwear)\b",
     "PANTS": r"\b(?:pants|trousers|jeans|leggings|chinos|shorts|skirts?)\b",
+    "SPORTING_EQUIPMENT": r"\b(?:macebells?|dumbbells?|kettlebells?|barbells?|weight\s+plates?)\b",
+    "PHONE_ACCESSORY": r"\b(?:(?:phone|iphone|smartphone)\s+cases?|screen\s+protectors?)\b",
+    "CLEANING_CARE": r"\b(?:cleaners?|cleaning\s+kits?|polish(?:es)?|care\s+kits?)\b",
 }
 
 _N24M2_REQUEST_FAMILIES = {
@@ -858,16 +876,41 @@ def _n24m2_accessory_conflict(product, wanted_family: str | None) -> str | None:
 
 
 def _n24m2_category_decision(product, requested):
-    if not _n24m_category_matches(product, requested):
-        return False, "requested category is absent from the raw hierarchy"
+    direct_hierarchy_match = _n24m_category_matches(product, requested)
     wanted_family = _N24M2_REQUEST_FAMILIES.get(_n24m2_normalize(requested))
     if not wanted_family:
-        return True, "requested hierarchy node proven"
+        return (
+            (True, "requested hierarchy node proven") if direct_hierarchy_match
+            else (False, "requested category is absent from the raw hierarchy")
+        )
     if wanted_family == "ACCESSORIES":
-        return True, "requested broad accessory hierarchy proven"
+        return (
+            (True, "requested broad accessory hierarchy proven") if direct_hierarchy_match
+            else (False, "requested category is absent from the raw hierarchy")
+        )
     row = product.get("row", {})
     main_family = _n24m2_main_category_family(row.get("main_category"))
     listing_families = _n24m2_listing_families(product)
+    hierarchy_text = " > ".join(str(item) for item in product.get("categories", []))
+    hierarchy_families = {
+        family for family, pattern in _N24M2_PRODUCT_FAMILY_PATTERNS.items()
+        if _n24m2_re.search(pattern, hierarchy_text, flags=_n24m2_re.I)
+    }
+    # Broad family requests are satisfied by a compatible subtype.  For
+    # example, Jeans and Skirts are valid members of the Pants/bottom family
+    # even if the raw hierarchy never contains the literal word "Pants".
+    # Narrow subtype requests (Walking, T-Shirts, etc.) still require their
+    # direct hierarchy node and cannot be widened by this rule.
+    broad_family_terms = {
+        "shirts", "shoes", "watches", "handbags and wallets", "dresses",
+        "jackets", "coats", "pants", "accessories", "beauty",
+    }
+    family_proven = (
+        _n24m2_normalize(requested) in broad_family_terms
+        and wanted_family in (listing_families | hierarchy_families | ({main_family} if main_family else set()))
+    )
+    if not direct_hierarchy_match and not family_proven:
+        return False, "requested category is absent from the raw hierarchy"
     contradictory = {family for family in listing_families if family != wanted_family}
     if main_family and main_family != wanted_family:
         return False, f"raw main_category proves conflicting {main_family} family"
@@ -876,7 +919,11 @@ def _n24m2_category_decision(product, requested):
         return False, accessory_conflict
     if contradictory and wanted_family not in listing_families:
         return False, "independent title/details prove conflicting product family: " + ", ".join(sorted(contradictory))
-    return True, "raw hierarchy proven with no independent product-family contradiction"
+    return True, (
+        "compatible canonical family/subtype proven with no independent product-family contradiction"
+        if family_proven and not direct_hierarchy_match
+        else "raw hierarchy proven with no independent product-family contradiction"
+    )
 
 
 def evaluate_n24_trusted_eligibility(
@@ -1677,6 +1724,7 @@ N24_OUTFIT_SLOT_REQUEST_CATEGORY = {
 
 def n24_filter_outfit_candidates_with_canonical_truth(
     candidate_result: dict, *, profile_id: str, slot: str, recipient: str | None,
+    colours: list[str] | None = None,
 ) -> dict:
     """Apply the same ConstraintEvaluation used by ordinary search to an
     outfit slot while preserving the legacy outfit rank/order and coordination
@@ -1688,7 +1736,10 @@ def n24_filter_outfit_candidates_with_canonical_truth(
         raise ValueError(f"Unsupported outfit slot: {slot}")
     request = build_n24_validated_recommendation_request(
         profile_id,
-        N24HardRequestState(categories=[category], recipient=recipient),
+        N24HardRequestState(
+            categories=[category], recipient=recipient,
+            colours=list(colours or []),
+        ),
         N24ExclusionState(),
     )
     output = dict(candidate_result or {})

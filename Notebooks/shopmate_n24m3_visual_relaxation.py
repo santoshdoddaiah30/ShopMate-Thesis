@@ -129,8 +129,11 @@ class N24PendingRelaxationOffer(N24StrictModel):
     created_at: str
     source_request_fingerprint: str | None = None
     source_result_set_id: str | None = None
-    candidate_product_ids: list[str] = []
-    candidate_evidence: dict[str, _N24M3Any] = {}
+    original_hard_constraints: dict[str, _N24M3Any] = Field(default_factory=dict)
+    relaxed_constraint: str | None = None
+    relaxed_mode: str | None = None
+    candidate_product_ids: list[str] = Field(default_factory=list)
+    candidate_evidence: dict[str, _N24M3Any] = Field(default_factory=dict)
     verified_count: int = 0
     status: str = "pending"  # pending | consumed | rejected | expired
 
@@ -564,6 +567,7 @@ def _n24m3_set_pending_offer(
     chat_id: int, action, target_attribute: str, operation: dict, source_turn_id=None,
     *, source_request_fingerprint: str | None = None, source_result_set_id: str | None = None,
     candidate_product_ids=None, candidate_evidence=None,
+    original_hard_constraints=None,
 ):
     candidate_ids = list(candidate_product_ids or [])
     offer = N24PendingRelaxationOffer(
@@ -573,6 +577,9 @@ def _n24m3_set_pending_offer(
         created_at=_N24M3DateTime.now(_N24M3TimeZone.utc).isoformat(),
         source_request_fingerprint=source_request_fingerprint,
         source_result_set_id=source_result_set_id,
+        original_hard_constraints=dict(original_hard_constraints or {}),
+        relaxed_constraint=target_attribute,
+        relaxed_mode=action.value if hasattr(action, "value") else str(action),
         candidate_product_ids=candidate_ids,
         candidate_evidence=dict(candidate_evidence or {}),
         verified_count=len(candidate_ids),

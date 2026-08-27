@@ -121,6 +121,26 @@ def classify_n24n_pending_response(raw_message: str, pending_offer) -> N24NConve
     return None
 
 
+def _n24n_is_orphaned_pending_response(raw_message: str) -> bool:
+    """Recognise a short deictic acceptance when there is no live offer.
+
+    This is intentionally separate from ``classify_n24n_pending_response``:
+    that public classifier retains its strict contract of returning no action
+    without a pending offer.  The conversation wrapper uses this predicate
+    only to prevent a duplicate acceptance from becoming a fresh search.
+    """
+    tokens = _n24n_tokenize(_n24n_clean(raw_message))
+    if not tokens or len(tokens) > _N24N_MAX_ANAPHORA_TOKENS:
+        return False
+    joined = " ".join(tokens)
+    if any(word in _N24N_NEGATION_WORDS for word in tokens):
+        return False
+    return (
+        any(phrase in joined for phrase in _N24N_AFFIRMATION_ANAPHORA)
+        or (tokens[0] in _N24N_AFFIRMATION_WORDS and len(tokens) <= 3)
+    )
+
+
 def _n24n_zero_call_metrics(status: str, guard: str, **extra) -> dict:
     return {
         "intent": 0, "response": 0, "repair": 0, "total": 0,
@@ -162,6 +182,21 @@ def n24l_interpret_turn(raw_message: str, context, state, active_result_set):
         guard = "n24n_pending_action_rejected"
         return None, {"semantic_guard": guard, "superlative": None}, _n24n_zero_call_metrics(
             "N24N_PENDING_REJECTED", guard,
+        )
+    if pending is None and _n24n_is_orphaned_pending_response(text):
+        guard = "n24n_no_live_pending_offer"
+        delta = N24TurnDelta(
+            intent=N24Intent.REFINE,
+            confidence=1.0,
+            requires_clarification=True,
+            clarification_question=(
+                "There is no pending suggestion to accept. Tell me what you "
+                "would like to search for or change."
+            ),
+            raw_message=text,
+        )
+        return delta, {"semantic_guard": guard, "superlative": None}, _n24n_zero_call_metrics(
+            "N24N_NO_PENDING_ACTION", guard,
         )
     lower = text.casefold()
     if _n24n_re.search(r"\b(?:beauty products?|makeup|skin\s*care|hair\s*care|fragrances?|razors?|shaving)\b", lower):
@@ -284,7 +319,10 @@ def _n24n_probe_relaxation(orchestration, *, sidecar_updates=None, request_trans
 
 def _n24n_relaxation_candidates(orchestration):
     """Priority-ordered relaxations to try for the current no-exact-match
-    request: colour, then budget, then brand, then category. Restores
+    request: colour, then budget, then brand. Product-family/category is not
+    automatically removed: doing so can turn a dress request into an
+    unrelated phone case or cleaner, contrary to the precision-first UX.
+    Restores
     N24M3's full offer menu (_n24m3_offer_from_orchestration), which this
     module's own no_exact_match handling had shadowed for anything other
     than colour, since it intercepted status == "no_exact_match" before
@@ -309,12 +347,6 @@ def _n24n_relaxation_candidates(orchestration):
             N24PendingRelaxationAction.CLEAR_BRAND, "brands",
             {"request_transform": lambda r: r.model_copy(update={"brands": []})},
             {"brands": []},
-        ))
-    if request.categories:
-        candidates.append((
-            N24PendingRelaxationAction.BROADEN_CATEGORY, "categories",
-            {"request_transform": lambda r: r.model_copy(update={"categories": []})},
-            {"categories": []},
         ))
     return candidates
 
@@ -355,6 +387,7 @@ def _n24n_build_relaxation_offer(orchestration):
             source_result_set_id=getattr(orchestration.result_set, "result_set_id", None),
             candidate_product_ids=candidate_ids,
             candidate_evidence=candidate_evidence,
+            original_hard_constraints=request.model_dump(mode="json"),
         )
         return offer, probe
     return None, None

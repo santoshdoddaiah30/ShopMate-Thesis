@@ -352,8 +352,16 @@ def _n24l_semantic_guard(raw_message: str, interpreted, state, active_result_set
         budget_match = _n24l_re.search(
             r"(?:under|below|budget(?:\s+of)?)\s*\$\s*(\d+(?:\.\d{1,2})?)", lower
         )
+        colour_extractor = globals().get("_n24m_extract_colours_from_request")
+        outfit_colours = (
+            list(colour_extractor(text)[0]) if callable(colour_extractor) else []
+        )
         fields = N24FieldOperations(
             recipient=_n24l_operation(N24FieldOperationType.SET, recipient) if recipient else None,
+            colours=(
+                _n24l_operation(N24FieldOperationType.SET, outfit_colours)
+                if outfit_colours else None
+            ),
             maximum_price=(
                 _n24l_operation(N24FieldOperationType.SET, float(budget_match.group(1)))
                 if budget_match else None
@@ -656,6 +664,7 @@ def _n24l_outfit_route(raw_message, profile_id, chat_id, user_id, delta, call_me
         occasion = None
         style = None
         destination = None
+        colours = []
         if delta is not None:
             ops = delta.field_operations
             if ops.recipient is not None:
@@ -669,6 +678,11 @@ def _n24l_outfit_route(raw_message, profile_id, chat_id, user_id, delta, call_me
                 occasion = values[0] if isinstance(values, list) and values else values
             if ops.destination is not None:
                 destination = ops.destination.value
+            if ops.colours is not None and ops.colours.operation in {
+                N24FieldOperationType.SET, N24FieldOperationType.REPLACE
+            }:
+                values = ops.colours.value
+                colours = list(values if isinstance(values, list) else [values])
         if recipient is None:
             if _n24l_re.search(r"\b(women|woman|female|ladies)\b", lower): recipient = "women"
             elif _n24l_re.search(r"\b(men|man|male)\b", lower): recipient = "men"
@@ -688,6 +702,7 @@ def _n24l_outfit_route(raw_message, profile_id, chat_id, user_id, delta, call_me
         runtime = n24i1_live_outfit_adapter(
             profile_id, raw_message, recipient, total_budget=total_budget,
             occasion=occasion, style=style, destination=destination,
+            colours=colours,
         )
         if runtime["status"] != "complete":
             message = "I can't build a complete outfit from the available catalogue items without relaxing your requirements."
@@ -956,13 +971,24 @@ def n24l_execute_turn(user_id: int, chat_id: int, message_text: str, top_n: int 
                 audit_metadata={"n24l": True, "route": "n24d_show_more"},
             )
         else:
+            previous_result_set = active_result_set
             page = show_more_n24_results(
                 active_result_set, chat_id=chat_id, top_n=top_n,
                 source_message_id=user_message_id,
             )
-            active_result_set = page.result_set
-            state.active_result_set = active_result_set
-            cards = _n24l_cards(_n24d_get_entry(active_result_set.result_set_id, chat_id)["cards"])
+            page_ids = list(page.result_set.ordered_product_ids)
+            if page_ids:
+                active_result_set = page.result_set
+                state.active_result_set = active_result_set
+                cards = _n24l_cards(_n24d_get_entry(active_result_set.result_set_id, chat_id)["cards"])
+            else:
+                # Exhaustion must not erase the immutable result set the user
+                # actually saw.  Return no new cards for this turn while the
+                # prior set remains active for first/second/compare/relative
+                # follow-ups and persistence.
+                active_result_set = previous_result_set
+                state.active_result_set = previous_result_set
+                cards = []
             orchestration = N24OrchestrationResult(
                 status="no_exact_match" if page.exhausted else "recommendations",
                 validated_turn_delta=delta, result_set=active_result_set,

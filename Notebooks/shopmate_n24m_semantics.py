@@ -1259,8 +1259,13 @@ def interpret_n24m_deterministic_turn(raw_message: str, context, state, active_r
     if _n24m_re.search(r"\b(?:complete\s+)?outfit\b|\bbuild\s+(?:me\s+)?(?:a\s+)?look\b", lower):
         audience, _ = _n24m_extract_audience_request(text)
         price_fields = _n24m_price_operations(text)
+        outfit_colours, _ = _n24m_extract_colours_from_request(text)
         fields = N24FieldOperations(
             recipient=_n24m_operation(N24FieldOperationType.SET, audience) if audience else None,
+            colours=(
+                _n24m_operation(N24FieldOperationType.SET, outfit_colours)
+                if outfit_colours else None
+            ),
             maximum_price=price_fields.get("maximum_price"),
         )
         return N24TurnDelta(
@@ -1457,12 +1462,13 @@ def show_more_n24_results(active_result_set, *, chat_id, top_n=10, source_messag
         return n24m_pre_show_more(active_result_set, chat_id=chat_id, top_n=top_n, source_message_id=source_message_id)
     relative = refine_n24_result_set_relative(active_result_set, operation, chat_id=chat_id)
     if relative.result_set is None:
-        empty = create_n24_result_set(
-            _n24d_get_entry(active_result_set.result_set_id, chat_id)["validated_request"],
-            {**_n24d_get_entry(active_result_set.result_set_id, chat_id)["recommendation_result"], "recommendations": _n24l_pd.DataFrame()},
-            chat_id, source_message_id=source_message_id, parent_result_set=active_result_set,
+        # An exhausted relative refinement is not a new result set.  Keeping
+        # the immutable set the user actually saw preserves ordinal/reference
+        # memory and avoids constructing a schema-less empty DataFrame.
+        return N24PaginationResult(
+            status="EXHAUSTED", result_set=active_result_set,
+            exact_match_count=0, exhausted=True, constraints_relaxed=False,
         )
-        return N24PaginationResult(status="EXHAUSTED", result_set=empty, exact_match_count=0, exhausted=True, constraints_relaxed=False)
     return N24PaginationResult(
         status="CONTINUATION_READY" if relative.ordered_product_ids else "EXHAUSTED",
         result_set=relative.result_set, exact_match_count=len(relative.ordered_product_ids),

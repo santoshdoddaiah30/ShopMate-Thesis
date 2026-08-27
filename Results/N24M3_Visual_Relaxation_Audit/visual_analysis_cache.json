@@ -3271,6 +3271,40 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B007AAYWZC_8d3241cff88512.jpg",
       "product_id": "B007AAYWZC"
     },
+    "8f0134112123d32db56877356d09cc797501b8854f13e60a50e218d6a376b5bc": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.361146,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.626373,
+        "blue": 0.123996,
+        "brown": 0.046645,
+        "dark_grey": 0.005097,
+        "grey": 0.003965,
+        "light_grey": 0.003418,
+        "orange": 0.146672,
+        "pink": 0.000182,
+        "purple": 2e-05,
+        "red": 0.008496,
+        "white": 0.035136
+      },
+      "connected_white_background_fraction": 0.250046,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "orange",
+        "blue",
+        "brown"
+      ],
+      "foreground_fraction": 0.749954,
+      "foreground_pixels": 49437,
+      "image_cache_key": "8f0134112123d32db56877356d09cc797501b8854f13e60a50e218d6a376b5bc",
+      "image_height": 500,
+      "image_url": "https://m.media-amazon.com/images/I/41OXBnEkl0L._AC_.jpg",
+      "image_width": 322,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0B1LTNCG9_8f0134112123d3.jpg",
+      "product_id": "B0B1LTNCG9"
+    },
     "908f5c349ce92855082e6855cb69898586031b8a0b44a6b8ec9d272ef0c21dbd": {
       "analysis_reason": null,
       "analysis_seconds": 0.443192,
@@ -4422,6 +4456,34 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09MVQ8NP7_c63e262a27b293.jpg",
       "product_id": "B09MVQ8NP7"
     },
+    "c7183eb12ca5d04a8f6551347a814f38085aa9d113672369ee4bd33aec3cfbc3": {
+      "analysis_reason": null,
+      "analysis_seconds": 1.080099,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.881613,
+        "dark_grey": 0.102919,
+        "grey": 0.004519,
+        "light_grey": 0.003271,
+        "white": 0.007677
+      },
+      "connected_white_background_fraction": 0.330896,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "white",
+        "grey"
+      ],
+      "foreground_fraction": 0.669104,
+      "foreground_pixels": 52886,
+      "image_cache_key": "c7183eb12ca5d04a8f6551347a814f38085aa9d113672369ee4bd33aec3cfbc3",
+      "image_height": 482,
+      "image_url": "https://m.media-amazon.com/images/I/31u7o3VXNRL._AC_.jpg",
+      "image_width": 372,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09QFN18CW_c7183eb12ca5d0.jpg",
+      "product_id": "B09QFN18CW"
+    },
     "c8b64e937e2800319b90a99be276f503ec23237d72bcea0385822d4c5c57a1a1": {
       "analysis_reason": null,
       "analysis_seconds": 0.412085,
@@ -5557,6 +5619,37 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B081T79NGQ_fe3b5fd8413927.jpg",
       "product_id": "B081T79NGQ"
     },
+    "ff0069b0f7f271f9dd9391e5b5791a5ae7c8f787d8c235f95181223cd0101895": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.395623,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.860248,
+        "blue": 0.001573,
+        "cyan": 0.109549,
+        "dark_grey": 0.011026,
+        "green": 6.4e-05,
+        "grey": 0.005227,
+        "light_grey": 0.003622,
+        "white": 0.008691
+      },
+      "connected_white_background_fraction": 0.279533,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "cyan",
+        "dark_grey",
+        "white"
+      ],
+      "foreground_fraction": 0.720467,
+      "foreground_pixels": 62940,
+      "image_cache_key": "ff0069b0f7f271f9dd9391e5b5791a5ae7c8f787d8c235f95181223cd0101895",
+      "image_height": 447,
+      "image_url": "https://m.media-amazon.com/images/I/41qlhQ1qs5L._AC_.jpg",
+      "image_width": 382,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BP2S45WK_ff0069b0f7f271.jpg",
+      "product_id": "B0BP2S45WK"
+    },
     "ff3d2cbef6985374e7e45b191194ae79eaca0d2e7b5d17f2eb0fe7ddec2efa21": {
       "analysis_reason": null,
       "analysis_seconds": 0.309329,
@@ -5620,5 +5713,5 @@
       "product_id": "B08PC84BCT"
     }
   },
-  "updated_at": "2026-08-27T09:19:11.631868+00:00"
+  "updated_at": "2026-08-27T18:19:59.509519+00:00"
 }
