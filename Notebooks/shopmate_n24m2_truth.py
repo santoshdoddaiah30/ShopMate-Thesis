@@ -802,7 +802,10 @@ _N24M2_PRODUCT_FAMILY_PATTERNS = {
     "JACKETS": r"\b(?:jacket|jackets|coat|coats|blazer|blazers|outerwear)\b",
     "PANTS": r"\b(?:pants|trousers|jeans|leggings|chinos|shorts|skirts?)\b",
     "SPORTING_EQUIPMENT": r"\b(?:macebells?|dumbbells?|kettlebells?|barbells?|weight\s+plates?)\b",
-    "PHONE_ACCESSORY": r"\b(?:(?:phone|iphone|smartphone)\s+cases?|screen\s+protectors?)\b",
+    "PHONE_ACCESSORY": (
+        r"\bscreen\s+protectors?\b"
+        r"|(?=.*\b(?:phone|iphone|ipad|ipod|smartphone|galaxy|android)\b)(?=.*\bcase\b)"
+    ),
     "CLEANING_CARE": r"\b(?:cleaners?|cleaning\s+kits?|polish(?:es)?|care\s+kits?)\b",
 }
 
@@ -891,7 +894,12 @@ def _n24m2_category_decision(product, requested):
     row = product.get("row", {})
     main_family = _n24m2_main_category_family(row.get("main_category"))
     listing_families = _n24m2_listing_families(product)
-    hierarchy_text = " > ".join(str(item) for item in product.get("categories", []))
+    # The leading node is always the broad department label (e.g. "Clothing,
+    # Shoes & Jewelry"), present verbatim on every record in this dataset --
+    # not a specific-product-family signal.  Its own substrings ("Shoes",
+    # "Jewelry") would otherwise falsely register as a conflicting family on
+    # every single product regardless of category, so it is excluded here.
+    hierarchy_text = " > ".join(str(item) for item in product.get("categories", [])[1:])
     hierarchy_families = {
         family for family, pattern in _N24M2_PRODUCT_FAMILY_PATTERNS.items()
         if _n24m2_re.search(pattern, hierarchy_text, flags=_n24m2_re.I)
@@ -911,7 +919,9 @@ def _n24m2_category_decision(product, requested):
     )
     if not direct_hierarchy_match and not family_proven:
         return False, "requested category is absent from the raw hierarchy"
-    contradictory = {family for family in listing_families if family != wanted_family}
+    contradictory = {
+        family for family in (listing_families | hierarchy_families) if family != wanted_family
+    }
     if main_family and main_family != wanted_family:
         return False, f"raw main_category proves conflicting {main_family} family"
     accessory_conflict = _n24m2_accessory_conflict(product, wanted_family)

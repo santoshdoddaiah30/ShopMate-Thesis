@@ -547,6 +547,43 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B00J08EW7U_106481227074e2.jpg",
       "product_id": "B00J08EW7U"
     },
+    "106a4886e3b738e7d14baec82d2e12da7f0a2119156b1f2a3c5119233c1699ee": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.33484,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.551114,
+        "blue": 0.008033,
+        "brown": 0.060742,
+        "cyan": 0.012137,
+        "dark_grey": 0.06646,
+        "green": 0.000214,
+        "grey": 0.112421,
+        "light_grey": 0.022173,
+        "orange": 0.095597,
+        "pink": 0.000525,
+        "purple": 7.8e-05,
+        "red": 0.006924,
+        "white": 0.053351,
+        "yellow": 0.010231
+      },
+      "connected_white_background_fraction": 0.292208,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "grey",
+        "orange",
+        "dark_grey"
+      ],
+      "foreground_fraction": 0.707792,
+      "foreground_pixels": 51414,
+      "image_cache_key": "106a4886e3b738e7d14baec82d2e12da7f0a2119156b1f2a3c5119233c1699ee",
+      "image_height": 500,
+      "image_url": "https://m.media-amazon.com/images/I/51okwSAQ4FL._AC_.jpg",
+      "image_width": 354,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B06WLGNMB3_106a4886e3b738.jpg",
+      "product_id": "B06WLGNMB3"
+    },
     "119ad8a4dd3c73358a7366291190c5f3a0bb9c4bee4d68bff506384a2a0c0fb0": {
       "analysis_reason": null,
       "analysis_seconds": 0.478246,
@@ -996,6 +1033,42 @@
       "image_width": 415,
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09BVHZTBK_27f254554ae62e.jpg",
       "product_id": "B09BVHZTBK"
+    },
+    "2af84d41d9a06895da2baa73da1e6dda01ab633021d4cc8aec564fba092f9766": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.779122,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.740605,
+        "blue": 0.000104,
+        "brown": 0.036665,
+        "dark_grey": 0.09823,
+        "green": 0.000685,
+        "grey": 0.021538,
+        "light_grey": 0.007657,
+        "orange": 0.020999,
+        "pink": 0.001847,
+        "purple": 0.000519,
+        "red": 0.046148,
+        "white": 0.023468,
+        "yellow": 0.001535
+      },
+      "connected_white_background_fraction": 0.268917,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "red",
+        "brown"
+      ],
+      "foreground_fraction": 0.731083,
+      "foreground_pixels": 48193,
+      "image_cache_key": "2af84d41d9a06895da2baa73da1e6dda01ab633021d4cc8aec564fba092f9766",
+      "image_height": 420,
+      "image_url": "https://m.media-amazon.com/images/I/41031-hSwEL._AC_.jpg",
+      "image_width": 271,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07LHC4V6Q_2af84d41d9a068.jpg",
+      "product_id": "B07LHC4V6Q"
     },
     "2b78e6dc2fcdf5bf70895a7d21b58304dee3dfed42c7df6ba858d3e8cfc44644": {
       "analysis_reason": null,
@@ -2510,6 +2583,38 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0743MHZX2_6b64c7dfcf8991.jpg",
       "product_id": "B0743MHZX2"
     },
+    "6ca45cce5f330a6b8feb49a8b33a3865ac058d6775b4b34d5266cfdaf3387b36": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.299156,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.776599,
+        "blue": 4.1e-05,
+        "brown": 2e-05,
+        "cyan": 4.1e-05,
+        "dark_grey": 0.141426,
+        "green": 2e-05,
+        "grey": 0.027645,
+        "light_grey": 0.026767,
+        "white": 0.027441
+      },
+      "connected_white_background_fraction": 0.26712,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "grey",
+        "white"
+      ],
+      "foreground_fraction": 0.73288,
+      "foreground_pixels": 49015,
+      "image_cache_key": "6ca45cce5f330a6b8feb49a8b33a3865ac058d6775b4b34d5266cfdaf3387b36",
+      "image_height": 494,
+      "image_url": "https://m.media-amazon.com/images/I/4168qkeNjmL._AC_.jpg",
+      "image_width": 323,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B07LHDB12Z_6ca45cce5f330a.jpg",
+      "product_id": "B07LHDB12Z"
+    },
     "6d0f80f1a19a7687269378c0b0c67d89b6cdc95a5140a958ed0f108feb42e0a1": {
       "analysis_reason": null,
       "analysis_seconds": 0.9845,
@@ -3114,6 +3219,34 @@
       "image_width": 493,
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B0BRQRG8CD_85df57660e2270.jpg",
       "product_id": "B0BRQRG8CD"
+    },
+    "861fab5851fedbc5feee1ccd8d518de7b60d53cb16f857a287f225ba1a84d96a": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.374772,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.306395,
+        "dark_grey": 0.61382,
+        "grey": 0.026862,
+        "light_grey": 0.035145,
+        "white": 0.017778
+      },
+      "connected_white_background_fraction": 0.241233,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "dark_grey",
+        "black",
+        "light_grey",
+        "grey"
+      ],
+      "foreground_fraction": 0.758767,
+      "foreground_pixels": 43705,
+      "image_cache_key": "861fab5851fedbc5feee1ccd8d518de7b60d53cb16f857a287f225ba1a84d96a",
+      "image_height": 500,
+      "image_url": "https://m.media-amazon.com/images/I/31aKKElSjtL._AC_.jpg",
+      "image_width": 281,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B01AJWWXNA_861fab5851fedb.jpg",
+      "product_id": "B01AJWWXNA"
     },
     "8929c6650d302e4ec626154cbe1d02c47067a61d7a5cf5b9370622d48f61e701": {
       "analysis_reason": null,
@@ -5493,6 +5626,40 @@
       "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B09MW2281C_f9eb3c7f6b7493.jpg",
       "product_id": "B09MW2281C"
     },
+    "fa813d65f2a844ab8f4e8bfea7a0e4b85f944d32d7c1d691e82bd7cda1e7aa7d": {
+      "analysis_reason": null,
+      "analysis_seconds": 0.400785,
+      "analysis_status": "ANALYSED",
+      "colour_proportions": {
+        "black": 0.64261,
+        "blue": 0.002367,
+        "cyan": 0.07177,
+        "dark_grey": 0.227841,
+        "green": 0.010285,
+        "grey": 0.015054,
+        "light_grey": 0.009833,
+        "pink": 0.000104,
+        "purple": 3.5e-05,
+        "red": 1.7e-05,
+        "white": 0.020083
+      },
+      "connected_white_background_fraction": 0.314635,
+      "contract_version": "n24m3_local_foreground_colour_v2",
+      "dominant_colours": [
+        "black",
+        "dark_grey",
+        "cyan",
+        "white"
+      ],
+      "foreground_fraction": 0.685365,
+      "foreground_pixels": 57461,
+      "image_cache_key": "fa813d65f2a844ab8f4e8bfea7a0e4b85f944d32d7c1d691e82bd7cda1e7aa7d",
+      "image_height": 500,
+      "image_url": "https://m.media-amazon.com/images/I/51KWfcPNwDL._AC_.jpg",
+      "image_width": 409,
+      "local_image_path": "C:\\Users\\santo\\Desktop\\Thesis\\Results\\N24M3_Visual_Relaxation_Audit\\image_cache\\B01J5RRQJG_fa813d65f2a844.jpg",
+      "product_id": "B01J5RRQJG"
+    },
     "fbc9b6f715a8733c9b3d4c9081e5e2fdd7c0e8d53b58504d02fa78520355ea27": {
       "analysis_reason": null,
       "analysis_seconds": 0.339106,
@@ -5713,5 +5880,5 @@
       "product_id": "B08PC84BCT"
     }
   },
-  "updated_at": "2026-08-27T18:19:59.509519+00:00"
+  "updated_at": "2026-08-27T19:44:24.275244+00:00"
 }
