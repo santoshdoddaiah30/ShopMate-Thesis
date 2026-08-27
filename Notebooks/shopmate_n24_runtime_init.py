@@ -1,10 +1,17 @@
 """Deterministic ShopMate N24 application-layer bootstrap.
 
-Run this only after the historical notebook definitions through N24K are
-present in the target namespace.  It installs the authoritative L -> M -> M2
--> M3 -> N chain exactly once from reviewed source files, explicitly wiring
-each layer to its immediate predecessor.  Embedded report/test invocations
-are deliberately excluded; validation is a separate operation.
+Run this once the N24C validated-state adapter
+(get_n24_recommendations_from_validated_state) is present in the target
+namespace.  It installs the authoritative L -> M -> M2 -> M3 -> N chain
+exactly once from reviewed source files, explicitly wiring each layer to its
+immediate predecessor.  Embedded report/test invocations are deliberately
+excluded; validation is a separate operation.
+
+This chain has no dependency on the notebook's N24I/N24I1/N24J/N24K cells in
+either direction, so it may run before or after them; N24I1's own live
+outfit-adapter self-test does depend on this bootstrap having already run
+(it calls n24_filter_outfit_candidates_with_canonical_truth, installed here
+by M2), so in practice this should run before N24I1.
 
 The bootstrap does not train, tune, or mutate the frozen N23 recommender.
 """
@@ -55,8 +62,13 @@ def initialize_shopmate_n24_application(
     missing = [name for name in _LAYER_FILES if not (source_root / name).is_file()]
     if missing:
         raise FileNotFoundError(f"Missing N24 layer sources: {missing}")
+    # Only "get_n24_recommendations_from_validated_state" genuinely predates L:
+    # it is defined by the N24C validated-state adapter. "n24l_interpret_turn"
+    # and "_n24l_compose" are NOT pre-L definitions -- they are first defined
+    # inside shopmate_n24l_backend.py itself (L is the very file this function
+    # is about to load), so requiring them beforehand made this precondition
+    # unsatisfiable on any namespace where L has never been loaded before.
     required_base = {
-        "n24l_interpret_turn", "_n24l_compose",
         "get_n24_recommendations_from_validated_state",
     }
     absent = sorted(required_base - set(namespace))
@@ -89,6 +101,18 @@ def initialize_shopmate_n24_application(
     namespace["N24N_BASE_COMPOSE"] = namespace["_n24l_compose"]
     _execute_layer(source_root / _LAYER_FILES[4], namespace)
 
+    # Post-bootstrap validation: the L->M->M2->M3->N chain must have actually
+    # installed the live semantic symbols downstream N24 integrations (e.g.
+    # the N24I1 outfit adapter) depend on -- not just the conversation-layer
+    # bindings. Checked after loading, never before: these names do not
+    # exist until M2 has run.
+    required_post = ("n24_filter_outfit_candidates_with_canonical_truth",)
+    absent_post = sorted(name for name in required_post if name not in namespace)
+    if absent_post:
+        raise RuntimeError(
+            f"N24 bootstrap completed without installing expected symbols: {absent_post}."
+        )
+
     bindings = {
         "interpret": namespace["n24l_interpret_turn"].__code__.co_filename,
         "compose": namespace["_n24l_compose"].__code__.co_filename,
@@ -96,11 +120,18 @@ def initialize_shopmate_n24_application(
             "get_n24_recommendations_from_validated_state"
         ].__code__.co_filename,
         "pre_build_request": namespace["n24m_pre_build_request"].__code__.co_filename,
+        "outfit_canonical_filter": namespace[
+            "n24_filter_outfit_candidates_with_canonical_truth"
+        ].__code__.co_filename,
     }
     if not bindings["interpret"].endswith("shopmate_n24n_conversation_planner.py"):
         raise RuntimeError(f"Unexpected N24 interpreter binding: {bindings['interpret']}")
     if not bindings["compose"].endswith("shopmate_n24n_conversation_planner.py"):
         raise RuntimeError(f"Unexpected N24 composer binding: {bindings['compose']}")
+    if not bindings["outfit_canonical_filter"].endswith("shopmate_n24m2_truth.py"):
+        raise RuntimeError(
+            f"Unexpected outfit canonical-filter binding: {bindings['outfit_canonical_filter']}"
+        )
     return {
         "bootstrap_version": N24_RUNTIME_BOOTSTRAP_VERSION,
         "layer_order": list(_LAYER_FILES),
