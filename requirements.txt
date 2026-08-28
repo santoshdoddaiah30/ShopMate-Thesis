@@ -1,0 +1,20 @@
+# Direct Python dependencies used by the authoritative notebook and final runtime.
+# Versions are pinned only where the saved notebook records the executed version.
+duckdb==1.5.5
+fastapi
+gradio==6.21.0
+ipython
+joblib
+jupyter-client
+matplotlib==3.11.1
+nbformat
+numpy==2.5.1
+openai
+pandas==3.0.3
+Pillow
+pyarrow==24.0.0
+pycountry
+pydantic
+scikit-learn==1.9.0
+scipy==1.18.0
+uvicorn

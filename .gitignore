@@ -55,6 +55,12 @@ Notebooks/takeover_snapshot_*/
 tmp/
 temp/
 *.log
+Results/N24M3_Visual_Relaxation_Audit/visual_analysis_cache.json
+Results/N24M3_Visual_Relaxation_Audit/image_cache/
+
+# Local review and thesis-build output
+Professor_Submission/
+_thesis_build/
 
 # OS
 .DS_Store
