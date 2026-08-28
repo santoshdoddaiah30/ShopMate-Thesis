@@ -447,7 +447,14 @@ def _n24l_semantic_guard(raw_message: str, interpreted, state, active_result_set
             raw_message=text,
         ), {"semantic_guard": "show_more", "superlative": None}
 
-    if active_result_set is not None and "compare" in lower and len(refs) >= 2:
+    if active_result_set is not None and "compare" in lower:
+        # Classify as COMPARE whenever an active result set exists and the
+        # user said "compare" at all -- regardless of how many concrete
+        # references were resolved. This is a deterministic safety net so a
+        # request like "compare these" (no ordinal/positional reference) is
+        # never left unclassified; n24l_execute_turn asks for clarification
+        # itself when len(result_reference) < 2 rather than guessing which
+        # two products "these" means.
         return N24TurnDelta(
             intent=N24Intent.COMPARE,
             result_reference=refs,
@@ -1007,13 +1014,28 @@ def n24l_execute_turn(user_id: int, chat_id: int, message_text: str, top_n: int 
             cards = _n24l_cards(_n24d_get_entry(active_result_set.result_set_id, chat_id)["cards"])
             if delta.intent == N24Intent.COMPARE:
                 refs = delta.result_reference or _n24l_refs(raw_message, active_result_set)
-                comparison = compare_n24_result_products(active_result_set, refs, chat_id=chat_id)
-                orchestration = N24OrchestrationResult(
-                    status="comparison", validated_turn_delta=delta,
-                    result_set=active_result_set, cards=cards,
-                    grounded_data=comparison, response_intent=delta.intent,
-                    audit_metadata={"n24l": True, "route": "n24d_comparison"},
-                )
+                if len(refs) < 2:
+                    # The interpreter recognised comparison intent but could not
+                    # resolve two concrete products (e.g. a bare "compare" or
+                    # "compare these" with no ordinal/positional reference).
+                    # compare_n24_result_products's own ValueError is an
+                    # internal invariant for misuse, not a user-facing
+                    # response -- ask instead of guessing or leaking a 400.
+                    orchestration = N24OrchestrationResult(
+                        status="clarification", validated_turn_delta=delta,
+                        result_set=active_result_set, response_intent=delta.intent,
+                        requires_clarification=True,
+                        clarification_reason="Sure -- which two would you like me to compare?",
+                        audit_metadata={"n24l": True, "route": "n24d_comparison_clarification"},
+                    )
+                else:
+                    comparison = compare_n24_result_products(active_result_set, refs, chat_id=chat_id)
+                    orchestration = N24OrchestrationResult(
+                        status="comparison", validated_turn_delta=delta,
+                        result_set=active_result_set, cards=cards,
+                        grounded_data=comparison, response_intent=delta.intent,
+                        audit_metadata={"n24l": True, "route": "n24d_comparison"},
+                    )
             elif delta.intent == N24Intent.PRODUCT_REFERENCE or delta.result_reference:
                 refs = delta.result_reference or _n24l_refs(raw_message, active_result_set)
                 if len(refs) != 1:
