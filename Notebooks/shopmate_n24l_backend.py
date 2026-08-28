@@ -1029,13 +1029,41 @@ def n24l_execute_turn(user_id: int, chat_id: int, message_text: str, top_n: int 
                         audit_metadata={"n24l": True, "route": "n24d_comparison_clarification"},
                     )
                 else:
-                    comparison = compare_n24_result_products(active_result_set, refs, chat_id=chat_id)
-                    orchestration = N24OrchestrationResult(
-                        status="comparison", validated_turn_delta=delta,
-                        result_set=active_result_set, cards=cards,
-                        grounded_data=comparison, response_intent=delta.intent,
-                        audit_metadata={"n24l": True, "route": "n24d_comparison"},
+                    # Validate every reference actually resolves within the
+                    # active result set (e.g. "compare 1 and 2" when only one
+                    # product is active) before calling
+                    # compare_n24_result_products, whose own ValueError is a
+                    # defensive invariant for invalid direct/internal callers,
+                    # not a user-facing response. Reuses the resolution N24D
+                    # already computes (including its clarification text)
+                    # instead of duplicating range-checking logic here.
+                    invalid_reference = next(
+                        (resolution for resolution in (
+                            resolve_n24_result_reference(active_result_set, ref, chat_id=chat_id)
+                            for ref in refs
+                        ) if not resolution.valid),
+                        None,
                     )
+                    if invalid_reference is not None:
+                        orchestration = N24OrchestrationResult(
+                            status="clarification", validated_turn_delta=delta,
+                            result_set=active_result_set, response_intent=delta.intent,
+                            requires_clarification=True,
+                            clarification_reason=(
+                                invalid_reference.clarification
+                                or "I can't compare those specific products right now -- "
+                                   "please choose two available products to compare."
+                            ),
+                            audit_metadata={"n24l": True, "route": "n24d_comparison_clarification"},
+                        )
+                    else:
+                        comparison = compare_n24_result_products(active_result_set, refs, chat_id=chat_id)
+                        orchestration = N24OrchestrationResult(
+                            status="comparison", validated_turn_delta=delta,
+                            result_set=active_result_set, cards=cards,
+                            grounded_data=comparison, response_intent=delta.intent,
+                            audit_metadata={"n24l": True, "route": "n24d_comparison"},
+                        )
             elif delta.intent == N24Intent.PRODUCT_REFERENCE or delta.result_reference:
                 refs = delta.result_reference or _n24l_refs(raw_message, active_result_set)
                 if len(refs) != 1:
