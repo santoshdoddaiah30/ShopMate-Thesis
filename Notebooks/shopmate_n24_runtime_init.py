@@ -140,3 +140,60 @@ def initialize_shopmate_n24_application(
         "n23_modified": False,
     }
 
+
+def finalize_n24_server_routes(
+    namespace: MutableMapping[str, Any],
+) -> dict[str, Any]:
+    """Bind and verify N24 routes after the final FastAPI app is created.
+
+    Server-startup notebook cells replace ``shopmate_api`` after the semantic
+    bootstrap has run.  This finalizer deliberately installs routes only; it
+    never reloads semantic layers or rebuilds recommender/catalogue state.
+    """
+    required = {
+        "shopmate_api", "install_n24l_message_route",
+        "shopmate_process_message_endpoint_n24l",
+        "dispatch_shopmate_workspace_message", "process_workspace_message_n24",
+        "n24l_execute_turn", "get_shopmate_engine",
+    }
+    absent = sorted(required - set(namespace))
+    if absent:
+        raise RuntimeError(f"Cannot finalize N24 server routes; missing {absent}.")
+    if namespace["get_shopmate_engine"]() != "n24":
+        raise RuntimeError("N24 route finalization requires the N24 engine.")
+
+    namespace["install_n24l_message_route"]()
+    message_routes = [
+        route for route in namespace["shopmate_api"].router.routes
+        if getattr(route, "path", None) == "/api/messages"
+        and "POST" in (getattr(route, "methods", set()) or set())
+    ]
+    if len(message_routes) != 1:
+        raise RuntimeError(
+            f"Expected exactly one POST /api/messages route; found {len(message_routes)}."
+        )
+    endpoint = message_routes[0].endpoint
+    expected_endpoint = namespace["shopmate_process_message_endpoint_n24l"]
+    if endpoint is not expected_endpoint:
+        raise RuntimeError(f"Unexpected POST /api/messages endpoint: {endpoint!r}.")
+
+    dispatch = namespace["dispatch_shopmate_workspace_message"]
+    process_n24 = namespace["process_workspace_message_n24"]
+    execute_turn = namespace["n24l_execute_turn"]
+    dispatch_verified = (
+        dispatch.__globals__.get("process_workspace_message_n24") is process_n24
+        and process_n24.__globals__.get("n24l_execute_turn") is execute_turn
+    )
+    if not dispatch_verified:
+        raise RuntimeError("The N24 HTTP dispatch chain does not reach n24l_execute_turn.")
+
+    return {
+        "route_count": 1,
+        "path": "/api/messages",
+        "methods": sorted(message_routes[0].methods),
+        "endpoint": endpoint.__name__,
+        "endpoint_source": endpoint.__code__.co_filename,
+        "dispatch_reaches_n24l_execute_turn": True,
+        "semantic_bootstrap_rerun": False,
+        "n23_modified": False,
+    }
